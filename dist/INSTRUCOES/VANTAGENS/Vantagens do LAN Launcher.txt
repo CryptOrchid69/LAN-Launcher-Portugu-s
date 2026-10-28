@@ -1,0 +1,31 @@
+﻿VANTAGENS DO LAN LAUNCHER SOBRE UM ARQUIVO .BAT
+
+1. Interface visual clara
+O LAN Launcher mostra botões, pastas, mapas, mods, registros e arquivos em uma janela organizada. Um arquivo .bat exige que o usuário leia e edite comandos manualmente.
+
+2. Menos risco de erro
+O app guia o usuário com mensagens, voz, avisos e validações. Em um .bat, um espaço, aspas erradas ou parâmetro incorreto pode impedir o servidor de iniciar.
+
+3. Instalação guiada
+O botão INSTALAR prepara a estrutura necessária do servidor, os mapas suportados, os mods essenciais e os arquivos de apoio. Em um .bat, o usuário precisa saber onde cada item deve ficar.
+
+4. Gerenciamento de mapas
+O botão MAPAS lista os mapas disponíveis e permite escolher qual servidor iniciar. Em um .bat, normalmente seria necessário manter vários arquivos separados ou editar linhas de comando.
+
+5. Gerenciamento de mods
+O botão MODS mostra os mods ativos e a área de queda de mods do mapa escolhido. O app ajuda a manter cada mod no lugar correto e copia chaves quando necessário.
+
+6. Editor integrado
+O app permite abrir e editar arquivos XML, JSON, CFG e init.c diretamente na janela. Um .bat não oferece editor, árvore de pastas, avisos ou salvamento guiado.
+
+7. Segurança de exclusão
+Quando o usuário apaga arquivos importantes, o app envia para a Lixeira quando possível e usa confirmações. Um .bat pode apagar dados de forma permanente se for escrito incorretamente.
+
+8. Voz de orientação
+O app pode falar instruções importantes ao usuário. Um .bat só mostra texto no console.
+
+9. Parada e limpeza mais controladas
+O botão PARAR encerra o servidor de forma mais organizada. O botão LIMPAR remove a pasta storage_1 do mapa escolhido para limpar a persistência.
+
+10. Melhor para usuários sem experiência técnica
+O LAN Launcher transforma tarefas complicadas em botões e instruções simples. Isso torna a criação de servidores LAN mais acessível para jogadores comuns.

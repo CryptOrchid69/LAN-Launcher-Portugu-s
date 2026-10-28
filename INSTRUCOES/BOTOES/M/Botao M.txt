@@ -1,0 +1,3 @@
+﻿M
+
+O botão M ativa ou desativa a voz do app. Quando estiver silenciado, o LAN Launcher não falará as mensagens de orientação.

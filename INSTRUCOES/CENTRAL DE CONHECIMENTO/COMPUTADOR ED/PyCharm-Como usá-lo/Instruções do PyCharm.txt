@@ -1,0 +1,118 @@
+﻿// Bem-vindo //
+
+// A PRIMEIRA COISA QUE DEVE FAZER É INSTALL PyCharm: GO AQUI: https://www.jetbrains.com/pycharm/download/?section=janelas //
+
+// Também pode ser aconselhável baixar a notaPAD++ Às vezes, isto pode vir em muito handy-go aqui: https://notepad-plus-plus.org/downloads/ //
+
+// Se você não está familiarizado com escrever escrito e são um noob total, então isso vai ajudar muito //
+https://ii.chat/new
+https://chatgpt.com
+https://app.base44.com/app-templates
+https://app.codeconvert.ai/home
+https://chatgpt.com/codex/
+
+// Os dois últimos URLs superiores são muito fortemente recomendados //
+
+// Se você quer convergir piques em ícones para APPS Python, vá aqui: //
+https://convertico.com/?utm source=chatgpt.com#google vignette
+
+// Seguem-se com cuidado as instruções sobre o modo como é fácil utilizar o PyCharm APP para construir um DESKTOP STandalone APP-these são muito simples e fáceis de seguir //
+
+São fáceis de entender as instruções para usar PyCharm.
+
+Clique em Arquivo
+Clique em Abrir
+Ir para:
+C:\Users\clust\Desktop\YourProject
+Clique na pasta YourProject uma vez.
+Clique em OK ou Abra.
+Clique no script/programa a ser processado.
+
+[Se o PyCharm perguntar se deve abrir na janela atual ou numa nova janela, escolha Esta Janela.
+Passo 2: Abra o Terminal PyCharm]
+
+Olha para o fundo do PyCharm.
+Encontre a aba chamada Terminal.
+Clique em Terminal.
+Se não o vir:
+
+Clique em Ver no topo.
+Clique em Ferramentas de Windows.
+Clique em Terminal.
+Você deve agora ver uma área de comando no fundo do PyCharm.
+
+Passo 3: Vá para o seu terminal
+
+No Terminal, clique após o cursor piscando e digite isso exatamente: Seu Projeto é o nome da pasta em seu desktop.
+
+cd "$env:USERPROFILE\Desktop\YourProject"
+
+Se o comando acima não funcionar, então use este:
+
+cd C:\Users\clust\Desktop\Your Project Name
+
+Em seguida, pressione Enter.
+
+Isso diz ao PyCharm para trabalhar dentro da sua pasta de aplicativos.
+
+Passo 4: Confirme trabalhos PyInstaller
+
+Digite isso exatamente:
+py -3.14 - m PyInstaller -- noconfirm -- clean -- um arquivo -- windowed -- name "tanto faz" -- icon "tanto faz.ico" tanto faz.py
+
+Se o comando acima não funcionar, então use este:
+
+python - m PyInstaller -- um arquivo -- windowed -- nome "WHATEVER" -- ícone "WHATEVER.ico" "WHATEVER.py"
+
+Espera. Isto pode demorar um minuto ou dois.
+
+Você verá um monte de texto aparecer no Terminal. Isso é normal.
+
+==========================================================================================================================================================================================================================
+[Se você estiver usando o PyQt6 em vez do Tkinter, então certifique-se de usar esses comandos Terminais em vez disso]
+
+cd "$env:USERPROFILE\Desktop\project folder"
+
+
+pyinstaller -- noconsole -- um arquivo -- nome de qualquer coisa.py
+
+(Use o comando de terminal abaixo em Pycharm se estiver usando um ícone)
+
+pyinstaller --noconsole --onefile --name qualquer coisa --icon=Tools.ico qualquer coisa.py
+==============================================================================================
+cd "$env:USERPROFILE\Desktop\qualquer coisa"
+
+python - m PyInstaller -- noconsole -- um arquivo -- nome de qualquer coisa -- icon "tanto faz.ico" qualquer coisa.py
+==========================================================================================================================================================================================================================
+
+Passo 6: Encontrar o aplicativo terminado
+
+Quando o comando terminar, procure dentro da pasta do projeto.
+
+Na barra lateral esquerda do PyCharm, você deve agora ver novas pastas:
+
+compilação
+dist
+Clique na seta ao lado da dist.
+Dentro da dist, você deve ver:
+SeuProject.exe
+Esse é o seu aplicativo de desktop autônomo.
+
+Passo 7: Execute o aplicativo
+
+Podes correr de duas maneiras.
+
+Opção 1, do PyCharm:
+
+Na barra lateral esquerda, abra a pasta dist.
+Botão direito do mouse YourProject.exe
+Clique em Abrir In.
+Clique em Explorer.
+Clique duas vezes em SeuProject.exe
+Opção 2, do Windows:
+
+Abrir o Explorador de Ficheiros.
+Ir para:
+C:\Users\clust\Desktop\Your Project Folder\dist
+Clique duplo:
+HWID Viewer.exe

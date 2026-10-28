@@ -1,0 +1,3 @@
+﻿APAGAR
+
+O botão APAGAR remove o arquivo ou pasta selecionado quando essa ação é permitida. O app pede confirmação para itens importantes e tenta enviar o item para a Lixeira.

@@ -1,0 +1,124 @@
+﻿Battleye - VISÃO GERAL EDUCACIONAL
+
+O QUE É
+Battleye é apresentado aqui como um sistema, ferramenta ou tecnologia de proteção usada no ecossistema de jogos e computadores. Esta página serve como material educacional para o usuário entender o nome, a finalidade e os cuidados gerais relacionados ao produto.
+
+FINALIDADE PRINCIPAL
+A finalidade geral de um sistema anti-trapaça é proteger partidas online contra alterações não autorizadas, manipulação de memória, arquivos modificados, ferramentas externas suspeitas e comportamentos que prejudiquem a integridade do jogo.
+
+COMO ISSO AJUDA O JOGADOR HONESTO
+- Ajuda a manter partidas mais justas.
+- Reduz abuso de programas externos.
+- Protege servidores e comunidades contra vantagens injustas.
+- Ajuda administradores a identificar problemas de integridade.
+- Mantém a confiança entre jogadores.
+
+CUIDADOS IMPORTANTES
+- Mantenha o jogo atualizado pela Steam ou pela plataforma oficial.
+- Evite modificar arquivos do jogo sem saber exatamente o que está fazendo.
+- Não use programas suspeitos junto com jogos protegidos por anti-trapaça.
+- Se receber erro de integridade, reinicie o jogo e verifique os arquivos pela Steam.
+- Use apenas mods legítimos e compatíveis com o servidor.
+
+PROBLEMAS COMUNS
+Se o jogo expulsar o jogador por erro de versão, erro de assinatura, arquivo ausente ou mod incorreto, isso geralmente significa que o cliente não está igual ao servidor. O usuário deve conferir se o jogo, os mods e os arquivos necessários estão atualizados.
+
+OBSERVAÇÃO DE SEGURANÇA
+Este conteúdo é apenas educativo. Ele não deve ser usado para burlar, desativar, contornar ou enfraquecer sistemas anti-trapaça. O objetivo é ajudar o usuário a entender por que esses sistemas existem e como evitar problemas legítimos ao jogar.
+
+
+
+
+
+
+========================================================================================================== ====== ====== ====== ====== ====== ====== ====== ====== ====== ====== ====== ====== ====== ====== ====== ====== ====== ====== ====== ====== Arquivo: READ ME.txtDescrição: Plano interno abrangente e quebra operacional do sistema anti-queat de BattlEye.====== ====== ====== ====== ====== ====== ====== ====== ====== ====== ===== [1.0] SUMMÁRIO EXECUTIVO & DESIGN PHILOSOPHYBattlEye é uma solução anti-queat pró-ativa, híbrida usuário / kernel-mode projetado para proteger jogos de vídeo multiplayer PC. Ao contrário de sistemas anti-queda reativos que dependem apenas de assinaturas de arquivos de digitalização após uma infecção ocorre, BattlEye foca em blindagem preventiva, isolamento de memória em tempo real e telemetria dinâmica orientada por servidor. A filosofia central gira em torno de "defesa em profundidade": Prevenção Proativa: Tornando-se o mais difícil possível para o código não autorizado interagir com o jogo. Detecção Heurística: Identificar comportamentos suspeitos em vez de apenas assinaturas de fraude conhecidas. Adaptação Dinâmica: Mudando os desafios de detecção em tempo real para interromper a engenharia reversa estática.[2.0] ARQUITETURA E COMPONENTSBattlEye SISTEMA divide suas operações em várias camadas do Sistema Operacional (OS) e da rede para garantir que um cliente comprometido não possa facilmente falsificar seu estado.+--------------------------------------------------------------------------------------------------------------------------+
+
+MODELO DE UTILIZADOR (Ring 3)
+□
+----------------------+ Memória partilhada / IPC +--------------------+
+Jogo Protegido BattlEye Cliente
+Como executá- lo (BEService / DLL)
+----------------------+ +--------------------+
++------------------------------------------------------------------------------------------------+
+□
+Comunicação IOCTL / Hooking (ligações / filtragem)
+v
++-----------------------------------------------------------------------------------------+
+
+(Ring 0)
+□
+------------------------+
+Condutor BattlEye (BEDaisy.sys)
+------------------------+
++------------------------------------------------------+-----------------------------------+
+□
+□ Suporte de rede (UDP criptografado)
+v
++-----------------------------------------------------------------------------------------+
+
+REMOTE A INFRA-ESTRUTURA
+□
+----------------------+ +--------------------+
+Módulo de Servidor de Jogos                                                   . BattIEye Master
+Servidor de infra- estrutura
+----------------------+ +--------------------+
++-----------------------------------------------------------------------------------------+
+
+[2.1] Componentes de Modo de Usuário (Ring 3)BattlEye Launcher (BEClient.exe / Game Integration): O executável bootstrap.
+
+Ele valida os argumentos de lançamento do jogo, executa uma varredura inicial da integridade do sistema de arquivos e solicita a inicialização
+do serviço do sistema. Serviço BattlEye (BEService.exe / BEService x64.exe): Um serviço Windows persistente que funciona com
+Privilégios do sistema. Ele atua como o orquestrador, carregando o driver do kernel, mantendo IPC (Inter-Process Communication)
+com o jogo, e dados de telemetria de roteamento. BattlEye Client Library (BEClient.dll): Injetado diretamente no espaço de endereço do jogo.
+Estabelece ganchos diretos dentro do motor, gerencia o batimento cardíaco interno, e executa rápidas varreduras de memória intimamente ligadas a atualizações de loop de jogo.
+
+[2.2] Kernel-Mode Component (Ring 0)BattlEye Driver (BEDaisy.sys): Um driver de modo de kernel de alto privilégio carregado no arranque do Windows ou no arranque do serviço.
+Operar no Ring 0 permite que BattlEye execute instruções com a mesma autoridade que o kernel do sistema operacional. Esta camada é crucial para decapagem
+as capacidades de malware de modo de usuário e monitoramento de atividade de sistema de baixo nível.[2.3] Componentes remotos e do lado do servidorServer-Side Module (BEServer.dll):
+
+Integrado ao software dedicado ao servidor de jogos. Ele rastreia clientes conectados, aplica regras de timeout para batimentos cardíacos ausentes e processos banem instruções
+emitida pela base de dados principal. Servidor de infraestrutura mestre: a infraestrutura de nuvem proprietária da BattlEye. Coleta continuamente telemetria global, analisa comportamento
+heurística, distribui ondas de ban global e empurra atualizações dinâmicas de assinatura sem necessidade de patches de jogo.
+
+[3.0] COMO FUNCÇÕES DE BATTLEYE: CICLESTA DE VIDA DE PASSO-PASSO 1: Inicialização e Bootstrapping O usuário lança o jogo através de seu executável primário ou de um terceiro
+plataforma (por exemplo, Steam, lançador de jogos épicos).
+
+O lançador desencadeia BEService.exe. O serviço verifica a assinatura criptográfica do BEDaisy.sys para garantir que ele não foi modificado no disco, em seguida, registra e carrega o
+driver para o espaço do kernel do sistema operacional. O lançador executa o processo principal do jogo em um estado suspenso, mapeia BEClient. dll em seu espaço de memória, e retoma o thread uma vez
+são estabelecidas as linhas de base de segurança. Etapa 2: Estabelecendo o Escudo (Endurecimento do Processo)BEDaisy.sys utiliza Callbacks do Gerenciador de Objetos (ObRegisterCallbacks) fornecidos por
+Janelas. Quando qualquer aplicativo externo tenta abrir uma alça para o processo de jogo protegido (por exemplo, chamando OpenProcess), o driver do kernel intercepta a solicitação.
+
+O condutor retira direitos de acesso perigosos. Permissões como PROCESS VM READ (lendo memória de jogo), PROCESS VM WRITE (escrita para memória de jogo), e
+PROCESS ALL ACCESS são sistematicamente negados, tornando inútil o software de edição de memória externa. Etapa 3: Monitoramento e Telemetria ContínuasEnquanto o jogo corre,
+BattlEye executa verificações cíclicas que abrangem vários vectores:Sweeps & Memória: Procura por threads não apoiados (código em execução a partir de segmentos de memória não ligados a um
+arquivo .dll ou .exe legítimo no disco). Auditorias de integridade: Verificando que a seção .text (a região de código executável) da memória do jogo corresponde ao hash exato dos arquivos originais no disco.
+
+Isto impede o remendo de memória. Desafios de digitalização dinâmica: O servidor mestre empurra pequenos trechos de código criptografados para BEClient.dll. O cliente executa estes mini- programas para executar
+auditorias de memória especializadas e retorna os resultados criptografados para o servidor. Como estas instruções mudam constantemente, os desenvolvedores de fraude não podem construir bypass permanentes contra eles.
+
+Etapa 4: Detecção e aplicação Se uma anomalia for encontrada (por exemplo, uma corda de fraude conhecida na memória, uma tentativa de injeção bloqueada do driver, um gancho de jogo corrompido), BattlEye registra um evento de detecção.
+O cliente empacota esta telemetria ao lado de identificadores de hardware (HWIDs) e envia-o através de um canal criptografado para o servidor de jogo e infraestrutura mestre. Dependendo da gravidade da infração:
+
+Chute Imediato: Feito para simples incompatibilidades de integridade, alta latência de rede ou batimentos cardíacos dessincronizados. Atrasado Global Ban: Para execução de fraude verificada, as contas e hardware do usuário são sinalizadas
+para uma "onda de ban" para evitar que os desenvolvedores de fraudes determinem exatamente o que desencadeou a detecção.[4.0] VETORES E ESTRATÉGIAS ESPECÍFICAS DETECÇÃO[4.1] Digitalização baseada na assinatura Correspondência
+pools de memória ativa e ativos de disco contra um índice de assinaturas de fraude conhecidas.
+
+Isso inclui a busca de cordas distintas, padrões de byte únicos, e hashes criptográficos de comerciais populares ou
+scripts públicos de fraude.[4.2] Análise Heurística e ComportamentalProcura os efeitos de uma fraude em vez da fraude em si: Títulos da janela e Nomes de Classe: Procura janelas activas com nomes conhecidos de fraude ou
+Quadros de sobreposição. Verificação Hook: Funções monitoradas do sistema (como cadeias de troca DirectX usadas para renderização de gráficos batota) são continuamente auditadas para garantir que eles não tenham sido redirecionados via malicioso
+Instruções da JMP.
+
+Lidar com Traversal: Audita a topologia do processo do sistema para ver quais processos estão solicitando ativamente informações do sistema.[4.3] Mitigações do Kernel para o Kernel Desenvolvedores de fraude muitas vezes implantar seu próprio malicioso
+Ligar 0 drivers para contornar a segurança do modo de usuário. BattlEye luta contra isso por:Driver Whitelisting: Mantendo uma lista rigorosa de drivers de sistema permitidos, criptograficamente assinados. Alinhamento da integridade do código protegido por hipervisor (HVCI):
+Cooperando com as modernas regras de segurança de virtualização do Windows para garantir que os drivers de kernel de terceiros não possam executar código em zonas de memória protegidas. Monitorização MSR/CR3:
+
+Verificando registros de controle e Registros Modelo-Específicos para capturar rootkits tentando Direct Kernel Object Manipulation (DKOM).[5.0] REVERSE-ENGINEERING CONTRAMEASURESTo impedir os autores de fraude de
+dissecando os binários de BattlEye, o sistema utiliza tecnologias avançadas de ofuscação:Code Virtualization: Modifica código compilador em um formato de bytecode personalizado, randomizado que só pode ser lido por um
+Motor intérprete. As ferramentas de análise estática (como IDA Pro ou Ghidra) não podem ler nativamente instruções virtualizadas. Geração de Código Metamórfico: Mexilhões de estruturas de código e injeta instruções de lixo (equivalentes NOP,
+lógica matemática falsa) durante a compilação para alterar padrões binários sem alterar a funcionalidade. Strings de memória criptografados: Todos os protocolos de rede, variáveis críticas e nomes de fraude direcionados permanecem altamente criptografados
+na memória, descodificando apenas por uma fração de milissegundo durante uma comparação de verificação específica.[6.0] BANING & LOGÍSTICAS Quando um usuário malicioso é permanentemente banido, BattlEye garante que não pode
+Evitar a penalidade apenas criando um novo perfil de jogo. O sistema deriva de uma impressão digital multifacetada de identificação de hardware (HWID) coletando números de série de componentes que são difíceis de reproduzir de forma limpa:
+
+Volumes de unidades de armazenamento e números de série SMART (HDD/SSD) Endereços da placa de alimentação UUID e BIOS Serial StringsRede Adaptador Controle de acesso de mídia (MAC) Strings de Registro de HardwareSe estiver na lista negra
+combinação de hardware tenta autenticar com a arquitetura do sistema BattlEye em qualquer conta, o acesso é instantaneamente rejeitado.
+==================================================================================================================================================================================================================================================================================================================== == Como BattlEye interfaces com motores específicos como Unreal Engine ou Unity. Um colapso comparativo contra outros anti-fraudes populares como Easy Anti-Cheat (EAC) ou Vanguard.

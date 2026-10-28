@@ -1,0 +1,3 @@
+﻿MAPAS
+
+O botão MAPAS mostra a lista de mapas disponíveis no LAN Launcher. Selecione um mapa antes de usar INICIAR, MODS, MPMISSIONS BASE DZ ou LIMPAR.

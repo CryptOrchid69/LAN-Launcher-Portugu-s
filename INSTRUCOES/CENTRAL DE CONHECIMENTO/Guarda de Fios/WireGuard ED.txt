@@ -1,0 +1,484 @@
+﻿WIREGUARD - GUIA COMPLETA DOS UTILIZADORES
+Este guia explica o que é o WireGuard, o que ele faz e como usá-lo no seu PC Windows em palavras simples e fáceis de entender.
+
+PARTE 1: O QUE É WIREGUARD?
+Explicação Simples
+Pense no WireGuard como um túnel secreto para sua conexão à internet.
+
+Normalmente: Quando você usa a internet, seus dados viajam em aberto, e qualquer um pode ver para onde está indo.
+Com WireGuard: Seus dados da internet viajam através de um túnel (segredo) criptografado, para que ninguém possa ver o que você está fazendo ou para onde você está indo.
+Analogia ainda mais simples
+Imagine enviar uma carta:
+
+Sem WireGuard: Você envia um postal aberto que qualquer um pode ler.
+Com WireGuard: Você coloca sua carta em uma caixa trancada, sela-a, e só a pessoa com a chave correspondente pode abri-la.
+
+======================================================================================================================
+PARTE 2: O QUE FAZ WIREGUARD?
+WireGuard realiza estas funções principais:
+
+
+
+
+// Função O Que Faz Exemplo Simples //
+
+1.) Encripta os seus dados Torna a sua actividade na Internet secreta/sites ilegíveis não podem ver o que está a fazer
+
+2.) Esconde o seu endereço IP real Mascara o seu local de Internet Websites ver um local diferente
+
+3.) Cria um túnel seguro Constrói um caminho protegido para seus dados Seus dados estão protegidos como em um túnel
+
+4.) Authenticates Connections Verifica que você está se conectando ao lugar certo Certifica-se de que você está falando com quem você pensa que é
+
+5.) Gerencia Conexões Lida com a comutação entre redes automaticamente Reconecta automaticamente se Wi-Fi cair
+
+6.) Rotas Seu Tráfego Dirige seus dados de internet onde ele precisa ir Envia seus dados através do túnel seguro
+
+7.) Protege a privacidade Mantém a sua atividade online privada O seu ISP não consegue ver quais sites você visita
+
+8.) Evita Ataques do Homem no Meio Impedi que hackers interceptem seus hackers de dados não podem roubar suas senhas
+
+==================================================================================================================================
+PARTE 3: PRINCIPAIS CARACTERÍSTICAS DE WIREGUARD
+
+1. Muito simples de usar
+O que significa: É muito mais fácil do que outros programas VPN
+Por que isso importa: configuração menos complicada
+Comparação: OpenVPN tem milhares de linhas de código; WireGuard tem apenas algumas centenas
+
+2. Velocidade Rápida
+O que significa: Sua internet não vai diminuir muito
+Por que isso importa: Você pode navegar, transmitir e trabalhar normalmente
+Porque: Ele é construído de forma muito eficiente e usa criptografia moderna
+
+3. Criptografia Moderna
+O que significa: Ele usa os mais recentes métodos de criptografia mais seguros
+Exemplos: ChaCha20, Curve25519, BLAKE2
+Por que importa: Seus dados são extremamente difíceis de decifrar
+
+4. Leve
+O que significa: Ele não usa muito dos recursos do seu computador
+Por que isso importa: Seu PC funciona sem problemas, mesmo ao usar WireGuard
+Funciona em: Smartphones, computadores, servidores e até mesmo pequenos dispositivos
+
+5. Roaming automático
+O que significa: Se a sua ligação à Internet mudar, ele religa automaticamente
+Exemplo: Você muda de WiFi para dados móveis e o WireGuard atualiza automaticamente
+Por que importa: Você não precisa reconectar manualmente
+
+6. Funciona em toda parte
+Suportado em: Windows, Mac, Linux, iOS, Android
+Cross-platform: Você pode usá-lo em qualquer dispositivo
+================================================================================================================
+PARTE 4: COMO FUNCIONA WIREGUARD (VISÃO GERAL TÉCNICA)
+O processo básico (em termos simples)
+
+Passo 1: Troca de Chaves
+
+Dois dispositivos trocam "chaves públicas" (como compartilhar um aperto de mão secreto)
+Isto é semelhante ao funcionamento do SSH (Secure Shell)
+Não é necessária nenhuma configuração complexa
+
+Etapa 2: Criação do túnel
+
+Um túnel seguro é criado entre o seu computador e o servidor WireGuard
+Todos os seus dados de internet flui através deste túnel
+
+Passo 3: Criptografia
+
+Tudo o que envia está encriptado (encravado)
+Somente a pessoa com a chave correspondente pode descriptografá- la (desbloquear)
+
+Passo 4: Descriptografia
+
+Quando os dados chegam, é automaticamente descriptografado
+Você vê internet normal, mas estava protegido em trânsito
+
+Passo 5: Roteamento IP
+
+O seu verdadeiro endereço IP está escondido
+Sites veem o endereço IP do servidor
+================================================================================================================
+PARTE 5: COMO INSTRUIR O WIREGUARD NAS VENDAS
+
+Passo 1: Baixe o WireGuard
+Abra seu navegador web
+Ir para: www.wireguard.com/install/
+Encontrar a seção do Windows
+Clique em "Download Windows Installer"
+Um arquivo será baixado para o seu computador
+
+Passo 2: Execute o Instalador
+Encontre o arquivo baixado (geralmente em sua pasta Downloads)
+Clique duas vezes no arquivo do instalador
+Uma janela aparecerá pedindo para instalar o WireGuard
+Clique em "Sim" ou "Instalar" quando perguntado
+Aguarde a instalação completa (geralmente demora 30 segundos a 1 minuto)
+
+Passo 3: Abra o WireGuard
+Uma vez instalado, o aplicativo WireGuard será aberto automaticamente, OR
+Clique no Menu Iniciar do Windows
+Digite "WireGuard"
+Clique no aplicativo WireGuard que aparece
+
+Passo 4: O que você vê
+Quando abrires o WireGuard, verás:
+Uma janela simples com botões
+Botão "Adicionar túnel" (para criar uma nova conexão)
+Botão "Importar túnel(s) de arquivo" (para adicionar uma configuração existente)
+Uma lista dos seus túneis (actualmente vazios)
+
+============================================================================================================================
+PARTE 6: CONFIGURAÇÃO DO WIREGUARD
+Antes que você possa usar o WireGuard, você precisa de um arquivo de configuração. Há duas maneiras de conseguir uma:
+
+Opção A: De um Fornecedor VPN
+Se você estiver usando um serviço VPN que suporte WireGuard:
+
+Entre no site do seu provedor VPN
+Procure "WireGuard" ou "Download Configuration"
+Baixe o arquivo de configuração (geralmente termina em .conf)
+Guarda-o onde o possas encontrar.
+Opção B: De seu administrador de rede
+Se você estiver se conectando a uma rede da empresa ou rede doméstica:
+
+Pedir ao seu administrador um ficheiro de configuração do WireGuard
+Eles vão lhe dar um arquivo .conf
+Salve-o em seu computador
+Opção C: Criar o seu próprio
+Isso é avançado e requer conhecimento técnico. Ignora isto a menos que estejas a configurar um servidor WireGuard.
+
+======================================================================================================================
+PARTE 7: COMO ADICIONAR UM TUNNO DE WIREGUARD (CONECÇÃO)
+
+Método 1: Importar do Ficheiro (mais Fácil)
+Passo 1: Abra o WireGuard
+
+Clique no ícone WireGuard em sua barra de tarefas ou Menu Iniciar
+Passo 2: Configuração da Importação
+
+Clique no botão que diz "Importar túnel(s) do arquivo"
+OU vá para Arquivo → Importar Túnel( s) de Arquivo
+Passo 3: Selecione seu arquivo
+
+Um navegador de arquivos será aberto
+Navegue até onde você salvou seu arquivo .conf
+Clique nele para selecioná-lo
+Clique em "Abrir"
+Passo 4: Confirmação
+
+O WireGuard mostrará o nome do túnel
+Clique em "Importar" ou "OK"
+O túnel agora aparece na sua lista
+Método 2: Copiar e colar (se você tem o texto de configuração)
+Passo 1: Obter o Texto de Configuração
+
+Alguns provedores lhe dão a configuração como texto (não como arquivo)
+Copiar este texto para a sua área de transferência
+Passo 2: Adicionar túnel
+
+Em WireGuard, clique em "Adicionar túnel"
+Clique em "Criar túnel vazio" ou opção semelhante
+Passo 3: Configuração da Colagem
+
+Um editor de texto será aberto
+Colar o texto de configuração que copiou
+Gravar o ficheiro (normalmente automático)
+Passo 4: Concluído
+
+O túnel é agora adicionado à sua lista
+
+========================================================================================================================================
+PARTE 8: COMO CONCEDER A WIREGUARD
+Conectando (Ligando)
+Método 1: Clique na opção
+
+Abrir o Guarda- Fios
+Encontre seu túnel na lista
+Clique no botão alternar ao lado dele (ou clique duas vezes no nome do túnel)
+O interruptor irá ligar (normalmente fica azul ou verde)
+Estão agora ligados!
+Método 2: Menu com o botão direito
+
+Botão direito do mouse no seu nome do túnel
+Selecione "Ativar" ou "Conectar"
+Estão agora ligados!
+Como saber que você está conectado
+O interruptor está ligado (normalmente azul ou verde)
+O túnel mostra "Active" ou um indicador de status
+Seu endereço IP mudou (você pode verificar isso)
+Aparece um pequeno ícone na bandeja do seu sistema
+
+==============================================================================================================================================
+PARTE 9: COMO DESCONHECER DE WIREGUARD
+Desligando (Desligando)
+Método 1: Clique na opção
+
+Abrir o Guarda- Fios
+Encontre seu túnel ativo
+Carregue no botão para o desligar
+Você está agora desconectado
+Método 2: Menu com o botão direito
+
+Botão direito do mouse no seu túnel
+Selecione "Desativar" ou "Desligar"
+Você está agora desconectado
+O que acontece quando você desliga
+Seu endereço IP real está visível novamente
+Seu tráfego na internet não está mais criptografado
+Sua localização é visível para sites
+
+============================================================================================================================
+PARTE 10: CONHECENDO A INTERFACE DE WIREGUARD
+Elementos da Tela Principal
+
+
+
+Elemento O Que Faz
+Lista de túneis Mostra todas as suas conexões salvas Lista todos os túneis WireGuard que você adicionou
+Alternar botão Ligar/Desligar ao lado de cada túnel Liga ou desliga a ligação VPN
+Indicador de status Mostra se conectado ou desconectado Verde = Conectado, Cinza = Desligado
+Arquivo de Barra de Menus, Editar, Ver, Ajuda Configurações e opções de acesso
+Adicionar botão de túnel para criar uma nova conexão Cria um novo túnel WireGuard
+Botão de Importação para importar configuração Adiciona um túnel de um arquivo .conf
+Botão Editar para modificar as configurações do túnel Permite editar a configuração
+Apagar o botão para remover o túnel Remove permanentemente um túnel
+Ícone da barra de tarefas da bandeja do sistema Acesso rápido ao WireGuard
+
+========================================================================================================================================
+PARTE 11: FILE DE CONFIGURAÇÃO EXPLICADO
+Se você precisar entender o que está em um arquivo de configuração do WireGuard, aqui estão as partes principais:
+
+Secção [Interface]
+Estas são as configurações do seu computador:
+
+
+
+[Interface]
+PrivateKey = XXXXXXXX # Sua chave secreta (mantenha este privado!)
+Endereço = 10.0.0.2/32 # Seu endereço IP no túnel
+DNS = 1.1.1.1 # Servidor DNS para usar (para nomes de domínio)
+ListenPort = 51820 # Port seu computador escuta
+Secção
+Esta é a configuração do SERVER:
+
+
+
+[Pier]
+PublicKey = YYYYYYYY # Chave pública do servidor
+Endpoint = 123.45.67.89:51820 # Endereço de Internet do servidor
+AllowedIPs = 0.0.0.0/0 # Que tráfego enviar através do túnel
+PersistenteKeepalive = 25 # Mantenha a conexão viva
+Tradução Simples:
+
+PrivateKey: Seu código secreto (nunca compartilhe!)
+Endereço: O seu endereço IP do túnel
+DNS: Como traduzir nomes de sites para números
+Endpoint: Onde o servidor está localizado
+Permitido IPs: Que tráfego passa pelo túnel
+
+============================================================================================================================
+PARTE 12: ATRIBUIÇÃO COMUM
+Tarefa 1: Alterar configurações do túnel
+Clique com o botão direito de um túnel
+Selecione "Editar" ou "Propriedades"
+Modificar o texto de configuração
+Gravar as alterações
+Feito!
+Tarefa 2: Apagar um túnel
+Clique com o botão direito de um túnel
+Selecione "Excluir" ou "Remover"
+Confirmar quando perguntado
+O túnel é removido
+Tarefa 3: Exportar um túnel
+Clique com o botão direito de um túnel
+Selecione "Exportar" (se disponível)
+Escolha onde salvá- lo
+O túnel é salvo como um arquivo .conf
+Tarefa 4: Verifique seu endereço IP
+Enquanto estiver conectado ao WireGuard, abra um navegador web
+Vá para www.whatismyipaddress.com ou www.ipleak.net
+Seu endereço IP deve ser diferente do seu IP real
+Isto confirma que o WireGuard está a funcionar.
+Tarefa 5: Ver detalhes do túnel
+Carregue num túnel para o seleccionar
+Olhe para o painel inferior ou lateral
+Você verá informações como:
+Estado: Conectado/Desconectado
+Aperto de mão: Quando conectado pela última vez
+Transferência: Dados enviados e recebidos
+Interface: Seu endereço IP do túnel
+
+========================================================================================================================================
+PARTE 13: PROBLEMAS
+Problema 1: "Não é possível conectar-se ao túnel"
+Causas possíveis:
+
+A ligação à Internet está desligada
+Arquivo de configuração está incorreto
+O servidor está offline
+Soluções:
+
+Verifique a sua ligação à Internet
+Verificar se o ficheiro de configuração está correcto
+Tente se conectar mais tarde
+Contacte o seu fornecedor VPN
+Problema 2: "Internet pára quando conectado"
+Causas possíveis:
+
+Configurações de DNS incorretas
+Problema de encaminhamento
+Problema do servidor
+Soluções:
+
+Desligar e reconectar
+Tente um túnel diferente se estiver disponível
+Verificar as configurações do DNS na configuração
+Reinicie seu computador
+Problema 3: "Internet muito lenta"
+Causas possíveis:
+
+O servidor está longe
+A sua ligação à Internet é lenta
+Congestão da rede
+Soluções:
+
+Tente um servidor diferente (se disponível)
+Desligar e reconectar
+Verifique a velocidade da Internet base
+Escolha um servidor mais próximo da sua localização
+Problema 4: "Não é possível importar o arquivo de configuração"
+Causas possíveis:
+
+Arquivo não é um arquivo .conf válido
+O ficheiro está corrompido
+O formato do arquivo está errado
+Soluções:
+
+Verificar o fim do ficheiro em .conf
+Verificar o conteúdo do arquivo é legível
+Tente obter um arquivo de configuração novo
+Certifique-se de que o arquivo não está corrompido
+Problema 5: "O WireGuard não abre"
+Causas possíveis:
+
+Não instalado corretamente
+Privilégios de administração necessários
+Versão para Windows incompatível
+Soluções:
+
+Reinstalar o WireGuard
+Executar como administrador (clique com o botão direito → Executar como administrador)
+Verifique a versão do Windows (necessita do Windows 10 ou mais recente)
+Reinicie seu computador
+
+==============================================================================================================================================
+PARTE 14: NOTAS DE SEGURANÇA IMPORTANTES
+Do's
+Mantenha sua chave privada em segredo
+DO só baixar WireGuard do site oficial
+Verifique se os arquivos de configuração vêm de fontes confiáveis
+DO use WireGuard em redes confiáveis
+Mantenha o WireGuard atualizado
+Fazer desconectar quando você não precisa dele
+Não é nada.
+Não compartilhe seu arquivo de configuração com outros
+Não edite sua chave privada
+NÃO baixe o WireGuard de sites não confiáveis
+NÃO use WiFi público sem WireGuard (se estiver preocupado com privacidade)
+NÃO ignore as atualizações de segurança
+
+==============================================================================================================================================
+PARTE 15: CARACTERÍSTICAS AVANÇADAS
+Característica 1: Ativação na Demanda
+Algumas versões do WireGuard permitem ativação automática quando você sai de sua casa WiFi:
+
+Abrir o Guarda- Fios
+Procure por configurações "On-Demand" ou "Automatic"
+Configurar redes confiáveis
+O WireGuard liga/desliga automaticamente com base no seu Wi-Fi
+Característica 2: Vários Túneis
+Você pode adicionar várias conexões WireGuard:
+
+Adicionar túneis diferentes (diferentes servidores)
+Alternar entre eles alternando
+Apenas um pode ser ativo de cada vez
+Característica 3: DNS personalizado
+Você pode alterar qual servidor de DNS WireGuard usa:
+
+Editar a configuração do túnel
+Modificar a linha DNS
+Exemplos: 1.1.1.1 (Cloudflare) ou 8.8.8.8 (Google)
+
+===============================================================================================================================================================
+PARTE 16: WIREGUARD VS. OUTRAS TECNOLOGIAS VPN
+
+
+
+Recurso WireGuard OpenVPN IPsec
+Fácil de usar Difícil Difícil
+Velocidade muito rápida meio mais lento
+Tamanho do código ~400 linhas 100.000+ linhas 50.000+ linhas
+Configurar hora minutos horas horas
+Segurança Excelente Bom
+Moderno Sim (Novo) Mais Velho Muito Velho
+
+========================================================================================================================================
+PARTE 17: GUIA DE REFERÊNCIA RÁPIDA
+Passos Básicos
+Instalar: Download from wireguard.com → Executar o instalador
+Obter configuração: Obter arquivo .conf do provedor
+Importação: Clique em "Importar" → Selecione arquivo .conf
+Conectar: Clique para ativar
+Desligar: Clique para alternar para desligar
+Verificação Rápida
+O WireGuard está instalado?
+Você tem um arquivo de configuração?
+O túnel é importado?
+O botão está ligado?
+Você pode acessar sites?
+Atalhos do Teclado
+
+
+
+Atalho O Que Faz
+Ctrl + O Importar túnel
+Ctrl + Q Sair do WireGuard
+Ctrl + I Adicionar túnel vazio
+Apagar Apagar o túnel seleccionado
+
+======================================================================================================================================================================
+PARTE 18: Perguntas frequentes
+P: O WireGuard está livre? R: Sim, o próprio WireGuard é livre e de código aberto. No entanto, provedores VPN que usam o WireGuard podem cobrar uma taxa.
+
+P: O WireGuard atrasa minha internet? R: Não, o WireGuard é muito rápido. Sua velocidade só pode diminuir ligeiramente dependendo da distância do servidor.
+
+P: O WireGuard pode ser hackeado? R: O WireGuard é muito seguro devido à criptografia moderna. No entanto, nenhum sistema é 100% inatacável.
+
+P: Meu ISP vai ver o que estou fazendo com WireGuard? R: Não, seu ISP pode ver que você está usando WireGuard, mas não o que você está fazendo dentro do túnel.
+
+P: Posso usar o WireGuard no meu telefone? R: Sim, o WireGuard está disponível para iPhone e Android.
+
+P: O WireGuard mantém registros? R: O próprio WireGuard não faz login. No entanto, seu provedor VPN pode. Verifique a sua política de privacidade.
+
+P: O WireGuard é legal? R: Sim, o WireGuard é legal na maioria dos países. No entanto, o uso de uma VPN pode ser restrito em alguns países.
+
+P: Posso usar vários túneis ao mesmo tempo? R: Não, apenas um túnel pode ser ativo de cada vez.
+
+P: Como faço para atualizar o WireGuard? R: Baixe a última versão do wireguard.com e execute o instalador novamente.
+
+RESUMO
+WireGuard é:
+
+Um túnel VPN simples, rápido e seguro
+Fácil de instalar e usar
+Moderno e usa a criptografia mais recente
+Disponível em Windows, Mac, Linux, iOS e Android
+Perfeito para proteger sua privacidade e segurança online
+Para usar o WireGuard:
+
+Instalar o aplicativo
+Obter um ficheiro de configuração
+Importar a configuração
+Carregue na opção para ligar
+Desfrute de internet segura e criptografada

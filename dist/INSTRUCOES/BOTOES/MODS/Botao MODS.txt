@@ -1,0 +1,3 @@
+﻿MODS
+
+O botão MODS abre a área de mods do mapa selecionado. Use para ver mods ativos, colocar mods adicionais no local correto e manter os mods separados por mapa.

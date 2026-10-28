@@ -1,0 +1,271 @@
+﻿Python tem um vocabulário muito grande, então não há uma única lista "completo" que se encaixa em uma mensagem, mas eu posso dar-lhe uma forte referência fundamental cobrindo a terminologia mais importante, símbolos, palavras-chave, e conceitos que os iniciantes encontram mais frequentemente.
+
+1. Terminologia básica do Python
+Significado do Termo
+Python Uma linguagem de programação
+Script Um arquivo Python contendo código
+Aplicação Um conjunto completo de instruções
+Software de interpretação que executa o código Python
+Sintaxe As regras de escrita do código
+Declaração Uma linha de código
+Expressão Código que produz um valor
+Variável Um recipiente de armazenamento chamado
+Valor Dados armazenados na memória
+Tipo de Dados O tipo de dados
+Função Bloco de código reutilizável
+Classe Blueprint para objetos
+Objeto Instância de uma classe
+Função do método dentro de uma classe
+Módulo Um ficheiro Python que importa
+Coleção de módulos da biblioteca
+Pasta de pacotes dos módulos
+Valor do Argumento passado para uma função
+Parâmetro Variável dentro da definição da função
+Return Value Data enviado de uma função
+Código de Repetições do Ciclo
+Condição Lógica de tomada de decisão
+Exception Runtime error
+Depuração Encontrar e corrigir erros
+Compilar Converter código em formulário executável
+Tempo de execução Quando o programa está em execução
+2. Palavras- Chave em Python
+
+Estas são palavras reservadas.
+
+Significado da Palavra- Chave
+def Definir uma função
+classe Definir uma classe
+se verificação condicional
+condição de else-if
+outra condição padrão
+para Percorrer os itens
+enquanto Repetir enquanto verdadeiro
+quebrar o ciclo de saída
+Continuar Pular ciclo de loop atual
+voltar Enviar valor de volta
+importar módulo de carga
+de Importar item específico
+como renomear importação
+Tentar Iniciar o tratamento de exceções
+Excepto erros de captura
+finalmente Sempre corre
+levantar erro do gatilho
+passar Não fazer nada
+lambda Pequena função anónima
+valor do gerador de retorno de rendimento
+com o gerenciador de contexto
+global Usar variável global
+não local Usar variável externa
+Verdadeiro Booleano verdadeiro
+Falso Booleano falso
+Nenhum valor vazio/nulo
+e Lógica E
+ou OR Lógico
+não Lógico NÃO
+no controlo da adesão
+é Comparação de Identidade
+3. Símbolos de atribuição e matemática
+Significado do Símbolo
+= Atribuir valor
++ Adicionar
+- Subtrair
+* Multiplicar
+/ Dividir
+// Divisão inteira
+% Módulo/responsável
+** Potência/exponente
++= Adicionar e atribuir
+-= Subtrair e atribuir
+*= Multiplicar e atribuir
+/= Dividir e atribuir
+
+Exemplo:
+
+x = 5
+x += 2
+
+Resultado:
+
+x = 7
+4. Operadores de comparação
+Significado do Símbolo
+==Igual a
+!= Não igual
+> Maior que
+< Menos que
+>= Maior ou Igual
+De título inferior ou igual
+
+Exemplo:
+
+se x == 5:
+5. Operadores lógicos
+Significado do Símbolo
+e ambas as condições verdadeiras
+ou Uma condição verdadeira
+não Inverter verdadeiro/falso
+
+Exemplo:
+
+se x > 1 e x < 10:
+6. Símbolos de Cordas
+Significado do Símbolo
+" Texto de texto
+Texto de texto
+"" """ Corda multi-linha
+f"" string formatado
+\n Nova linha
+Página \ t
+\\ Backslash
+\" Citação dentro da string
+
+Exemplo:
+
+nome = "David"
+print( f" Olá {nome}")
+7. Listar símbolos
+Significado do Símbolo
+[] Lista
+[0] Acesso ao índice
+.append () Adicionar item
+.remove () Remover item
+len () Contar os itens
+
+Exemplo:
+
+Números = [1, 2, 3]
+8. Símbolos do Dicionário
+Significado do Símbolo
+Dicionário {}
+: Separador de chave/valor
+
+Exemplo:
+
+pessoa = {
+"nome": "David",
+"idade": 30
+}
+9. Símbolos de Funções
+Significado do Símbolo
+def Definir função
+() Parâmetros da função/chamada
+voltar Enviar resultado voltar
+
+Exemplo:
+
+def greet ():
+print ("Olá")
+10. Símbolos de Classe
+Significado do Símbolo
+classe Criar classe
+objeto atual self
+ iniciar   Construtor
+. Atributos de acesso
+
+Exemplo:
+
+Classe Pessoa:
+
+def   init  (self):
+auto.nome = "David"
+11. Indentação
+
+Python usa espaços em vez de chaves.
+
+Exemplo:
+
+se Verdadeiro:
+print ("Olá")
+
+A indentação define blocos de código.
+
+12. Funções comuns incorporadas
+Significado da Função
+print () Mostrar o texto
+input () Obter entrada do usuário
+len () Comprimento
+type () Tipo de dados
+int () Converter para inteiro
+str () Converter para texto
+float () Converter decimal
+range () Sequência numérica
+open () Abrir arquivo
+sum () Adicionar valores
+max () Maior valor
+min () Valor mais pequeno
+13. Termos comuns do Tkinter
+
+Desde que você está estudando código GUI:
+
+Significado do Termo
+tk.Tk () Janela principal
+Container de Molduras
+Visualização do texto da etiqueta
+Botão Botão Clickable
+Caixa de texto de entrada
+Texto Texto multi- linha
+.pack () Disposição automática
+.grid () Disposição da grade
+.place () Posicionamento exato
+.get () Ler o valor do widget
+.inserir () Adicionar texto
+. delete () Remover texto
+.mainloop () Executar a GUI
+14. Tipos de erros comuns
+Significado de Erro
+SintaxeError sintaxe Python inválida
+NomeError Variável não encontrado
+TipoError Tipo de dados errado
+AtributoError Falta a propriedade do objeto
+Índice da Lista de Erros inválido
+Chave do dicionário KeyError faltando
+O módulo ImportarError falhou
+IndentaçãoErro de espaçamento ruim
+ValorError Valor inválido
+Arquivo Não EncontradoError Arquivo faltando
+15. Símbolos Especiais
+Significado do Símbolo
+Comentário
+: Iniciar bloco de código
+. Método/propriedade de acesso
+, Separador
+() Chamada de funções
+[] Lista/índice
+{} Dicionário/set
+Separador de Nomes
+ Nome   Variável de nome do programa
+ main   Ficheiro principal em execução
+
+Exemplo:
+
+se   name  == "  main  ":
+
+significa:
+
+“Apenas execute este código se este arquivo for iniciado diretamente.”
+
+16. Tipos de Ficheiros
+Significado da Extensão
+Programa Python .py
+Arquivo .pyw GUI Python
+Python compilado .pyc
+executável .exe Windows
+17. Conceitos Iniciantes Para Estudar Seguinte
+
+Uma forte ordem de aprendizagem é:
+
+Variáveis
+Tipos de dados
+Cordas
+Operadores de matemática
+Condições
+Loops
+Funções
+Listas
+Dicionários
+Classes
+Tratamento de ficheiros
+GUI Tkinter
+APIs
+Bases de dados
+Rede

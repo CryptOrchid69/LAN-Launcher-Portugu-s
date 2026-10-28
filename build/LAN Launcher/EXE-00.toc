@@ -1,0 +1,2806 @@
+('C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\dist\\LAN Launcher.exe',
+ False,
+ False,
+ False,
+ ['C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\LAN Launcher.ico'],
+ None,
+ False,
+ False,
+ b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<assembly xmlns='
+ b'"urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\n  <trustInfo x'
+ b'mlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <requested'
+ b'Privileges>\n        <requestedExecutionLevel level="asInvoker" uiAccess='
+ b'"false"/>\n      </requestedPrivileges>\n    </security>\n  </trustInfo>\n  '
+ b'<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">\n    <'
+ b'application>\n      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f'
+ b'0}"/>\n      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>\n '
+ b'     <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>\n      <s'
+ b'upportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>\n      <supporte'
+ b'dOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>\n    </application>\n  <'
+ b'/compatibility>\n  <application xmlns="urn:schemas-microsoft-com:asm.v3">'
+ b'\n    <windowsSettings>\n      <longPathAware xmlns="http://schemas.micros'
+ b'oft.com/SMI/2016/WindowsSettings">true</longPathAware>\n    </windowsSett'
+ b'ings>\n  </application>\n  <dependency>\n    <dependentAssembly>\n      <ass'
+ b'emblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version='
+ b'"6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" langua'
+ b'ge="*"/>\n    </dependentAssembly>\n  </dependency>\n</assembly>',
+ True,
+ False,
+ None,
+ None,
+ None,
+ 'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\build\\LAN Launcher\\LAN '
+ 'Launcher.pkg',
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\build\\LAN '
+   'Launcher\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\build\\LAN '
+   'Launcher\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\build\\LAN '
+   'Launcher\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\build\\LAN '
+   'Launcher\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\build\\LAN '
+   'Launcher\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\build\\LAN '
+   'Launcher\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt6',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt6.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_pywintypes',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pywintypes.py',
+   'PYSOURCE'),
+  ('pyi_rth_pythoncom',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pythoncom.py',
+   'PYSOURCE'),
+  ('LAN',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\LAN.py',
+   'PYSOURCE'),
+  ('python313.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\opengl32sw.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\opengl32sw.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('pywin32_system32\\pywintypes313.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pywin32_system32\\pywintypes313.dll',
+   'BINARY'),
+  ('pywin32_system32\\pythoncom313.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pywin32_system32\\pythoncom313.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('PyQt6\\QtWidgets.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('PyQt6\\sip.cp313-win_amd64.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\sip.cp313-win_amd64.pyd',
+   'EXTENSION'),
+  ('PyQt6\\QtGui.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\QtGui.pyd',
+   'EXTENSION'),
+  ('PyQt6\\QtCore.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\QtCore.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('win32\\win32clipboard.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\win32clipboard.pyd',
+   'EXTENSION'),
+  ('win32\\win32api.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\win32api.pyd',
+   'EXTENSION'),
+  ('pythonwin\\win32ui.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pythonwin\\win32ui.pyd',
+   'EXTENSION'),
+  ('win32\\win32event.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\win32event.pyd',
+   'EXTENSION'),
+  ('win32\\win32trace.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\win32trace.pyd',
+   'EXTENSION'),
+  ('win32\\_win32sysloader.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\_win32sysloader.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\MSVCP140.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Core.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Core.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Gui.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Gui.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Widgets.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Widgets.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Svg.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Svg.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Network.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Network.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\python3.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\MSVCP140_2.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140_2.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\ucrtbase.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\VCRUNTIME140.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\MSVCP140_1.dll',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140_1.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-kernel32-legacy-l1-1-1.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-kernel32-legacy-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-2-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-sysinfo-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-1.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-fibers-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Users\\clust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('CONFIGS\\serverDZ_ALTERIA.cfg',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\CONFIGS\\serverDZ_ALTERIA.cfg',
+   'DATA'),
+  ('CONFIGS\\serverDZ_BADLANDS.cfg',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\CONFIGS\\serverDZ_BADLANDS.cfg',
+   'DATA'),
+  ('CONFIGS\\serverDZ_BANOV.cfg',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\CONFIGS\\serverDZ_BANOV.cfg',
+   'DATA'),
+  ('CONFIGS\\serverDZ_BITTERROOT.cfg',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\CONFIGS\\serverDZ_BITTERROOT.cfg',
+   'DATA'),
+  ('CONFIGS\\serverDZ_CHERNARUS.cfg',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\CONFIGS\\serverDZ_CHERNARUS.cfg',
+   'DATA'),
+  ('CONFIGS\\serverDZ_DEERISLE.cfg',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\CONFIGS\\serverDZ_DEERISLE.cfg',
+   'DATA'),
+  ('CONFIGS\\serverDZ_ENOCH.cfg',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\CONFIGS\\serverDZ_ENOCH.cfg',
+   'DATA'),
+  ('CONFIGS\\serverDZ_NAMALSK.cfg',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\CONFIGS\\serverDZ_NAMALSK.cfg',
+   'DATA'),
+  ('CONFIGS\\serverDZ_SAKHAL.cfg',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\CONFIGS\\serverDZ_SAKHAL.cfg',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\AJUDA\\Botao AJUDA.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\AJUDA\\Botao AJUDA.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\APAGAR\\Botao APAGAR.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\APAGAR\\Botao APAGAR.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\B\\Botao B.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\B\\Botao B.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\DC\\Botao DC.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\DC\\Botao DC.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\DESINSTALAR\\Botao DESINSTALAR.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\DESINSTALAR\\Botao DESINSTALAR.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\DSC\\Botao DSC.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\DSC\\Botao DSC.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\DZ\\Botao DZ.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\DZ\\Botao DZ.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\INICIAR\\Botao INICIAR.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\INICIAR\\Botao INICIAR.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\INSTALAR\\Botao INSTALAR.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\INSTALAR\\Botao INSTALAR.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\LIMPAR\\Botao LIMPAR.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\LIMPAR\\Botao LIMPAR.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\MAPAS\\Botao MAPAS.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\MAPAS\\Botao MAPAS.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\MODS\\Botao MODS.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\MODS\\Botao MODS.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\MPMISSIONS BASE DZ\\Botao MPMISSIONS BASE DZ.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\MPMISSIONS BASE DZ\\Botao '
+   'MPMISSIONS BASE DZ.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\M\\Botao M.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\M\\Botao M.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\PARAR\\Botao PARAR.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\PARAR\\Botao PARAR.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\REINICIAR\\Botao REINICIAR.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\REINICIAR\\Botao REINICIAR.txt',
+   'DATA'),
+  ('INSTRUCOES\\BOTOES\\SALVAR\\Botao SALVAR.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\BOTOES\\SALVAR\\Botao SALVAR.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\Battleye\\Battleye.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\Battleye\\Battleye.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\Byfron\\Byfron '
+   'README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\Byfron\\Byfron README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\Denuvo\\Denuvo  Anti  '
+   'Great  README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\Denuvo\\Denuvo  Anti  Great  README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\Diretor\\Diretor '
+   'README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\Diretor\\Diretor README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\EA-Javelin\\EA Anticheat '
+   'Javelin README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\EA-Javelin\\EA Anticheat Javelin README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\EQU8\\EQU8  README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\EQU8\\EQU8  README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\FACEIT\\CARACTERÍSTICAS.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\FACEIT\\CARACTERÍSTICAS.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\Fácil Anti-Cheat\\Fácil  '
+   'Anti  Great  README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\Fácil Anti-Cheat\\Fácil  Anti  Great  '
+   'README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\Luta Justa\\Fight  '
+   'README justo.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\Luta Justa\\Fight  README justo.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\MASTER-INDEX\\MASTER '
+   'INDEX README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\MASTER-INDEX\\MASTER INDEX README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\PunkBuster\\PunkBuster  '
+   'README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\PunkBuster\\PunkBuster  README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\RICOCHET\\RICOCHET Anti '
+   'Cheat README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\RICOCHET\\RICOCHET Anti Cheat README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\Riot Vanguarda\\Riot '
+   'Vanguard README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\Riot Vanguarda\\Riot Vanguard README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\Roblox Hyperion\\Roblox '
+   'Hyperion README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\Roblox Hyperion\\Roblox Hyperion README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\Válvula\\Válvula  Anti  '
+   'Great  README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\Válvula\\Válvula  Anti  Great  README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\XIGNCODE3\\XIGNCODE3  '
+   'README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\XIGNCODE3\\XIGNCODE3  README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\nProtect-GameGuard\\nProtect GameGuard '
+   'README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\nProtect-GameGuard\\nProtect GameGuard '
+   'README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Anti-Cheats\\Ás\\ACE  Anti  Great  '
+   'README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Anti-Cheats\\Ás\\ACE  Anti  Great  README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR '
+   'TECH\\Controla o mapa para Windows\\MAPA DOS CONTROLOS PARA AS VENDAS '
+   '11.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR TECH\\Controla o mapa para '
+   'Windows\\MAPA DOS CONTROLOS PARA AS VENDAS 11.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR '
+   'TECH\\Corrigindo problemas de conexão com a Internet\\Como corrigir '
+   'problemas e problemas de conexão com a Internet.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR TECH\\Corrigindo problemas de '
+   'conexão com a Internet\\Como corrigir problemas e problemas de conexão com '
+   'a Internet.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR '
+   'TECH\\EMISSÕES & FIXES-ED PC\\ED.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR TECH\\EMISSÕES & FIXES-ED '
+   'PC\\ED.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR '
+   'TECH\\Informações de Programação\\Informações de Programação.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR TECH\\Informações de '
+   'Programação\\Informações de Programação.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR '
+   'TECH\\PALAVRAS DE VOCAB COMPUTADOR & CDM\\COMPUTADOR VOCAB PALAVRAS & CMD '
+   'ED - Copiar.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR TECH\\PALAVRAS DE VOCAB COMPUTADOR '
+   '& CDM\\COMPUTADOR VOCAB PALAVRAS & CMD ED - Copiar.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR TECH\\PC '
+   'Teclado-Como usar ED\\CHAVES DE UTILIZAÇÃO.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR TECH\\PC Teclado-Como usar '
+   'ED\\CHAVES DE UTILIZAÇÃO.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR '
+   'TECH\\Usando TMC\\USAR CMD.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\COMPUTADOR TECH\\Usando TMC\\USAR CMD.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\Desenvolvimento de AI '
+   'APP\\APP AI Python.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\Desenvolvimento de AI APP\\APP AI Python.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\Informações técnicas '
+   'dos roteadores e modems\\VIARS & MODEMS TECH INFO.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\Informações técnicas dos roteadores e '
+   'modems\\VIARS & MODEMS TECH INFO.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PITONO e PICHARMA\\APP '
+   'AI Python.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PITONO e PICHARMA\\APP AI Python.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PITONO e '
+   'PICHARMA\\Comandos de Terminal PyCharm.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PITONO e PICHARMA\\Comandos de Terminal '
+   'PyCharm.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PITONO e '
+   'PICHARMA\\Instruções do PyCharm.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PITONO e PICHARMA\\Instruções do PyCharm.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PY '
+   'ED\\EDUCAÇÃO-INSTRUCCIONAL\\Informações sobre os tipos de scripts- Edu.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PY ED\\EDUCAÇÃO-INSTRUCCIONAL\\Informações '
+   'sobre os tipos de scripts- Edu.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PY '
+   'ED\\EDUCAÇÃO-INSTRUCCIONAL\\Instruções do PyCharm.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PY ED\\EDUCAÇÃO-INSTRUCCIONAL\\Instruções do '
+   'PyCharm.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PY '
+   'ED\\EDUCAÇÃO-INSTRUCCIONAL\\Material de Python Educativo.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PY ED\\EDUCAÇÃO-INSTRUCCIONAL\\Material de '
+   'Python Educativo.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PY '
+   'ED\\EDUCAÇÃO-INSTRUCCIONAL\\Outros Comandos Terminais.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PY ED\\EDUCAÇÃO-INSTRUCCIONAL\\Outros '
+   'Comandos Terminais.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PY ED\\Instruções do '
+   'PyCharm\\Instruções do PyCharm.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PY ED\\Instruções do PyCharm\\Instruções do '
+   'PyCharm.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PY ED\\Instruções do '
+   'PyCharm\\LEIA-ME.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PY ED\\Instruções do PyCharm\\LEIA-ME.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PY ED\\Referência '
+   'Símbolos em Python\\LEIA-ME.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PY ED\\Referência Símbolos em '
+   'Python\\LEIA-ME.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PY ED\\Termos '
+   'Python\\LEIA-ME.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PY ED\\Termos Python\\LEIA-ME.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PyCharm-Como '
+   'usá-lo\\Comandos de Terminal PyCharm.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PyCharm-Como usá-lo\\Comandos de Terminal '
+   'PyCharm.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR ED\\PyCharm-Como '
+   'usá-lo\\Instruções do PyCharm.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\PyCharm-Como usá-lo\\Instruções do '
+   'PyCharm.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\COMPUTADOR '
+   'ED\\WireGuard-VPN-ED\\WireGuard ED.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\COMPUTADOR ED\\WireGuard-VPN-ED\\WireGuard ED.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Guarda de Fios\\Informação sobre '
+   'WireGuard & Proton.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Guarda de Fios\\Informação sobre WireGuard & Proton.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Guarda de Fios\\WireGuard  '
+   'Integration README.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Guarda de Fios\\WireGuard  Integration README.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Guarda de Fios\\WireGuard ED.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Guarda de Fios\\WireGuard ED.txt',
+   'DATA'),
+  ('INSTRUCOES\\CENTRAL DE CONHECIMENTO\\Sobre o Criador do LAN Launcher\\Quem '
+   'sou eu e por que criei o LAN Launcher.txt',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\INSTRUCOES\\CENTRAL DE '
+   'CONHECIMENTO\\Sobre o Criador do LAN Launcher\\Quem sou eu e por que criei '
+   'o LAN Launcher.txt',
+   'DATA'),
+  ('INSTRUCOES\\RECURSOS-FUNCOES\\Recursos e Funcoes Gerais.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\RECURSOS-FUNCOES\\Recursos e Funcoes '
+   'Gerais.txt',
+   'DATA'),
+  ('INSTRUCOES\\RECURSOS-FUNCOES\\Suporte Futuro para DLC Badlands.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\RECURSOS-FUNCOES\\Suporte Futuro para DLC '
+   'Badlands.txt',
+   'DATA'),
+  ('INSTRUCOES\\VANTAGENS\\Vantagens do LAN Launcher.txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\INSTRUCOES\\VANTAGENS\\Vantagens do LAN Launcher.txt',
+   'DATA'),
+  ('mpmissions\\areaflags.map',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\areaflags.map',
+   'DATA'),
+  ('mpmissions\\cfgEffectArea.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgEffectArea.json',
+   'DATA'),
+  ('mpmissions\\cfgZeroPointTeleport.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgZeroPointTeleport.json',
+   'DATA'),
+  ('mpmissions\\cfgeconomycore.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgeconomycore.xml',
+   'DATA'),
+  ('mpmissions\\cfgenvironment.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgenvironment.xml',
+   'DATA'),
+  ('mpmissions\\cfgeventgroups.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgeventgroups.xml',
+   'DATA'),
+  ('mpmissions\\cfgeventspawns.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgeventspawns.xml',
+   'DATA'),
+  ('mpmissions\\cfggameplay.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfggameplay.json',
+   'DATA'),
+  ('mpmissions\\cfgignorelist.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgignorelist.xml',
+   'DATA'),
+  ('mpmissions\\cfglimitsdefinition.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfglimitsdefinition.xml',
+   'DATA'),
+  ('mpmissions\\cfglimitsdefinitionuser.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfglimitsdefinitionuser.xml',
+   'DATA'),
+  ('mpmissions\\cfgplayerspawnpoints.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgplayerspawnpoints.xml',
+   'DATA'),
+  ('mpmissions\\cfgrandompresets.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgrandompresets.xml',
+   'DATA'),
+  ('mpmissions\\cfgspawnabletypes.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgspawnabletypes.xml',
+   'DATA'),
+  ('mpmissions\\cfgundergroundtriggers.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgundergroundtriggers.json',
+   'DATA'),
+  ('mpmissions\\cfgweather.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\cfgweather.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\areaflags.map',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\areaflags.map',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgEffectArea.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgEffectArea.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgZeroPointTeleport.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgZeroPointTeleport.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgeconomycore.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgeconomycore.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgenvironment.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgenvironment.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgeventgroups.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgeventgroups.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgeventspawns.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgeventspawns.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfggameplay.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfggameplay.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgignorelist.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgignorelist.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfglimitsdefinition.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfglimitsdefinition.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfglimitsdefinitionuser.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfglimitsdefinitionuser.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgplayerspawnpoints.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgplayerspawnpoints.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgrandompresets.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgrandompresets.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgspawnabletypes.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgspawnabletypes.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgundergroundtriggers.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgundergroundtriggers.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\cfgweather.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\cfgweather.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\db\\economy.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\db\\economy.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\db\\events.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\db\\events.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\db\\globals.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\db\\globals.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\db\\messages.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\db\\messages.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\db\\types.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\db\\types.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\bear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\bear_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\cattle_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\cattle_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\domestic_animals_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\domestic_animals_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\fox_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\fox_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\hare_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\hare_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\hen_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\hen_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\pig_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\pig_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\red_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\red_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\roe_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\roe_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\sheep_goat_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\sheep_goat_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\wild_boar_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\wild_boar_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\wolf_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\wolf_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\env\\zombie_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\env\\zombie_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\init.c',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\init.c',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\mapclusterproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\mapclusterproto.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\mapgroupcluster.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\mapgroupcluster.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\mapgroupcluster01.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\mapgroupcluster01.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\mapgroupcluster02.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\mapgroupcluster02.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\mapgroupcluster03.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\mapgroupcluster03.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\mapgroupcluster04.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\mapgroupcluster04.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\mapgroupcluster05.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\mapgroupcluster05.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\mapgroupdirt.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\mapgroupdirt.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\mapgrouppos.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\mapgrouppos.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\mapgroupproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\mapgroupproto.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.banov\\types_extra\\Banov.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.banov\\types_extra\\Banov.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\areaflags.map',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\areaflags.map',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfgeconomycore.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfgeconomycore.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfgeffectarea.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfgeffectarea.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfgenvironment.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfgenvironment.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfgeventgroups.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfgeventgroups.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfgeventspawns.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfgeventspawns.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfggameplay.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfggameplay.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfgignorelist.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfgignorelist.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfglimitsdefinition.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfglimitsdefinition.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfglimitsdefinitionuser.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfglimitsdefinitionuser.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfgplayerspawnpoints.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfgplayerspawnpoints.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfgrandompresets.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfgrandompresets.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfgspawnabletypes.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfgspawnabletypes.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfgundergroundtriggers.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfgundergroundtriggers.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\cfgweather.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\cfgweather.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\db\\economy.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\db\\economy.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\db\\events.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\db\\events.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\db\\globals.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\db\\globals.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\db\\messages.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\db\\messages.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\db\\types.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\db\\types.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\bear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\bear_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\cattle_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\cattle_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\domestic_animals_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\domestic_animals_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\fox_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\fox_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\hare_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\hare_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\hen_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\hen_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\pig_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\pig_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\red_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\red_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\roe_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\roe_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\sheep_goat_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\sheep_goat_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\wild_boar_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\wild_boar_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\wolf_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\wolf_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\env\\zombie_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\env\\zombie_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\init.c',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\init.c',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\mapclusterproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\mapclusterproto.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\mapgroupcluster.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\mapgroupcluster.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\mapgroupcluster01.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\mapgroupcluster01.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\mapgroupcluster02.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\mapgroupcluster02.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\mapgroupcluster03.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\mapgroupcluster03.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\mapgroupcluster04.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\mapgroupcluster04.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\mapgroupdirt.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\mapgroupdirt.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\mapgrouppos.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\mapgrouppos.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.chernarusplus\\mapgroupproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.chernarusplus\\mapgroupproto.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\C_start_DEERISLE..txt',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\C_start_DEERISLE..txt',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\CookZ\\CookZ_V002.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\CookZ\\CookZ_V002.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\areaflags.map',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\areaflags.map',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfgEffectArea.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfgEffectArea.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfgIgnoreList.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfgIgnoreList.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfgeconomycore.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfgeconomycore.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfgenvironment.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfgenvironment.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfgeventgroups.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfgeventgroups.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfgeventspawns.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfgeventspawns.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfggameplay.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfggameplay.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfglimitsdefinition.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfglimitsdefinition.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfglimitsdefinitionuser.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfglimitsdefinitionuser.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfgplayerspawnpoints.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfgplayerspawnpoints.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfgrandompresets.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfgrandompresets.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfgspawnabletypes.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfgspawnabletypes.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfgundergroundtriggers.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfgundergroundtriggers.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\cfgweather.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\cfgweather.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\db\\economy.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\db\\economy.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\db\\events.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\db\\events.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\db\\globals.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\db\\globals.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\db\\messages.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\db\\messages.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\db\\types.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\db\\types.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\arcticwolf_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\arcticwolf_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\bear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\bear_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\cattle_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\cattle_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\hen_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\hen_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\pig_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\pig_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\polarbear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\polarbear_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\red_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\red_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\roe_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\roe_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\sheep_goat_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\sheep_goat_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\wild_boar_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\wild_boar_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\wolf_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\wolf_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\env\\zombie_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\env\\zombie_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\expansion\\settings\\AILocationSettings.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\expansion\\settings\\AILocationSettings.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\expansion\\settings\\AIPatrolSettings.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\expansion\\settings\\AIPatrolSettings.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\expansion\\settings\\SafeZoneSettings.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\expansion\\settings\\SafeZoneSettings.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\init.c',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\init.c',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\mapclusterproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\mapclusterproto.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\mapgroupcluster.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\mapgroupcluster.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\mapgroupcluster01.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\mapgroupcluster01.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\mapgroupcluster02.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\mapgroupcluster02.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\mapgroupcluster03.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\mapgroupcluster03.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\mapgroupcluster04.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\mapgroupcluster04.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\mapgroupdirt.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\mapgroupdirt.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\mapgrouppos.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\mapgrouppos.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\mapgroupproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\mapgroupproto.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.deerisle\\serverDZ_DEERISLE.cfg',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.deerisle\\serverDZ_DEERISLE.cfg',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\areaflags.map',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\areaflags.map',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfgeconomycore.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfgeconomycore.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfgeffectarea.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfgeffectarea.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfgenvironment.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfgenvironment.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfgeventgroups.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfgeventgroups.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfgeventspawns.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfgeventspawns.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfggameplay.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfggameplay.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfgignorelist.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfgignorelist.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfglimitsdefinition.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfglimitsdefinition.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfglimitsdefinitionuser.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfglimitsdefinitionuser.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfgplayerspawnpoints.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfgplayerspawnpoints.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfgrandompresets.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfgrandompresets.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfgspawnabletypes.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfgspawnabletypes.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfgundergroundtriggers.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfgundergroundtriggers.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\cfgweather.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\cfgweather.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\db\\economy.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\db\\economy.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\db\\events.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\db\\events.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\db\\globals.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\db\\globals.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\db\\messages.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\db\\messages.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\db\\types.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\db\\types.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\bear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\bear_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\cattle_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\cattle_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\fox_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\fox_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\hare_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\hare_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\hen_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\hen_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\pig_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\pig_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\red_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\red_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\roe_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\roe_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\sheep_goat_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\sheep_goat_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\wild_boar_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\wild_boar_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\wildboar_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\wildboar_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\wolf_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\wolf_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\env\\zombie_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\env\\zombie_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\init.c',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\init.c',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\mapclusterproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\mapclusterproto.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\mapgroupcluster.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\mapgroupcluster.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\mapgroupcluster01.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\mapgroupcluster01.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\mapgroupcluster02.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\mapgroupcluster02.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\mapgroupcluster03.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\mapgroupcluster03.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\mapgroupcluster04.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\mapgroupcluster04.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\mapgroupcluster05.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\mapgroupcluster05.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\mapgroupdirt.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\mapgroupdirt.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\mapgrouppos.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\mapgrouppos.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.enoch\\mapgroupproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.enoch\\mapgroupproto.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\areaflags.map',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\areaflags.map',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\build.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\build.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfgeconomycore.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfgeconomycore.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfgeffectarea.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfgeffectarea.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfgenvironment.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfgenvironment.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfgeventgroups.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfgeventgroups.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfgeventspawns.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfgeventspawns.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfggameplay.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfggameplay.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfgignorelist.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfgignorelist.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfglimitsdefinition.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfglimitsdefinition.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfglimitsdefinitionuser.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfglimitsdefinitionuser.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfgplayerspawnpoints.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfgplayerspawnpoints.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfgrandompresets.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfgrandompresets.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfgspawnabletypes.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfgspawnabletypes.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfgundergroundtriggers.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfgundergroundtriggers.json',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\cfgweather.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\cfgweather.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\config.cpp',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\config.cpp',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\db\\economy.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\db\\economy.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\db\\events.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\db\\events.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\db\\globals.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\db\\globals.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\db\\types.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\db\\types.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\env\\bear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\env\\bear_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\env\\fox_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\env\\fox_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\env\\hare_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\env\\hare_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\env\\hen_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\env\\hen_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\env\\reindeer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\env\\reindeer_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\env\\sheep_goat_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\env\\sheep_goat_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\env\\wolf_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\env\\wolf_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\env\\zombie_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\env\\zombie_territories.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\init.c',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\init.c',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\mapclusterproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\mapclusterproto.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\mapgroupcluster.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\mapgroupcluster.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\mapgroupcluster01.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\mapgroupcluster01.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\mapgroupdirt.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\mapgroupdirt.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\mapgrouppos.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\mapgrouppos.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\mapgroupproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\mapgroupproto.xml',
+   'DATA'),
+  ('mpmissions\\dayzOffline.sakhal\\pra\\warheadstorage.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\dayzOffline.sakhal\\pra\\warheadstorage.json',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\areaflags.map',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\areaflags.map',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfgIgnoreList.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfgIgnoreList.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfgeconomycore.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfgeconomycore.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfgeffectarea.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfgeffectarea.json',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfgenvironment.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfgenvironment.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfgeventgroups.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfgeventgroups.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfgeventspawns.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfgeventspawns.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfggameplay.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfggameplay.json',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfglimitsdefinition.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfglimitsdefinition.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfglimitsdefinitionuser.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfglimitsdefinitionuser.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfgplayerspawnpoints.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfgplayerspawnpoints.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfgrandompresets.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfgrandompresets.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfgspawnabletypes.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfgspawnabletypes.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfgundergroundtriggers.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfgundergroundtriggers.json',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\cfgweather.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\cfgweather.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\db\\economy.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\db\\economy.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\db\\events.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\db\\events.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\db\\globals.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\db\\globals.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\db\\messages.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\db\\messages.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\db\\types.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\db\\types.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\BearBlack_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\BearBlack_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\bear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\bear_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\cattle_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\cattle_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\domestic_animals_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\domestic_animals_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\fox_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\fox_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\hare_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\hare_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\hen_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\hen_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\lion_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\lion_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\moose_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\moose_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\pig_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\pig_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\red_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\red_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\roe_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\roe_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\wolf_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\wolf_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\env\\zombie_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\env\\zombie_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\init.c',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\init.c',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\mapclusterproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\mapclusterproto.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\mapgroupcluster.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\mapgroupcluster.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\mapgroupdirt.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\mapgroupdirt.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\mapgrouppos.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\mapgrouppos.xml',
+   'DATA'),
+  ('mpmissions\\empty.Bitterroot\\mapgroupproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.Bitterroot\\mapgroupproto.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\areaflags.map',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\areaflags.map',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfgeconomycore.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfgeconomycore.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfgeffectarea.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfgeffectarea.json',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfgenvironment.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfgenvironment.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfgeventgroups.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfgeventgroups.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfgeventspawns.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfgeventspawns.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfggameplay.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfggameplay.json',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfgignorelist.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfgignorelist.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfglimitsdefinition.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfglimitsdefinition.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfglimitsdefinitionuser.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfglimitsdefinitionuser.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfgplayerspawnpoints.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfgplayerspawnpoints.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfgrandompresets.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfgrandompresets.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfgspawnabletypes.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfgspawnabletypes.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfgundergroundtriggers.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfgundergroundtriggers.json',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\cfgweather.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\cfgweather.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\db\\economy.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\db\\economy.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\db\\events.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\db\\events.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\db\\globals.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\db\\globals.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\db\\messages.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\db\\messages.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\db\\types.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\db\\types.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\bear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\bear_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\cattle_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\cattle_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\domestic_animals_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\domestic_animals_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\fox_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\fox_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\hare_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\hare_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\hen_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\hen_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\pig_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\pig_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\red_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\red_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\roe_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\roe_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\sheep_goat_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\sheep_goat_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\wild_boar_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\wild_boar_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\wolf_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\wolf_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\env\\zombie_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\env\\zombie_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\init.c',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\init.c',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\init.c.before_alteria_lightweight.bak',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\init.c.before_alteria_lightweight.bak',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\mapclusterproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\mapclusterproto.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\mapgroupcluster.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\mapgroupcluster.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\mapgroupcluster01.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\mapgroupcluster01.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\mapgroupcluster02.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\mapgroupcluster02.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\mapgroupcluster03.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\mapgroupcluster03.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\mapgroupcluster04.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\mapgroupcluster04.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\mapgroupdirt.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\mapgroupdirt.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\mapgrouppos.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\mapgrouppos.xml',
+   'DATA'),
+  ('mpmissions\\empty.alteria\\mapgroupproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.alteria\\mapgroupproto.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\Darkness.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\Darkness.json',
+   'DATA'),
+  ('mpmissions\\empty.banov\\areaflags.map',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\areaflags.map',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfgEffectArea.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfgEffectArea.json',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfgZeroPointTeleport.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfgZeroPointTeleport.json',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfgeconomycore.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfgeconomycore.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfgenvironment.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfgenvironment.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfgeventgroups.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfgeventgroups.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfgeventspawns.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfgeventspawns.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfggameplay.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfggameplay.json',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfgignorelist.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfgignorelist.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfglimitsdefinition.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfglimitsdefinition.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfglimitsdefinitionuser.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfglimitsdefinitionuser.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfgplayerspawnpoints.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfgplayerspawnpoints.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfgrandompresets.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfgrandompresets.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfgspawnabletypes.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfgspawnabletypes.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\cfgweather.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\cfgweather.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\db\\economy.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\db\\economy.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\db\\events.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\db\\events.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\db\\globals.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\db\\globals.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\db\\types.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\db\\types.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\bear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\bear_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\cattle_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\cattle_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\fox_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\fox_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\hare_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\hare_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\hen_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\hen_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\pig_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\pig_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\red_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\red_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\reindeer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\reindeer_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\roe_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\roe_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\sheep_goat_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\sheep_goat_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\wild_boar_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\wild_boar_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\wolf_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\wolf_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\env\\zombie_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\env\\zombie_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\init.c',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\init.c',
+   'DATA'),
+  ('mpmissions\\empty.banov\\mapclusterproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\mapclusterproto.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\mapgroupcluster.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\mapgroupcluster.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\mapgroupdirt.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\mapgroupdirt.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\mapgrouppos.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\mapgrouppos.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\mapgroupproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\mapgroupproto.xml',
+   'DATA'),
+  ('mpmissions\\empty.banov\\types_extra\\Banov.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banov\\types_extra\\Banov.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\Darkness.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\Darkness.json',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\areaflags.map',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\areaflags.map',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfgEffectArea.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfgEffectArea.json',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfgZeroPointTeleport.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfgZeroPointTeleport.json',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfgeconomycore.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfgeconomycore.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfgenvironment.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfgenvironment.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfgeventgroups.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfgeventgroups.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfgeventspawns.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfgeventspawns.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfggameplay.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfggameplay.json',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfgignorelist.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfgignorelist.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfglimitsdefinition.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfglimitsdefinition.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfglimitsdefinitionuser.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfglimitsdefinitionuser.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfgplayerspawnpoints.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfgplayerspawnpoints.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfgrandompresets.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfgrandompresets.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfgspawnabletypes.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfgspawnabletypes.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\cfgweather.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\cfgweather.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\db\\economy.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\db\\economy.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\db\\events.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\db\\events.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\db\\globals.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\db\\globals.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\db\\types.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\db\\types.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\bear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\bear_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\cattle_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\cattle_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\fox_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\fox_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\hare_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\hare_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\hen_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\hen_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\pig_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\pig_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\red_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\red_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\reindeer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\reindeer_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\roe_deer_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\roe_deer_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\sheep_goat_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\sheep_goat_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\wild_boar_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\wild_boar_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\wolf_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\wolf_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\env\\zombie_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\env\\zombie_territories.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\init.c',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\init.c',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\mapclusterproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\mapclusterproto.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\mapgroupcluster.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\mapgroupcluster.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\mapgroupdirt.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\mapgroupdirt.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\mapgrouppos.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\mapgrouppos.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\mapgroupproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\mapgroupproto.xml',
+   'DATA'),
+  ('mpmissions\\empty.banovfrost\\types_extra\\Banov.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\empty.banovfrost\\types_extra\\Banov.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\areaflags.map',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\areaflags.map',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\cfgeconomycore.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\cfgeconomycore.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\cfgeffectarea.json',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\cfgeffectarea.json',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\cfgenvironment.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\cfgenvironment.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\cfgeventgroups.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\cfgeventgroups.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\cfgeventspawns.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\cfgeventspawns.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\cfglimitsdefinition.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\cfglimitsdefinition.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\cfglimitsdefinitionuser.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\cfglimitsdefinitionuser.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\cfgplayerspawnpoints.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\cfgplayerspawnpoints.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\cfgrandompresets.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\cfgrandompresets.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\cfgspawnabletypes.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\cfgspawnabletypes.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\cfgweather.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\cfgweather.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\db\\economy.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\db\\economy.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\db\\events.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\db\\events.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\db\\globals.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\db\\globals.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\db\\messages.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\db\\messages.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\db\\types.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\db\\types.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\db\\types_dzn.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\db\\types_dzn.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\env\\brownbear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\env\\brownbear_territories.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\env\\domestic_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\env\\domestic_territories.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\env\\fox_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\env\\fox_territories.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\env\\hare_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\env\\hare_territories.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\env\\north_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\env\\north_territories.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\env\\polarbear_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\env\\polarbear_territories.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\env\\predator_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\env\\predator_territories.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\env\\south_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\env\\south_territories.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\env\\tara_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\env\\tara_territories.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\env\\zombie_territories.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\env\\zombie_territories.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\init.c',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\init.c',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\mapclusterproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\mapclusterproto.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\mapgroupcluster.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\mapgroupcluster.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\mapgroupdirt.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\mapgroupdirt.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\mapgrouppos.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\mapgrouppos.xml',
+   'DATA'),
+  ('mpmissions\\hardcore.namalsk\\mapgroupproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\hardcore.namalsk\\mapgroupproto.xml',
+   'DATA'),
+  ('mpmissions\\init.c',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\mpmissions\\init.c',
+   'DATA'),
+  ('mpmissions\\mapclusterproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\mapclusterproto.xml',
+   'DATA'),
+  ('mpmissions\\mapgroupcluster.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\mapgroupcluster.xml',
+   'DATA'),
+  ('mpmissions\\mapgroupcluster01.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\mapgroupcluster01.xml',
+   'DATA'),
+  ('mpmissions\\mapgroupcluster02.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\mapgroupcluster02.xml',
+   'DATA'),
+  ('mpmissions\\mapgroupcluster03.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\mapgroupcluster03.xml',
+   'DATA'),
+  ('mpmissions\\mapgroupcluster04.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\mapgroupcluster04.xml',
+   'DATA'),
+  ('mpmissions\\mapgroupcluster05.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\mapgroupcluster05.xml',
+   'DATA'),
+  ('mpmissions\\mapgroupdirt.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\mapgroupdirt.xml',
+   'DATA'),
+  ('mpmissions\\mapgrouppos.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\mapgrouppos.xml',
+   'DATA'),
+  ('mpmissions\\mapgroupproto.xml',
+   'C:\\Users\\clust\\Desktop\\LAN '
+   'Launcher-Português\\mpmissions\\mapgroupproto.xml',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ko.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_it.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_en.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_sk.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_cs.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_da.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_es.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_de.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ka.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fa.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_gd.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_he.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ko.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lv.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_de.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fa.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pl.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ko.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_fr.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_uk.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_it.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_de.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_nn.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_bg.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ka.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_nn.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_gl.qm',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gl.qm',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\clust\\Desktop\\LAN Launcher-Português\\build\\LAN '
+   'Launcher\\base_library.zip',
+   'DATA')],
+ [],
+ False,
+ False,
+ 1788466723,
+ [('runw.exe',
+   'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
+   'EXECUTABLE')],
+ 'C:\\Users\\clust\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll')

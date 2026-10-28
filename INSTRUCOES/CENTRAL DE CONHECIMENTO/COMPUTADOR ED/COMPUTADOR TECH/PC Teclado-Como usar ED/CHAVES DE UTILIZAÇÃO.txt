@@ -1,0 +1,368 @@
+﻿GUIA COMPLETA DE CHEYBOARD PC - SIMPLE STEP-by-STEP
+
+Este guia explica todas as teclas do seu teclado e como usá-las, incluindo as teclas de combinação. Vou dividi-lo em secções para que seja fácil de entender.
+=====================================================================================================================================================================
+
+SECÇÃO 1: CARTA PRINCIPAL E NÚMERO CHAVE
+Estas são as teclas básicas no meio do teclado (A-Z, 0-9).
+
+
+
+
+Chave O Que Faz
+A-Z Chaves Tipo letras do alfabeto
+0-9 Teclas Números de tipo (acima das teclas de letra)
+Barra de espaços Adicionar um espaço entre as palavras
+Como usar: Basta pressionar qualquer letra ou tecla de número para digitá-la. Pressione e segure Shift enquanto pressiona uma letra para torná-lo CAPITAL.
+
+SECÇÃO 2: CHAVES ESPECIAIS DE CARACTERIZAÇÃO
+Estas chaves fazem símbolos e caracteres especiais:
+
+
+
+
+Chave Regular com Exemplo de Mudança
+` (Backtick) ` ~ Usado na programação
+- (Minus/Dash) - (Underscore)
+= (Iguais) = + (Plus) símbolos matemáticos
+[ (Bracket) [ { (Curly brace) programming
+] (Bracket) ] } (Curly brace) programação
+\ (Backslash) \ (Pipe)
+; (Semicólon) ; : (Colon) pontuação
+Texto « (Apostrofe)» (Marca Quota)
+, (Comma), < (Menos do que) listas
+. (Período) . > (maior que) frases
+/ (Slash) / ? (Marca de pergunta) caminhos e perguntas
+SECÇÃO 3: AS CHAMAS DE MODIFICADOR (IMPORTANTE!)
+Estas chaves funcionam com outras chaves para fazer coisas especiais. Eles não fazem nada sozinhos.
+
+CTRL (Controlo)
+Localização: canto inferior esquerdo do teclado
+O que ele faz: Combina com outras teclas para atalhos
+Exemplos:
+Ctrl + C = Copiar o texto seleccionado
+Ctrl + X = Cortar o texto seleccionado (removê- lo)
+Ctrl + V = Colar (repor o que copiou)
+Ctrl + Z = Desfazer (voltar um passo)
+Ctrl + Y = Refazer (avançar um passo)
+Ctrl + A = Selecione todo o texto na página
+Ctrl + S = Salvar seu trabalho
+Ctrl + F = Procurar texto (pesquisa)
+Ctrl + H = Procurar e substituir o texto
+Ctrl + P = Imprimir
+ALT (alternado)
+Localização: Próximo à barra de espaço
+O que ele faz: Combina com outras chaves para funções especiais
+Exemplos:
+Alt + Tab = Alternar entre os programas abertos (siga Alt, pressione Tab e, em seguida, solte)
+Alt + F4 = Fechar a janela atual
+Alt + Enter = Criar programa em tela cheia (em alguns programas)
+SHIFT
+Localização: Lados esquerdo e direito (duas teclas)
+O que ele faz: Faz letras maiúsculas e muda símbolos
+Exemplos:
+Shift + A = Tipo de capital A
+Shift + 1 = Tipo ! (ponto de exclamação)
+Shift + Clique = Selecione vários itens
+Shift + teclas de seta = selecionar o texto enquanto se move
+WINDOWS KEY (também chamado de Super chave)
+Localização: Baixo esquerdo, tem logotipo do Windows
+O que ele faz: Abre menu do Windows e atalhos especiais
+Exemplos:
+Chave do Windows sozinho = Abrir o Menu Iniciar do Windows
+Windows + D = Mostrar/Esconder área de trabalho
+Windows + E = Abrir o Explorador de Ficheiros
+Windows + I = Configurações de Abertura
+Windows + V = Abrir o histórico da área de transferência
+Janelas + X = Abrir menu rápido
+Janelas + Shift + S = Tirar uma imagem
+Windows + T = Ciclo através de aplicativos de barra de tarefas
+Windows + M = Minimizar todas as janelas
+Windows + L = Bloquear o computador
+SECÇÃO 4: AS CHAVES DE ENCERRAMENTO
+Localizado na parte inferior direita da área de teclado principal.
+
+
+
+
+Chave O Que Faz
+↑ Seta para cima Mover cursor para cima uma linha
+↓ Seta para baixo Mover cursor para baixo uma linha
+← Seta esquerda Mover cursor esquerdo deixou um caractere
+→ Direita Mover cursor direito um caractere
+Combinações:
+
+Ctrl + Para cima/para baixo = Saltar para o parágrafo seguinte
+Ctrl + Esquerda/ Direita = Ir para a próxima palavra
+Shift + Setas = Selecionar texto ao mover
+Home = Ir para o início da linha
+Fim = Ir para o fim da linha
+SECÇÃO 5: AS CHAMAS DE DELETO E DE ESPAÇO
+
+
+
+Chave O Que Faz
+Backspace Apagar o carácter para a esquerda do cursor
+Apagar (Del) Apagar o carácter à direita do cursor
+Combinações:
+
+Ctrl + Backspace = Apagar a palavra inteira para a esquerda
+Ctrl + Apagar = Apagar a palavra inteira à direita
+SECÇÃO 6: AS CHAVES DE CABEÇA E DE CABEÇA
+
+
+
+Chave O Que Faz
+Page Up (PgUp) Role uma página inteira
+Page Down (PgDn) Role para baixo uma página completa
+Combinações:
+
+Shift + Page Up = Selecionar texto subindo
+Shift + Page Down = Selecionar texto indo para baixo
+SECÇÃO 7: AS CHAVES DO HOME E DO FIM
+
+
+
+Chave O Que Faz
+Home Ir para o início da linha atual
+Fim Ir para o fim da linha actual
+Combinações:
+
+Ctrl + Home = Ir para o início do documento inteiro
+Ctrl + Fim = Ir para o fim do documento inteiro
+Shift + Início = Selecione do cursor ao início da linha
+Shift + Fim = Selecione do cursor ao fim da linha
+SECÇÃO 8: AS CHAVES DE FUNÇÃO (F1-F12)
+Localizado no topo do teclado.
+
+
+
+
+Função padrão da chave nos navegadores no Office
+F1 Abrir menu Ajuda Abrir Ajuda Abrir Ajuda
+F2 Renomear arquivo Editar célula Editar no Excel
+F3 Abrir pesquisa Abrir pesquisa Encontrar texto
+F4 Alt+F4 fecha a janela Repetir a última acção Repetir a última acção
+F5 Atualizar página Atualizar slideshow Iniciar (PowerPoint)
+F6 Mover para a barra de endereços Pular entre as seções Pular entre as seções
+F7 Verificação ortográfica Verificação ortográfica Verificação ortográfica no Word
+F8 Modo de segurança (janelas mais antigas) Alternar a navegação do cuidado Expandir a seleção no Word
+F9 Atualizar (Palavra) Enviar/receber e-mail (Outlook) Enviar/receber e-mail
+F10 Activar a barra de menus Activar o menu
+F11 Enter/exit full-screen Enter/exit full-screen Enter/exit full-screen
+F12 Abrir "Salvar como" (Palavra) Abrir ferramentas de desenvolvimento Abrir "Salvar como"
+SECÇÃO 9: A KEYPAD NUMÉRICA (PAD NUMBER)
+Localizado no lado direito do seu teclado (apenas em teclados de tamanho completo).
+
+Teclas básicas do Pad Number:
+
+
+O que é isso?
+7 8 9
+O que é isso?
+4 5 6
+O que é isso?
+1 2 3
+O que é isso?
+□ 0 □ +
+O que é isso?
+Quando o Num Lock estiver ligado (luz acesa):
+
+0-9 = Números de tipo
++ = Adicionar
+- = Subtrair
+* = Multiplicar
+/ = Dividir
+. = Ponto decimal
+Quando o Num Lock estiver desligado:
+
+7 = Principal
+8 = Seta para cima
+9 = Page Up
+4 = Seta Esquerda
+5 = (não faz nada)
+6 = Seta direita
+1 = Fim
+2 = Seta para Baixo
+3 = Página para baixo
+0 = Inserir
+. = Apagar
+Como alternar o Num Lock:
+
+Pressione a tecla Num Lock (normalmente na parte superior esquerda do bloco numérico)
+Uma luz irá ligar/desligar para mostrar se estiver activa
+SECÇÃO 10: ENTER/RETURN KEY
+
+
+
+Localização da Chave O Que Faz
+Digite (ou Devolva) Lado direito do teclado principal Confirma ação ou cria nova linha
+Usos:
+
+Pressione para ir para a linha seguinte ao digitar
+Carregue para confirmar as opções nas caixas de diálogo
+Pressione para enviar formulários
+SECÇÃO 11: TAB CHAVE
+
+
+
+Chave O Que Faz
+Aba Mover para o campo seguinte (como em formulários)
+Combinações:
+
+Tab = Mover para o próximo campo
+Shift + Tab = Mover para trás para o campo anterior
+SECÇÃO 12: Chave da fechadura do CAPS
+
+
+
+Chave O Que Faz
+Caps Lock Tornar todas as letras maiúsculas (ligar/desligar)
+Como utilizar:
+
+Pressione uma vez para ligar (a luz aparece)
+Todas as cartas serão CAPITAIS
+Pressione novamente para desligar
+Números e símbolos não são afetados
+SECÇÃO 13: CHAVE DE Escape (ESC)
+
+
+
+Chave O Que Faz
+Esc Cancelar a acção actual ou fechar o menu
+Usos:
+
+Fechar janelas pop-up
+Sair do modo de ecrã completo
+Cancelar uma operação
+Sair dos menus
+SECÇÃO 14: ESCRITÓRIO E ESCREVE
+
+
+
+Chave O Que Faz
+Imprimir o Ecrã (PrtSc) Tirar uma captura de tela inteira
+Como utilizar:
+
+Imprimir tela = Copiar tela inteira para a área de transferência (você pode colá-la)
+Alt + Tela de Impressão = Copiar apenas a janela atual
+Windows + Shift + S = Open Snipping Tool (modo moderno)
+Em seguida, cole com Ctrl + V
+
+SECÇÃO 15: Chaves de fecho e de pausa
+
+
+
+Chave O Que Faz
+Deslocar o bloqueio de bloqueio (raramente usado hoje)
+Pause/Break Pause program (raramente usado)
+Nota: Estes são principalmente chaves velhas que já não fazem muito.
+
+SECÇÃO 16: INSERT KEY
+
+
+
+Chave O Que Faz
+Inserir (Ins) Alternar entre inserir e substituir o modo no texto
+Como utilizar:
+
+Nos editores de texto, alternar entre:
+Inserir modo = Digite novo texto sem excluir
+Modo de substituição = Tipo substitui o texto existente
+SECÇÃO 17: TEXTO FORMAÇÃO DE CURTAS
+Estes combinam Ctrl com teclas de letra:
+
+
+
+
+Atalho O Que Faz
+Ctrl + B Fazer texto negrito
+Ctrl + I Fazer texto em itálico
+Ctrl + U Tornar o texto sublinhado
+Ctrl + Shift + V Colar como texto simples (sem formatação)
+SECÇÃO 18: CURTAS DIVERSAS
+
+
+
+Atalho O Que Usa o Caso
+Ctrl + C Copiar Copiar texto/arquivos
+Ctrl + X Cortar Mover texto/arquivos
+Ctrl + V Colar Repor os itens copiados
+Ctrl + Z Desfazer Corrigir erros
+Ctrl + A Selecionar Todos Escolha tudo na página
+Ctrl + S Salvar Salvar seu trabalho
+Ctrl + F Procurar Procurar por texto
+Ctrl + P Imprimir Imprimir documento
+Alt + Tab Switch Programas Pular entre aplicativos abertos
+Alt + F4 Fechar janela Fechar programa atual
+Windows + D Show Desktop Minimize tudo
+Windows + E File Explorer Open file manager
+SECÇÃO 19: GUIA-CHAVE DE COMBINAÇÃO
+Veja como pressionar teclas de combinação:
+
+Mantenha pressionada a primeira tecla (como Ctrl)
+Enquanto segura, pressione a segunda tecla (como C)
+Lançar ambas as chaves
+Exemplo: Ctrl + C
+
+Manter o botão Ctrl pressionado
+Pressione C (enquanto o Ctrl ainda está em espera)
+Lançar ambos
+Para combinações triplas como Ctrl + Shift + V:
+
+Manter Ctrl
+Manter o Shift (ainda com o Ctrl)
+Pressione V
+Lançar tudo
+SECÇÃO 20: VENDAS ESPECIAIS 11/10 CURTAS
+
+
+
+Atalho O Que Faz
+Windows + V Abrir o histórico da área de transferência
+Janelas + Shift + S Tirar imagem com ferramenta de corte
+Windows + Eu Abro Configurações
+Windows + E Abrir o Explorador de Ficheiros
+Windows + D Mostrar/Esconder área de trabalho
+Windows + M Minimizar todas as janelas
+Windows + L Bloquear computador
+Windows + X Abrir menu rápido
+Windows + T Ciclo através de itens da barra de tarefas
+SECÇÃO 21: CARREIRA DE REFERÊNCIA Rápida
+Para selecionar o texto:
+
+Shift + Setas = Selecionar caractere por caractere
+Shift + Ctrl + Setas = Selecionar palavra por palavra
+Shift + Home/End = Selecione até início/fim da linha
+Shift + Page Up/Down = Selecionar página por página
+Ctrl + A = Selecionar tudo
+Para Navegar no Texto:
+
+Início = Início da linha
+Fim = Fim da linha
+Ctrl + Início = Início do documento
+Ctrl + Fim = Fim do documento
+Página para cima/para baixo = Rolar para cima/para baixo
+Ctrl + F = Procurar texto
+Para Trabalhar com Arquivos:
+
+Ctrl + S = Salvar
+Ctrl + O = Abrir
+Ctrl + N = Novo
+Ctrl + P = Imprimir
+Ctrl + W = Fechar o ficheiro actual
+SECÇÃO 22: COMO SABER SE UMA CHAVE FUNCIONOU
+O texto aparece = Chave digitada algo
+Algo mudou na tela = O comando funcionou
+Nada aconteceu = Chave pode precisar de combinação ou não se aplicar ao programa atual
+Som/Luz = Chave activada uma função do sistema
+RESUMO
+Seu teclado tem estas seções principais:
+
+Chaves de letra/número - Tipo de texto
+Teclas Especiais (Ctrl, Alt, Shift, Windows) - Combine com outras
+Chaves de Função (F1-F12) - Comandos de programa especiais
+Teclas de Setas - Mover o cursor
+Número Pad - Entrada de número rápido (lado direito)
+Teclas de Sistema - Imprimir Tela, Inserir, Apagar, etc.
+Regra de Ouro: atalhos de teclado economizam tempo. Quanto mais os praticares, mais rápido vais trabalhar!

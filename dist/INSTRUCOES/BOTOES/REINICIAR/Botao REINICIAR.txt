@@ -1,0 +1,3 @@
+﻿REINICIAR
+
+O botão REINICIAR reinicia o servidor gerenciado pelo app. Use quando precisar parar e iniciar novamente o ambiente do servidor.

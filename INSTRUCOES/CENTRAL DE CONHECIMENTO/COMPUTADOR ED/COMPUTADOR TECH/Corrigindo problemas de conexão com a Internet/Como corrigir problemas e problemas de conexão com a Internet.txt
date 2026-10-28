@@ -1,0 +1,1837 @@
+﻿GUIA DE CONEXÃO INTERNET
+Completar & abrangente
+
+
+VERSÃO: 1.0
+ÚLTIMA ATUALIZAÇÃO: Junho de 2026
+CRIADO PARA: Fácil de seguir passo a passo diagnóstico e reparação de problemas de internet
+
+
+ÍNDICE
+
+
+1. INTRODUÇÃO E COMO UTILIZAR ESTA GUIA
+2. DIAGNÓSTICO RÁPIDO: IDENTIFICAR SEU TIPO DE PROBLEMA
+3. PROBLEMAS DE BASE FOTO (ESTÃO AQUI)
+4. PROBLEMAS INTERMÉDIOS
+5. PROBLEMAS AVANCIADOS
+6. FIXAS ESPECÍFICAS DOS SERVIÇOS
+7. QUESTÕES ESPECÍFICAS DO WIFI
+8. QUESTÕES ESPECÍFICAS DA ETERNET
+9. LINHA DE COMANDO E ENSAIOS
+10. QUANDO CONTACTAR SEU ISP
+11. GLOSSÁRIO DE TERMOS
+
+SECÇÃO 1: INTRODUÇÃO E COMO UTILIZAR ESTA GUIA
+
+
+Bem-vindos! Este guia irá ajudá-lo a diagnosticar e corrigir praticamente qualquer internet
+problema de conexão que você encontra. Se você está experimentando perda completa de
+Internet, velocidades lentas, ou desconexão intermitente, você encontrará soluções aqui.
+
+COMO UTILIZAR ESTA GUIA:
+- Comece com a Seção 2 para identificar seu tipo de problema específico
+- Siga as etapas de solução de problemas em ordem (progridem do mais simples ao mais complexo)
+- Leia atentamente e siga cada passo completamente antes de passar para o próximo
+- Mantenha notas do que você tenta e os resultados
+- Se você chegar a um ponto onde você precisa contatar seu ISP, você terá útil
+informações para as fornecer
+
+NOTAS IMPORTANTES:
+- NÃO pule passos - muitos problemas são resolvidos por solução de problemas básicos
+- Alguns passos requerem um reinício - certifique-se de salvar seu trabalho primeiro
+- Quando desligar o equipamento, aguarde o tempo de preenchimento especificado
+- Se um passo não funcionar, basta passar para o próximo.
+
+
+SECÇÃO 2: DIAGNÓSTICO RÁPIDO - IDENTIFICA O SEU TIPO DE PROBLEMA
+
+
+Antes de iniciar a solução de problemas, identifique qual categoria descreve o seu problema:
+
+Tipo de problema A: PERDA COMPLETA DA INTERNET
+Sintomas:
+• Nenhum dispositivo pode se conectar à internet
+• Modem não mostra sinal de internet
+• Roteador não tem acesso à internet
+• Todas as luzes estão apagadas ou mostrando erros
+
+ACÇÃO: Vá para a SECÇÃO 3 (Solução de Problemas Básicos)
+
+
+
+PROBLEMA TIPO B: CONEXÃO INTERMITENTE
+Sintomas:
+• Internet cai aleatoriamente ao longo do dia
+• Conexão funciona às vezes, mas nem sempre
+• Desligamentos frequentes e reconexões
+• Gotas de conexão durante atividades específicas
+
+ACÇÃO: Ir para a SECÇÃO 4 (Solução de Problemas Intermediários)
+
+
+
+PROBLEMA TIPO C: LONGA VELOCIDADE INTERNET
+Sintomas:
+• Páginas carregar lentamente
+• Videos buffer frequentemente
+• Os downloads demoram mais do que o esperado
+• Velocidade é muito mais lento do que o seu plano
+
+ACÇÃO: Vá para a SECÇÃO 4 (Solução de Problemas Intermediários) + Testes de Velocidade de Execução
+
+
+
+TIPO DE PROBLEMA D: QUESTÕES ESPECÍFICAS DE DISPOSITIVOS
+Sintomas:
+• Somente certos dispositivos não podem se conectar
+• WiFi funciona em alguns dispositivos, mas não em outros
+• O dispositivo está conectado, mas não tem acesso à internet
+• Apenas aplicações específicas têm problemas
+
+ACÇÃO: Ir para a SECÇÃO 6 (Fixações específicas do dispositivo)
+
+
+
+Tipo de problema E: QUESTÕES WIFI-ONly
+Sintomas:
+• WiFi mostra como disponível, mas não se conecta
+• WiFi é muito lento em comparação com conexão com fio
+• Gotas de WiFi frequentemente
+• Não consigo encontrar sua rede
+
+ACÇÃO: Ir para a SECÇÃO 7 (Questões Específicas do Wi-Fi)
+
+
+
+Tipo de problema F: QUESTÕES ÚNICAS ETERNET
+Sintomas:
+• Conexão com fios não funcionando
+• Cabo Ethernet conectado, mas sem internet
+• Mensagem de erro "Cabo desligado"
+
+ACÇÃO: Ir para a SECÇÃO 8 (Questões Específicas da Ethernet)
+
+
+SECÇÃO 3: PROBLEMAS DE BASE
+
+
+PASSO 1: VERIFICAR AS OUTROS SERVIÇOS
+
+
+Por quê: Se o seu ISP está tendo uma falha, a solução de problemas não vai ajudar. Você
+precisa saber se o problema está no seu lado ou no deles.
+
+Como verificar:
+1. Use um smartphone com dados móveis (não WiFi)
+2. Visite o site do provedor de internet
+3. Procure por uma "Página de Estátus" ou "Mapa de Saída"
+4. Verifique se existem problemas relatados em sua área
+5. Alternativamente, visite ThousandEyes.com ou DownDetector.com
+6. Procure seu nome ISP para ver o status atual
+
+O que fazer se houver uma avaria:
+- Espera que o teu ISP resolva o problema.
+- Não há nada que possas fazer.
+- Continue verificando a página de status para atualizações
+- Nota: Você pode ter direito a créditos de serviço se as interrupções são frequentes
+
+Se nenhum dano encontrado: Continue para o passo 2
+
+
+
+PASSO 2: PODER CICLE SEU EQUIPAMENTO (O PASSO MAIS IMPORTANTE!)
+
+
+Por que: O ciclismo de energia redefine seu equipamento e muitas vezes corrige problemas de conexão
+instantaneamente. Este passo simples resolve aproximadamente 80% dos problemas de internet.
+
+Siga esta sequência exata e o timing:
+
+PASSO 2A: Desligar
+1. Desligue o cabo de alimentação do seu MODEM (o dispositivo do seu ISP)
+2. Desligue o cabo de alimentação do seu VIAR (o dispositivo WiFi)
+3. Se o seu equipamento tem baterias de backup, remova-os
+4. Espere exatamente 60 segundos (contar lentamente: 1-1000, 2-1000... a 60-1000)
+Isso permite que o equipamento para descarregar totalmente
+
+PASSO 2B: Ligue o modem primeiro
+1. Conecte o cabo de alimentação do modem de volta em
+2. Espere 2-3 minutos para o modem para iniciar completamente
+3. Olhe para as luzes no modem:
+- Luz de energia deve ser sólido verde ou branco
+- A luz da Internet deve ser sólido verde ou branco
+- Se as luzes estiverem a piscar, espere mais um minuto.
+4. Não ligue o roteador ainda
+
+PASSO 2C: Ligue o roteador
+1. Depois que o modem está totalmente pronto, ligue o roteador
+2. Espere 2-3 minutos para o roteador para iniciar completamente
+3. Olhe para as luzes no roteador:
+- Luz de energia deve ser sólida
+- A luz Wi-Fi deve ser sólida ou intermitente (isto é normal)
+- A luz de Internet/WAN deve ser sólida
+
+PASSO 2D: Teste sua conexão
+1. Tente abrir um site ou enviar um email
+2. Se a internet funcionar, você está feito! Problema resolvido!
+3. Se a internet ainda não funciona, continue a Passo 3
+
+Resultado esperado:
+Ligação à Internet restaurada e a funcionar normalmente
+
+
+
+PASSO 3: VERIFICAR AS CONNECÇÕES FÍSICAS
+
+
+Por que: Cabos soltos ou danificados são uma das causas mais comuns da internet
+Problemas. Uma simples inspeção visual pode revelar o problema.
+
+PASSO 3A: Verifique as conexões do modem
+1. Olhe para o cabo que vem da parede (o cabo coaxial grosso)
+- Esta é a ligação do seu ISP
+- Certifica-te de que está apertado à mão.
+- Procure qualquer dano visível, dobras, ou cortes
+- Limpar as extremidades do conector com um pano seco
+
+2. Verifique o cabo de alimentação
+- Certifique-se que está firmemente ligado ao modem
+- Vê se está ligado a uma tomada de trabalho.
+- Teste a saída ligando uma lâmpada para confirmar que funciona
+
+3. Verifique o cabo de modem para roteador
+- Este é um cabo de rede fina (cabo Ethernet, parece um cabo de telefone)
+- Certifique-se de que está ligado à WAN do modem ou porta de Internet
+- Certifique-se de que a outra extremidade está ligada à porta WAN ou Internet do roteador
+- A conexão deve clicar quando totalmente sentado
+
+PASSO 3B: Verifique as conexões do roteador
+1. Verifique o cabo de alimentação
+- Certifique-se que está firmemente ligado.
+- Vê se está ligado a uma tomada de trabalho.
+- Teste a saída ligando outro dispositivo
+
+2. Verifique cabos Ethernet (se você tem dispositivos com fio)
+- Certifique-se de que os cabos estão conectados em portas LAN (não WAN)
+- Certifique-se de que os cabos estão totalmente inseridos e clicados
+- Procure danos visíveis
+
+3. Procure danos no cabo em qualquer lugar
+- Verifique se há cortes, brigas ou fios expostos
+- Procure dobras ou dobras severas
+- Verifique se os cabos são presos em móveis
+- Procure sinais de mastigação (se tiver animais de estimação)
+
+PASSO 3C: Inspecionar conectores de cabos
+1. Olhe para os conectores RJ45 (as extremidades dos cabos de rede)
+- Deviam parecer limpos e ilesos.
+- Todos os 8 pinos devem ser visíveis
+- Sem pinos dobrados ou faltando
+- Sem descoloração ou corrosão
+
+2. Se você encontrar cabos danificados:
+- Substitua-os por novos cabos
+- Experimente os novos cabos antes de continuar
+- Se novos cabos resolverem o problema, está feito!
+
+Resultado esperado:
+Todas as conexões são seguras e apertadas
+Não há danos visíveis aos cabos
+Todas as luzes devem estar acesas ou piscando normalmente
+
+Se ainda não estiver funcionando: Continue para o passo 4
+
+
+
+PASSO 4: EQUIPAMENTOS DE CONTROLO
+
+
+Porquê: As luzes no seu modem e router dizem-lhe o estado do seu
+ligação. Entendê-los ajuda a diagnosticar problemas rapidamente.
+
+PASSO 4A: Indicadores de luz de modem
+
+As luzes de modem típicas incluem:
+- PODER: Deve ser sólido verde / branco
+- INTERNET/WAN: Deve ser sólido verde/branco (não vermelho ou off)
+- DOWNLOAD/UPLOAD: Maio flash (normal)
+- Wi-Fi (se incorporado): Deve estar ligado.
+
+O Que Significa Cada Estado:
+
+PODER Luz:
+⇩ Verde sólido/branco = Modem tem potência (GOOD)
+Off = Modem não alimentado, verifique o cabo de alimentação
+Vermelho = Erro, reinicie o modem
+
+INTERNET/WAN Light:
+↔ Verde/Branco Sólido = Ligado ao ISP (GOOD)
+□ Flashing = Tentando conectar, espere 2 minutos
+Vermelho = Erro de conexão, verifique o status do ISP ou reinicie
+Off = Não conectado, verifique cabos da parede
+
+DOWNLOAD/UPLOAD Lights:
+↔ Flashing = Transferência de dados (NORMAL)
+‡ Desligado quando inactivo = Normal
+□ Constantemente em = Maio indicar emissão
+
+ACÇÃO BASEADA NO ESTADO LUZ:
+
+Se a luz da Internet for vermelha ou desligada:
+1. Verifique o cabo coaxial da parede
+2. Tente reiniciar o modem (ciclo de potência)
+3. Se ainda vermelho após reiniciar, chame seu ISP
+
+Se a luz estiver desligada:
+1. Verifique conexões de cabo de alimentação
+2. Tente uma tomada diferente
+3. Tente um cabo de alimentação diferente
+4. Se ainda estiver desligado, o modem pode ser quebrado
+
+PASSO 4B: Indicadores de luz do roteador
+
+As luzes típicas do roteador incluem:
+- Deve ser sólido.
+- Deve ser sólido.
+- WiFi 2.4G: Deve ser sólido ou piscando
+- WiFi 5G: Deve ser sólido ou piscando (se disponível)
+
+O Que Significa Cada Estado:
+
+PODER Luz:
+⇩ Verde sólido/azul/branco = Roteador em (GOOD)
+Off = Router não alimentado, verifique o cabo de alimentação
+Vermelho = Erro, reinicie o roteador
+
+INTERNET/WAN Light:
+↔ Verde/azul/branco sólido = Ligado ao modem (GOOD)
+• Piscando = Conectando, espere 1 minuto
+Vermelho = Não conectado, verifique o cabo do modem
+Off = Não conectado, verificar conexões
+
+Luzes WiFi (2.4G e/ou 5G):
+文 Solid or Flashing = Wi-Fi é transmissão (GOOD)
+Off = WiFi está desativado, pode precisar ativar nas configurações
+
+ACÇÃO BASEADA NO ESTADO LUZ:
+
+Se a luz da Internet for vermelha ou desligada:
+1. Verifique o cabo Ethernet entre modem e roteador
+2. Certifique-se de que está conectado à porta WAN / Internet
+3. Tente um cabo Ethernet diferente
+4. Reinicie o roteador
+
+Se a luz estiver desligada:
+1. Verifique o cabo de alimentação
+2. Tente uma tomada diferente
+3. Tente um cabo de alimentação diferente
+
+Se as luzes WiFi estiverem desligadas:
+1. Procure um botão WiFi no roteador
+2. Pressione e segure por 3 segundos para ligar o WiFi
+3. Se nenhum botão, reinicie o roteador
+4. Se ainda estiver desligado, você pode precisar ativar o WiFi nas configurações do roteador
+
+Resultado esperado:
+⇩ Todas as luzes que apresentem estado normal (verde/azul, não vermelho)
+A luz da Internet é sólida, não piscando
+A luz de energia está acesa
+
+Se ainda não estiver funcionando: Continue para a seção 4 (Solução de problemas intermediária)
+
+
+SECÇÃO 4: PROBLEMAS INTERMÉDIOS
+
+
+PASSO 5: ENSAIO COM UMA CONEXÃO (ETERNET)
+
+
+Por que: Testando com um cabo Ethernet ajuda você a determinar se o problema é com
+o seu Wi-Fi ou com a própria ligação à Internet. Isto reduz a causa.
+
+Como testar:
+1. Obter um cabo Ethernet (o cabo de rede fina)
+2. Conecte uma extremidade em uma porta LAN em seu roteador
+- As portas LAN são geralmente numeradas 1, 2, 3, 4
+- NÃO a porta WAN/Internet (geralmente cor diferente)
+3. Conecte a outra extremidade na porta Ethernet do seu computador
+4. Espere 10 segundos para a conexão para estabelecer
+5. Tente abrir um site ou enviar um email
+
+Resultados possíveis:
+
+RESULTO A: Conexão com fio funciona bem
+→ O problema é com WiFi
+→ Ir para a SECÇÃO 7 (Questões Específicas do Wi-Fi)
+
+RESULTADO B: Conexão com fio também não funciona
+→ O problema é com sua conexão de internet
+→ Continuar ao PASSO 6
+
+RESULTADO C: A conexão com fio é muito lenta
+→ Ir para o passo 8 (teste de velocidade)
+
+
+
+PASSO 6: VERIFICAR AS VENDAS PERDIDAS OU DAMADAS (DETAILADAS)
+
+
+Por que: Mesmo que você verifique isso no Passo 3, os cabos podem ser problemáticos em sutil
+maneiras. Esta é uma inspecção mais detalhada.
+
+PASSO 6A: Cabo coaxial (da parede ao modem)
+Este é o cabo grosso, geralmente com extremidades metálicas.
+
+Inspecção detalhada:
+1. Siga o cabo da parede para o modem
+2. Procure qualquer dano ao longo de todo o comprimento:
+- Cortes ou estilhaços na cobertura exterior
+- Exposto fio de cobre dentro
+- Cracks no isolamento
+- Perfurações ou curvas afiadas
+- Sinais de pisada ou esmagada
+
+3. Verifique os conectores:
+- O conector deve roscar suavemente no modem
+- Deve sentir-se confortável e seguro (apertado à mão, não apertado demais)
+- Sem peças em falta ou dobradas no conector
+
+4. Teste a conexão:
+- Mexa suavemente o cabo enquanto observa as luzes do modem
+- Se as luzes piscarem, a ligação está solta
+- Aperte ligeiramente o conector
+
+5. Se você suspeitar de danos:
+- Tente substituir o cabo
+- Use um novo cabo coaxial do seu ISP ou uma loja de hardware
+- Teste novamente para ver se o problema está corrigido
+
+PASSO 6B: Cabos de rede (Ethernet)
+Estes são cabos finos que parecem cabos de telefone grandes.
+
+Inspecção detalhada:
+1. Verifique cada cabo Ethernet:
+- Modem para roteador
+- Roteador para computador (se com fio)
+- Quaisquer outras ligações com fios
+
+2. Para cada cabo, inspecione:
+- Todo o comprimento para cortes ou danos
+- Ambas as extremidades para pinos dobrados ou corrosão
+- Os clipes de plástico (não devem ser quebrados)
+
+3. Conexões de teste:
+- Desligar e religar cada cabo
+- Você deve ouvir um pequeno clique quando totalmente inserido
+- Se o cabo não clicar, não está totalmente sentado.
+
+4. Trocar cabos:
+- Tente um cabo Ethernet diferente na mesma conexão
+- Se o novo cabo funciona, o antigo era mau.
+- Substituir o cabo danificado
+
+PASSO 6C: Cabos de alimentação
+1. Verifique cabos de energia para danos
+2. Certifique-se de que as conexões são apertadas
+3. Saídas de teste com outro dispositivo
+4. Se uma tomada não funcionar, tente uma tomada diferente
+5. Nunca use cabos de energia danificados
+
+Resultado esperado:
+Todos os cabos estão intactos sem danos visíveis
+Todas as conexões são seguras e clicam no lugar
+⇩ Sem ligações soltas
+
+Se ainda não estiver funcionando: Continue até o passo 7
+
+
+
+PASSO 7: RESTARTE O SEU COMPUTADOR/ DISPOSITIVO
+
+
+Por que: As configurações de rede do seu computador às vezes podem ficar confusas. Reiniciar
+limpa estes problemas e atualiza a conexão.
+
+Como reiniciar:
+1. Salve todo o seu trabalho aberto
+2. Feche todas as aplicações
+3. Clique no menu Iniciar (Windows) ou menu Apple (Mac)
+4. Selecione "Reiniciar" ou "Desligar"
+5. Espere o computador para desligar completamente
+6. Espere 30 segundos
+7. Ligue o computador de volta
+8. Espere que ele carregue totalmente (você verá a tela de login)
+9. Volte a entrar
+10. Teste a conexão à internet
+
+Resultado esperado:
+O computador conecta-se à internet
+⇩ Os sites carregam normalmente
+A velocidade da Internet é normal
+
+Se ainda não estiver funcionando: Continue até o passo 8
+
+
+
+PASSO 8: Execute um teste de velocidade
+
+
+Porquê: Um teste de velocidade diz-lhe se está a receber a velocidade da Internet que está a pagar
+para. Isso ajuda a identificar se o problema é internet lenta ou outra coisa.
+
+Como executar um teste de velocidade:
+
+Método 1: Ookla Speedtest (Mais Popular)
+1. Abra o seu navegador web
+2. Vá para Speedtest.net
+3. Clique no botão grande azul "GO"
+4. Espere pelo teste para completar (cerca de 1-2 minutos)
+5. Observe para baixo estes números:
+- Velocidade de download (Mbps)
+- Velocidade de envio (Mbps)
+- Ping (ms)
+
+Método 2: Teste de Velocidade do Google
+1. Abra o Google.com
+2. Digite "teste de velocidade" na caixa de pesquisa
+3. Clique em "Execute teste de velocidade"
+4. Espere por resultados
+
+Como interpretar os resultados:
+
+VELOCIDADE DO DOWNLOAD:
+- Compare com o seu plano de internet
+- Devias ter pelo menos 80% do que pagas.
+- Exemplo: Se você pagar por 100 Mbps, você deve obter 80+ Mbps
+
+VELOCIDADE DA VIDA:
+- Normalmente muito mais baixo do que o download
+- Verifique o seu plano para ver o que você deve esperar
+
+PING (ms):
+- Deve ser inferior a 50ms para utilização normal
+- Abaixo de 20ms é excelente
+- Acima de 100ms pode causar defasagem
+
+O que os resultados significam:
+
+A velocidade corresponde ao seu plano:
+→ Você está recebendo a velocidade que você paga
+→ O problema pode ser com uma aplicação específica
+→ Continuar na SECÇÃO 6 (Questões específicas do dispositivo)
+
+A velocidade é muito inferior ao seu plano:
+→ Você está experimentando internet lenta
+→ Continue para STEP 9 (Otimizar sua conexão)
+
+A velocidade é muito baixa ou o teste não completa:
+→ Possível problema de conexão
+→ Continue para a SECÇÃO 5 (Solução de problemas avançada)
+
+
+
+PASSO 9: OTIMIZE A SUA CONEXÃO
+
+
+Por que: Sua força de sinal WiFi, colocação de roteador e interferência de outros
+todos os dispositivos podem afetar a velocidade da internet.
+
+PASSO 9A: Verifique a força do sinal WiFi
+1. Olhe para o ícone WiFi em seu dispositivo
+2. Conte as barras:
+- 4-5 barras = Excelente sinal (GOOD)
+- 3 barras = Bom sinal (ACEPTÁVEL)
+- 2 barras = Sinal fraco (POOR)
+- 1 bar = Sinal muito fraco (VERY POOR)
+
+Se o sinal estiver fraco:
+1. Mova-se mais perto do roteador
+2. Velocidade de teste novamente
+3. Se a velocidade melhora, sua colocação do roteador é o problema
+
+PASSO 9B: Melhorar o posicionamento do roteador
+Mova o seu roteador para:
+- Uma localização central em sua casa
+- Alto (não no chão)
+- Longe de paredes e objetos de metal
+- Longe do microondas ou telefone sem fio
+- Longe de grandes aparelhos
+
+Afastar- se de:
+- Objetos de metal (caixas, prateleiras de metal)
+- Microondas (eles emitem sinais de Wi-Fi)
+- Telefones sem fio e monitores de bebê
+- Paredes e portas grossas
+- Tanques de água ou aquários
+
+PASSO 9C: Reduzir a Interferência
+O WiFi opera em frequências de 2,4 GHz e 5 GHz. Outros dispositivos usam estes:
+
+Dispositivos que causam interferência de 2,4 GHz:
+- Microondas
+- Telefones sem fios.
+- Monitores de bebés
+- Dispositivos Bluetooth
+- Dispositivos sem fio antigos
+
+Como reduzir a interferência:
+1. Mova os dispositivos interferentes para longe do roteador
+2. Mudar para WiFi 5 GHz (mais rápido, menos interferência)
+3. Mude seu canal WiFi em configurações de roteador
+(Ver SECÇÃO 5 para configuração Wi-Fi avançada)
+
+PASSO 9D: Verificar a Atividade de Fundo
+Às vezes, outros dispositivos ou aplicativos usam largura de banda:
+
+No seu computador:
+1. Open Task Manager (Windows) ou Monitor de Atividades (Mac)
+2. Veja a aba Rede ou Rede
+3. Identificar aplicações usando a rede
+4. Fechar aplicações desnecessárias
+5. Executar teste de velocidade novamente
+
+Na sua rede:
+1. Verifique se outras pessoas estão transmitindo vídeo ou baixando arquivos grandes
+2. Peça-lhes para pausar suas atividades
+3. Executar teste de velocidade novamente
+
+PASSO 9E: Desativar recursos de poupança de energia
+Alguns dispositivos reduzem o desempenho WiFi para economizar energia:
+
+Para janelas:
+1. Abrir configurações
+2. Ir para rede e Internet > WiFi
+3. Clique em Gerenciar redes conhecidas
+4. Selecione sua rede WiFi
+5. Clique Propriedades
+6. Alternar "Conexão medida" OFF
+
+Para Mac:
+1. Abrir configurações do sistema
+2. Vá para WiFi
+3. Clique em Detalhes
+4. Verifique suas configurações
+
+Resultado esperado:
+Teste de velocidade mostra melhoria
+⇩ A Internet parece mais rápida
+⇩ Sem defasagem ou tamponamento
+
+Se ainda estiver lento: Continue para a SECÇÃO 5 (Solução de problemas avançada)
+
+
+SECÇÃO 5: PROBLEMAS PREVISTAS
+
+
+PASSO 10: VERIFICE SEU ENDEREÇO IP E REDES
+
+
+Por que: Seu dispositivo precisa de um endereço IP válido para se conectar à internet.
+Se o endereço IP for inválido, você não terá acesso à internet.
+
+Para as janelas:
+
+Passo 1: Abrir Prompt de Comando
+1. Clique no menu Iniciar
+2. Digite "cmd" ou "Prompt de Comando"
+3. Clique em "Comando Prompt" nos resultados
+4. Uma janela preta abrirá
+
+Passo 2: Executar o comando ipconfig
+1. Tipo: ipconfig /all
+2. Pressione Enter
+3. Procure informações sobre o seu adaptador de rede
+
+Passo 3: Verifique o seu endereço IP
+Procure por uma seção que diga "adaptador de Ethernet" ou "adaptador de LAN sem fio"
+
+Encontre estes valores:
+- Endereço IPv4: Deve parecer 192.168.X.X ou 10.X.X.X.X
+- Máscara de sub-rede: Deve ser 255.255.
+- Gateway padrão: Deve parecer 192.168.1.1 ou 100.0.0.1
+- DHCP Activado: Deve dizer "Sim"
+
+O que significam os valores:
+
+Endereço IPv4 a começar com 192.168 ou 10:
+→ Você tem um endereço IP privado válido (GOOD)
+
+O endereço IPv4 é 0.0.0.0:
+→ Seu dispositivo não obteve um endereço IP
+→ Ir para STEP 11 (Questões de Endereços IP Fix)
+
+O endereço IPv4 é 169.254.X.X:
+→ Seu dispositivo não conseguiu alcançar o servidor DHCP
+→ Ir para STEP 11 (Questões de Endereços IP Fix)
+
+Para MAC:
+
+Passo 1: Abrir Terminal
+1. Clique em Spotlight (vidro de ampliação, superior direito)
+2. Digite "Terminal"
+3. Clique em Terminal nos resultados
+
+Passo 2: Executar o comando ifconfig
+1. Tipo: ifconfig
+2. Pressione Enter
+
+Passo 3: Verifique o seu endereço IP
+Procure "inet" (não "inet6")
+
+Encontre estes valores:
+- inet: Deve parecer 192.168.X.X.X ou 10.X.X.X.X.X
+- máscara de rede: Deve mostrar 0xffff00
+- Deve parecer 192.168.X.255
+
+Endereço inet a partir de 192.168 ou 10:
+→ Você tem um endereço IP válido (GOOD)
+
+O endereço inet é 169.254.X.X.:
+→ Seu dispositivo não conseguiu alcançar o servidor DHCP
+→ Ir para o passo 11
+
+Resultado esperado:
+⇩ Você tem um endereço IP válido
+O endereço IP começa com 192.168 ou 10
+↔ DHCP está habilitado
+
+Se ainda não estiver funcionando: Continue até o passo 11
+
+
+
+PASSO 11: FIX QUESTÕES DE ENDEREÇO IP
+
+
+Por que: Se seu dispositivo tem um endereço IP inválido (0.0.0.0 ou 169.254.X.X.X), ele
+Não consigo ligar à Internet. Liberar e renovar o endereço IP muitas vezes corrige isso.
+
+Para as janelas:
+
+Passo 1: Abrir Prompt de Comando (como Administrador)
+1. Clique no menu Iniciar
+2. Digite "cmd"
+3. Botão direito do mouse "Prompt de Comando"
+4. Clique em "Execute como Administrador"
+5. Clique em "Sim" se solicitado
+
+Passo 2: Libere seu endereço IP
+1. Tipo: ipconfig / release
+2. Pressione Enter
+3. Espere pelo comando para completar
+4. Você deve ver "Endereço IP com sucesso liberado"
+
+Passo 3: Renovar seu endereço IP
+1. Tipo: ipconfig/renow
+2. Pressione Enter
+3. Espere pelo comando para completar
+4. Você deve ver "endereço IP com sucesso renovado"
+5. Observe o novo endereço IPv4 mostrado
+
+Passo 4: Verificar o Novo Endereço IP
+1. Tipo: ipconfig
+2. Pressione Enter
+3. Verifique que IPv4 Endereço não é mais 0.0.0.0 ou 169.254.X.X
+4. Deve começar com 192.168 ou 10
+
+Passo 5: Teste sua conexão
+1. Fechar o Prompt de Comando
+2. Tente abrir um site
+3. Se funcionar, você está feito!
+
+Para MAC:
+
+Passo 1: Abrir configurações do sistema
+1. Clique no menu Apple (superior à esquerda)
+2. Clique em "Configurações do sistema" ou "Preferências do sistema"
+
+Passo 2: Ir para Configurações de Rede
+1. Clique em "Rede" no menu esquerdo
+2. Selecione sua conexão (WiFi ou Ethernet)
+3. Clique em "Avançado"
+
+Passo 3: Renovar seu endereço IP
+1. Clique na guia "TCP/IP"
+2. Clique em "Renovar DHCP Lease" botão
+3. Espere até que ele complete
+4. Clique em "OK"
+
+Passo 4: Teste sua conexão
+1. Fechar configurações do sistema
+2. Tente abrir um site
+3. Se funcionar, você está feito!
+
+Resultado esperado:
+O endereço IPv4 agora é válido (192.168.X.X.X ou 10.X.X.X.X)
+⇩ Trabalhos de ligação à Internet
+⇩ Os sites carregam normalmente
+
+Se ainda não estiver funcionando: Continue até o passo 12
+
+
+
+PASSO 12: FLUSH SEU DNS CACHE
+
+
+Por que: DNS é o serviço que traduz nomes do site (google.com) em IP
+Endereços. Se o cache DNS ficar corrompido, sites não irão carregar mesmo que
+Você tem internet.
+
+Sintomas de problemas DNS:
+- Os sites não vão carregar, mas você tem internet
+- Alguns sites funcionam, outros não.
+- Você não pode acessar sites pelo nome, mas pode acessar pelo endereço IP
+- Obtendo erros de "Não é possível encontrar servidor"
+
+Para as janelas:
+
+Passo 1: Abrir Prompt de Comando (como Administrador)
+1. Clique no menu Iniciar
+2. Digite "cmd"
+3. Botão direito do mouse "Prompt de Comando"
+4. Clique em "Execute como Administrador"
+5. Clique em "Sim" se solicitado
+
+Passo 2: Flush DNS Cache
+1. Tipo: ipconfig / flushdns
+2. Pressione Enter
+3. Espere para completar
+4. Você deve ver "Sucessly flushed the DNS Resolver Cache"
+
+Passo 3: Teste sua conexão
+1. Fechar o Prompt de Comando
+2. Tente abrir um site
+3. Se os sites carregam, você está feito!
+
+Para MAC:
+
+Passo 1: Abrir Terminal
+1. Clique em Spotlight (vidro de ampliação, superior direito)
+2. Digite "Terminal"
+3. Clique em Terminal nos resultados
+
+Passo 2: Flush DNS Cache
+O comando varia de acordo com a versão do macOS:
+
+Para macOS 10.15 e mais recente:
+1. Tipo: sudo dscacheutil - flushcache
+2. Pressione Enter
+3. Digite sua senha (você não a verá como você digita)
+4. Pressione Enter
+5. Espere para completar
+
+Para macOS mais antigos:
+1. Tipo: sudo killall -HUP mDNSResponder
+2. Pressione Enter
+3. Digite sua senha
+4. Pressione Enter
+
+Passo 3: Teste sua conexão
+1. Fechar Terminal
+2. Tente abrir um site
+3. Se os sites carregam, você está feito!
+
+Resultado esperado:
+A cache do DNS está lavada
+⇩ Os sites carregam normalmente
+文 Não há mais erros de "Não foi possível encontrar o servidor"
+
+Se ainda não estiver funcionando: Continue até o passo 13
+
+
+
+PASSO 13: MUDAR O SEU SERVIÇO DE DNS
+
+Por que: Às vezes, os servidores DNS do seu ISP são lentos ou têm problemas. Utilização de um público
+O servidor DNS pode melhorar o desempenho e a confiabilidade.
+
+Servidores de DNS Públicos Populares:
+- Google DNS: 8.8.8.8 e 8.8.4.4
+- Cloudflare DNS: 1.1.1.1 e 1.0.0.1
+- Quad9 DNS: 9.9.9 e 149.112.112.112
+
+Para as janelas:
+
+Passo 1: Abrir configurações
+1. Clique no menu Iniciar
+2. Clique em "Configurações" (icon)
+3. Clique em "Rede e Internet"
+
+Passo 2: Ir para Configurações de Rede
+1. Clique em "WiFi" ou "Ethernet" (dependendo do seu tipo de conexão)
+2. Clique em "Gerenciar redes conhecidas" ou "Opções avançadas"
+3. Role para baixo e clique em "Editar" ao lado da sua rede
+4. Procure "assunção de servidor DNS"
+5. Clique em "Editar"
+
+Passo 3: Alterar o servidor DNS
+1. Selecione "Manual"
+2. Alternar "IPv4" Ligado
+3. Excluir quaisquer endereços DNS existentes
+4. Digite estes dois endereços DNS:
+- Primário: 8.8.8.8
+- Secundário: 8.8.4.4
+5. Clique em "Salvar"
+
+Passo 4: Teste sua conexão
+1. Fechar Configurações
+2. Tente abrir um site
+3. Se os sites carregam mais rápido, você está feito!
+
+Método Alternativo (via Router):
+Para uma solução mais permanente, altere o DNS nas configurações do roteador:
+
+1. Abra um navegador web
+2. Tipo: 192.168.1.1 ou 192.168.0.1
+3. Entre com seu nome de usuário/senha do roteador
+(O padrão é geralmente administrador/admin, verifique o manual do roteador)
+4. Procure "Configurações DNS" ou "Configurações DHCP"
+5. Mude os servidores DNS para 8.8.8.8 e 8.8.4.4
+6. Salvar e reiniciar o roteador
+
+Para MAC:
+
+Passo 1: Abrir configurações do sistema
+1. Clique no menu Apple
+2. Clique em "Configurações do sistema" ou "Preferências do sistema"
+3. Clique em "Rede"
+
+Passo 2: Selecione sua conexão
+1. Clique em "WiFi" ou "Ethernet" (dependendo do seu tipo de conexão)
+2. Clique em "Avançado"
+
+Passo 3: Vá para a aba DNS
+1. Clique na guia "DNS"
+2. Olhe para "DNS Servers"
+
+Passo 4: Alterar o Servidor DNS
+1. Clique no botão "+" para adicionar um novo servidor DNS
+2. Tipo: 8.8.8.8
+3. Clique no botão "+" novamente
+4. Tipo: 8.8.4.4
+5. Clique em "OK"
+6. Fechar configurações do sistema
+
+Passo 5: Teste sua conexão
+1. Tente abrir um site
+2. Se sites carregam mais rápido, você está feito!
+
+Resultado esperado:
+⇩ Os sites carregam mais rápido
+⇩ Conexões mais confiáveis
+⇩ Não há mais erros de tempo limite DNS
+
+Se ainda não estiver funcionando: Continue até o passo 14
+
+
+
+PASSO 14: Escaneamento de VÍRUS E MALWARE
+
+Por que: Malware e vírus podem consumir largura de banda, bloquear conexões, ou
+interferir com as configurações de rede.
+
+Sintomas de malware:
+- A Internet é muito lenta.
+- Não se pode conectar a certos sites
+- Actividade inesperada da rede
+- Utilização excessiva de dados
+- O computador está a funcionar lentamente em geral.
+
+Como digitalizar:
+
+Passo 1: Baixe um programa antivírus
+Opções gratuitas recomendadas:
+- Windows Defender (integrado para Windows)
+- Malwarebytes (versão gratuita)
+- Norton LifeLock (experimento gratuito)
+- Bitdefender (teste gratuito)
+
+Passo 2: Execute uma verificação completa do sistema
+Para o Windows Defender:
+1. Clique no menu Iniciar
+2. Digite "Segurança de Windows"
+3. Clique em "Segurança de Windows"
+4. Clique em "Virus & proteção de ameaça"
+5. Clique em "Opções de varredura"
+6. Selecione "Full scan"
+7. Clique em "Scan agora"
+8. Esperar que o exame termine (pode levar 1 + hora)
+
+Para Malwarebytes:
+1. Baixe a partir de Malwarebytes.com
+2. Instale o programa
+3. Abra Malwarebytes
+4. Clique em "Scan"
+5. Selecione "Full Scan"
+6. Clique em "Iniciar digitalização"
+7. Esperar que o scan termine
+
+Passo 3: Remova quaisquer ameaças encontradas
+1. Siga as instruções do programa
+2. Quarentena ou remover quaisquer ameaças detectadas
+3. Reinicie seu computador
+
+Passo 4: Teste sua conexão
+1. Tente abrir um site
+2. Execute um teste de velocidade
+3. Verifique se a velocidade da Internet melhorou
+
+Resultado esperado:
+文 Nenhum malware detectado
+A velocidade da Internet volta ao normal
+⇩ Chega de desacelerações inesperadas
+
+Se ainda não estiver funcionando: Continue até a SECÇÃO 6
+
+
+SECÇÃO 6: FIXOS ESPECÍFICOS DE DISPOSITIVOS
+
+
+PROBLEM: Apenas certos dispositivos não podem se conectar
+
+Esta seção cobre problemas onde alguns dispositivos funcionam bem, mas outros não podem
+ligar à Internet.
+
+PASSO 15: DISPOSITIVOS MÚLTIPLOS DE ENSAIO
+
+
+Primeiro, confirme que outros dispositivos podem se conectar:
+
+1. Tente conectar um computador/telefone/tablet diferente
+2. Tente conectar via WiFi e via Ethernet (se possível)
+3. Tente conectar-se a uma rede Wi-Fi diferente (se disponível)
+
+Se outros dispositivos funcionarem bem:
+→ O problema é com esse dispositivo específico, não sua internet
+→ Continuar ao PASSO 16
+
+Se todos os dispositivos tiverem o mesmo problema:
+→ O problema é com sua conexão de internet
+→ Voltar para a SECÇÃO 3 ou 4
+
+
+
+PASSO 16: ESQUECIMENTO E RECONHECIMENTO DA REDE (WIFI)
+
+
+Por que: Às vezes, um dispositivo armazena configurações de rede incorretas. Esquecer e
+religar estas configurações.
+
+Para as janelas:
+
+Passo 1: Abrir configurações
+1. Clique no menu Iniciar
+2. Clique em "Configurações" (icon)
+3. Clique em "Rede e Internet"
+4. Clique em "WiFi"
+
+Passo 2: Gerenciar redes conhecidas
+1. Role para baixo e clique em "Gerenciar redes conhecidas"
+2. Encontre sua rede WiFi na lista
+3. Clique sobre ele
+4. Clique em "Esquecer"
+
+Passo 3: Reconectar à Rede
+1. Clique no ícone WiFi na barra de tarefas
+2. Encontre sua rede na lista
+3. Clique sobre ele
+4. Clique em "Conectar"
+5. Digite sua senha WiFi
+6. Espere pela conexão
+
+Passo 4: Teste a conexão
+1. Tente abrir um site
+2. Se funcionar, você está feito!
+
+Para MAC:
+
+Passo 1: Abrir configurações do sistema
+1. Clique no menu Apple
+2. Clique em "Configurações do sistema" ou "Preferências do sistema"
+3. Clique em "Rede"
+
+Passo 2: Esqueça a rede
+1. Clique em "WiFi"
+2. Clique em "Detalhes" ou "Avançado"
+3. Procure sua rede na lista "Redes Preferidas"
+4. Clique no botão "-" ao lado dele
+5. Clique em "Remover"
+
+Passo 3: Reconectar à Rede
+1. Clique em "WiFi"
+2. Clique em "Outras Redes..." ou seu nome de rede
+3. Selecione sua rede
+4. Digite sua senha WiFi
+5. Clique em "Juntar-se"
+6. Espere pela conexão
+
+Passo 4: Teste a conexão
+1. Tente abrir um site
+2. Se funcionar, você está feito!
+
+Para os smartphones/caixas:
+
+Android:
+1. Vá para Configurações
+2. Clique em "WiFi"
+3. Long- pressione o seu nome de rede
+4. Clique em "Esquecer"
+5. Clique em sua rede novamente
+6. Digite sua senha
+7. Clique em "Conectar"
+
+iPhone/iPad:
+1. Vá para Configurações
+2. Clique em "WiFi"
+3. Clique no ícone "i" ao lado da sua rede
+4. Clique em "Esquecer esta rede"
+5. Clique em sua rede novamente
+6. Digite sua senha
+7. Clique em "Entrar"
+
+Resultado esperado:
+⇩ O dispositivo reconecta com sucesso ao WiFi
+⇩ Trabalhos de ligação à Internet
+⇩ Os sites carregam normalmente
+
+Se ainda não estiver funcionando: Continue até o passo 17
+
+
+
+PASSO 17: ATUALIZAR AS REGRAS DE REDE
+
+
+Por que: Drivers de rede ultrapassados podem causar problemas de conexão. Atualizando-os
+muitas vezes corrige problemas.
+
+Passo 1: Abrir o Gerenciador de Dispositivos
+1. Clique no menu Iniciar
+2. Digite "Device Manager"
+3. Clique em "Device Manager" nos resultados
+
+Passo 2: Encontrar adaptadores de rede
+1. Procure "adaptadores de rede" na lista
+2. Clique na seta ao lado dele para expandir
+
+Passo 3: Identifique seu adaptador de rede
+Você verá um ou mais adaptadores:
+- Adaptador Wifi ou adaptador Wireless (para WiFi)
+- "Adaptador de Ethernet" (para conexão com fio)
+- Ou uma marca específica (Intel, Realtek, Broadcom, etc.)
+
+Passo 4: Atualizar o Driver
+1. Botão direito do mouse em seu adaptador de rede
+2. Clique em "Update driver"
+3. Clique em "Procurar automaticamente para software de driver atualizado"
+4. Windows irá procurar e instalar o driver mais recente
+5. Se uma versão mais nova é encontrada, ele irá instalar automaticamente
+6. Reinicie seu computador quando solicitado
+
+Etapa 5: Alternativa - Atualização Manual
+Se a atualização automática não encontrar um driver mais novo:
+1. Botão direito do mouse em seu adaptador de rede
+2. Clique em "Propriedades"
+3. Clique em "Driver" guia
+4. Observe o "Driver Provider" (por exemplo, Intel, Realtek)
+5. Visite o site do fabricante
+6. Baixe o último driver para o seu adaptador
+7. Instale o driver
+8. Reinicie seu computador
+
+Passo 6: Teste a conexão
+1. Após reiniciar, tente se conectar à internet
+2. Se funcionar, você está feito!
+
+Resultado esperado:
+Os drivers de rede estão atualizados
+⇩ Dispositivo conectado à internet
+A ligação está estável
+
+Se ainda não estiver funcionando: Continue a PASSO 18
+
+
+
+PASSO 18: REDE DE REDE DE REDE DE VENDAS
+
+
+Porquê: O Windows tem um solucionador de problemas integrado que pode diagnosticar automaticamente
+e corrigir muitos problemas de rede.
+
+Para as janelas 10:
+
+Passo 1: Clique com o botão direito do mouse no ícone de rede
+1. Olhe para a barra de tarefas (baixo direito)
+2. Encontre o ícone de rede (parece barras ou um símbolo de WiFi)
+3. Botão direito do mouse sobre ele
+
+Passo 2: Executar o Solução de Problemas
+1. Clique em "Problemas de resolução de problemas"
+2. Windows executará automaticamente diagnósticos
+3. Espere até que ele complete
+
+Passo 3: Siga as Recomendações
+1. Se os problemas forem encontrados, o Windows irá sugerir correções
+2. Clique em "Aplicar esta correção" para aceitar recomendações
+3. Windows pode reiniciar seu adaptador de rede
+4. Você pode precisar reconectar ao WiFi
+
+Passo 4: Teste a conexão
+1. Tente abrir um site
+2. Se funcionar, você está feito!
+
+Para as janelas 11:
+
+Passo 1: Clique com o botão direito do mouse no ícone de rede
+1. Olhe para a barra de tarefas (baixo direito)
+2. Encontre o ícone de rede
+3. Botão direito do mouse sobre ele
+
+Passo 2: Executar o Solução de Problemas
+1. Clique em "Diagnosticar problema de rede"
+2. Windows executará automaticamente diagnósticos
+3. Espere até que ele complete
+
+Passo 3: Siga as Recomendações
+1. Se os problemas forem encontrados, o Windows irá sugerir correções
+2. Aceite as correções quando solicitado
+3. Você pode precisar reconectar ao WiFi
+
+Passo 4: Teste a conexão
+1. Tente abrir um site
+2. Se funcionar, você está feito!
+
+Resultado esperado:
+O solucionador de problemas de rede completa
+Os problemas são identificados e corrigidos
+⇩ Dispositivo conectado à internet
+
+Se ainda não estiver funcionando: Continue até o passo 19
+
+
+PASSO 19: CONSTITUIÇÕES DE REDE DE REDE DE REESTRUTURAÇÃO
+
+
+Por que: Uma rede de rede limpa todas as configurações de rede e as restaura para padrões.
+Esta é uma solução mais agressiva, mas muitas vezes funciona quando nada mais faz.
+
+ATENÇÃO:
+- Remova todas as redes Wi-Fi salvas e senhas
+- Reinicie as configurações do adaptador de rede
+- Remover configurações VPN
+- Terá de voltar a ligar-se ao WiFi e voltar a inserir senhas
+
+Para as janelas 10:
+
+Passo 1: Abrir configurações
+1. Clique no menu Iniciar
+2. Clique em "Configurações"
+3. Clique em "Rede e Internet"
+4. Role para baixo e clique em "Status"
+
+Passo 2: Encontrar Rede Reiniciar
+1. Role para baixo para "repor rede"
+2. Clique em "Repor rede"
+
+Passo 3: Reiniciar configurações de rede
+1. Leia o aviso
+2. Clique em "Reset Now"
+3. Windows irá reiniciar
+
+Passo 4: Depois de reiniciar
+1. Seu computador irá reiniciar
+2. Todas as configurações de rede serão redefinidas para padrão
+3. Você precisará reconectar-se ao WiFi
+
+Passo 5: Reconectar ao WiFi
+1. Clique no ícone WiFi na barra de tarefas
+2. Encontre sua rede
+3. Clique em "Conectar"
+4. Digite sua senha WiFi
+5. Clique em "Próximo"
+
+Passo 6: Teste a conexão
+1. Tente abrir um site
+2. Se funcionar, você está feito!
+
+Para as janelas 11:
+
+Passo 1: Abrir configurações
+1. Clique no menu Iniciar
+2. Clique em "Configurações"
+3. Clique em "Sistema"
+4. Role para baixo e clique em "Troubleshoot"
+5. Clique em "Outros solucionadores de problemas"
+
+Passo 2: Encontrar Rede Reiniciar
+1. Procure "reset de rede"
+2. Clique no botão "Executar" ao lado dele
+
+Passo 3: Siga os Passos
+1. Windows irá guiá-lo através do reset
+2. Clique em "Sim" para confirmar
+3. Windows irá reiniciar
+
+Passo 4-6: O mesmo que o Windows 10 acima
+
+Para MAC:
+
+Passo 1: Abrir configurações do sistema
+1. Clique no menu Apple
+2. Clique em "Configurações do sistema"
+3. Clique em "Rede"
+
+Passo 2: Remover todas as redes
+1. Clique em "WiFi"
+2. Clique em "Detalhes" ou "Avançado"
+3. Remova todas as redes da lista "Redes Preferidas"
+4. Clique em "Remover" para cada rede
+
+Passo 3: Reconectar ao WiFi
+1. Clique em "WiFi"
+2. Clique em seu nome de rede
+3. Digite sua senha
+4. Clique em "Entrar"
+
+Passo 4: Teste a conexão
+1. Tente abrir um site
+2. Se funcionar, você está feito!
+
+Resultado esperado:
+As configurações de rede são redefinidas para o padrão
+⇩ Dispositivo conectado à internet
+A ligação está estável
+
+Se Ainda Não Funcionar: Isto pode requerer ajuda profissional.
+Vá para a SECÇÃO 10 (Quando contatar seu ISP)
+
+
+SECÇÃO 7: QUESTÕES ESPECÍFICAS DO WIFI
+
+
+PROBLEMA: WiFi não se conecta ou é muito lento
+
+Use esta seção se seu problema for específico para WiFi (conexões conectadas funcionam bem).
+
+PASSO 20: A WIFI VERIFY está habilitada
+
+
+Por que: Às vezes WiFi é acidentalmente desligado. Este é o cheque mais simples.
+
+Para as janelas:
+
+Método 1: Atalho do Teclado
+1. Procure um símbolo WiFi em seu teclado
+2. Segure a tecla Fn e pressione a chave WiFi (geralmente tem um símbolo sem fio)
+3. Olhe para o ícone WiFi na barra de tarefas
+4. Deve mostrar "WiFi: On" ou similar
+
+Método 2: Configurações
+1. Clique no menu Iniciar
+2. Clique em "Configurações"
+3. Clique em "Rede e Internet"
+4. Clique em "WiFi"
+5. Alternar "WiFi" para "On"
+
+Método 3: Roteador
+1. Olhe para o seu roteador para um botão WiFi
+2. Pode ter um símbolo WiFi ou dizer "WiFi"
+3. Pressione e segure por 3 segundos
+4. As luzes Wi-Fi no roteador devem ligar
+
+Para MAC:
+
+Método 1: Barra de Menu
+1. Olhe para o canto superior direito
+2. Clique no ícone WiFi (parece um ventilador)
+3. Certifique-se "WiFi" é verificado
+4. Clique em seu nome de rede para conectar
+
+Método 2: Configurações do sistema
+1. Clique no menu Apple
+2. Clique em "Configurações do sistema"
+3. Clique em "WiFi"
+4. Alternar "WiFi" para "On"
+
+Para os smartphones/caixas:
+
+Android:
+1. Deslize para baixo do topo duas vezes para abrir configurações rápidas
+2. Toque em "WiFi" para ligá-lo
+3. Toque novamente para ver as redes disponíveis
+
+iPhone/iPad:
+1. Deslize da parte superior direita para o centro de controle aberto
+2. Toque no ícone WiFi para ligá-lo
+3. Vá para Configurações > WiFi para ver as redes disponíveis
+
+Resultado esperado:
+⇩ O WiFi está ligado
+O ícone WiFi mostra como ativo
+As redes Wi-Fi são visíveis
+
+Se ainda não estiver funcionando: Continue até o passo 21
+
+
+
+PASSO 21: Scan para redes disponíveis
+
+
+Por que: Você precisa ver sua rede WiFi na lista de redes disponíveis antes
+Podes ligar-te a ela.
+
+Para as janelas:
+
+Passo 1: Clique em WiFi Ícone
+1. Clique no ícone WiFi na barra de tarefas (baixo direito)
+2. Uma lista de redes disponíveis aparecerá
+
+Passo 2: Procure sua rede
+1. Seu nome de rede (SSID) deve aparecer na lista
+2. Pode parecer "MyNetwork" ou "NETGEAR-5G" ou similar
+3. Se você não sabe seu nome de rede, verifique seu roteador
+
+O que procurar:
+文 Seu nome de rede aparece na lista
+A resistência do sinal mostra pelo menos 2-3 barras
+文 Rede mostra como "Secured" (icon bloqueado)
+
+Se a sua rede não aparecer:
+- Verifique se o seu router está ligado (verifique luz de alimentação)
+- Verifique se o WiFi está habilitado no roteador
+- Aproxima-te do router.
+- Espera 30 segundos e atualiza a lista.
+- Reiniciar o router
+
+Para MAC:
+
+Passo 1: Clique em WiFi Ícone
+1. Clique no ícone WiFi (parece um ventilador) no canto superior direito
+2. Aparecerá um menu suspenso
+3. Sua rede deve ser listada
+
+Passo 2: Procure sua rede
+1. Seu nome de rede deve aparecer na lista
+2. Pode ter uma marca de verificação se você já está conectado
+3. A força do sinal mostra como pontos ou barras
+
+Se a sua rede não aparecer:
+- Verifique se o seu router está ligado
+- Verifique se o WiFi está habilitado no roteador
+- Aproxima-te do router.
+- Espere 30 segundos e tente novamente.
+- Reiniciar o router
+
+Para os smartphones/caixas:
+
+Android:
+1. Vá para Configurações
+2. Clique em "WiFi"
+3. Espere a lista de redes aparecer
+4. Sua rede deve estar na lista
+
+iPhone/iPad:
+1. Vá para Configurações
+2. Clique em "WiFi"
+3. Espere que as redes apareçam
+4. Sua rede deve estar na lista
+
+Se a sua rede não aparecer:
+- Verifique se o router está ligado
+- Aproxima-te do router.
+- Reiniciar o router
+
+Resultado esperado:
+⇩ Seu nome de rede aparece na lista de redes disponíveis
+A resistência do sinal é de pelo menos 2-3 barras
+A rede está marcada como "Segurada"
+
+Se ainda não estiver funcionando: Continue até o passo 22
+
+
+
+PASSO 22: CONCEITO À REDE WIFI
+
+
+Por que: Conectar requer inserir sua senha WiFi. Certifique-se de que tem o
+senha correcta.
+
+ENCONTRAR A SUA PASSAGEM WIFI:
+
+Se você não sabe sua senha WiFi:
+1. Verifique seu roteador - senha pode estar em um adesivo
+2. Verifique a sua conta ISP ou carta de boas-vindas
+3. Verifique o manual do seu roteador
+4. Entre nas configurações do roteador (ver PASSO 23)
+5. Procure nas configurações de WiFi para a senha
+
+Para as janelas:
+
+Passo 1: Clique em WiFi Ícone
+1. Clique no ícone WiFi na barra de tarefas
+2. Encontre seu nome de rede na lista
+
+Passo 2: Clique em sua rede
+1. Clique em seu nome de rede
+2. Marque a caixa "Conectar automaticamente" (opcional)
+3. Clique em "Conectar"
+
+Passo 3: Digite a senha
+1. Uma caixa de diálogo aparecerá pedindo senha
+2. Digite sua senha WiFi com cuidado
+3. Certifique-se de CAPS LOCK não está ligado (a menos que sua senha tem capitais)
+4. Clique em "Próximo" ou "Conectar"
+
+Passo 4: Aguarde a conexão
+1. O ícone da conexão mudará
+2. Após alguns segundos, deve dizer "Conectado"
+3. Uma vez conectado, você pode abrir sites
+
+Para MAC:
+
+Passo 1: Clique em WiFi Ícone
+1. Clique no ícone WiFi (símbolo do ventilador) no canto superior direito
+2. Sua rede deve aparecer no dropdown
+
+Passo 2: Selecione sua rede
+1. Clique em seu nome de rede
+2. Irá aparecer uma janela de senha
+
+Passo 3: Digite a senha
+1. Digite sua senha WiFi com cuidado
+2. Certifique-se de CAPS LOCK está correto
+3. Clique em "Entrar"
+
+Passo 4: Aguarde a conexão
+1. O ícone WiFi irá preencher
+2. Você deve ver "WiFi: Conectado" quando você paira sobre ele
+3. Uma vez conectado, você pode abrir sites
+
+Para os smartphones/caixas:
+
+Android:
+Passo 1: Abrir configurações de WiFi
+1. Vá para Configurações
+2. Clique em "WiFi"
+3. Encontre sua rede na lista
+
+Passo 2: Conecte-se à rede
+1. Toque em seu nome de rede
+2. Digite sua senha WiFi
+3. Toque em "Conectar"
+4. Aguarde confirmação da conexão
+
+iPhone/iPad:
+Passo 1: Abrir configurações de WiFi
+1. Vá para Configurações
+2. Clique em "WiFi"
+3. Encontre sua rede na lista
+
+Passo 2: Conecte-se à rede
+1. Toque em seu nome de rede
+2. Digite sua senha WiFi
+3. Toque em "Juntar"
+4. Espere para que o checkmark apareça ao lado do nome da rede
+
+ERRORES DE PASSAGEIROS:
+
+Se você obtiver erro de "password incorreto":
+1. Verifique novamente sua senha (sensível ao caso)
+2. Certifique-se de CAPS LOCK está desligado (a menos que a senha tem capitais)
+3. Procure a senha no seu roteador
+4. Tente a senha padrão se você a alterou
+5. Reinicie o roteador e tente senha padrão
+
+Se você esqueceu sua senha:
+1. Acesse as configurações do roteador (ver PASSO 23)
+2. Olhe nas configurações de WiFi
+3. Ou redefinir o roteador para padrões de fábrica
+4. Em seguida, configure uma nova senha WiFi
+
+Resultado esperado:
+O dispositivo conecta-se com sucesso ao WiFi
+O ícone WiFi mostra como conectado
+⇩ Você pode abrir sites
+
+Se ainda não estiver funcionando: Continue até o passo 23
+
+
+
+PASSO 23: ACESSO A SUAS CONSTITUIÇÕES DE VIADORES
+
+
+Por que: As configurações do roteador permitem solucionar problemas de WiFi, alterar o WiFi
+canal, atualizar firmware e visualizar dispositivos conectados.
+
+ENCONTRAR O ENDEREÇO IP DO SEU VIAR:
+
+Endereços IP do router comum:
+- 192.168.1.1 (mais frequentes)
+- 192.168.0.1
+- 10.0.0.1
+- Verifique o manual do roteador ou a parte inferior do roteador
+
+ENCONTRAR A SUA LOGINA VIAR:
+
+Informação de login padrão:
+- Nome de usuário: admin
+- Senha: administrador ou senha
+- Verifique o manual do router ou o autocolante no roteador
+
+Para as janelas:
+
+Passo 1: Abrir navegador web
+1. Abra o Internet Explorer, Chrome, Firefox, ou Edge
+2. Certifique-se de que você está conectado ao seu WiFi
+
+Passo 2: Vá para o endereço do roteador
+1. Clique na barra de endereços
+2. Tipo: 192.168.1.1
+3. Pressione Enter
+4. Se isso não funcionar, tente 192.168.0.1
+
+Passo 3: Login
+1. Digite seu nome de usuário (geralmente "admin")
+2. Digite sua senha
+3. Clique em "Login" ou "Enviar"
+
+Passo 4: Explore as configurações do roteador
+Uma vez conectado, você pode:
+- Ver dispositivos conectados
+- Mudar senha WiFi
+- Mudar o canal WiFi
+- Actualizar o firmware do router
+- Reiniciar o router
+- Ver o estado da ligação à Internet
+
+Para MAC:
+
+Os mesmos passos do Windows - use Safari, Chrome ou Firefox
+
+Para os smartphones/caixas:
+
+Passo 1: Abrir o Navegador
+1. Safari aberto (iPhone/iPad) ou Chrome (Android)
+2. Certifique-se de que você está conectado ao seu WiFi
+
+Passo 2: Vá para o endereço do roteador
+1. Digite na barra de endereço: 192.168.1.1
+2. Toque em "Ir"
+
+Passo 3: Login
+1. Digite nome de usuário e senha
+2. Toque em "Login"
+
+Passo 4: Configurações da visualização
+Agora você pode ver suas configurações de roteador
+
+Resultado esperado:
+↔ Foi um sucesso o acesso ao roteador
+文 Consegue ver o estado e as configurações do roteador
+⇩ Pode acessar a configuração WiFi
+
+Se ainda não estiver funcionando: Continue até o passo 24
+
+
+
+PASSO 24: ALTERAÇÃO DO CANAL WIFI
+
+
+Porquê: Os canais WiFi podem ter interferências de redes vizinhas. Mudar
+para um canal menos congestionado pode melhorar o desempenho.
+
+COMPREENDENDO CANAIS WIFI:
+
+WiFi 2.4 GHz (mais comum):
+- Canais: 1, 6, 11
+- Muitos dispositivos usam esta frequência
+- Mais interferência possível
+
+WiFi 5 GHz (mais rápido, menos congestionamento):
+- Muitos mais canais disponíveis
+- Menos interferência
+- Alcance mais curto que 2,4 GHz
+
+CANAIS RECOMENDADOS:
+- 2,4 GHz: Canal 1, 6 ou 11
+- 5 GHz: Canal 36, 40, 44, 48, ou superior (depende da sua localização)
+
+Como mudar de canal:
+
+Passo 1: Entrar no Roteador
+1. Abra o navegador web
+2. Vá para 192.168.1.1 (ou seu IP do roteador)
+3. Login com admin / senha
+
+Passo 2: Encontre configurações de WiFi
+1. Procure por configurações "Wireless" ou "WiFi"
+2. Procure "2.4 GHz" ou "5 GHz" seção
+3. Encontrar "Channel" configuração
+
+Passo 3: Selecione Novo Canal
+Para 2,4 GHz:
+1. Tente o Canal 1, 6 ou 11
+2. Evite canais 2-5, 7-10, 12-13 (sobreposição)
+
+Para 5 GHz:
+1. Tente Canal 36, 40, 44, ou 48
+2. Ou deixe o roteador selecionar automaticamente
+
+Passo 4: Salvar mudanças
+1. Clique em "Salvar" ou "Aplicar"
+2. O roteador pode reiniciar
+3. Espere 1-2 minutos para que as mudanças façam efeito
+
+Passo 5: Reconectar dispositivos
+1. Seus dispositivos podem desconectar temporariamente
+2. Reconectar ao WiFi
+3. Espere a conexão para estabilizar
+
+Passo 6: Velocidade de teste
+1. Espere 2 minutos após a mudança
+2. Execute um teste de velocidade
+3. Se mais rápido, manter o novo canal
+4. Se mais lento, tente um canal diferente
+
+Resultado esperado:
+O canal WiFi foi alterado com sucesso
+A velocidade da Internet pode melhorar
+Menos interferência e interferência de redes vizinhas
+
+Se ainda não estiver funcionando: Continue até o passo 25
+
+
+
+PASSO 25: RESTART VIAR DAS CONSTITUIÇÕES
+
+
+Por que: Reiniciar o roteador das configurações é mais controlado do que desconectá-lo.
+
+Como reiniciar a partir das configurações do roteador:
+
+Passo 1: Entrar no Roteador
+1. Abra o navegador web
+2. Vá para 192.168.1.1 (ou seu IP do roteador)
+3. Login com admin / senha
+
+Passo 2: Procurar a Opção de Reiniciar
+1. Procure "Ferramentas de Sistema" ou "Administração"
+2. Procure o botão "Reiniciar" ou "Reiniciar"
+3. Clique no botão
+
+Passo 3: Confirmar Reiniciar
+1. Um diálogo pode pedir confirmação
+2. Clique em "Sim" ou "Confirmar"
+3. O roteador irá reiniciar
+
+Passo 4: Espere por Reiniciar
+1. As luzes do roteador apagarão brevemente
+2. Espere 2-3 minutos para reiniciar completamente
+3. Todas as luzes devem voltar acesas
+
+Passo 5: Reconectar dispositivos
+1. Os dispositivos podem desconectar temporariamente
+2. Reconectar ao WiFi
+3. Espere a conexão para estabilizar
+
+Resultado esperado:
+O roteador reinicia com sucesso
+A conexão à Internet é restaurada
+Todos os dispositivos reconectam-se ao WiFi
+
+Se ainda não estiver funcionando: Continue até o passo 26
+
+
+
+PASSO 26: ATUALIZAÇÃO DO VIAR
+
+
+Porquê: Atualizações de firmware do roteador corrigir erros e melhorar o desempenho. Outdated
+firmware pode causar problemas de WiFi.
+
+Como atualizar:
+
+Passo 1: Entrar no Roteador
+1. Abra o navegador web
+2. Vá para 192.168.1.1 (ou seu IP do roteador)
+3. Login com admin / senha
+
+Passo 2: Encontrar atualização de Firmware
+1. Procure "Administração" ou "Ferramentas de Sistema"
+2. Procure por "Atualização de Firmware" ou "Atualização de Software"
+3. Clique na opção
+
+Passo 3: Verificar as Atualizações
+1. Roteador irá verificar para atualizações disponíveis
+2. Se a atualização estiver disponível, clique em "Download" ou "Atualizar"
+3. Espere para o download para completar
+
+Passo 4: Instalar a Atualização
+1. Router irá instalar automaticamente a atualização
+2. Isto pode levar 5-10 minutos
+3. NÃO desligue o roteador durante a atualização
+4. Roteador irá reiniciar automaticamente
+
+Passo 5: Espere por Reiniciar
+1. Router irá reiniciar após a atualização
+2. Todas as luzes desligarão brevemente
+3. Espere 2-3 minutos para reiniciar completamente
+
+Passo 6: Testar a Ligação
+1. Reconectar dispositivos para WiFi
+2. Velocidade de teste da Internet
+3. Verifique se os problemas são resolvidos
+
+Resultado esperado:
+O firmware do roteador está actualizado
+O desempenho do WiFi pode melhorar
+文 Correcções de erros aplicadas
+
+Se ainda não estiver funcionando: Continue até a SECÇÃO 8
+
+
+SECÇÃO 8: QUESTÕES ESPECÍFICAS ETERNET
+
+
+PROBLEM: Conexão Ethernet com fio não funcionando
+
+Use esta seção se seu WiFi funcionar, mas sua conexão com fio não funcionar.
+
+PASSO 27: VERIFICAÇÃO DA CONEXÃO DA CABELA ETERNET
+
+
+Por que: A causa mais comum de problemas Ethernet é solto ou incorreto
+ligações.
+
+Passo 1: Verificar conexões de cabo
+1. Localize o cabo Ethernet em seu dispositivo
+2. Verifique se está conectado à porta Ethernet (não USB)
+3. Verifique a outra extremidade é conectado em uma porta LAN no roteador
+4. Certifique-se de que não está ligado à porta WAN/Internet
+
+Passo 2: Verifique o cabo é seguro
+1. Ouça um som de "clique" ao inserir o cabo
+2. Puxe suavemente no cabo para ter certeza de que é seguro
+3. Procure o clipe do conector - ele deve estar no lugar
+
+Passo 3: Verificar a Porta do Roteador
+1. Certifique-se de que você está usando uma porta LAN, não WAN
+2. As portas da LAN são geralmente numeradas 1, 2, 3, 4
+3. WAN porta é geralmente uma cor diferente ou rotulado de forma diferente
+4. Tente uma porta LAN diferente se o primeiro não funcionar
+
+Passo 4: Verificar a Luz da Ligação
+1. Olhe para a porta Ethernet em seu dispositivo
+2. Deve haver uma pequena luz ao lado do porto
+3. Luz verde = conexão estabelecida (GOOD)
+4. Nenhuma luz = nenhuma conexão (verifique o cabo)
+5. Luz laranja / âmbar = ligação, mas velocidade mais lenta
+
+Resultado esperado:
+O cabo Ethernet é conectado com segurança
+O cabo está na porta correta (LAN, não WAN)
+文 Link luz é verde
+
+Se ainda não estiver funcionando: Continue até o passo 28
+
+
+PASSO 28: INSPECTAR A CABELA ETERNET POR DANOS

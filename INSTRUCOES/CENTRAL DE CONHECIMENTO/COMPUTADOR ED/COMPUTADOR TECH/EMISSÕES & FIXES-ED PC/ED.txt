@@ -1,0 +1,1654 @@
+﻿GUIA COMPLETA DO BEGINNER PARA FIXAR PROBLEMAS DO PC
+VERSÃO ULTRA-DETALHADA PARA OS INÍCIOS ABSOLUTOS
+ANTES DE COMEÇAR: APRENDER AS BASIAS
+Compreender sua tela de computador
+Quando você ligar seu computador, você verá uma tela que se parece com uma área de trabalho. Isto chama-se DESKTOP.
+
+O BARRO DE Tarefas (Botão de tela)
+No fundo da tela, você verá uma barra horizontal. Isto chama-se barra de tarefas.
+
+No Windows 11:
+
+A barra de tarefas está na parte inferior
+No meio da barra de tarefas, você verá um logotipo do Windows (parece quatro quadrados)
+Este é o BUTTON START
+À direita do botão Iniciar, você pode ver ícones para programas (como um navegador web)
+Na extrema direita, você verá a hora e a data
+No Windows 10:
+
+A barra de tarefas está na parte inferior
+No lado esquerdo da barra de tarefas, você verá um logotipo do Windows (quatro quadrados)
+Este é o BUTTON START
+Ao lado dele está um ícone de busca (parece uma lupa)
+O resto da barra de tarefas mostra os ícones do programa
+Na extrema direita, você verá a hora e a data
+O botão de arranque, onde está?
+Para Windows 11:
+
+Olhe para o fundo do seu ecrã
+Olhe no meio da barra inferior
+Você verá um logotipo do Windows (4 quadrados dispostos em uma grade 2x2)
+Este é o BUTTON START
+Para clicar nele, mova o cursor do mouse para ele e clique no botão esquerdo do mouse uma vez
+Para Windows 10:
+
+Olhe para o canto inferior esquerdo do seu ecrã
+Você verá um logotipo do Windows (4 quadrados)
+Este é o BUTTON START
+Para clicar nele, mova o mouse para ele e clique no botão esquerdo do mouse uma vez
+O que acontece quando se bate o botão de arranque?
+Quando você clicar no botão Iniciar, um menu aparecerá mostrando:
+
+Uma caixa de pesquisa no topo
+Vários ícones e programas de aplicativos
+Um botão de energia na parte inferior (para desligar/ reiniciar)
+Usando o bigode
+O mouse é o dispositivo na sua mão que você usa para controlar o cursor (seta) na tela.
+
+Movendo o mouse: Mova o mouse em sua mesa para mover a seta na tela
+Botão esquerdo: Pressione o botão esquerdo do mouse uma vez
+Botão direito: Pressione o botão direito do mouse uma vez
+Clique duas vezes: Pressione o botão esquerdo duas vezes rapidamente
+UTILIZANDO O CHAVE
+O teclado é o dispositivo com letras e números que você usa para digitar.
+
+Pressionando uma tecla: Empurre para baixo uma tecla e solte-a
+Segurando uma chave: Empurre para baixo uma chave e mantenha-a segura enquanto faz outra coisa
+Tipo: Pressione as teclas uma de cada vez para inserir o texto
+SECÇÃO 1: PROBLEMAS DE CONEXÃO INTERNET & REDE
+Problema #1: Nenhuma conexão à Internet (O computador diz "Sem Internet")
+O que isso significa: Seu computador está conectado a Wi-Fi ou ethernet, mas não pode acessar a internet.
+
+Fixação rápida # 1: Verifique se o Wi-Fi está ligado
+Passo 1: Olhe para a tela
+
+Olhe para o canto muito inferior direito do seu ecrã
+Você verá vários ícones pequenos (isso é chamado de bandeja do sistema)
+Um destes ícones deve parecer barras de sinal Wi-Fi (parece linhas curvas) ou um ícone de cabo de rede
+Passo 2: Clique no ícone de rede
+
+Mova o cursor do mouse para o ícone Wi-Fi ou rede
+Clique nele uma vez com o botão esquerdo do mouse
+Um menu pequeno aparecerá mostrando redes disponíveis
+Passo 3: Verifique se o Wi-Fi está ligado
+
+Neste menu, você deve ver seu nome de rede listado
+Abaixo do nome da rede, deve dizer "Conectado"
+Se diz outra coisa, ou se você não vê sua rede, continue para o próximo passo
+Passo 4: Ligue o Wi-Fi se estiver desligado
+
+No menu de rede, procure uma opção Wi-Fi (um botão que pode estar ligado ou desligado)
+Se estiver OFF (aparece cinza), clique uma vez para ligá-lo
+Espere alguns segundos.
+Passo 5: Conecte-se à sua rede
+
+Veja a lista de redes disponíveis
+Encontre o seu nome de rede (geralmente algo como "Linksys" ou o nome do seu provedor de internet)
+Clique nele
+Uma caixa aparecerá pedindo sua senha Wi-Fi
+Digite sua senha exatamente (tenha cuidado com letras maiúsculas e minúsculas)
+Clique no botão "Conectar"
+Espere 10-20 segundos.
+Tente usar a internet (abra um navegador e vá para um site)
+Fixação rápida #2: Verificar o modo do avião
+Modo de avião é uma configuração que desliga todas as conexões sem fio. Se estiver ligado, não podes usar o Wi-Fi.
+
+Passo 1: Abrir configurações
+
+Olhe para o centro inferior esquerdo ou inferior do seu ecrã
+Encontrar o logotipo do Windows (4 quadrados) - este é o START BUTTON
+Clique nele uma vez com o botão esquerdo do mouse
+Um menu aparecerá
+Passo 2: Clique em Configurações
+
+No menu que apareceu, procure um ícone de engrenagem ()
+Esta é a aplicação Configuração
+Clique nele uma vez com o botão esquerdo do mouse
+Uma nova janela será aberta
+Passo 3: Encontrar rede e Internet
+
+Na janela Configurações, olhe para o lado esquerdo
+Você verá uma lista de opções
+Encontrar e clicar em "Rede e Internet"
+O lado direito da janela irá mudar para mostrar as opções de rede
+Passo 4: Verificar o modo de avião
+
+No lado direito, procure "Modo de avião"
+Você verá um botão de comutação (parece um interruptor que pode ser ligado ou desligado)
+Se mostrar ON (o interruptor é azul ou realçado), clique nele para desligá-lo
+Espere alguns segundos.
+Verifique se você pode agora acessar a internet
+QUICK FIX # 3: Reinicie seu modem e roteador
+Seu modem = O dispositivo fornecido pela sua empresa de internet. Normalmente tem luzes piscando e senta-se em um armário ou em uma prateleira.
+
+Seu roteador = O dispositivo que envia sinal Wi-Fi. Às vezes é construído no modem, às vezes é separado.
+
+Importante: Isto irá desconectar temporariamente todos usando o Wi-Fi. Certifique-se de dizer a outras pessoas em sua casa.
+
+Passo 1: Encontre seu modem e roteador
+
+Olhe em volta de sua casa para o(s) dispositivo(s) com luzes piscando
+O modem geralmente tem um cabo de internet conectado a ele
+O roteador (se separado) geralmente tem antenas
+Passo 2: Desligue o modem
+
+Encontrar o cabo de alimentação ligado ao modem
+Siga-o até à tomada de energia (a tomada de parede)
+Puxe suavemente a ficha de alimentação da tomada de parede
+As luzes no modem vão parar de piscar e desligar
+Passo 3: Espere 30 segundos
+
+Conte devagar, um mil, dois mil, trinta mil.
+Isto dá ao modem tempo para desligar completamente
+Passo 4: Conecte o modem de volta em
+
+Empurre o plugue de energia de volta para a tomada de parede
+As luzes no modem começarão a piscar novamente
+Aguarde 2-3 minutos para todas as luzes pararem de piscar (isto significa que o modem está totalmente reiniciado)
+Passo 5: Desligue o roteador (se tiver um separado)
+
+Se você tiver um roteador separado (um dispositivo diferente com antenas), encontre seu cabo de alimentação
+Puxe suavemente a ficha de alimentação da tomada de parede
+As luzes apagarão
+Passo 6: Espere 30 segundos
+
+Contar lentamente novamente: um-um-milhares, dois-um-milhares... trinta-um-milhares
+Passo 7: Conecte o roteador de volta para dentro
+
+Empurre o plugue de energia de volta para a tomada de parede
+Espere 2-3 minutos para as luzes pararem de piscar
+Passo 8: Teste sua internet
+
+Abra um navegador web (como Chrome, Firefox ou Edge)
+Ir para um site (como google.com)
+Veja se carrega
+FIX RÁPIDO #4: Esqueça e reconecte-se à sua rede Wi-Fi
+Às vezes, seu computador "lembra" informações incorretas de Wi-Fi. Esquecer a rede e reconectar pode consertar isso.
+
+Passo 1: Abrir configurações
+
+Clique no botão START (logótipo do Windows no fundo da tela)
+Procure o ícone da engrenagem (ou) no menu
+Clique para abrir Configurações
+Passo 2: Ir para rede e Internet
+
+Na janela Configurações, olhe para o lado esquerdo
+Clique em "Rede e Internet"
+Passo 3: Clique em Wi-Fi
+
+Do lado esquerdo, devias ver "Wi-Fi"
+Clique em
+Passo 4: Clique em Gerenciar redes conhecidas
+
+No lado direito, você verá várias opções
+Procure "Gerenciar redes conhecidas" ou "Gerenciar redes Wi-Fi"
+Clique em
+Passo 5: Encontre sua rede
+
+Você verá uma lista de redes que você já conectou antes
+Encontre seu nome de rede na lista
+Clique nele para selecioná-lo
+Passo 6: Esqueça a rede
+
+Um botão deve aparecer que diz "Esquecer"
+Clique no botão "Esquecer"
+Seu computador vai esquecer esta rede
+Passo 7: Reconectar à rede
+
+Voltar para o menu de rede
+Clique no ícone Wi-Fi no canto inferior direito da tela novamente
+Encontre seu nome de rede na lista
+Clique nele
+Passo 8: Digite sua senha
+
+Uma caixa aparecerá pedindo sua senha Wi-Fi
+Digite sua senha exatamente (superior e minúscula)
+Clique em "Next" ou "Conectar"
+Espere 10-20 segundos.
+Tente usar a internet
+QUICK FIX #5: Reiniciar configurações de rede (Avançado - Só se acima não funcionar)
+ATENÇÃO: Isso é mais técnico. Só tente se as correções acima não funcionou.
+
+O que estás prestes a fazer: Você usará o Prompt de Comando para enviar comandos especiais para o Windows para redefinir suas configurações de rede.
+
+Passo 1: Abrir Prompt de Comando como Administrador
+
+Clique no botão START (logótipo do Windows na parte inferior)
+Um menu aparecerá
+Digite as palavras: "prompt de comando" (use seu teclado para digitar estas letras)
+Você verá "Prompt de Comando" aparecer nos resultados da pesquisa
+Botão direito do mouse em "Prompt de Comando" (clique com o botão direito do mouse)
+Um menu menor aparecerá
+Clique em "Execute como administrador"
+Uma caixa pode aparecer perguntando "Você quer permitir que este aplicativo faça alterações?" - Clique em "Sim"
+Passo 2: Digite o primeiro comando
+
+Agora você verá uma janela preta com texto em branco (aqui é o Prompt de Comando)
+Na parte inferior, você verá um cursor piscando
+Digite exatamente: netsh winsock reset
+Pressione a tecla Enter no seu teclado
+Espere que diga "OK" ou termine o processamento
+Passo 3: Digite o segundo comando
+
+Digite exatamente: netsh int ip reset
+Pressione a tecla Enter
+Espera que acabe
+Passo 4: Digite o terceiro comando
+
+Digite exatamente: ipconfig / release
+Pressione a tecla Enter
+Espera que acabe
+Passo 5: Digite o quarto comando
+
+Digite exatamente: ipconfig / renew
+Pressione a tecla Enter
+Espera que acabe
+Passo 6: Digite o quinto comando
+
+Digite exatamente: ipconfig / flushdns
+Pressione a tecla Enter
+Espera que acabe
+Passo 7: Fechar o Prompt de Comando
+
+Clique no botão X no canto superior direito da janela Prompt de Comando
+A janela irá fechar
+Passo 8: Reinicie seu computador
+
+Clique no botão START
+Clique no ícone Poder (parece um círculo com uma linha no topo)
+Clique em "Reiniciar"
+Seu computador irá reiniciar
+Esperar que ele arranque completamente
+Teste a sua ligação à Internet
+QUICK FIX # 6: Atualizar Drivers de Rede
+Um driver é um software que ajuda o Windows a falar com o seu cartão Wi-Fi. Motoristas velhos podem causar problemas.
+
+Passo 1: Abrir o Gerenciador de Dispositivos
+
+Clique no botão START
+Tipo: "manager de dispositivos"
+Clique em "Device Manager" quando aparecer
+Passo 2: Encontrar adaptadores de rede
+
+Na janela Gerenciador de Dispositivos, você verá uma lista de dispositivos de hardware
+Procure "adaptadores de rede" na lista
+Clique na seta ao lado para expandi- la
+Você verá seu adaptador de rede listado abaixo
+Passo 3: Atualizar o driver
+
+Botão direito do mouse em seu adaptador de rede (geralmente diz algo como "Intel Wireless" ou "Ethernet")
+Um menu aparecerá
+Clique em "Atualizar driver"
+Passo 4: Deixe o Windows procurar por atualizações
+
+Uma nova janela aparecerá perguntando como procurar por drivers
+Clique em "Procurar automaticamente para software de driver atualizado"
+Windows irá procurar por atualizações
+Isto pode demorar alguns minutos.
+Passo 5: Reinicie o seu computador
+
+Depois que a atualização terminar, feche todas as janelas
+Clique no botão START
+Clique no ícone Energia
+Clique em "Reiniciar"
+Teste a sua ligação à Internet
+Problema # 2: Internet é muito lento
+FIX PRECISA # 1: Mova-se mais perto do seu roteador
+Quanto mais longe estiveres do router, mais fraco é o sinal.
+
+Encontre seu roteador (o dispositivo com antenas enviando Wi-Fi)
+Mova seu computador mais perto dele
+Remova quaisquer obstáculos entre seu computador e o roteador (paredes, objetos de metal, móveis grandes)
+Teste sua velocidade de internet novamente
+Acesse www.speedtest.net no seu navegador para testar sua velocidade
+Fixação rápida #2: Verifique quantos dispositivos estão usando seu Wi-Fi
+Muitos dispositivos usando Wi-Fi retardam sua conexão.
+
+Veja outros dispositivos em sua casa (telefones, tablets, outros computadores)
+Desligar Wi-Fi em dispositivos que não utiliza activamente
+Se alguém estiver baixando arquivos grandes ou assistindo vídeos, peça-lhes para pausar
+Teste sua velocidade de internet novamente
+RÁPIDO FIX # 3: Reinicie seu roteador
+Siga os mesmos passos que o QUICK FIX #3 acima (desligar por 30 segundos, voltar a ligar)
+Espera que as luzes parem de piscar
+Teste sua velocidade de internet
+Quick FIX # 4: Tente uma rede Wi-Fi diferente
+Muitos roteadores transmitem duas redes: 2,4 GHz (inferior, maior alcance) e 5 GHz (mais rápido, menor alcance)
+
+Clique no ícone Wi-Fi no canto inferior direito
+Veja as suas redes disponíveis
+Se você ver duas redes com nomes semelhantes (pode-se dizer "5G" no final), tente a que você não está usando atualmente
+Clique na outra rede
+Digite sua senha
+Teste a sua velocidade
+QUICK FIX #5: Posicione seu roteador melhor
+Certifique-se de que seu roteador não está em um armário ou espaço fechado
+Coloque-a mais acima (em uma prateleira, não no chão)
+Mantenha-o longe de objetos de metal (caixas, prateleiras de metal)
+Mantenha-o longe de microondas e telefones sem fio (interfere com Wi-Fi)
+Mantenha-o numa área aberta para um melhor sinal
+Teste sua velocidade novamente
+SECÇÃO 2: ALTERAÇÃO DO SEU ENDEREÇO PÚBLICA DE PI
+O que é um endereço IP público?
+Pense no seu endereço IP como o seu endereço de casa. Cada dispositivo na internet tem um. Sites podem ver seu endereço IP quando você os visita.
+
+Um endereço IP público se parece com este: 192.168.1.1
+
+MÉTODO 1: Reiniciar o seu modem (método mais fácil)
+Esta é a maneira mais fácil. Funciona para a maioria das pessoas com internet em casa.
+
+Passo 1: Encontre o seu modem
+
+Procure o dispositivo com luzes piscando que seu cabo de internet conecta
+Este é o seu modem
+Passo 2: Desligue o cabo de alimentação
+
+Encontrar o cabo de alimentação ligado ao modem
+Siga-o até ao soquete da parede
+Puxe suavemente a tomada da parede
+Todas as luzes no modem desligarão
+Passo 3: Espere 5 minutos
+
+Não conectá- lo ainda
+Aguarde 5 minutos completos (contagem: 60 segundos × 5)
+Isto é importante - dá ao modem tempo para reiniciar completamente
+Passo 4: Conecte de volta em
+
+Empurre o plugue de energia de volta para a tomada de parede
+As luzes voltarão a ligar
+Espere 2-3 minutos para todas as luzes pararem de piscar
+Isto significa que o modem foi reiniciado
+Passo 5: Verifique seu novo endereço IP
+
+Abra o seu navegador (Chrome, Firefox, Edge)
+Ir para: www.whatismyipaddress.com
+Você verá seu endereço IP público exibido na tela
+Escreva para que possa comparar com o que era antes.
+Se os números são diferentes, seu endereço IP mudou!
+MÉTODO 2: Liberar e renovar o endereço IP do Windows
+Este é um método alternativo que às vezes funciona.
+
+Passo 1: Abrir Prompt de Comando
+
+Clique no botão START
+Tipo: "prompt de comando"
+Botão direito do mouse em "Prompt de Comando"
+Clique em "Execute como administrador"
+Clique em "Sim" se solicitado para permissão
+Passo 2: Libere seu endereço IP atual
+
+Na janela Prompt de Comando, digite exatamente: ipconfig / release
+Pressione a tecla Enter
+Aguarde que ele seja concluído (você pode ver algum texto aparecer)
+Passo 3: Espere 10 segundos
+
+Não faças nada durante 10 segundos.
+Espera.
+Passo 4: Renovar o seu endereço IP
+
+Digite exatamente: ipconfig / renew
+Pressione a tecla Enter
+Esperar que ele termine
+Passo 5: Fechar o Prompt de Comando
+
+Clique no botão X no canto superior direito
+A janela irá fechar
+Passo 6: Verifique seu novo endereço IP
+
+Abra seu navegador web
+Ir para: www.whatismyipaddress.com
+Veja se o seu endereço IP é diferente
+MÉTODO 3: Usar uma VPN (Rede privada virtual)
+Uma VPN faz com que sites achem que você está em um local diferente com um endereço IP diferente.
+
+Passo 1: Escolha uma VPN
+
+Existem muitos serviços VPN disponíveis
+Populares: NordVPN, ExpressVPN, ProtonVPN, Surfshark
+Opção gratuita: ProtonVPN tem uma versão gratuita
+Opções pagas: normalmente custam $5-15 por mês
+Passo 2: Baixe a VPN
+
+Abra seu navegador web
+Pesquisar pelo nome VPN (por exemplo: "nordvpn.com")
+Ir para o seu site
+Clique no botão "Download"
+Um arquivo será baixado para o seu computador
+Passo 3: Instale a VPN
+
+Encontre o arquivo baixado (geralmente na sua pasta "Downloads")
+Clique duas vezes sobre ele para abri-lo
+Siga as instruções de instalação
+Clique em "Instalar" quando perguntado
+Esperar que a instalação termine
+Clique em "Terminar"
+Passo 4: Abra a VPN
+
+Clique no botão START
+Procure o nome do aplicativo VPN em seus programas
+Clique nele para abri-lo
+Você pode precisar criar uma conta (assinar-se)
+Passo 5: Conecte-se a um servidor VPN
+
+No aplicativo VPN, procure um botão "Conectar" ou uma lista de países
+Clique em "Conectar" ou selecione um país
+A aplicação irá conectá- lo a um servidor VPN
+Aguarde alguns segundos para a conexão estabelecer
+Passo 6: Verifique seu novo endereço IP
+
+Abra seu navegador web
+Ir para: www.whatismyipaddress.com
+Seu endereço IP deve agora ser diferente (ele mostrará a localização do servidor VPN ao qual você se conectou)
+MÉTODO 4: Entre em contato com seu provedor de serviços de Internet
+Se você precisar de um novo endereço IP permanente, você pode pedir à sua empresa de internet para lhe dar um.
+
+Passo 1: Encontre o número de telefone do seu ISP
+
+Veja a sua conta de internet
+Encontre o número de telefone para o seu provedor de serviços de internet
+Ou procure on-line "[Seu nome ISP] serviço ao cliente"
+Passo 2: Chame-os
+
+Ligue para o número de telefone
+Aguarde por um representante de atendimento ao cliente
+Diga-lhes: "Gostaria que me atribuisse um novo endereço IP público"
+Eles normalmente fazem isso para você imediatamente.
+Passo 3: Reinicie o seu modem
+
+O representante poderá dizer- lhe para reiniciar o seu modem
+Siga os passos do método 1 acima
+Passo 4: Verifique seu novo endereço IP
+
+Ir para www.whatismyipaddress.com
+Seu IP deve ser diferente
+SECÇÃO 3: PROBLEMAS PRINCÍPIOS
+Problema # 1: A Impressora Não Imprime
+Fixar rapidamente # 1: Reinicie a sua impressora
+Passo 1: Desligue a impressora
+
+Olhe para sua impressora
+Encontrar o botão Energia (geralmente na frente ou lado)
+Pressione-o para desligar a impressora
+As luzes apagarão
+Passo 2: Desligue o cabo de alimentação
+
+Encontrar o cabo de alimentação ligado à impressora
+Siga-o até ao soquete da parede
+Puxe suavemente a ficha de alimentação da tomada de parede
+Passo 3: Espere 30 segundos
+
+Conte devagar, um mil, dois mil, trinta mil.
+Passo 4: Conecte de volta em
+
+Empurre o plugue de energia de volta para a tomada de parede
+Passo 5: Ligue a impressora
+
+Pressione o botão Energia para ligar a impressora
+Aguarde que ele inicie completamente (luzes pararão de piscar)
+Passo 6: Tente imprimir
+
+Abra um documento ou foto em seu computador
+Clique no menu Arquivo
+Clique em Imprimir
+Clique no botão Imprimir
+Veja se a impressora imprime
+Fixação rápida #2: Verificar conexões físicas
+Para impressoras com fio (USB):
+
+Passo 1: Verifique o cabo USB
+
+Encontre o cabo USB que conecta sua impressora ao seu computador
+Siga-o da impressora para o computador
+Certifique-se de que ambas as extremidades estão firmemente ligadas
+Se estiver solto, empurre-o suavemente até estalar.
+Passo 2: Tente uma porta USB diferente
+
+Desligue o cabo USB do seu computador
+Olhe para o seu computador para outras portas USB (eles parecem pequenos buracos retangulares)
+A maioria dos computadores tem várias portas USB
+Conecte o cabo USB em uma porta diferente
+Espere 10 segundos.
+Tente imprimir novamente
+Para impressoras sem fio:
+
+Passo 1: Certifique-se de que a impressora está ligada
+
+Olhe para sua impressora
+Certifique-se de que está ligado (luzes devem estar acesas ou piscando)
+Se desligado, pressione o botão Energia
+Passo 2: Verifique se o Wi-Fi da impressora está ligado
+
+Olhe para sua impressora para um botão Wi-Fi (geralmente mostra o símbolo Wi-Fi)
+Pressione se estiver disponível
+Procure uma luz Wi-Fi na impressora
+Se estiver ligado, deve ser iluminado (geralmente azul ou verde)
+Se estiver desligado, carregue no botão Wi-Fi para o ligar.
+Passo 3: Certifique-se de que seu computador e impressora estão na mesma rede Wi-Fi
+
+Clique no ícone Wi-Fi no canto inferior direito da tela
+Veja o nome da sua rede
+Na sua impressora, veja a tela de exibição ou documentação
+Certifique-se de que a impressora está conectada à mesma rede que seu computador
+Caso contrário, use os botões ou tela da impressora para selecionar a rede correta
+Fixa rápida # 3: Verifique se há Jams de Papel e tinta baixa
+Passo 1: Abra todas as capas e painéis
+
+Olhe para sua impressora
+Abra todas as portas, tampa e painel que você pode ver
+Procura qualquer papel preso.
+Se vir papel, retire-o suavemente (tenha cuidado para não o rasgar)
+Passo 2: Verificar os níveis de tinta ou toner
+
+Olhe para sua impressora
+Deve haver um cartucho de tinta ou toner visível
+Verificar se o nível de tinta está baixo
+Se for baixo, terá de substituir o cartucho por um novo
+(Pergunte a um membro da família ou amigo se precisar de ajuda com isto)
+Passo 3: Verifique bandeja de papel
+
+Olhe para a bandeja de papel (onde você carrega papel)
+Certifique-se de que há papel carregado na bandeja
+Se vazio, adicione papel (normalmente papel branco de 8,5" x 11")
+Passo 4: Fechar todos os painéis
+
+Fecha todas as portas e painéis que abriste
+Certifique-se de que tudo estala
+Passo 5: Tente imprimir novamente
+
+Abrir um documento
+Clique em Arquivo > Imprimir
+Clique no botão Imprimir
+Vê se imprime.
+Fixação rápida #4: Remova e reinstale sua impressora
+Isso diz ao Windows para "esquecer" sobre sua impressora e configurá-la novamente.
+
+Passo 1: Abrir configurações
+
+Clique no botão START
+Clique no ícone de engrenagem para abrir Configurações
+Passo 2: Vá para Bluetooth & Dispositivos
+
+Na janela Configurações, olhe para o lado esquerdo
+Clique em "Bluetooth & dispositivos" ou "Dispositivos"
+Passo 3: Clique em Impressoras e scanners
+
+No lado esquerdo, você deve ver "Printers & scanners"
+Clique nele
+Passo 4: Encontre sua impressora
+
+No lado direito, você verá uma lista de impressoras
+Procure sua impressora na lista
+Clique nele para selecioná-lo
+Passo 5: Remova a impressora
+
+Deve aparecer um botão "Remover"
+Clique no botão "Remover"
+Clique em "Sim" para confirmar
+Sua impressora agora é removida do Windows
+Passo 6: Desligue a impressora
+
+Encontre sua impressora
+Pressione o botão Energia para desligá-lo
+Espere 10 segundos.
+Passo 7: Ligue a impressora
+
+Pressione o botão Energia para ligar novamente
+Espere que ele comece completamente
+Passo 8: Adicione a impressora de volta
+
+Voltar para as configurações de impressoras e scanners (os mesmos passos que acima)
+Clique no botão "Adicionar dispositivo" (ou "Atualizar")
+Windows irá procurar por impressoras
+Espere 30 segundos para encontrar sua impressora
+Quando sua impressora aparecer na lista, clique nela
+Clique no botão "Adicionar dispositivo"
+Windows instalará sua impressora
+Esperar que ele termine
+Passo 9: Tente imprimir
+
+Abrir um documento
+Clique em Arquivo > Imprimir
+Certifique-se de que sua impressora está selecionada
+Clique em Imprimir
+Vê se funciona.
+QUICK FIX # 5: Atualizar o Driver da Impressora
+Um driver é um software que ajuda o Windows a se comunicar com sua impressora. Motoristas ultrapassados podem causar problemas.
+
+Passo 1: Encontre seu fabricante de impressora
+
+Olhe para sua impressora
+O nome do fabricante está geralmente na frente
+Fabricantes comuns: HP, Canon, Epson, Brother, Xerox
+Escreva o número exato do modelo (geralmente na frente ou atrás)
+Passo 2: Vá para o site do fabricante
+
+Abra seu navegador web
+Procure por "suporte à marca" (por exemplo: "suporte HP")
+Ir para o seu site
+Passo 3: Encontre a página de download do driver
+
+Procure um link "Suporte" ou "Drivers"
+Clique nele
+Digite o número do modelo da impressora
+Clique em "Procurar"
+Passo 4: Baixe o driver
+
+Encontre o driver para o seu modelo de impressora
+Certifique-se de que é para sua versão Windows (Windows 10 ou Windows 11)
+Clique no botão "Download"
+Esperar que o download termine
+Passo 5: Instale o driver
+
+Encontre o arquivo baixado (geralmente em sua pasta Downloads)
+Clique duas vezes sobre ele para abri-lo
+Siga as instruções de instalação
+Clique em "Instalar" quando perguntado
+Aguarde a instalação completa
+Clique em "Terminar"
+Passo 6: Reinicie o seu computador
+
+Clique no botão START
+Clique no ícone Energia
+Clique em "Reiniciar"
+Aguarde pelo seu computador reiniciar
+Passo 7: Tente imprimir
+
+Abrir um documento
+Clique em Arquivo > Imprimir
+Clique em Imprimir
+Vê se funciona.
+SECÇÃO 4: DISPOSITIVO USB NÃO RECONHECIDO
+Problema: Dispositivo USB mostra erro "Não reconhecido"
+Isso significa que o Windows não pode identificar seu dispositivo USB (dispositivo flash, disco rígido externo, impressora, etc.)
+
+QUICK FIX #1: Tente uma porta USB diferente
+Passo 1: Desligue o seu dispositivo USB
+
+Encontre o cabo USB conectado ao seu dispositivo
+Tire-o suavemente da porta USB
+O dispositivo USB será desligado
+Passo 2: Espere 5 segundos
+
+Espere e não faça nada por 5 segundos.
+Passo 3: Tente uma porta USB diferente
+
+Olhe para o seu computador
+A maioria dos computadores tem várias portas USB (pequenos buracos retangulares)
+Encontrar uma porta USB diferente da que você acabou de desconectar
+Conecte seu dispositivo a esta nova porta
+Passo 4: Verifique se é reconhecido
+
+Olhe para o seu ecrã
+Windows pode mostrar uma notificação de que o dispositivo é reconhecido
+Tente usar seu dispositivo (por exemplo, abra o File Explorer para ver os arquivos)
+Fixar rapidamente #2: Reinicie seu computador
+Às vezes, uma reinicialização corrige problemas de reconhecimento USB.
+
+Passo 1: Fechar todos os programas
+
+Fechar quaisquer documentos ou programas abertos
+Certifique-se de que nada está sendo copiado para ou do dispositivo USB
+Passo 2: Clique no botão Iniciar
+
+Clique no botão START (logótipo do Windows)
+Passo 3: Clique em Poder
+
+Procure o ícone Energia no menu
+Clique em
+Passo 4: Clique em Reiniciar
+
+Clique em "Reiniciar"
+Seu computador irá reiniciar
+Passo 5: Espere para reiniciar
+
+Seu computador vai desligar e voltar a ligar
+Aguarde o Windows carregar completamente
+Isto normalmente leva 1-2 minutos
+Passo 6: Ligue o seu dispositivo USB
+
+Depois de seu computador é totalmente reiniciado
+Conecte seu dispositivo USB de volta
+Vê se é reconhecido.
+Fixação rápida #3: Verificar se há danos físicos
+Passo 1: Inspecione o conector USB
+
+Veja a parte do conector de metal do seu dispositivo USB
+A parte de metal deve parecer brilhante e suave
+Verificar se:
+Pinos dobrados (pequenas peças de metal que se destacam)
+Corrosão (descoloração verde ou branca)
+Sujeira ou detritos (pó ou partículas)
+Passo 2: Limpe o conector
+
+Pegue um pano macio e seco (como um pano de microfibra)
+Limpe suavemente o conector de metal com o pano
+Faça isso várias vezes
+Certifica-te que está limpo e seco.
+Passo 3: Conecte de volta em
+
+Insira o dispositivo USB de volta na porta USB
+Certifique-se de que está completamente inserido.
+Verifique se é reconhecido.
+FIX RÁPIDO # 4: Atualizar Drivers USB
+Passo 1: Abrir o Gerenciador de Dispositivos
+
+Clique no botão START
+Tipo: "manager de dispositivos"
+Clique em "Device Manager" quando aparecer
+Passo 2: Encontrar controladores USB
+
+Na janela Gerenciador de Dispositivos, veja a lista
+Encontrar "Serial Universal Controladores de autocarros"
+Clique na seta ao lado para expandi- la
+Você verá vários itens listados
+Passo 3: Procure dispositivos de problema
+
+Veja os itens em "Controladores Universal Serial Bus"
+Alguns podem ter um ponto de exclamação amarelo (!) ao lado deles
+Estes são os que têm problemas
+Botão direito do mouse em qualquer dispositivo com uma marca amarela
+Passo 4: Atualizar o driver
+
+Um menu aparecerá
+Clique em "Atualizar driver"
+Passo 5: Deixe o Windows pesquisar por atualizações
+
+Aparecerá uma nova janela
+Clique em "Procurar automaticamente para software de driver atualizado"
+Windows irá pesquisar e instalar atualizações
+Isto pode demorar alguns minutos.
+Passo 6: Reinicie o seu computador
+
+Fechar todas as janelas
+Clique no botão inicial
+Clique em ícone de energia
+Clique em "Reiniciar"
+Após reiniciar, tente seu dispositivo USB novamente
+Quick FIX #5: Desinstalar e Reinstalar Drivers USB
+Se a atualização não funcionou, tente remover completamente e reinstalar o driver.
+
+Passo 1: Abrir o Gerenciador de Dispositivos
+
+Clique no botão inicial
+Tipo: "manager de dispositivos"
+Clique em "Device Manager"
+Passo 2: Encontrar USB Raiz Hub
+
+Encontrar "Serial Universal Controladores de autocarros"
+Clique na seta para expandi- la
+Procura o "USB Root Hub"
+Passo 3: Desinstalar o driver
+
+Botão direito do mouse em "USB Root Hub"
+Clique em "Desinstalar dispositivo"
+Passo 4: Marque a caixa
+
+Aparecerá uma janela perguntando se deseja remover o driver
+Marque a caixa que diz "Tentativa de remover o driver para este dispositivo"
+Clique em "Desinstalar"
+Passo 5: Reinicie o seu computador
+
+O Windows irá pedir- lhe para reiniciar
+Clique em "Reiniciar"
+Seu computador irá reiniciar
+Passo 6: O Windows irá reinstalar drivers
+
+Quando o seu computador reiniciar, o Windows irá encontrar e instalar automaticamente drivers USB
+Isto pode demorar alguns minutos.
+Deixe-o completo sem interromper
+Passo 7: Tente o seu dispositivo USB
+
+Após a reinicialização estar concluída
+Conecte seu dispositivo USB
+Vê se é reconhecido.
+FIX rápido #6: Desabilitar USB Selective Suspend
+USB Selective Suspend é um recurso que desliga dispositivos USB para economizar energia. Isto pode causar problemas de reconhecimento.
+
+Passo 1: Abrir configurações de energia
+
+Clique no botão inicial
+Tipo: "configurações de potência"
+Clique em "Configurações de energia" ou "Power & bateria"
+Passo 2: Clique configurações de energia adicionais
+
+No lado direito, procure "Configurações adicionais de potência" ou "Planos de energia"
+Clique nele
+Passo 3: Clique em Alterar configurações do plano
+
+Você verá seu plano de potência atual (geralmente "Balançado")
+Clique em "Alterar configurações do plano" ao lado dele
+Passo 4: Clique em Alterar configurações avançadas de energia
+
+Procure por "Alterar configurações avançadas de energia"
+Clique nele
+Uma janela aparecerá
+Passo 5: Encontrar Suspender Seletivo USB
+
+Nesta janela, você verá uma árvore de opções
+Role para baixo para encontrar "USB selective suspense setting"
+Clique na seta ao lado para expandi- la
+Passo 6: Alterar a configuração
+
+Em "USB selective suspense setting", você verá um dropdown
+Clique nele e selecione "Desativado"
+Isto desliga a funcionalidade
+Passo 7: Clique em Aplicar e OK
+
+Clique no botão "Aplicar"
+Clique no botão "OK"
+Fechar todas as janelas
+Passo 8: Reinicie seu computador
+
+Clique no botão inicial
+Clique em ícone de energia
+Clique em "Reiniciar"
+Após reiniciar, tente seu dispositivo USB
+SECÇÃO 5: DESEMPENHO DO COMPUTADOR
+Problema #1: O computador está executando muito lentamente
+Fixação rápida #1: Reinicie seu computador
+Isso corrige os problemas mais lentos!
+
+Passo 1: Salve seu trabalho
+
+Se você tiver quaisquer documentos ou arquivos abertos, salve-os primeiro
+Clique em Arquivo > Gravar ou carregar em Ctrl + S
+Fechar todos os programas abertos
+Passo 2: Clique no botão Iniciar
+
+Clique no botão START (logótipo do Windows na parte inferior)
+Passo 3: Clique em Poder
+
+Procure o ícone Power (parece um círculo com uma linha no topo)
+Clique em
+Passo 4: Clique em Reiniciar
+
+Um menu aparecerá com opções
+Clique em "Reiniciar"
+Seu computador irá desligar e reiniciar
+Passo 5: Espere para reiniciar
+
+O teu ecrã vai ficar preto
+As janelas começarão a carregar
+Você pode ver o logotipo do Windows
+Isto leva cerca de 1-2 minutos
+Passo 6: Iniciar sessão
+
+Após o reinício, você pode precisar entrar
+Digite sua senha se solicitado
+Aguarde que o seu ambiente de trabalho carregue completamente
+Passo 7: Verificar a velocidade
+
+Tente abrir um programa ou site
+Vê se as coisas são mais rápidas agora.
+QUICK FIX # 2: Fechar Programas Desnecessários
+Muitos programas rodando ao mesmo tempo atrasa o seu computador.
+
+Passo 1: Abrir o Gerenciador de Tarefas
+
+Olhe para a parte inferior da sua tela (a barra de tarefas)
+Carregue com o botão direito numa área vazia da barra de tarefas (não em quaisquer ícones)
+Um menu aparecerá
+Passo 2: Clique em Gerenciador de tarefas
+
+No menu, clique em "Task Manager"
+Uma janela será aberta mostrando programas em execução
+Passo 3: Olhe para a aba Processos
+
+No topo da janela Gerenciador de tarefas, você deve ver as abas
+Clique na aba "Processos" (se ainda não estiver selecionado)
+Passo 4: Veja a lista de programas
+
+Você verá uma lista de programas e quanta memória cada um está usando
+Veja a coluna "Memory" para ver quais programas usam mais
+Passo 5: Fechar programas desnecessários
+
+Procure por programas que você não precisa agora
+Programas comuns para fechar:
+Chrome, Firefox, Edge (navegadores da Web)
+Spotify, YouTube (aplicações de música/vídeo)
+OneDrive, Google Drive, Dropbox (armazenamento de nuvens)
+Jogos
+Software de edição de vídeo
+Clique em um programa para selecioná-lo
+Um botão deve aparecer na parte inferior direita que diz "Fim de Tarefa"
+Clique em "Terminar tarefa"
+O programa irá fechar
+Passo 6: Repetir
+
+Fechar vários programas desnecessários
+Não feche nada com "Windows" no nome
+Não feche seu software antivírus
+Passo 7: Fechar o Gerenciador de Tarefas
+
+Clique no botão X no canto superior direito
+A janela do Gestor de Tarefas irá fechar
+Passo 8: Verificar a velocidade
+
+Tente usar seu computador
+Vê se é mais rápido agora.
+Fixação Rápida # 3: Verificar o Espaço em Disco
+Um disco rígido completo torna o seu computador lento.
+
+Passo 1: Abrir configurações
+
+Clique no botão inicial
+Clique no ícone de engrenagem para abrir Configurações
+Passo 2: Clique no sistema
+
+No lado esquerdo da janela Configurações, procure por "Sistema"
+Clique nele
+Passo 3: Clique em Armazenamento
+
+Do lado esquerdo, devias ver "Storage"
+Clique nele
+Passo 4: Verificar o uso do disco
+
+Do lado direito, você verá "C: (Sistema)" ou similar
+Ao lado, você verá uma porcentagem (como "87% cheio")
+Se mostrar 90% ou mais, você precisa excluir arquivos
+Passo 5: Excluir arquivos temporários
+
+Abaixo do uso do disco, procure "Arquivos temporários" ou "Armazenamento temporário"
+Clique nele
+Uma nova tela mostrará arquivos temporários que podem ser excluídos
+Clique no botão "Remover arquivos"
+Uma caixa de confirmação pode aparecer - clique em "Remover" ou "Sim"
+Isto normalmente liberta 1-5 GB de espaço
+Passo 6: Verifique o uso do disco novamente
+
+Voltar para a página de Armazenamento
+Veja se a porcentagem é menor agora
+Fixar rapidamente # 4: Apagar manualmente os Ficheiros Antigos
+Se os arquivos temporários não liberaram espaço suficiente, exclua arquivos antigos manualmente.
+
+Passo 1: Abrir o Explorador de Ficheiros
+
+Clique no botão START
+Procure "Arquivo Explorer" no menu
+Clique nele
+Ou: Você pode clicar no ícone da pasta na sua barra de tarefas
+Passo 2: Navegue para a sua unidade
+
+No lado esquerdo, clique em "Este PC" ou "Meu Computador"
+Você verá seus discos rígidos listados
+Clique em "C: (drive do sistema)" ou sua unidade principal
+Passo 3: Procure pastas para excluir
+
+Você verá várias pastas
+Procurar por:
+Downloads - arquivos antigos baixados
+Documentos - documentos antigos que você não precisa
+Desktop - arquivos antigos em seu desktop
+Fotos - fotos antigas que você não precisa
+Vídeos - vídeos antigos que você não precisa
+Passo 4: Excluir arquivos
+
+Abra uma pasta clicando duas vezes nela
+Procure por arquivos antigos que você não precisa
+Botão direito do mouse em um arquivo
+Clique em "Excluir"
+Uma confirmação pode aparecer - clique em "Sim"
+Repetir para vários arquivos
+Passo 5: Lixeira vazia
+
+Depois de excluir arquivos, você deve esvaziar sua Lixeira para liberar espaço
+Na sua área de trabalho, procure um ícone de "Reciclagem" (parece uma lata de lixo)
+Botão direito do mouse nele
+Clique em "Lixeira vazia"
+Clique em "Sim" para confirmar
+Passo 6: Verificar o espaço em disco
+
+Voltar para Configurações > Sistema > Armazenamento
+Ver se a percentagem é menor
+QUICK FIX #5: Desativar Programas de Inicialização
+Programas que começam automaticamente quando você liga o computador atrasá-lo.
+
+Passo 1: Abrir o Gerenciador de Tarefas
+
+Botão direito do mouse na barra de tarefas
+Clique em "Gerenciador de tarefas"
+Passo 2: Clique na guia Iniciar
+
+Na parte superior da janela Gerenciador de tarefas, clique na aba "Iniciar"
+Você verá uma lista de programas que começam automaticamente
+Passo 3: Procure por programas desnecessários
+
+Olha para a lista
+Encontrar programas que você não precisa iniciar automaticamente
+Seguro para desativar:
+Spotify
+Discórdia
+Slack
+Dropbox
+Google Drive
+Adobe Creative Cloud
+Ampliação
+Software antivírus extra
+NÃO desativar:
+Qualquer coisa com "Windows" no nome
+Seu software antivírus principal
+Serviços de sistemas
+Passo 4: Desabilitar programas
+
+Botão direito do mouse em um programa que você deseja desabilitar
+Clique em "Desabilitar"
+O programa não será iniciado automaticamente
+Passo 5: Repetir
+
+Desactivar vários programas desnecessários
+Mas deixe os importantes habilitados
+Passo 6: Fechar Gerenciador de tarefas
+
+Clique no botão X no canto superior direito
+Passo 7: Reinicie o seu computador
+
+Clique no botão inicial
+Clique em ícone de energia
+Clique em "Reiniciar"
+Seu computador irá reiniciar
+Observe o quão mais rápido ele começa agora!
+QUICK FIX #6: Atualizar Drivers de Gráficos
+Drivers gráficos ultrapassados podem retardar seu computador.
+
+Passo 1: Abrir o Gerenciador de Dispositivos
+
+Clique no botão inicial
+Tipo: "manager de dispositivos"
+Clique em "Device Manager"
+Passo 2: Encontrar adaptadores de exibição
+
+Na janela Gerenciador de Dispositivos, procure "Mostrar adaptadores"
+Clique na seta ao lado para expandi- la
+Você verá sua placa gráfica listada (geralmente diz "Intel", "NVIDIA", ou "AMD")
+Passo 3: Atualizar o driver
+
+Botão direito do mouse em sua placa gráfica
+Clique em "Atualizar driver"
+Passo 4: Procure por atualizações
+
+Uma janela aparecerá
+Clique em "Procurar automaticamente para software de driver atualizado"
+Windows irá procurar por drivers mais novos
+Isto pode demorar alguns minutos.
+Passo 5: Reinicie o seu computador
+
+Depois que a atualização terminar, feche todas as janelas
+Clique no botão inicial
+Clique em ícone de energia
+Clique em "Reiniciar"
+Seu computador irá reiniciar
+Passo 6: Verificar a velocidade
+
+Após reiniciar, veja se o seu computador é mais rápido
+Fixação Rápida #7: Executar a Limpeza de Disco
+Limpeza de disco remove arquivos desnecessários que ocupam espaço.
+
+Passo 1: Abra a limpeza de disco
+
+Clique no botão inicial
+Tipo: "Limpeza do disco"
+Clique em "Limpeza do disco" quando aparecer
+Passo 2: Selecione sua unidade
+
+Uma janela pode aparecer perguntando qual unidade limpar
+Selecione "C: (drive do sistema)" ou sua unidade principal
+Clique em "OK"
+Passo 3: Espere por digitalização
+
+Limpeza de disco irá verificar sua unidade
+Isto leva alguns minutos.
+Não o interrompas.
+Passo 4: Caixas de verificação
+
+Após a digitalização, você verá uma lista de tipos de arquivos que podem ser excluídos
+Procure por estes e verifique as caixas ao lado deles:
+Arquivos temporários
+Lixeira
+Arquivos de Internet Temporários
+□ Arquivos antigos do Windows (se disponíveis)
+Certifique- se de que outras caixas não estão assinaladas
+Passo 5: Clique em OK
+
+Clique no botão "OK"
+Aparecerá uma confirmação
+Clique em "Excluir arquivos" ou "Sim"
+Limpeza de disco irá excluir os arquivos
+Esperar que ele termine
+Passo 6: Feche a janela
+
+Clique no botão X quando terminar
+Fixação rápida #8: Verificar se há malware
+Malware (vírus) retarda os computadores.
+
+Passo 1: Abra o Windows Defender
+
+Clique no botão inicial
+Tipo: "Windows Defender"
+Clique em "Windows Defender" ou "Virus & ameaça proteção"
+Passo 2: Vá para proteção contra vírus e ameaças
+
+Você deve ver uma opção chamada "Virus & ameaça proteção"
+Clique nele
+Passo 3: Clique em opções de digitalização
+
+Procurar por "Opções de digitalização"
+Clique nele
+Passo 4: Selecione a verificação completa
+
+Você verá as opções de digitalização
+Clique no círculo ao lado de "Full scan"
+Isto irá analisar todo o seu computador
+Passo 5: Clique em Digitalizar agora
+
+Clique no botão "Scan now"
+As janelas iniciarão a digitalização
+Isto vai levar 30-60 minutos.
+Não desligue o seu computador durante este tempo
+Você ainda pode usar seu computador, mas será lento
+Passo 6: Aguarde a conclusão
+
+Quando a digitalização terminar, irá mostrar resultados
+Se forem encontradas ameaças, mostrar-lhes-á
+Clique em "Quarantine" ou "Remover" para excluir as ameaças
+Passo 7: Reinicie o seu computador
+
+Após a digitalização e quaisquer remoções, reinicie o seu computador
+Clique em START BUTTON > Ícone de energia > Reiniciar
+SECÇÃO 6: CRASES DE SISTEMA E AMBIENTE DE MORTE
+Problema: Tela Azul da Morte (BSOD)
+A Tela Azul da Morte é quando sua tela fica azul e mostra uma mensagem de erro. Seu computador geralmente reiniciará automaticamente.
+
+Fixar rapidamente # 1: Deixe Reiniciar Naturalmente
+Na maioria das vezes, não precisas de fazer nada.
+
+Passo 1: Não entre em pânico
+
+Se vir um ecrã azul, não se preocupe.
+Seu computador irá reiniciar automaticamente
+Passo 2: Não force
+
+Não segure o botão de energia.
+Não desligues
+Deixa-o reiniciar por conta própria.
+Passo 3: Deixe-o reiniciar
+
+Seu computador irá reiniciar automaticamente
+Isto leva cerca de 1-2 minutos
+Passo 4: Verifique se acontece novamente
+
+Após reiniciar, use o computador normalmente
+Se a tela azul não acontecer novamente, provavelmente foi uma falha temporária
+Não precisas de fazer mais nada.
+Passo 5: Se acontecer de novo
+
+Se a tela azul continuar acontecendo, tente a próxima correção
+FIX rápido # 2: Reiniciar em modo seguro
+O modo de segurança carrega apenas as partes essenciais do Windows. Se a tela azul não acontece no modo seguro, um programa ou driver está causando o problema.
+
+Passo 1: Reinicie o seu computador
+
+Clique no botão inicial
+Clique em ícone de energia
+Clique em "Reiniciar"
+Passo 2: Pressione F8 durante o reinício
+
+Como seu computador está reiniciando, pressione repetidamente a tecla F8
+Pressione cerca de uma vez por segundo
+Continue pressionando até que você veja um menu aparecer
+Isso geralmente leva 5-10 segundos
+Passo 3: Selecione o modo seguro
+
+Um menu chamado "Opções de arranque avançadas" irá aparecer
+Você verá várias opções
+Use as setas do teclado para selecionar "Modo Seguro"
+O texto deve ser destacado em branco
+Pressione Enter para selecioná- lo
+Passo 4: Espere pelo modo seguro para carregar
+
+Seu computador começará a carregar
+Vai parecer diferente do normal.
+Você pode ver "Modo Seguro" escrito na tela
+Isto leva cerca de 2-3 minutos
+Passo 5: Use o modo seguro
+
+Uma vez no modo seguro, use o computador normalmente
+Tenta as coisas que normalmente fazes
+Veja se o ecrã azul acontece
+Passo 6: Verificar os resultados
+
+Se a tela azul NÃO acontecer no modo seguro:
+Um programa ou driver está causando o problema
+Tente desinstalar os programas recentemente instalados (veja QUICK FIX #5 abaixo)
+Se a tela azul acontecer no modo de segurança:
+O problema é com o próprio Windows ou seu hardware
+Tente rapidamente o FIX # 3 ou o FIX # 4 abaixo
+Passo 7: Sair do modo seguro
+
+Para voltar ao modo normal, reinicie o computador
+Clique em START BUTTON > Ícone de energia > Reiniciar
+Fixar rapidamente # 3: Verifica a tua RAM
+RAM é a memória do seu computador. A RAM falha muitas vezes causa telas azuis.
+
+ATENÇÃO: Isto envolve abrir o seu computador. Se não te sentes confortável a fazer isto, pede ajuda a alguém.
+
+Passo 1: Desligue o seu computador
+
+Clique no botão inicial
+Clique em ícone de energia
+Clique em "Desligar"
+Espere pelo computador desligar completamente
+Passo 2: Desligue o cabo de alimentação
+
+Encontre o cabo de alimentação conectado ao seu computador
+Puxe suavemente a ficha de alimentação da tomada de parede
+Passo 3: Abra o painel lateral
+
+Olhe para o lado do seu computador caso
+Você verá 2-4 parafusos segurando um painel sobre
+Use uma chave de fenda para remover estes parafusos
+Puxe suavemente o painel para fora
+Agora você pode ver dentro de seu computador
+Passo 4: Encontrar a RAM
+
+Olhe dentro do seu computador
+RAM parece uma vara longa e fina com chips.
+É geralmente perto da CPU (o grande chip quadrado no meio)
+Os paus da RAM levantam-se verticalmente
+Passo 5: Remover a RAM
+
+Olha para as duas extremidades do stick RAM
+Há pequenos clipes (como pequenas alavancas) em cada extremidade
+Empurre estes clipes para baixo (ou para os lados) para desbloquear a RAM
+A RAM vai aparecer ligeiramente
+Puxe suavemente a RAM para fora
+Coloque-o cuidadosamente numa superfície limpa
+Passo 6: reinserir a RAM
+
+Pega no stick RAM
+Olhe para o espaço onde ele vai (você pode ver que ele está vazio agora)
+Alinhar o stick RAM com o slot
+Empurre suavemente a RAM diretamente para o slot
+Empurre firmemente até ouvir um clique
+Os clipes devem voltar ao lugar.
+A RAM deve estar totalmente sentada
+Passo 7: Feche o painel
+
+Coloque cuidadosamente o painel lateral de volta
+Parafusar os parafusos de volta com sua chave de fenda
+Certifica-te que está seguro.
+Passo 8: Ligue e reinicie
+
+Empurre o cabo de alimentação de volta para a tomada de parede
+Pressione o botão Energia em seu computador
+Deixar o Windows iniciar
+Usar o seu computador normalmente
+Veja se o ecrã azul ainda acontece
+FIX RÁPIDO # 4: Verificar o Sobreaquecimento
+O superaquecimento causa quebras e telas azuis.
+
+Passo 1: Sinta o ar saindo
+
+Olhe para trás ou lado do seu computador
+Deve haver aberturas (aberturas onde o ar sai)
+Sinta o ar saindo com a mão
+Se estiver muito quente, seu computador pode estar superaquecendo.
+Passo 2: Verifique se há aberturas bloqueadas
+
+Olha para todas as saídas do teu computador.
+Certifique-se de que eles não estão bloqueados por poeira, papéis ou objetos
+Se estiverem bloqueados, retirem cuidadosamente a obstrução.
+Passo 3: Limpar filtros de poeira
+
+Muitos computadores têm filtros de poeira
+Estes são geralmente telas de malha nas aberturas
+Procure acúmulo de poeira
+Se muito empoeirado, use ar comprimido para soprar o pó para fora
+Spray em rajadas curtas - não segure
+Passo 4: Verificar o fluxo de ar
+
+Certifique-se de que seu computador está em uma boa localização:
+Não em um armário fechado (precisa de circulação de ar)
+Não em uma superfície macia como uma cama (blocos de ventilação)
+Em uma área aberta com bom fluxo de ar
+Se em uma má localização, movê-lo para um lugar melhor
+Passo 5: Verifique os ventiladores
+
+Olhe dentro do seu computador (se você estiver confortável abrindo-o)
+Você deve ver ventiladores (peças girando)
+Certifique-se de que eles estão girando livremente
+Se um ventilador está bloqueado ou não girando, você pode precisar de um profissional para ajudar
+Passo 6: Reiniciar e testar
+
+Feche o seu computador
+Liga-o.
+Use-o normalmente
+Veja se o ecrã azul ainda acontece
+QUICK FIX #5: Desinstalar Programas Instalados Recentemente
+Se a tela azul começou depois que você instalou algo novo, esse programa pode estar causando isso.
+
+Passo 1: Pense sobre o que você instalou
+
+Instalou algum programa novo nos últimos dias?
+Lembras-te do nome do programa?
+Passo 2: Abrir configurações
+
+Clique no botão inicial
+Clique no ícone de engrenagem (s)
+Passo 3: Vá para Apps
+
+No lado esquerdo, clique em "Apps"
+Passo 4: Clique em aplicativos instalados
+
+Do lado direito, clique em "Aplicativos instalados"
+Você verá uma lista de todos os programas instalados em seu computador
+Passo 5: Encontre o programa
+
+Percorrer a lista para encontrar o programa que instalou recentemente
+Clique nele para selecioná-lo
+Passo 6: desinstalar o programa
+
+Um botão "Desinstalar" deverá aparecer
+Clique no botão "Desinstalar"
+Uma janela aparecerá perguntando se você tem certeza
+Clique em "Desinstalar" novamente
+Siga quaisquer instruções que apareçam
+Esperar que ele termine
+Passo 7: Reinicie o seu computador
+
+Clique em START BUTTON > Ícone de energia > Reiniciar
+Passo 8: Teste
+
+Após reiniciar, use o computador normalmente
+Veja se o ecrã azul ainda acontece
+Se não, esse programa era o problema.
+QUICK FIX # 6: Atualizar Todos os Drivers
+Motoristas ultrapassados podem causar telas azuis.
+
+Passo 1: Abrir o Gerenciador de Dispositivos
+
+Clique no botão inicial
+Tipo: "manager de dispositivos"
+Clique em "Device Manager"
+Passo 2: Procure dispositivos de problema
+
+Na janela Gerenciador de Dispositivos, veja todos os dispositivos listados
+Procure dispositivos com um ponto de exclamação amarelo (!) ao lado deles
+Estes são dispositivos com drivers desatualizados ou faltando
+Passo 3: Atualizar cada dispositivo problemático
+
+Botão direito do mouse em um dispositivo com uma marca amarela
+Clique em "Atualizar driver"
+Clique em "Procurar automaticamente para software de driver atualizado"
+Aguarde pelo Windows para pesquisar e instalar a atualização
+Isto pode demorar alguns minutos.
+Passo 4: Repetir para todos os dispositivos
+
+Faça isso para cada dispositivo que tenha uma marca amarela
+Atualize-os um de cada vez
+Passo 5: Reinicie o seu computador
+
+Depois de atualizar todos os drivers, reinicie seu computador
+Clique em START BUTTON > Ícone de energia > Reiniciar
+Passo 6: Teste
+
+Após reiniciar, use o computador normalmente
+Veja se o ecrã azul ainda acontece
+QUICK FIX #7: Execute o verificador de arquivos do sistema
+System File Checker reparos corrompidos arquivos Windows que podem causar falhas.
+
+Passo 1: Abrir Prompt de Comando como Administrador
+
+Clique no botão inicial
+Tipo: "prompt de comando"
+Botão direito do mouse em "Prompt de Comando"
+Clique em "Execute como administrador"
+Clique em "Sim" se solicitado para permissão
+Passo 2: Digite o comando
+
+Na janela Prompt de Comando, digite exatamente: sfc /scannow
+Pressione a tecla Enter
+Passo 3: Espere pela varredura
+
+A varredura começará
+Não interromper ou fechar esta janela
+O exame demora 15-20 minutos.
+Você verá o progresso enquanto examina
+Passo 4: Aguarde a conclusão
+
+Quando a digitalização terminar, irá mostrar uma mensagem
+Se os problemas forem encontrados, o Windows irá repará-los automaticamente
+Passo 5: Reinicie o seu computador
+
+Fechar a janela de Prompt de Comando
+Clique em START BUTTON > Ícone de energia > Reiniciar
+Passo 6: Teste
+
+Após reiniciar, use o computador normalmente
+Veja se o ecrã azul ainda acontece
+Problema #2: O computador congela (não responde)
+QUICK FIX #1: Forçar a fechar um programa congelado
+Passo 1: Abrir o Gerenciador de Tarefas
+
+Botão direito do mouse na barra de tarefas
+Clique em "Gerenciador de tarefas"
+Passo 2: Encontre o programa congelado
+
+Veja a lista de programas em execução
+Encontre o programa que está congelado
+Pode dizer "Não responder" ao lado do seu nome.
+Passo 3: Selecione o programa
+
+Clique no programa congelado para selecioná-lo
+Será realçado
+Passo 4: Finalizar a Tarefa
+
+Olhe para o canto inferior direito da janela Gerenciador de tarefas
+Você deve ver um botão que diz "End Task"
+Clique em
+O programa congelado irá fechar imediatamente
+Passo 5: Fechar Gerenciador de tarefas
+
+Clique no botão X para fechar o Gerenciador de Tarefas
+Fixação rápida #2: Força Reinicie seu computador
+Se todo o seu computador congelar, você pode forçá-lo a reiniciar.
+
+Passo 1: Segure o botão de energia
+
+Encontre o botão Energia no seu computador
+Segure-o por 10 segundos (conte lentamente)
+Não largues até passarem 10 segundos.
+Passo 2: O computador desliga
+
+O seu computador vai forçar a desligar.
+O ecrã ficará preto
+Todos os programas irão fechar sem salvar
+Passo 3: Espere 10 segundos
+
+Espera e não faças nada.
+Passo 4: Ligue de novo
+
+Pressione o botão Energia uma vez para voltar a ligá-lo
+Seu computador irá reiniciar
+Windows carregará normalmente
+Passo 5: Verifique se há problemas
+
+Após reiniciar, seu computador deve funcionar normalmente
+Se o congelamento acontecer novamente, tente as correções na SECÇÃO 5 (desempenho lento), uma vez que o congelamento é frequentemente causado pela lentidão
+SECÇÃO 7: PROBLEMAS SOM/AUDIO
+Problema #1: Sem som de alto-falantes ou auscultadores
+Fixação Rápida #1: Verificar o Nível do Volume
+Passo 1: Olhe para a barra de tarefas
+
+Olhe para o canto inferior direito da tela
+Você deve ver um ícone de alto-falante (parece um alto-falante ou uma onda sonora)
+Passo 2: Clique no ícone do alto-falante
+
+Clique no ícone do alto-falante com o botão esquerdo do mouse
+Aparecerá uma barra de volume
+Passo 3: Verifique a barra de volume
+
+Você verá uma barra deslizante (uma barra horizontal)
+Certifique-se de que a barra não está completamente à esquerda (que seria silenciada)
+Se é todo o caminho para a esquerda, arraste-o para a direita para aumentar o volume
+Passo 4: Teste de som
+
+Abra um vídeo ou música
+Vê se consegues ouvir o som agora.
+Fixar rapidamente # 2: Desmute Sound
+Passo 1: Clique no ícone do alto-falante
+
+Clique no ícone do alto-falante no canto inferior direito
+Passo 2: Procure um botão mudo
+
+No menu de volume que aparece, procure um ícone mudo (geralmente um X através de uma coluna)
+Se vir isto, significa que o som está mudo.
+Passo 3: Clique para soltar
+
+Clique no ícone mudo para soltar
+O ícone deve mudar (o X deve desaparecer)
+Passo 4: Teste de som
+
+Reproduzir um vídeo ou música
+Vê se consegues ouvir o som agora.
+QUICK FIX # 3: Verificar o Dispositivo de Saída
+Seu computador pode ser configurado para saída de som para o dispositivo errado (como um alto-falante ou fones de ouvido diferentes).
+
+Passo 1: Clique no ícone do alto-falante
+
+Clique no ícone do alto-falante no canto inferior direito
+Passo 2: Procure por misturador de volume
+
+No menu de volume, procure por "misturador de volume" ou "preferências de volume e dispositivo"
+Clique nele
+Passo 3: Verificar dispositivos de saída
+
+Você verá uma lista de aplicativos
+Procure o aplicativo que deve fazer som (como YouTube, Spotify ou um jogo)
+Ao lado dele, você deve ver um menu suspenso mostrando o dispositivo de saída
+Certifique-se de que está configurado para as colunas ou auscultadores
+Se ele diz "Nenhum dispositivo" ou um dispositivo errado, clique no dropdown
+Passo 4: Selecione o dispositivo correto
+
+Clique na lista ao lado da aplicação
+Selecione seus alto-falantes ou fones de ouvido
+O aplicativo deve agora reproduzir o som através do dispositivo correto
+Passo 5: Teste de som
+
+Tente reproduzir áudio novamente
+Vê se consegues ouvi-lo agora.
+QUICK FIX # 4: Reinicie o serviço de áudio
+O serviço de áudio é um processo do Windows que lida com o som. Reiniciar pode resolver problemas.
+
+Passo 1: Serviços Abertos
+
+Clique no botão inicial
+Tipo: "serviços"
+Clique em "Serviços" quando aparecer
+Passo 2: Encontre o áudio do Windows
+
+Uma janela será aberta mostrando uma lista de serviços
+Role para baixo para encontrar "Windows Audio"
+Clique nele para selecioná-lo
+Passo 3: Reiniciar o serviço
+
+Botão direito do mouse em "Windows Audio"
+Um menu aparecerá
+Clique em "Reiniciar"
+O serviço irá reiniciar
+Passo 4: Espere
+
+Aguarde alguns segundos para que a reinicialização seja concluída
+Passo 5: Feche a janela
+
+Clique no botão X para fechar Serviços
+Passo 6: Teste de som
+
+Tente reproduzir áudio
+Vê se consegues ouvir o som agora.
+QUICK FIX #5: Atualizar Drivers de Áudio
+Drivers de áudio são software que ajudam o Windows a controlar o seu som.
+
+Passo 1: Abrir o Gerenciador de Dispositivos
+
+Clique no botão inicial
+Tipo: "manager de dispositivos"
+Clique em "Device Manager"
+Passo 2: Encontre controladores de som, vídeo e jogo
+
+Na janela Gerenciador de Dispositivos, procure "Controladores de som, vídeo e jogo"
+Clique na seta ao lado para expandi- la
+Você verá dispositivos de áudio listados (geralmente tem "Audio" ou "Realtek" no nome)
+Passo 3: Atualizar o driver
+
+Botão direito do mouse em seu dispositivo de áudio
+Clique em "Atualizar driver"
+Passo 4: Procure por atualizações
+
+Uma janela aparecerá
+Clique em "Procurar automaticamente para software de driver atualizado"
+Windows irá pesquisar e instalar atualizações
+Isto pode demorar alguns minutos.
+Passo 5: Reinicie o seu computador
+
+Após a atualização, feche todas as janelas
+Clique em START BUTTON > Ícone de energia > Reiniciar
+Passo 6: Teste de som
+
+Após reiniciar, tente reproduzir áudio
+Vê se consegues ouvir o som agora.
+Problema # 2: O microfone não está funcionando
+Fixação Rápida #1: Verifique Permissões de Microfone
+O Windows precisa de permissão para usar o microfone.
+
+Passo 1: Abrir configurações
+
+Clique no botão inicial
+Clique no ícone de engrenagem (s)
+Passo 2: Vá para Privacidade e segurança
+
+Do lado esquerdo, clique em "Privacidade e segurança"
+Passo 3: Clique em Microfone
+
+Do lado direito, devias ver "Microfone"
+Clique nele
+Passo 4: Ligar o acesso ao microfone
+
+Você verá uma opção que diz "Acesso a microfone"
+Certifique-se de que está ligado (o botão deve ser azul)
+Se estiver OFF (cinzento), clique nele para ligá-lo
+Passo 5: Verifique as permissões do aplicativo
+
+Role para baixo para ver "Permitir aplicativos para acessar seu microfone"
+Encontre o aplicativo com o qual deseja usar o microfone (Discord, Zoom, Equipes, etc.)
+Certifique- se de que a opção ao lado está ON
+Passo 6: microfone de teste
+
+Abra a aplicação
+Tente usar o microfone
+Vê se funciona.
+Fixação rápida # 2: Definir o Microfone Padrão
+Seu computador pode estar configurado para usar o microfone errado.
+
+Passo 1: Clique no ícone do alto-falante
+
+Clique no ícone do alto-falante no canto inferior direito
+Passo 2: Clique em misturador de volume
+
+Clique em "Misturador de volume" ou "Preferências de volume e dispositivo"
+Passo 3: Procure Entrada
+
+Role para baixo para encontrar a seção "Input"
+Isto mostra as configurações do microfone
+Passo 4: Selecione o microfone correto
+
+Em "Input", você deve ver um menu suspenso
+Clique nele para ver microfones disponíveis
+Selecione o microfone que você deseja usar (geralmente diz "Microfone" ou o nome do seu microfone)
+Passo 5: microfone de teste
+
+Tente usar o microfone
+Fala com ele e vê se capta som.
+SECÇÃO 8: PROBLEMAS DE ACTUALIZAÇÃO
+Problema: Atualização do Windows preso ou pendurado
+Fixar rapidamente #1: Esperar
+As atualizações do Windows podem levar muito tempo.

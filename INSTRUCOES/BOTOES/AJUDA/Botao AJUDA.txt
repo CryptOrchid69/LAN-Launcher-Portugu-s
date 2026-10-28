@@ -1,0 +1,3 @@
+﻿AJUDA
+
+O botão AJUDA abre o centro de instruções do LAN Launcher. Nele o usuário encontra vantagens, explicações dos botões, recursos gerais e a Central de Conhecimento.

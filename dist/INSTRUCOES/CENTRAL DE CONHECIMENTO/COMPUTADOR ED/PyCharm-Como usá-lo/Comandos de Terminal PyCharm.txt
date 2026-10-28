@@ -1,0 +1,1631 @@
+﻿REFERÊNCIA COMPLETA DO TERMINAL DE PICHARMA
+Windows 11 - PowerShell-primeira edição
+Atualizado em: 18 de junho de 2026
+
+IMPORTANTE
+==============
+
+PyCharm pode usar PowerShell, Prompt de Comando, Git Bash, ou outra shell.
+Os comandos neste arquivo usam PowerShell a menos que um shell diferente seja nomeado.
+
+Executar um comando de cada vez. Leia um comando antes de executá-lo.
+Substituir nomes de exemplo como Package, script.py e FolderName.
+Colocar aspas ao redor de caminhos contendo espaços.
+
+Preferir:
+
+Py-m pip...
+
+em vez de:
+
+pip...
+
+Usando "py -m pip" ajuda a garantir que o pip pertença ao Python selecionado.
+
+Comandos contendo Remove- Item, taskkill, Stop- Process, git clean, ou
+desinstalar pode excluir dados ou parar programas. Use-os apenas quando pretendido.
+
+
+SECÇÃO 1 - NAVEGAÇÃO E BASE TERMINAL
+==================================================
+
+Mostrar a pasta actual:
+
+Localização
+
+Alias do PowerShell Curto:
+
+pwd
+
+Mudar para uma pasta:
+
+Configuração "C:\Path\To\Folder"
+
+Forma curta:
+
+cd "C:\Path\To\Folder"
+
+Abrir a pasta de área de trabalho:
+
+cd "$env:USERPROFILE\Desktop"
+
+Abra a pasta Novo Professor 2:
+
+cd "$env:USERPROFILE\Desktop\New Teacher 2"
+
+Subir uma pasta:
+
+cd..
+
+Subir duas pastas:
+
+cd...\.
+
+Mover para a raiz da unidade atual:
+
+cd \
+
+Voltar para o local anterior:
+
+Localização Pop
+
+Salva temporariamente a localização atual e se move para outro lugar:
+
+Localização-Push "C:\Path\To\Folder"
+
+Listar arquivos e pastas:
+
+Get-ChildItem
+
+Formulários curtos:
+
+dir
+ls
+
+Listar os itens escondidos:
+
+Get-ChildItem - Força
+
+Listar apenas os ficheiros:
+
+Get-ChildItem - Arquivo
+
+Listar apenas pastas:
+
+Get-ChildItem - Directório
+
+Listar os itens recursivamente:
+
+Get-ChildItem - Recurse
+
+Listar os ficheiros em Python recursivamente:
+
+Get-ChildItem - Recurse -Filtro *.py
+
+Limpar o terminal:
+
+Limpar o Host
+
+Forma curta:
+
+cls
+
+Mostrar comandos PowerShell anteriores:
+
+Get-History
+
+Repetir um item histórico:
+
+História do Invoque 5
+
+Mostrar a ajuda para um comando PowerShell:
+
+Get- Help Get-ChildItem
+
+Mostrar ajuda detalhada com exemplos:
+
+Get-Help Get-ChildItem -Full
+
+Procurar comandos pelo nome:
+
+Obter o Comando * processo *
+
+Sair do terminal:
+
+saída
+
+
+SECÇÃO 2 - COMPROMISSOS FILE E FOLDER
+=================================================
+
+Criar um ficheiro de texto vazio:
+
+Novo- Item - ItemType File -Path "file.txt"
+
+Criar ou substituir um arquivo de texto por texto:
+
+Set- Content - Caminho "file.txt" - Valor "Hello"
+
+Adicionar texto ao fim de um ficheiro:
+
+Adicionar- Conteúdo - Caminho "file.txt" - Valor "Outra linha"
+
+Leia um arquivo de texto:
+
+Get- Content - Caminho "file.txt"
+
+Leia as primeiras 20 linhas:
+
+Get- Content - Caminho "file.txt" - TotalCount 20
+
+Leia as últimas 20 linhas:
+
+Get-Content - Caminho "file.txt" -Tail 20
+
+Monitorar novas linhas escritas em um registro:
+
+Get-Content - Caminho "app.log" - Espera
+
+Criar uma pasta:
+
+Novo item - ItemType Directory - Caminho "FolderName"
+
+Forma curta:
+
+mkdir "FolderName
+
+Criar pastas aninhadas:
+
+Novo item - ItemType Directory - Caminho "Pais/Crianças" - Força
+
+Copiar um ficheiro:
+
+Copy-Item - Caminho "source.txt" - Destino "copy.txt"
+
+Copiar e substituir um ficheiro existente:
+
+Copy-Item - Caminho "source.txt" - Destino "copy.txt" - Força
+
+Copie uma pasta e seu conteúdo:
+
+Copy-Item - Caminho "SourceFolder" - Destino "BackupFolder" - Recurse
+
+Mover um arquivo:
+
+Move-Item - Caminho "file.txt" - Destino "C:\Destino"
+
+Renomear um arquivo:
+
+Renomear- Item - Caminho "old.txt" - Novo Nome "new.txt"
+
+Mostrar a informação completa do ficheiro:
+
+Get-Item -Path "file.txt"
+
+Mostrar o tamanho do ficheiro e a data modificada:
+
+Get-Item -Path "file.txt" □ Select-Object FullName, Length,LastWriteTime
+
+Verificar se existe um caminho:
+
+Caminho de Teste "C:\Path\To\File.txt"
+
+Resolver um caminho para sua forma absoluta:
+
+Resolver o Caminho ".\file.txt"
+
+Abrir a pasta actual no Explorador de Ficheiros:
+
+explorador.
+
+Abrir uma pasta específica no Explorador de Ficheiros:
+
+explorador "C:\Path\To\Folder"
+
+Abra um arquivo de texto com seu programa padrão:
+
+Processo inicial "file.txt"
+
+ATENÇÃO - apagar um arquivo:
+
+Remove- Item - LiteralPath "file.txt"
+
+ATENÇÃO - excluir uma pasta vazia:
+
+Remove- Item - LiteralPath "FolderName"
+
+CUIDADO - excluir uma pasta e tudo dentro dela:
+
+Remove- Item - LiteralPath "FolderName" - Recurse -Force
+
+
+SECÇÃO 3 - ARQUIVOS E TEXTO
+=================================================
+
+Procurar os ficheiros pelo nome:
+
+Get-ChildItem - Recurse - Filter "TEAcher.py"
+
+Procurar todos os ficheiros Python:
+
+Get-ChildItem - Recurse -Filtro *.py
+
+Procurar por texto dentro de um arquivo:
+
+Select-String - Caminho "script.py" - Padrão "def main"
+
+Procurar todos os ficheiros Python recursivamente:
+
+Get-ChildItem - Recurse -Filtro *.py □ Select-String -Pattern "TODO"
+
+Pesquisa sensível a maiúsculas:
+
+Select-String - Caminho "script.py" -Pattern "TeacherApp" -CaseSensitive
+
+Mostrar os números das linhas correspondentes:
+
+Select-String -Caminho "script.py" -Pattern "def"
+Número de Linhas de Objetos Seleccionados, Linha
+
+Usar o ripgrep quando instalado:
+
+rg "pesquisar texto"
+
+Procurar arquivos Python com ripgrep:
+
+rg - n -- glob "*.py" "texto de pesquisa"
+
+Listar arquivos rapidamente com ripgrep:
+
+rg -- files
+
+
+SECÇÃO 4 - PITONA E AS VIDAS LANÇADORES
+====================================================
+
+Mostrar a versão em Python seleccionada:
+
+py -- version
+
+Alternativa:
+
+python -- version
+
+Mostrar o executável Python a ser usado:
+
+py -c "importar sys; print(sys.executável)"
+
+Mostrar informações detalhadas da versão em Python:
+
+py -c "import sys; print(sys.version)"
+
+Mostrar os caminhos em Python:
+
+py -c "import sys; print('\n'. join(sys.path))"
+
+Mostrar a pasta de pacotes do site do usuário:
+
+py - m site -- user- site
+
+Mostrar a configuração completa do site:
+
+py - m site
+
+Iniciar a consola Python interativa:
+
+py
+
+Sair da consola Python:
+
+exit ()
+
+Executar um programa em Python:
+
+script py.py
+
+Executar um script cujo caminho contém espaços:
+
+py "C:\Path With Spaces\script.py"
+
+Executar um script com argumentos:
+
+py script.py argumento1 argumento2
+
+Executar um módulo Python:
+
+py -m package.module
+
+Executar uma linha de Python:
+
+py -c "print('Olá, mundo!')"
+
+Mostrar todos os módulos importáveis instalados:
+
+py -c "help('módulos')"
+
+Mostra ajuda para um módulo Python:
+
+py - m pydoc MODULE  NAME
+
+Abrir documentação em Python num navegador:
+
+py -m pydoc -b
+
+Iniciar um servidor web local na porta 8000:
+
+py - m http. server 8000
+
+Iniciar em outra porta:
+
+py - m http. server 8080
+
+Compila um arquivo Python sem executá-lo:
+
+py -m py compile script.py
+
+Compilar todos os ficheiros Python numa pasta:
+
+py -m compilall .
+
+Compilar em silêncio:
+
+py -m compilaall -q .
+
+Mostrar a localização do ficheiro de um módulo:
+
+py - c "importar MODULE  NAME; print( MODULE  NAME.   file  )"
+
+Testar se um módulo importa:
+
+py - c "importar MODULE  NAME; print( 'Importar com sucesso')"
+
+Mostrar a versão de um módulo instalado:
+
+py - c "importar MODULE  NAME; print( MODULE  NAME.   version  )"
+
+Medir quanto tempo leva um pequeno comando:
+
+Measure-Command { py script.py}
+
+
+SECÇÃO 5 - GESTÃO DA EMBALAGEM PIP
+==============================================
+
+Mostrar a versão e localização do 'pip':
+
+py - m pip -- version
+
+Mostrar a ajuda do pip:
+
+py - m pip -- help
+
+Listar os pacotes instalados:
+
+py - m pip list
+
+Listar os pacotes desactualizados:
+
+py - m pip list -- outdated
+
+Mostrar informações do pacote:
+
+Py - m pip show PACOTE
+
+Mostrar os ficheiros de pacotes:
+
+py - m pip show -- files PACOTE
+
+Instalar um pacote:
+
+Py - m pip install PACOTE
+
+Instalar vários pacotes:
+
+py - m pip install PyQt6 pyinstaller sympy
+
+Instalar uma versão exata:
+
+py -m pip install PACOTE
+
+Instalar pelo menos uma certa versão:
+
+py -m pip install "PACKAGE>=1.2.3"
+
+Atualizar um pacote:
+
+py - m pip install -- upgrade PACOTE
+
+Pip de atualização:
+
+py - m pip install -- upgrade pip
+
+Reinstalar um pacote:
+
+py - m pip install -- force- reinstall PACOTE
+
+Instale apenas para o usuário atual do Windows:
+
+py - m pip install -- user Package
+
+Desinstalar um pacote:
+
+Py -m pip
+
+Desinstalar sem uma pergunta de confirmação extra:
+
+Py -m pip desinstalar -y PACOTE
+
+Verificar a compatibilidade de dependência instalada:
+
+verificação py - m pip
+
+Exibir pacotes no formato de requisitos:
+
+congelamento py -m pip
+
+Salvar pacotes instalados:
+
+py -m pip congelar
+
+Instale pacotes de requirements.txt:
+
+py -m pip install -r requisitos. txt
+
+Instalar um projeto local:
+
+py -m pip install .
+
+Instale um projeto local em modo editável:
+
+py -m pip install -e .
+
+Transferir um pacote sem o instalar:
+
+Py - m pip pacote de download
+
+Mostrar as versões disponíveis de um pacote:
+
+py -m pip index versions PACOTE
+
+Mostrar a configuração do pip:
+
+py - m lista de configuração do pip
+
+Mostrar a informação da 'cache' do 'pip':
+
+py - m pip cache info
+
+Listar os pacotes em cache:
+
+py - m pip lista de cache
+
+CUIDADO - cache do pip limpo:
+
+purga da 'cache' py - m
+
+NOTA:
+"Pip search PACOTE" é obsoleto e não funciona mais com o PyPI moderno.
+Use "py -m pip index versions PACOTE" ou procure https://pypi.org em vez disso.
+
+
+SECÇÃO 6 - AMBIENTE VIRTUAL
+=======================================
+
+Criar um ambiente virtual:
+
+py - m venv . venv
+
+Crie e atualize as dependências do núcleo:
+
+py - m venv . venv -- upgrade- deps
+
+Activa-o em PowerShell:
+
+.\.venv\Scripts\Activate.ps1
+
+Ative-o no Prompt de Comando:
+
+.\.venv\Scripts\activate.bat
+
+Desactivar:
+
+desactivar
+
+Mostrar se um ambiente virtual está activo:
+
+python -c "import sys; print(sys.prefix != sys.base  prefix)"
+
+Mostrar o executável Python activo:
+
+python -c "importar sys; print(sys.executável)"
+
+Instalar requisitos dentro do ambiente ativo:
+
+python -m pip install -r requirements.txt
+
+Execute o Python do ambiente sem ativá-lo:
+
+.\.venv\Scripts\python.exe script.py
+
+Execute o pip do ambiente sem ativá-lo:
+
+.\.venv\Scripts\python.exe -m pip list
+
+Se PowerShell blocos Active.ps1, permitir scripts criados localmente para o
+usuário atual:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+ATENÇÃO - remover um ambiente virtual descartável:
+
+Remove-Item - LiteralPath ".venv" - Recurse -Force
+
+Os ambientes virtuais devem ser recriados em vez de copiados ou movidos.
+
+
+SECÇÃO 7 - PYINSTALLER E WINDOWS EXE builds
+====================================================
+
+Instalar ou atualizar o PyInstaller:
+
+py - m pip install -- upgrade pyinstaller
+
+Mostrar a versão do PyInstaller instalada:
+
+py - m PyInstaller -- version
+
+Mostrar a ajuda do PyInstaller:
+
+py - m PyInstaller -- help
+
+Compilar uma aplicação de uma pasta normal:
+
+py -m PyInstaller script.py
+
+Compila um arquivo executável:
+
+py - m PyInstaller -- um script de arquivo. py
+
+Construir uma aplicação GUI sem uma janela de console:
+
+py - m PyInstaller -- noconsole -- onefile script. py
+
+Escolha o nome do executável:
+
+py - m PyInstaller -- noconsole -- um arquivo -- name MY  APP script.py
+
+Adicionar um ícone do Windows:
+
+py -m PyInstaller --noconsole --onefile --name MY APP --icon "APP.ico" script.py
+
+Limpar o antigo cache do PyInstaller antes de construir:
+
+py - m PyInstaller -- clean -- noconsole -- um arquivo -- nome MY  APP script.py
+
+Sobrescrever uma compilação existente sem confirmação:
+
+py -m PyInstaller -- noconfirm -- clean --onefile --name MY APP script.py
+
+Incluir um pacote inteiro e os seus dados:
+
+py - m PyInstaller -- colet- all Package script. py
+
+Incluir uma importação oculta:
+
+py - m PyInstaller -- escondido- importar PACOTE. MODULE script.py
+
+Adicionar um arquivo de dados no Windows:
+
+py - m PyInstaller -- add- data "source.txt;." script.py
+
+Adicionar uma pasta de dados no Windows:
+
+py - m PyInstaller -- add- data "FILES;FILES" script.py
+
+Compila a partir de um arquivo de especificação existente:
+
+py -m PyInstaller MY APP.spec
+
+Mostrar informações detalhadas de importação/compilação:
+
+py - m PyInstaller -- log- level DEBUG script.py
+
+Constrói exatamente o ensino atualizado usado no Novo Professor 2:
+
+cd "$env:USERPROFILE\Desktop\New Teacher 2"
+
+py -m PyInstaller -- clean --noconsole --onefile --name TEAcher --icon "TEAcher.ico" -- collect-all PyQt6 -- collect-all simpy TEAcher.py
+
+Copie o TEACHER.exe terminado da dist para a pasta atual:
+
+Copy-Item - LiteralPath ".\dist\TEAcher.exe" -Destino ".\TEAcher.exe" - Força
+
+Construir TEACHER sem Sympy para uma fonte não-calculadora mais antiga:
+
+py -m PyInstaller -- clean --noconsole --onefile --name TEAcher --icon "TEAcher.ico" -- collect-all PyQt6.py
+
+Locais típicos de saída de compilação:
+
+.\build
+.\dist
+.\MY APP.spec
+
+O executável utilizável é normalmente:
+
+.\dist\MY APP.exe
+
+Verifique se o executável existe:
+
+Caminho de teste ".\dist\MY APP.exe"
+
+Mostrar tamanho e data do executável:
+
+Get-Item ".\dist\MY APP.exe"
+Nome completo do objeto selecionado, comprimento, último tempo de gravação
+
+Compare dois executáveis pelo hash SHA-256:
+
+Get-FileHash - Algoritmo SHA256 ".\dist\MY APP.exe"
+Get-FileHash - Algoritmo SHA256 ".\MY APP.exe"
+
+Os arquivos são idênticos quando seus valores de hash SHA-256 são idênticos.
+
+CAUÇÃO - remover a saída de compilação antiga antes de reconstruir:
+
+Remove- Item - LiteralPath ".\build" - Recurse -Force
+Remove- Item - LiteralPath ".\dist" - Recurse - Força
+
+
+SECÇÃO 8 - PROFESSOR E COMPROMISSOS APP DESKTOP
+==========================================================
+
+Abrir Novo Instrutor 2:
+
+cd "$env:USERPROFILE\Desktop\New Teacher 2"
+
+Verifique a sintaxe TEACHER.py:
+
+Py -m py compile TEACHER.py
+
+Corre, Professor.
+
+Py TEACHER.
+
+Instalar pacotes de desenvolvimento do TEAcher:
+
+py - m pip install PyQt6 pyinstaller sympy
+
+Mostrar as versões relevantes do pacote:
+
+py - m pip show PyQt6 pyinstaller sympy
+
+Compilar a versão atual da calculadora:
+
+py -m PyInstaller -- clean --noconsole --onefile --name TEAcher --icon "TEAcher.ico" -- collect-all PyQt6 -- collect-all simpy TEAcher.py
+
+Coloque o novo executável ao lado do TEACHER.py:
+
+Copy-Item - LiteralPath ".\dist\TEAcher.exe" -Destino ".\TEAcher.exe" - Força
+
+Confirmar as informações do código e do executável:
+
+Get-Item ".\TECHER.py",."\TECHER.exe"
+Nome completo do objeto selecionado, comprimento, último tempo de gravação
+
+Confirmar que a cópia executável e dist são idênticas:
+
+Get-FileHash - Algoritmo SHA256 ".\TEAcher.exe"
+Get-FileHash - Algoritmo SHA256 ".\dist\TEAcher.exe"
+
+Listar os arquivos de lição do professor:
+
+Get-ChildItem - LiteralPath ".\FILES" - Arquivo
+
+Contar os ficheiros das lições de texto:
+
+(Get-ChildItem - LiteralPath ".\FILES" -Filter *.txt - File). Contagem
+
+Procurar os ficheiros da lição:
+
+Get-ChildItem - LiteralPath ".\FILES" -Filter *.txt
+Select- String - Padrão "Internet"
+
+Iniciar o aplicativo construído:
+
+Processo inicial ".\TEAcher.exe"
+
+Mostrar os processos do ENSINO em execução:
+
+Get-Process -Name TEACHER -ErrorAction SilenciosamenteContinue
+
+CAUÇÃO - parar todos os processos de ensino em execução:
+
+Stop-Process - Nome ENSINO - Força
+
+
+SECÇÃO 9 - ENSAIO
+========================
+
+Executar todos os testes unitários:
+
+Py - m teste unitário
+
+Descobrir os ficheiros unitários:
+
+descobrir o teste unitário py - m
+
+Executar um módulo de teste unitário:
+
+py -m unittest tests.test example
+
+Executar uma classe ou método de teste unitário:
+
+py -m unitest tests.test example.TestClass.test method
+
+Instalar pytest:
+
+py - m pip install pytest
+
+Executar o pytest:
+
+py - m pytest
+
+Executar o pytest verbalmente:
+
+py - m pytest - v
+
+Executar um arquivo de teste:
+
+py -m pytest tests\test example.py
+
+Executar testes correspondentes a um nome:
+
+py -m pytest -k "calculador"
+
+Parar após a primeira falha:
+
+py - m pytest - x
+
+Mostrar a saída impressa durante os testes:
+
+py - m pytest -s
+
+Executar apenas os últimos testes falhou:
+
+py - m pytest -- lf
+
+Cobertura de instalação:
+
+cobertura de instalação py -m pip
+
+Executar testes com cobertura:
+
+py -m cobertura execução -m pytest
+
+Mostrar os resultados da cobertura:
+
+relatório de cobertura py -m -m
+
+Criar um relatório de cobertura HTML:
+
+py -m cobertura html
+
+
+SECÇÃO 10 - FORMAÇÃO, LINTAÇÃO E CONTROLO DE TIPO
+==========================================================
+
+Instalar ferramentas de qualidade comuns:
+
+py - m pip install black ruff mypy
+
+Formatar um arquivo Python com Preto:
+
+py -m script preto.py
+
+Verificar a formatação sem alterar os ficheiros:
+
+py -m black -- check script.py
+
+Formatar o projeto atual:
+
+Py -m preto.
+
+Executar verificações de Ruff:
+
+Py-m cheque ruff.
+
+Corrigir automaticamente resultados seguros Ruff:
+
+verificação de ruff py - m . --fix
+
+Executar a formatação do Ruff:
+
+formato py -m ruff .
+
+Corre, mypy.
+
+Py -m mypy script.py
+
+Execute o mypy num pacote:
+
+py -m mypy package  name
+
+Instalar e executar o pylint:
+
+py - m pip install pylint
+py - m script pylint.py
+
+
+SECÇÃO 11 - CONTROLO DA VERSÃO DO GIT
+=======================================
+
+Mostrar a versão Git:
+
+git -- version
+
+Inicializar um repositório:
+
+git init
+
+Clonar um repositório:
+
+git clone https://example.com/owner/repository.git
+
+Mostrar o estado do repositório:
+
+git status
+
+Estado curto:
+
+git status -- short
+
+Mostrar as linhas alteradas:
+
+git diff
+
+Mostrar as alterações encenadas:
+
+git diff -- staged
+
+Adicionar um ficheiro:
+
+git add script.py
+
+Adicionar todas as alterações atuais:
+
+git add .
+
+Criar um commit:
+
+git commit - m "Descreva a mudança"
+
+Mostrar o histórico de envio:
+
+git log
+
+Mostrar o histórico compacto:
+
+git log --oneline -- graph -- decorate -- all
+
+Mostrar os ramos:
+
+git branch
+
+Criar um ramo:
+
+git branch new- branch
+
+Criar e mudar para um ramo:
+
+git switch - c novo ramo
+
+Mudar de ramo:
+
+git switch branch-name
+
+Renomear o ramo atual:
+
+git branch - m novo- nome
+
+Mesclar um ramo:
+
+git merge branch-name
+
+Mostrar os comandos configurados:
+
+git remote - v
+
+Adicionar um comando:
+
+git Remote add origin https://example.com/owner/repository.git
+
+Obter informação remota:
+
+git fetch
+
+Retirar alterações:
+
+git pull
+
+Empurre o ramo atual:
+
+git push
+
+Configurar o montante e empurrar:
+
+git push - u origem branch- name
+
+Mostrar um envio:
+
+git show COMMIT ID
+
+Mostrar os arquivos rastreados:
+
+git ls-files
+
+Armazenar temporariamente alterações sem compromisso:
+
+git stash push - m "Trabalho temporário"
+
+Lista de stashs:
+
+git stash list
+
+Restaurar o stash mais novo:
+
+git stash pop
+
+Criar uma etiqueta:
+
+git tag v1. 0. 0
+
+Mostrar os ficheiros ignorados:
+
+git status --ignored
+
+CAUTION - visualização de arquivos não rastreados O Git apagaria:
+
+git clean - end
+
+CAUTION - apagar arquivos não rastreados após revisão da prévia:
+
+git clean - fd
+
+
+SECÇÃO 12 - LUGAR DA LINHA COMUM DE PICHARMA
+==================================================
+
+Os executáveis oficiais do Windows são normalmente:
+
+pycharm64.exe
+pycharm.bat
+
+Eles funcionam em qualquer pasta apenas quando a pasta do bin do PyCharm ou o JetBrains
+A pasta de scripts Toolbox está incluída no PATH.
+
+Lançar o PyCharm:
+
+pycharm64.exe
+
+Abre a pasta actual como um projecto:
+
+pycharm64.exe .
+
+Abrir uma pasta específica:
+
+pycharm64.exe "C:\Projects\My Project"
+
+Abrir um ficheiro:
+
+pycharm64.exe "C:\Projects\My Project\script.py"
+
+Abra um arquivo e aguarde até que ele esteja fechado:
+
+pycharm64.exe -- espera "script.py"
+
+Iniciar sem o ecrã inicial:
+
+pycharm64.exe nosplash
+
+Iniciar sem reabrir os projetos anteriores:
+
+pycharm64.exe dontReopenProjects
+
+Iniciar sem plugins de terceiros:
+
+pycharm64.exe desabilitarNonBundledPlugins
+
+Abrir o visualizador de diferenças do PyCharm:
+
+pycharm64.exe diff "old.py" "new.py"
+
+Formatar arquivos usando o estilo de código PyCharm:
+
+pycharm64.exe formato "script.py"
+
+Inspecionar um projeto:
+
+pycharm64.exe inspecionar "C:\Project" "C:\InspectionProfile.xml" "C:\Results"
+
+JetBrains Toolbox normalmente coloca scripts de lançamento aqui:
+
+$env:LOCALAPPDATA\JetBrains\Toolbox\scripts
+
+Procurar um lançador PyCharm configurado:
+
+Get-Command pycharm64.exe,pycharm.bat -ErrorAction SilentlyContinue
+
+NOTA:
+"charm" não é o comando oficial padrão do Windows a menos que você ou uma ferramenta
+criou um lançador com esse nome personalizado.
+
+
+SECÇÃO 13 - COMPROMISSOS DE PROCESSO DE PODERSHELL
+==============================================
+
+Processos de lista:
+
+Obter o Processo
+
+Procurar processos em Python:
+
+Get- Process - Nome python - ErrorAction SilentlyContinue
+
+Encontre processos de ensino:
+
+Get-Process -Name TEACHER -ErrorAction SilenciosamenteContinue
+
+Mostrar o caminho do processo e a hora de início:
+
+Get- Process - Nome python
+ID do objeto selecionado, Nome do Processo, Caminho,Início
+
+Iniciar um programa:
+
+Processo inicial "program.exe"
+
+Iniciar um programa e esperar que ele termine:
+
+Iniciar-Processo "program.exe" -Espere
+
+Iniciar um programa em Python:
+
+Processo inicial "py" - ArgumentoLista "script.py"
+
+CAUÇÃO - parar um processo por ID:
+
+Stop- Process - Id 1234
+
+CUIDADO - forçar-parar um processo:
+
+Stop- Process - Id 1234 - Força
+
+Command Prompt equivalente:
+
+lista de tarefas
+taskkill /PID 1234 / F
+
+
+SECÇÃO 14 - DIAGNÓSTICAS DA REDE DE VENDAS
+==============================================
+
+Mostrar a configuração IP básica:
+
+ipconfig
+
+Mostrar configuração de rede detalhada:
+
+ipconfig /all
+
+Mostrar a rota voltada para o público:
+
+tracert exemplo.com
+
+Teste de conectividade básica:
+
+ping exemplo.com
+
+Resolução do DNS de ensaio:
+
+Resolver- DnsName example.com
+
+Mostrar cache de DNS:
+
+Get-DnsClientCache
+
+ATENÇÃO - limpar o cache DNS:
+
+ipconfig / flushdns
+
+Teste se uma porta TCP é acessível:
+
+Test-NetConnection example.com -Port 443
+
+Mostrar as ligações activas:
+
+Obter o NetTCPConnection
+
+Alternativa de Prompt de Comando:
+
+netstat -ano
+
+Mostrar a tabela de encaminhamento:
+
+impressão da rota
+
+Mostrar adaptadores de rede:
+
+Get-NetAdapter
+
+Mostrar endereços IP:
+
+Get-NetIPAddress
+
+
+SECÇÃO 15 - INFORMAÇÕES SOBRE O SISTEMA DE VENDAS
+====================================================
+
+Mostrar informações do sistema Windows:
+
+systeminfo
+
+Mostrar a versão PowerShell:
+
+Tabela $PSVersion
+
+Mostrar a versão do Windows:
+
+Get-ComputerInfo
+Select-Object WindowsProductName,WindowsVersion,OsBuildNumber
+
+Mostrar variáveis de ambiente:
+
+Env. Get- ChildItem:
+
+Mostrar PATH:
+
+$env:PATH
+
+Mostrar o nome de usuário atual:
+
+$env:USERNAME
+
+Mostrar a pasta de perfil do usuário:
+
+$env:USERPROFILE
+
+Mostrar a pasta temporária:
+
+$env: TEMP
+
+Procurar um executável:
+
+Píton de Obtenção-Comando
+
+Use o Windows onde utilitário de PowerShell:
+
+onde.exe python
+
+Mostrar unidades de disco:
+
+Get-PSDrive -PSProvider FileSystem
+
+Mostrar espaço livre:
+
+Obter-Volume
+Select-Object DriveLetter,FileSystemLabel,SizeRemaining,Size
+
+
+SECÇÃO 16 - HASHES, CONTROLOS E COMPARAÇÃO DE FILE
+==========================================================
+
+Calcular um hash SHA-256:
+
+Get-FileHash - Algoritmo SHA256 "file.exe"
+
+Calcular um hash MD5:
+
+Get-FileHash - Algoritmo MD5 "file.exe"
+
+Compare dois arquivos de texto:
+
+Comparar o objeto (Get-Content "old.txt") (Get-Content "new.txt")
+
+Comparar hashes de arquivos:
+
+$first = (Get-FileHash "first.exe"). Hash
+$segundo = (Get-FileHash "second.exe"). Hash
+$primeiro - eq $segundo
+
+Mostrar Verdadeiro apenas quando os arquivos têm hashes idênticos.
+
+
+SECÇÃO 17 - ARQUIVOS E APOIOS
+== Ligações externas ==
+
+Criar um arquivo ZIP:
+
+Arquivo Compresso - Caminho "Nome do Folder" - DestinoCaminho "Backup.zip"
+
+Criar ou substituir um arquivo ZIP:
+
+Compress- Archive - Caminho "FolderName" - DestinationPath "Backup.zip" - Força
+
+Extrair um arquivo ZIP:
+
+Expandir- Arquivo - Caminho "Backup.zip" -Destino Caminho "Restaurado"
+
+Copiar uma pasta de projeto como uma cópia de segurança simples:
+
+Copy-Item - Caminho "ProjectFolder" -Destino "ProjectFolder Backup" -Recurso
+
+Criar um nome de pasta de backup datado:
+
+$stamp = Get-Date -Format "yyyMMdd Hmmss"
+Copy-Item - Caminho "ProjectFolder" -Destino "ProjectFolder Backup $stamp" -Recurso
+
+
+SECÇÃO 18 - DADOS JSON, CSV, E TEXTO
+============================================
+
+Leia JSON:
+
+Get-Content "data.json" -Raw
+
+- Sim.
+
+Get-Content "data.json" -Raw
+ConverterDe- Json
+ConverterTo- Json - Depth 20
+
+Validar JSON com Python:
+
+py -m json.tool "data.json"
+
+Pretty-print JSON para outro arquivo:
+
+py -m json.tool "data.json" "formated.json"
+
+Leia CSV:
+
+Importar- Csv "data.csv"
+
+Selecione colunas CSV:
+
+Importar- Csv "data.csv" □ Nome do objeto selecionado,Valor
+
+Exportar objetos para CSV:
+
+Obter o Processo .
+Processo de Select- ObjectName, ID
+Exportar- Csv "processes.csv" - NoTypeInformation
+
+Contar as linhas num ficheiro de texto:
+
+(Get-Content "file.txt"). Contagem
+
+Contar palavras aproximadamente:
+
+(Get-Content "file.txt" -Raw -ErrorAction Stop -Encoding UTF8 -Delimiter "`0" -ReadCount 0). Dividir (
+@("",`r","`n","`t"),
+[System.StringSplitOptions]::RemoverEmptyEntries
+).Conta
+
+
+SECÇÃO 19 - SERVIÇOS COMUNS DE DESENVOLVIMENTO
+====================================================
+
+Servidor de arquivos local Python:
+
+py - m http. server 8000
+
+Instalar o Flask:
+
+frasco de instalação py -m pip
+
+Executar uma aplicação Flask:
+
+py -m flower -- app app run
+
+Executar o Flask no modo de depuração:
+
+py - m flower -- app app run -- debug
+
+Instalar Django:
+
+py - m pip install django
+
+Mostrar a versão do Django:
+
+py - m django -- version
+
+Criar um projeto Django:
+
+py - m django startproject mysite
+
+Execute o servidor de desenvolvimento Django:
+
+py management.py runserver
+
+Executar migrações Django:
+
+py management.py migrar
+
+Criar migrações Django:
+
+py management.py makemigrações
+
+Criar um administrador Django:
+
+py management.py createsuperuser
+
+Instalar FastAPI e Uvicorn:
+
+py - m pip install fastapi uvicorn
+
+Execute uma aplicação FastAPI:
+
+py - m uvicorn main: app -- reload
+
+Instalar o Jupyter:
+
+py - m pip install jupyter
+
+Iniciar o Livro de Notas do Jupyter:
+
+py -m jupyter notebook
+
+Iniciar o JupyterLab:
+
+Py -m jupyter lab
+
+
+SECÇÃO 20 - COMUNIDADES DE BASE DE DADOS
+=================================================
+
+Abrir um banco de dados SQLite usando Python:
+
+py - c "importar sqlite3; print( sqlite3. connect( 'data.db'))"
+
+Lista tabelas SQLite usando Python:
+
+py -c "importar sqlite3; c=sqlite3.connect('data.db'); print(c.execute(`"SELECT name FROM sqlite master Where type='table'`").fetchall()"
+
+Criar um backup rápido do SQLite:
+
+Copia- Item "data.db" "data backup.db"
+
+
+SECÇÃO 21 - CONDA COMMANDS
+=================================
+
+Estes comandos requerem Anaconda ou Miniconda.
+
+Mostrar versão do Conda:
+
+conda -- version
+
+Mostrar informações do Conda:
+
+informações do conda
+
+Listar os ambientes:
+
+lista de envs da consola
+
+Criar um ambiente:
+
+conda create -n myenv python=3.14
+
+Activar um ambiente:
+
+conda activar myenv
+
+Desactivar:
+
+desactivar conda
+
+Listar os pacotes:
+
+lista de conda
+
+Instalar um pacote:
+
+Conda instalar pacote
+
+Atualizar um pacote:
+
+Pacote de atualização do conda
+
+Exportar um ambiente:
+
+conda env export □ Set- Content "environment.yml"
+
+Criar a partir de um ficheiro de ambiente:
+
+conda env create -f environment.yml
+
+ATENÇÃO - remover um ambiente:
+
+conda env remove - n myenv
+
+
+SECÇÃO 22 - EQUIVALENTES COMANDOS
+====================================================
+
+Use estes somente quando o terminal do PyCharm for cmd.exe.
+
+Mostrar pasta atual:
+
+cd
+
+Mudar pasta:
+
+cd /d "C:\Caminho com Espaços"
+
+Ficheiros da lista:
+
+dir
+
+Listar os ficheiros escondidos:
+
+dir /a
+
+Criar uma pasta:
+
+Pasta mkdirName
+
+Copiar um ficheiro:
+
+copiar source.txt destination.txt
+
+Mover um arquivo:
+
+mover source.txt "C:\Destination"
+
+Renomear um arquivo:
+
+ren old.txt new.txt
+
+Leia um arquivo:
+
+tipo file.txt
+
+Criar um ficheiro vazio:
+
+tipo nul > file.txt
+
+Mostrar PATH:
+
+eco% PATH%
+
+Mostrar o histórico de comandos:
+
+doskey /história
+
+Activar um ambiente virtual:
+
+.\.venv\Scripts\activate.bat
+
+ATENÇÃO - apagar um arquivo:
+
+del file.txt
+
+ATENÇÃO - apagar uma pasta e seu conteúdo:
+
+Pasta rmdir /s /qName
+
+
+SECÇÃO 23 - COMANDAÇÕES DE CONCORRÊNCIA
+============================================
+
+Confirme qual Python está em execução:
+
+py -c "importar sys; print(sys.executável)"
+
+Procurar todos os executáveis Python no PATH:
+
+onde.exe python
+
+Confirmar que o pip pertence àquele Python:
+
+py - m pip -- version
+
+Verificar as dependências do pacote:
+
+verificação py - m pip
+
+Confirmar as importações do PyQt6:
+
+py - c "importar PyQt6; print( 'PyQt6 import com sucesso')"
+
+Confirmar as importações da Sympy:
+
+py - c "import sympy; print(sympy.  version  )"
+
+Confirmar as importações PyInstaller:
+
+py - m PyInstaller -- version
+
+Mostrar um traçado completo em Python:
+
+script py.py
+
+Verificar a sintaxe sem executar a aplicação:
+
+py -m py compile script.py
+
+Verificar se uma porta já está em uso:
+
+Get-NetTCPConnection - LocalPort 8000 -ErrorAction SilentlyContinue
+
+Encontre o processo usando a porta 8000:
+
+Get-NetTCPConnection - LocalPort 8000
+Processo de Propriedade de Objeto Seleccionado
+
+Mostrar esse processo:
+
+$pidUsingPort = (Get-NetTCPConnection - LocalPort 8000). Possibilidade de Processo
+Get- Process - Id $pidUsingPort
+
+Verificar os erros recentes da aplicação:
+
+Aplicação Get-WinEvent -LogName -MaxEvents 50
+Onde- Object LevelDisplayName - eq "Erro"
+
+
+SECÇÃO 24 - COMANDOS MAIS UTILIZADOS
+======================================
+
+cd "$env:USERPROFILE\Desktop\New Teacher 2"
+Get-ChildItem
+py -- version
+script py.py
+py -m py compile script.py
+py - m pip -- version
+py - m pip list
+Py - m pip install PACOTE
+py -m pip install -r requisitos. txt
+py - m venv . venv
+.\.venv\Scripts\Activate.ps1
+desactivar
+py - m pytest
+py -m script preto.py
+Py-m cheque ruff.
+git status
+git diff
+git add .
+git commit - m "Descreva a mudança"
+git pull
+git push
+Get-FileHash - Algoritmo SHA256 "file.exe"
+Get-Process -Name TEACHER -ErrorAction SilenciosamenteContinue
+Limpar o Host
+saída
+
+
+REFERÊNCIAS OFICIAIS
+========================
+
+Interface de linha de comando PyCharm:
+https://www.jetbrains.com/help/pycharm/working-with-the-ide-features- from-command-line.html
+
+Documentação em Python:
+https://docs.python.org/3/
+
+Ambientes virtuais em Python:
+https://docs.python.org/3/library/venv.html
+
+Documentação do pip:
+https://pip.pypa.io/en/stable/
+
+Documentação do PyInstaller:
+https://pyinstaller.org/en/stable/
+
+Documentação PowerShell:
+https://learn.microsoft.com/powershell/
+
+Documentação do Git:
+https://git-scm.com/docs
+

@@ -1,0 +1,8 @@
+﻿O INFO SEGUINTE FOI PROVIDO POR ii.chat (Pat AI russo)
+
+COMO UTILIZAR Este GUIA
+Imprime-o e guarda-o na tua secretária.
+Estude uma seção de cada vez (não memorize tudo de uma vez!)
+Teste cada símbolo no PyCharm enquanto o usamos
+Realçar os símbolos que usa frequentemente
+Referenciá- lo sempre que você vê um símbolo que você não reconhece

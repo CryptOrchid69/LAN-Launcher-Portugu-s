@@ -1,0 +1,41 @@
+﻿Estes próximos comandos devem ser colocados no terminal PyCharm, colocá-los em segurança.
+
+pip install pyinstaller pyqt6
+
+pyinstaller --noconsole --onefile --icon=my icon.ico main.py (USE ESTA COMANDO SE VOCÊ UTILIZAR WINDOWS)
+
+pyinstaller --noconsole --onefile --icon=my icon.icns main.py (USE ESTE COMANDO SE VOCÊ UTILIZAR macOS)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+INFORMAÇÕES ADICIONAIS APLICÁVEIS AOS ASSUNTOS:
+
+Estes comandos de Terminal são usados quando você está completamente terminado escrevendo seu código Python e quer transformá-lo em um
+aplicação de desktop regular que qualquer um pode dar um duplo clique e executar. Aqui está exatamente quando e por que você usa cada parte desses
+comandos.
+
+Comando 1: pip install pyinstaller pyqt6Quando usá- lo: Você executa isso uma vez antes de começar a empacotar sua aplicação. Você
+não precisa executá-lo toda vez que você atualizar seu código. Por que você o usa: Python não sabe automaticamente como transformar scripts
+em aplicativos autônomos, nem inclui suas ferramentas de interface visual por padrão. Este comando baixa dois edifícios essenciais
+blocos da internet para PyCharm:pyqt6: A estrutura de layout visual que desenha as janelas, caixas de texto, botões, e
+sidebars em seu screen.pyinstaller: A ferramenta de tradução que empacota tudo junto em um arquivo autônomo.
+
+Comando 2: pyinstaller --noconsole --onefile --icon=my icon.ico main.pyQuando usá-lo:Você executa este comando no fim
+de seu projeto quando você estiver pronto para distribuir seu aplicativo. Você também irá executar este comando se você mudar seu código mais tarde e
+deseja gerar uma nova versão atualizada do seu aplicativo. Por que você usá-lo:Normalmente, para executar um script Python, uma pessoa deve ter
+PyCharm instalado, baixar Python e saber como usar um terminal.
+
+Este comando remove esses requisitos completamente empacotando seu script. Aqui está por que cada peça específica (ou "flag") é
+utilizado:
+
+pyinstaller: Diz ao computador para iniciar o motor de embalagem.--- noconsole: Previne uma caixa de terminal preta e feia
+de aparecer atrás de seu aplicativo quando um usuário o abre. Ele garante apenas sua interface gráfica limpa é visível.---onefile: Sifts
+através do seu computador para encontrar todos os arquivos necessários, configuração gráfica, e ferramenta Python, e esmaga-los em um único
+ficheiro executável standalone (.exe ou .app).
+
+O usuário só recebe um arquivo puro em vez de uma pasta bagunçada cheia de código.--icon=my icon.ico: Diz ao sistema para substituir o padrão
+, logotipo de janela branca genérica com seu próprio arquivo de ativos gráficos personalizados para que pareça um produto profissional no
+desktop.main.py: Diz ao motor exatamente qual arquivo é o "cérebro" ou ponto de entrada do seu programa.
+
+Resumo Você usa estes comandos para transferir seu projeto de um pedaço de código de texto que só os programadores podem usar para um
+aplicativo de desktop polido que qualquer um pode usar.
+

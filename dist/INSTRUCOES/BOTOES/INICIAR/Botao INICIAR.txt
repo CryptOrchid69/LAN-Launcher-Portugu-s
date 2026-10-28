@@ -1,0 +1,3 @@
+﻿INICIAR
+
+O botão INICIAR lança o mapa selecionado. Primeiro clique em MAPAS, selecione o mapa desejado e depois clique em INICIAR. O app prepara o servidor e abre a Steam para o usuário continuar pelo launcher quando necessário.

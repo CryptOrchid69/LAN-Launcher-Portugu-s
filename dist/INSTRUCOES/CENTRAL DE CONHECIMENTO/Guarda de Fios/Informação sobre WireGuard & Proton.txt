@@ -1,0 +1,680 @@
+﻿====================================================================================================
+PROTON VPN + WIREGUARD - LEIA COMPREENSIVA
+Um Guia de Usuário Completo (v1.0)
+====================================================================================================
+
+ÍNDICE
+1. Visão geral e início rápido
+2. O que é o WireGuard?
+3. O que é Proton VPN?
+4. Como Proton VPN usa WireGuard
+5. Configurar VPN Proton com WireGuard
+6. Detalhes técnicos e segurança
+7. Solução de problemas e suporte
+8. Perguntas frequentes
+
+====================================================================================================
+1. VISÃO GERAL E INÍCIO RÁPIDO
+====================================================================================================
+
+O QUE VOCÊ PRECISA SABER:
+
+Proton VPN e WireGuard trabalham juntos para fornecer-lhe:
+- Ligações rápidas e seguras à Internet
+- Proteção da sua privacidade online
+- Proteção contra seu provedor de serviços de Internet (ISP) rastreando sua atividade
+- Transmissão de dados criptografada
+- Acesso a conteúdos geograficamente restritos
+
+INÍCIO RÁPIDO (3 passos simples):
+
+Passo 1: Criar uma Conta VPN Próton
+→ Visita: https://protonvpn.com
+→ Inscreva-se para uma conta gratuita ou paga
+
+Passo 2: Baixe arquivos de configuração WireGuard
+→ Entrar em: https://account.protonvpn.com/downloads
+→ Vá para "Downloads → Configuração do WireGuard"
+→ Gere e baixe seu arquivo .conf
+
+Passo 3: Importar para o cliente WireGuard
+→ Baixe o aplicativo oficial WireGuard de: https://www.wireguard.com
+→ Abra o WireGuard e importe o arquivo .conf baixado
+→ Clique em "Ativar" para conectar
+
+É isso! Agora você está usando Proton VPN através do WireGuard.
+
+====================================================================================================
+2. O QUE É WIREGUARD?
+====================================================================================================
+
+DEFINIÇÃO:
+WireGuard é um protocolo de VPN (Rede Privada Virtual) moderno que garante a sua
+conexão à internet criptografando seus dados e escondendo seu endereço IP.
+
+CARACTERÍSTICAS-chave:
+
+Simples e leve
+- Contém apenas ~4.000 linhas de código (vs 300.000+ para OpenVPN)
+- Fácil de auditoria para vulnerabilidades de segurança
+- Utiliza recursos mínimos do sistema
+- Estabelecimento de ligação mais rápida (menos de 1 segundo no telemóvel)
+
+Desempenho Rápido
+- Usa criptografia de última geração (ChaCha20, Poly1305)
+- Utilização mínima de CPU = melhor duração da bateria em dispositivos móveis
+- Nenhuma redução de velocidade visível em comparação com conexões não criptografadas
+- Benefícios da VPN Tecnologia de aceleração para velocidades de longa distância
+
+Criptografia Segura
+- ChaCha20: criptografa seus dados reais
+- Poly1305: autentica conexões WireGuard
+- Curve25519: Protege a troca de chaves de criptografia
+- BLAKE2: Verifica a integridade dos dados
+- SipHash: Fornece mapeamento de segurança adicional
+- Todos verificados por especialistas em segurança independentes
+
+Suporte à plataforma cruzada
+- Linux (integrado no kernel desde a versão 5.6+)
+- Janelas
+- macOS
+- Android
+- iOS/iPadOS
+- Sistemas BSD
+
+Abrir o Código
+- Qualquer um pode inspecionar o código para questões de segurança
+- Auditoria independente por peritos em segurança de terceiros
+- Processo de desenvolvimento transparente
+- Sem vulnerabilidades ocultas
+
+COMO FUNCIONA WIREGUARD:
+
+Pense no WireGuard como um serviço postal seguro:
+
+1. Seu dispositivo tem uma chave privada (seu endereço secreto)
+2. O servidor WireGuard tem uma chave pública (o endereço de destino)
+3. Quando você envia dados, WireGuard criptografa-o com a chave pública do servidor
+4. O servidor descodifica-o com sua chave privada
+5. Apenas os dados criptografados viajam através da internet
+6. Ninguém pode ler seus dados, mesmo se eles interceptá-lo
+
+====================================================================================================
+3. O QUE É PROTON VPN?
+====================================================================================================
+
+DEFINIÇÃO:
+Proton VPN é um serviço de rede privada virtual focado na privacidade fornecido por
+Próton (uma empresa suíça conhecida por e-mail seguro com ProtonMail).
+
+PRINCIPAIS CARACTERÍSTICAS:
+
+Protecção da Privacidade
+- NO LOGS POLÍTICA: Proton VPN não armazena registros de sua atividade
+- Auditorias independentes confirmam esta política de não-logs
+- Tecnologia NAT dupla garante privacidade do endereço IP
+- Criptografia rigorosa de todo o seu tráfego
+
+Rede Global de Servidores
+- Servidores em 140+ países
+- Vários servidores por país para redundância
+- Servidores especializados para serviços de streaming (Netflix, etc.)
+- Servidores Secure Core para proteção adicional
+
+Recursos Avançados
+- Kill Switch: Para a internet se a conexão VPN cair
+- Protocolo inteligente: Selecciona automaticamente o melhor protocolo VPN
+- Netshield: Ad-bloqueador e proteção contra malware
+- Encaminhamento da Porta: Para usuários avançados
+- Acelerador VPN: Melhora as velocidades em longas distâncias
+- Interruptor de morte permanente: impede qualquer tráfego não criptografado
+
+Preços
+- LIVRE TIER: Acesso básico VPN (servidores limitados, velocidades mais lentas)
+- TIERS DE PAGAMENTO: Servidores ilimitados, velocidades mais rápidas, recursos avançados
+
+Aplicativos de plataforma cruzada
+- Aplicações nativas para Windows, macOS, Linux, Android, iOS
+- Extensões de navegador para Chrome e Firefox
+- Suporte Smart TV ( TV Android, Apple TV, Fire Stick)
+
+====================================================================================================
+4. COMO PROTON VPN usa WIREGUARD
+====================================================================================================
+
+A CONECÇÃO:
+
+Proton VPN oferece WireGuard como um de seus protocolos VPN. Pense assim:
+
+Proton VPN = O Serviço (A QUANDO você se conecta)
+WireGuard = O Método (HOW you connect)
+
+Assim como você pode dirigir para um destino de carro ou ônibus, você pode se conectar ao Próton
+VPN usando diferentes protocolos:
+- WireGuard (RECOMENDADO - mais rápido e mais simples)
+- OpenVPN (mais antigo mas testado em batalha)
+- IKev2 (bom para dispositivos móveis)
+
+Por que PROTON VPN escolheu WIREGUARD:
+
+⇩ Velocidades mais rápidas do que o OpenVPN tradicional
+⇩ Baixo uso da CPU (melhor duração da bateria)
+文 Mais simples de configurar
+⇩ Normas modernas de segurança
+⇩ Menos provável de ser bloqueado pela censura
+
+EXECUÇÕES ADUANEIRAS:
+
+Proton VPN tem WireGuard padrão melhorado com recursos personalizados:
+
+WireGuard TCP
+- Standard WireGuard é executado sobre UDP (Protocolo de Datagram do Usuário)
+- UDP é rápido, mas fácil de bloquear em países censurados
+- O TCP WireGuard do Próton passa pela porta TCP 443 (igual ao HTTPS)
+- Mais difícil para os governos bloquear sem bloquear todos os sites
+
+Protocolo Stealth
+- Protocolo Proton personalizado baseado em WireGuard
+- Usa tunelamento de TLS ofuscado
+- Faz o tráfego VPN parecer tráfego HTTPS regular
+- Projetado para regiões altamente censuradas
+- Ainda mais difícil de detectar e bloquear do que o WireGuard TCP
+
+PRIVACIDADE COM WIREGUARD:
+
+Muitas pessoas se preocupam: "Se o WireGuard é tão simples, como ele permanece privado?"
+
+Resposta: Proton VPN adiciona tecnologia NAT DUPLO:
+
+Passo 1: Seu dispositivo envia dados
+↓
+Passo 2: Primeiro NAT reescreve seu IP (10.2.0.2) para uma sessão aleatória IP
+↓
+Passo 3: Segundo NAT reescreve seu IP de sessão para IP público do servidor VPN
+↓
+Passo 4: Seus dados viajam criptografados para o destino
+↓
+Resultado: Ninguém pode rastrear a conexão de volta ao seu endereço IP real
+
+Isto significa:
+- O teu verdadeiro endereço IP está escondido
+- O site de destino só vê o IP do servidor VPN
+- Proton VPN não armazena registros de sua atividade
+- Nem o Proton consegue ver o que estás a fazer.
+
+====================================================================================================
+5. CONSTITUIR PROTON VPN COM WIREGUARD
+====================================================================================================
+
+MÉTODO 1: MAIO MAIS EASIEST (Using Próton VPN App)
+==========================================================
+
+Esta é a maneira recomendada para a maioria dos usuários. Dá-lhe acesso a todos os avançados
+características como interruptor de corte, protocolo inteligente, e proteção contra vazamento de DNS.
+
+Windows, macOS, Linux:
+
+1. Visite https://account.protonvpn.com/downloads
+2. Baixe o aplicativo oficial Proton VPN para o seu sistema operacional
+3. Instale e execute o aplicativo
+4. Entre com sua conta Próton
+5. Em Configurações, selecione "WireGuard" como o protocolo VPN
+6. Clique em "Conectar" para o servidor de sua escolha
+7. Você agora está conectado! (Um ícone de bloqueio confirma sua conexão)
+
+ANDROID & iOS/iPadOS:
+
+1. Baixe "Proton VPN" da Google Play Store ou Apple App Store
+2. Instale o aplicativo
+3. Entre com sua conta Proton
+4. O aplicativo usa WireGuard por padrão (instant <1 segunda conexão)
+5. Toque em "Conectar" para activar
+6. Você está conectado!
+
+VANTAGENS DE USAR APP OFICIAL:
+文 Desligar interruptor (para a internet se VPN cair)
+Opção de Interruptor de Morte Permanente
+⇩ Protocolo Inteligente (melhor protocolo selecionado automaticamente)
+Protecção contra fugas de DNS
+文 Encaminhamento de Porta (somente Windows)
+⇩ Netshield (bloqueio de anúncios e proteção contra malware)
+Acelerador VPN
+⇩ Interface amigável
+文 Atualizações automáticas
+
+
+MÉTODO 2: CAMINHO AVANÇADO (Usando cliente de fio de proteção de terceiros)
+=========================================================================
+
+Para usuários avançados que querem usar WireGuard com roteadores, Docker containers,
+ou outras instalações especializadas.
+
+REQUISITOS:
+- Cliente WireGuard de terceiros que suporta configurações padrão do WireGuard
+- Exemplos: App WireGuard oficial, OpenWrt, DD-WRT, Roteadores Ubiquiti
+
+INSTRUÇÕES DE PASSO-PASSO:
+
+Passo 1: Download Arquivo de Configuração
+→ Ir para https://account.protonvpn.com/downloads
+→ Clique em "Configuração WireGuard"
+→ Criar uma configuração selecionando:
+• Nome de configuração (por exemplo, "US-Server-1")
+• Plataforma (Windows, macOS, Linux, Android, iOS)
+• Opções VPN:
+- Netshield (nível do bloqueador de anúncios: desligado/moderado/stricto)
+- NAT moderado (ligado/desligado)
+- Acelerador VPN (ligado/desligado)
+• Servidor (escolha da lista ou deixe Proton recomendar)
+→ Clique em "Criar"
+→ Espere alguns segundos para a geração
+→ Clique em "Download" para salvar o arquivo .conf
+
+Passo 2: Importar para o cliente WireGuard
+
+Para as janelas (aplicativo oficial de guarda de fios):
+1. Baixar WireGuard a partir de https://www.wireguard.com
+2. Instale e execute-o
+3. Clique em "Importar túnel(s) de arquivo"
+4. Selecione seu arquivo .conf baixado
+5. Clique em "Ativar" para conectar
+
+Para macOS (aplicativo oficial de guarda de fios):
+1. Baixar WireGuard a partir de https://www.wireguard.com
+2. Instale e execute-o
+3. Clique em "Importar túneis de arquivo"
+4. Selecione seu arquivo .conf baixado
+5. Clique na opção para ativar
+
+PARA LINUX (linha de comando):
+1. Instale o pacote WireGuard para sua distro
+2. Copie o arquivo .conf para o diretório /etc/wireguard/
+3. Executar: sudo wg- quick up [config-name]
+4. Para desconectar: sudo wg-quick down [config-name]
+
+Para ANDROID (Aplicativo Oficial de Proteção de Fios):
+1. Baixe WireGuard da Google Play Store
+2. Abra o aplicativo
+3. Clique em "+" para adicionar um túnel
+4. Selecione "Importar do arquivo"
+5. Escolha seu arquivo .conf
+6. Alternar para ativar
+
+Para iOS/iPadOS (Aplicativo Oficial de Proteção de Fios):
+1. Baixe WireGuard da App Store
+2. Abra o aplicativo
+3. Toque em "+" para adicionar configuração
+4. Selecione "Criar do código QR" ou "Importar do arquivo"
+5. Alternar para ativar
+
+CARACTERÍSTICA AVANÇADA: TUNNELOS MÚLTIPLOS DE WIREGUARD
+====================================================
+
+Se o seu cliente WireGuard o suporta, você pode executar vários túneis VPN
+simultaneamente. Isso permite que você roteie diferentes aplicativos através de diferentes servidores.
+
+Como configurar:
+
+1. Baixe 2 ou mais arquivos de configuração WireGuard (seguindo o Passo 1 acima)
+
+2. Edite o segundo arquivo de configuração em um editor de texto:
+
+ORIGINAL:
+[Interface]
+Endereço = 10.3.0.2/32
+DNS = 10.3.0.1
+...
+
+MUDANÇA PARA:
+[Interface]
+Endereço = 10.4.0.2/32 ← Aumentar o terceiro número em 1
+DNS = 10.4.0.1 ← Aumentar o terceiro número em 1
+...
+
+3. Para um terceiro túnel, utilizar:
+Endereço = 10.5.0.2/32
+DNS = 10.5.0.1
+
+4. Para um quarto túnel, utilizar:
+Endereço = 10.6.0.2/32
+DNS = 10.6.0.1
+
+5. Importar todos os arquivos modificados em seu cliente WireGuard
+6. Agora você pode ativar vários túneis simultaneamente
+
+NOTA: Este é um recurso avançado. Consulte sua documentação de roteador/cliente
+Para instruções específicas sobre o tráfego de rotas através de túneis específicos.
+
+====================================================================================================
+6. DETALHES E SEGURANÇA TÉCNICA
+====================================================================================================
+
+NORMAS DE ENCRIPÇÃO USADAS:
+
+Objetivo do Algoritmo do Componente do Protocolo
+O que é isso?
+ChaCha20 de criptografia de dados Encripta os seus dados reais
+Autenticação Poly1305 Verifica a autenticidade da conexão
+Curva de Troca de Chaves25519 + ECDH Troca de chaves de criptografia com segurança
+Integridade dos dados BLAKE2 Detecta dados adulterados
+Mapeamento de Hash SipHash24 Operações seguras da tabela de hash
+
+FUNDOS DE SEGURANÇA:
+
+Segredo Perfect Forward (PFS)
+- Mesmo que alguém roube chaves de encriptação, não conseguem descodificar tráfego antigo.
+- Chaves são regularmente giradas e descartadas
+- Cada conexão usa chaves únicas
+
+Criptografia Autenticada
+- Os dados são criptografados E autenticados
+- Protege contra adulteração e falsificação
+- Detecta quaisquer modificações nos dados encriptados
+
+Superfície de ataque mínima
+- Apenas ~4.000 linhas de código vs 300.000+ para OpenVPN
+- Menos bugs = menos vulnerabilidades de segurança
+- Facil para auditoria = menos vulnerabilidades ocultas
+
+Verificação independente
+- O código do kernel do WireGuard Linux foi auditado independentemente
+- A implementação do Proton VPN é 100% compatível com especificações oficiais
+- Auditorias regulares de segurança de terceiros do serviço Proton VPN
+
+PROTECÇÃO DE PRIVACIDADE:
+
+Política de No-Logs
+- Proton VPN não armazena quaisquer registros de sua atividade
+- Auditorias independentes confirmam isso.
+- Nem os empregados do Proton conseguem ver o teu trânsito.
+- Política de privacidade juridicamente vinculativa
+
+Proteção NAT dupla
+- Primeiro NAT: Converte seu IP para um IP específico de sessão
+- Segundo NAT: Converte seu IP de sessão para IP público do servidor VPN
+- Resultado: Seu verdadeiro IP está completamente oculto
+
+Proteção contra vazamentos IP
+- VPN Acelerador garante que todo o tráfego passa pela VPN
+- Matar Switch bloqueia internet se VPN desconecta
+- Os pedidos de DNS são encaminhados para o DNS encriptado do Proton.
+
+Otimização do desempenho:
+
+Tecnologia de Acelerador VPN
+- Melhora a eficiência de roteamento
+- Reduz a perda de pacotes
+- Acelera significativamente as ligações de longa distância
+- Funciona com todos os protocolos VPN
+
+Baixa Latência
+- Encriptação mínima
+- WireGuard adiciona menos de 1-2% de latência sobrecarga
+- Perfeito para jogos, videochamadas e streaming
+
+Eficiência da bateria
+- Baixo uso de CPU = menor drenagem de bateria em dispositivos móveis
+- Estabelecimento de conexão mais rápido = menos potência utilizada
+- Conexões instantâneas no iOS e Android (<1 segundo)
+
+====================================================================================================
+7. PRODUÇÃO E APOIO
+====================================================================================================
+
+QUESTÕES COMUNS & SOLUÇÕES:
+
+ISSUE: "Não é possível conectar ao WireGuard"
+
+Soluções:
+1. Verifique sua conexão de internet (desativar VPN temporariamente)
+2. Tente conectar a um servidor diferente
+3. Reinicie o aplicativo WireGuard
+4. Reinicie seu dispositivo
+5. Certifique-se de que sua conta VPN Proton está ativa (não expirou)
+6. Verifique configurações de firewall - garantir WireGuard é permitido através
+7. Tente usar o protocolo TCP WireGuard ou Stealth
+
+ISSUE: "Velocidade de ligação muito lenta"
+
+Soluções:
+1. Habilite o Acelerador VPN em configurações (se usar o aplicativo Proton VPN)
+2. Tente um servidor diferente (mais perto da sua localização = mais rápido)
+3. Mude de WiFi para conexão com fio (se possível)
+4. Feche outros aplicativos pesados de largura de banda
+5. Verifique sua velocidade de Internet base (sem VPN)
+6. Tente o protocolo OpenVPN como comparação
+7. Contato suporte VPN Proton com resultados de teste de velocidade
+
+ISSUE: "WireGuard continua desconectando"
+
+Soluções:
+1. Verifique se o Kill Switch está habilitado - este é o comportamento normal
+2. Atualizar o WireGuard para a versão mais recente
+3. Tente um servidor diferente
+4. Reinicie seu dispositivo
+5. Verifique a interferência do firewall/antivírus
+6. Tente desativar IPv6 em suas configurações de rede
+7. Atualize o sistema operacional do seu dispositivo
+
+ISSUE: "Não é possível baixar o arquivo de configuração do WireGuard"
+
+Soluções:
+1. Sair e voltar a account.protonvpn.com
+2. Limpar o cache do seu navegador e cookies
+3. Tente um navegador diferente
+4. Desabilitar os bloqueadores de anúncios e extensões do navegador
+5. Verifique o status de assinatura da sua conta
+6. Tente gerar config para um servidor diferente
+7. Contato suporte VPN Próton
+
+ISSUE: "DNS vazamentos ou preocupações de privacidade"
+
+Soluções:
+1. Habilitar "Proteção de vazamento DNS" em configurações de aplicativo Proton VPN
+2. Use os servidores DNS do Proton (definidos na configuração do WireGuard se necessário)
+3. Desabilitar IPv6 se você estiver apenas usando IPv4
+4. Teste de fugas em: https://www.dnsleaktest.com/
+5. Certifique-se de Kill Switch está ativado
+6. Use o aplicativo oficial Proton VPN (inclui proteção incorporada)
+
+ISSUE: "WireGuard bloqueado por ISP ou rede"
+
+Soluções:
+1. Tente o TCP WireGuard (corre na porta 443 como HTTPS)
+2. Tente o protocolo Stealth (tráfego VPN obstruído)
+3. Use um servidor DNS diferente (Cloudflare 1.1.1.1 ou Quad9 9.9.9.9)
+4. Conecte-se a uma VPN no hotspot do telefone primeiro, em seguida, outros dispositivos
+5. Tente um servidor VPN diferente em um país diferente
+6. Contato suporte VPN Proton para ajuda local específica
+
+Onde obter ajuda:
+
+Suporte a VPN Próton
+- Sítio Web: https://protonvpn.com/support
+- Email: contact@proton.me
+- Artigos de Suporte: Guias abrangentes para todas as plataformas
+
+Suporte ao WireGuard
+- Site oficial: https://www.wireguard.com
+- Canal IRC: "Fireguard" em Libera. Conversar
+- Lista de Correios: Junte-se em https://www.wireguard.com
+- Email: team@wireguard.com
+
+Fórum Comunitário
+- Reddit: r/ProtonVPN (comunidade activa)
+- Fórum Próton: https://proton.me/support
+- Questões do GitHub: Para problemas técnicos
+
+QUESTÕES DE SEGURANÇA DA INFORMAÇÃO:
+
+NÃO poste vulnerabilidades de segurança publicamente!
+
+Contato de Segurança VPN Próton: security@proton.me
+WireGuard Security Contato: security@wireguard.com
+
+====================================================================================================
+8. PERGUNTAS FREQUENTES
+====================================================================================================
+
+P: O WireGuard é seguro de usar?
+R: Sim. WireGuard usa criptografia de última geração, tem sido independente
+auditado, e contém apenas ~4.000 linhas de código, tornando fácil verificar
+Por segurança. É mais seguro do que protocolos VPN antigos, como o OpenVPN.
+
+P: Proton VPN é seguro de usar?
+R: Sim. Proton VPN tem uma política de não-logs rigorosa verificada por auditorias independentes.
+É baseado na Suíça (fortes leis de privacidade) e não armazena nenhuma
+informações sobre a sua actividade.
+
+P: Por que o WireGuard é mais rápido que o OpenVPN?
+R: WireGuard é mais eficiente devido à criptografia moderna e menos código
+Em cima. Ele também suporta aceleração de hardware e usa menos poder de CPU,
+resultando em velocidades mais rápidas com menor latência.
+
+P: Meu ISP pode ver que estou usando uma VPN?
+R: Seu ISP pode ver que você está se conectando a um servidor VPN, mas eles não podem
+Veja o que está fazendo dentro da VPN. O teu trânsito está encriptado.
+Nota: Em alguns países, o uso da VPN em si é monitorado ou restrito.
+
+P: A VPN vai atrasar minha internet?
+A: WireGuard adiciona sobrecarga mínima (1-2% de latência). Acelerador de Proton VPN
+tecnologia pode realmente melhorar velocidades em longas distâncias. A maioria dos usuários
+note pouca ou nenhuma redução de velocidade.
+
+P: Posso usar o WireGuard em todos os meus dispositivos?
+R: Sim! O Proton VPN suporta o WireGuard em:
+文 Janelas (10, 11)
+↔ macOS (10.12+)
+文 Linux (a maioria das distribuições)
+⇩ Android (5.0+)
+↔ iOS/iPadOS (12.0+)
+
+P: Qual é a diferença entre VPN Proton gratuita e paga?
+A: Plano livre: 3 países, velocidades mais lentas, características básicas
+Plano pago: 140+ países, velocidades mais rápidas, todas as características (interruptor de morte,
+encaminhamento de portas, bloqueio de anúncios, etc.)
+
+P: Posso usar Proton VPN com outros serviços VPN?
+R: Não, e não devias. Usar duas VPNs simultaneamente pode causar conexão
+questões e realmente reduzir a segurança. Escolha um serviço VPN.
+
+P: Proton VPN é legal para usar?
+R: Sim, na maioria dos países. Contudo, alguns países (China, Rússia, etc.)
+restringir ou bloquear o uso de VPN. Verifique as leis locais antes de usar.
+
+P: O WireGuard trabalha com roteadores?
+R: Sim! Se o seu router suporta o WireGuard (OpenWrt, DD-WRT, Ubiquiti, etc.),
+você pode configurá-lo usando os arquivos .conf de Proton VPN.
+
+P: Posso usar várias conexões WireGuard simultaneamente?
+R: Sim, se o seu cliente/roteador o apoiar. Você pode encaminhar diferentes aplicativos ou
+dispositivos através de diferentes servidores VPN. Ver Secção 5 para configuração.
+
+P: Qual é a diferença entre WireGuard, WireGuard TCP e Stealth?
+R: - WireGuard: Padrão, rápido, usa porta UDP (pode ser bloqueado)
+- WireGuard TCP: Funciona na porta TCP 443 (mais difícil de bloquear, leve desaceleração)
+- Stealth: Mais ofuscado, mais difícil de detectar (protocolo de Proton personalizado)
+Use Stealth em regiões altamente censuradas.
+
+Q: Com que frequência devo alterar meu arquivo de configuração do WireGuard?
+R: Você não precisa a menos que:
+- Sua assinatura expira (regenerar após renovação)
+- Você altera os servidores VPN (gerar nova configuração para novo servidor)
+- Suspeita de uma violação de segurança (regenerar por segurança)
+Caso contrário, seu arquivo de configuração permanece válido indefinidamente.
+
+P: Proton pode ver minha atividade mesmo com WireGuard?
+R: A arquitetura do Proton VPN e a política estrita de não-logs garantem que:
+- Não há registos de actividade.
+- Nenhum endereço IP está registado
+- Não são guardadas datas de ligação
+- Nem o Proton consegue ver o que estás a fazer.
+Isto é verificado por auditorias independentes.
+
+P: O software de código aberto é mais seguro?
+A: Geralmente sim, porque:
+- Qualquer um pode auditar o código.
+- Vulnerabilidades de segurança são encontradas mais rápido
+- Bugs são corrigidos rapidamente pela comunidade
+- Não é possível esconder "portas traseiras"
+No entanto, o código aberto requer auditorias regulares por especialistas em segurança.
+
+P: O que acontece se minha conexão VPN cair?
+R: Se activar o Kill Switch (na aplicação Proton VPN), a sua ligação à Internet
+será bloqueado até que a VPN reconecte. Isto evita fugas de dados.
+Se o Kill Switch estiver desligado, sua conexão continuará sem criptografia (não
+recomendado).
+
+P: Posso ser rastreado enquanto uso Proton VPN + WireGuard?
+R: Seu endereço IP está oculto, mas outros métodos de rastreamento ainda existem:
+- Cookies (usar o modo incógnito ou limpar cookies regularmente)
+- Impressão digital do navegador (use navegador focado em privacidade como Firefox)
+- Contas de login (não faça login se quiser anonimato)
+- Rastreamento comportamental (tenha cuidado com quais sites você visita)
+VPN protege seu IP e ISP de rastreamento, mas não esses outros métodos.
+
+P: Existe uma diferença de desempenho entre Windows e celular?
+A: Móvel (iOS/Android) é tipicamente mais rápido porque:
+- WireGuard no celular usa conexão instantânea (<1 segundo)
+- Hardware móvel é otimizado para VPN de baixa potência
+- Menos interferência de fundo
+Velocidades Desktop dependem da localização do servidor e sua velocidade de internet.
+
+P: Posso usar Proton VPN para acessar sites bloqueados?
+R: Sim, em muitos casos. VPN mascara sua localização, para que você possa acessar conteúdo
+restritas a certas regiões. No entanto:
+- Alguns sites bloqueiam ativamente os usuários de VPN
+- Proton tem servidores de streaming especiais para Netflix, etc.
+- Usando VPN para ignorar os termos de serviço pode violar as políticas do site
+
+P: E se eu estiver tendo problemas em um país censurado?
+A: Experimente estes em ordem:
+1. Use o protocolo Stealth (mais ofuscado)
+2. Mudar para WireGuard TCP
+3. Tente diferentes servidores
+4. Contato suporte VPN Proton para ajuda específica de região
+Nota: O uso de VPN pode ser ilegal em seu país. Verifique as leis locais.
+
+====================================================================================================
+CONCLUSÃO
+====================================================================================================
+
+Agora você tem uma compreensão completa de:
+
+O que é o WireGuard e como funciona
+⇩ O que é Proton VPN e suas características
+Como eles trabalham juntos para proteger sua privacidade
+Como configurar ambos para a máxima segurança
+⇩ Detalhes técnicos sobre criptografia e privacidade
+Como solucionar problemas comuns
+Respostas às perguntas frequentes
+
+RECOMENDAÇÕES DOS PRÓXIMOS PASSOS:
+
+1. Crie uma conta Proton VPN em https://protonvpn.com
+2. Baixe o aplicativo Proton VPN para o seu dispositivo
+3. Habilitar WireGuard em configurações
+4. Conecte-se e desfrutar de navegação segura e privada!
+
+Para usuários avançados:
+- Baixe arquivos de configuração WireGuard a partir de account.protonvpn.com
+- Configurar clientes de terceiros WireGuard para roteadores ou recipientes
+- Configurar múltiplos túneis simultâneos para roteamento avançado
+
+Lembre-se:
+- A tua privacidade é um direito, não um privilégio.
+- Use senhas fortes e únicas
+- Habilitar autenticação de dois fatores em suas contas
+- Mantenha seu software atualizado
+- Confie, mas verifique - verifique os relatórios de auditoria do Proton VPN
+
+Para as últimas informações e atualizações:
+Proton VPN: https://protonvpn.com
+WireGuard: https://www.wireguard.com
+
+====================================================================================================
+Versão do documento: 1.0
+Última atualização: Junho 2026
+Criado para: Usuários gerais e usuários avançados
+Nível de dificuldade: Iniciante para Intermediário
+====================================================================================================

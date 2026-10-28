@@ -1,0 +1,1162 @@
+﻿// As informações seguintes foram fornecidas pela II.chat AI, que é o EQUIVALENTE RUSSIAN DE ChatGPT AI. ii.chat AI é 100% livre e não custa nada //
+https://ii.chat/new
+
+
+Bases de Hardware - 14 termos
+Periféricos Essenciais - 7 termos
+Software Essentials - 13 termos
+Acções Comuns por Computador - 18 termos
+Gestão de & Ficheiros de Armazenamento - 22 termos
+Formatos de Arquivo - 19 termos
+Internet & Web - 17 termos
+Rede - 20 termos
+Segurança - 23 termos
+Multimédia - 11 termos
+Contas de Usuário & Permissões - 5 termos
+Programação e Desenvolvimento - 15 termos
+Dados & Bases de Dados - 11 termos
+Diversos Termos Importantes - 44 termos
+
+
+// Total: 239 palavras de vocabulário //
+
+
+LISTA PROFISSIONAL DE COMPUTADOR COMPREENSIVO - BASE DE HARDWARE
+
+Tabuleiro-mãe – A placa principal de circuito tudo o resto se conecta; a espinha dorsal do seu sistema de computador.
+
+CPU (Unidade Central de Processamento) – O "cérebro" que processa instruções e controla todas as operações do computador. CPUs mais rápidas significam melhor desempenho.
+
+RAM (Random Access Memory) – Armazenamento temporário onde programas ativos e dados são mantidos para acesso rápido. Mais RAM permite melhor multitarefa.
+
+Disco rígido – Armazenamento de longo prazo para arquivos, programas e o sistema operacional. Os dados persistem mesmo quando desligados.
+
+SSD (Solid State Drive) – Armazenamento mais rápido do que os discos rígidos tradicionais sem peças móveis; faz com que os computadores arranquem e carreguem programas muito mais rápido.
+
+NVMe (expresso de memória não volátil) – Uma interface SSD extremamente rápida que fornece os tempos de resposta mais rápidos.
+
+GPU (Graphics Processing Unit) – Um processador especializado otimizado para gráficos; crítico para jogos, trabalho 3D e edição de vídeo.
+
+PSU (Unidade de fornecimento de energia) – Converte a potência CA de saídas de parede para a energia DC que os componentes do computador precisam.
+
+PCIe (PCI Express) – Um conector versátil de alta velocidade para placas adicionais como GPUs, SSDs e cartões de captura.
+
+Fator de forma – Refere-se ao tamanho e forma física de um computador (por exemplo, laptop vs. torre desktop).
+
+CMOS (Complementar Metal-Oxide Semicondutor) – Um chip que armazena configurações-chave como tempo do sistema e configuração de hardware, alimentado por uma bateria de moedas.
+
+BIOS/UEFI – Software de baixo nível que é executado quando você inicia seu computador pela primeira vez; lida com a inicialização do sistema operacional.
+
+POST (Power-On Self Test) – Uma série de verificações rápidas que o computador executa na inicialização para verificar o hardware está funcionando.
+
+Heatsink – Um bloco de aletas de metal que afasta o calor da CPU ou GPU, geralmente coberto com um ventilador.
+
+
+PERIFÉRICOS ESSENCIAIS
+
+Monitor – A tela de exibição mostrando saída do computador; vem em diferentes tamanhos, resoluções e tipos de painel (LCD, LED, OLED).
+
+Teclado – Dispositivo de entrada para digitar e dar comandos ao computador.
+
+Mouse – Dispositivo de apontamento que permite interagir precisamente com itens na tela.
+
+Alto-falantes/Headphones – Dispositivos de saída de áudio para ouvir som e música.
+
+Microfone – Dispositivo de entrada para comandos de voz, chamadas e gravação de áudio.
+
+Webcam – Pequena câmera de vídeo usada para chamadas de vídeo e conferências; alguns têm infravermelho para reconhecimento facial.
+
+Impressora – Dispositivo para produção de cópias físicas de documentos e fotos.
+
+
+SOFTWARE ESSENCIAIS
+
+OS (Sistema Operacional) – Software principal que gerencia o hardware do seu computador e outro software (Windows, macOS, Linux).
+
+Aplicação – Um programa projetado para uma tarefa específica, como um navegador da web, editor de fotos ou jogo.
+
+Web Browser – Software que lhe permite acessar e ver sites na internet (Chrome, Firefox, Edge, Safari).
+
+Arquivo – Um pacote discreto de dados, como um documento, foto ou programa.
+
+Pasta/Directório – Um recipiente virtual para organizar arquivos; pastas podem conter outras pastas.
+
+Ícone – Um pequeno gráfico que representa um arquivo, pasta ou programa.
+
+Antivírus – Software que detecta e remove malware como vírus, spyware e ransomware.
+
+Firewall – Monitora o tráfego de rede de entrada e saída para proteger seu sistema e dados.
+
+Motoristas – Software que permite que o seu sistema operacional se comunique com uma determinada peça de hardware.
+
+Firmware – Software permanente programado em memória somente leitura em dispositivos como roteadores e dispositivos IoT.
+
+GUI ( Interface de usuário gráfica) – Como a maioria dos sistemas operacionais e aplicativos modernos se apresentam usando janelas, ícones e menus.
+
+CLI (Command Line Interface) – Interface baseada em texto para controlar um computador digitando comandos (também chamado Terminal ou Prompt de Comando).
+
+Bandeja de Sistema – Pequena área (geralmente inferior-direita no Windows) que contém ícones de status e aplicativos de fundo.
+
+Painel de controle – Coleção de ferramentas e configurações para configurar seu sistema Windows.
+
+Terminal – Interface baseada em texto para executar comandos; chamado Prompt de Comando no Windows e Terminal no Mac/Linux.
+
+Gerenciador de pacotes – Ferramenta para fácil instalação, atualização e gerenciamento de software; essencial para usuários Linux.
+
+Gerenciador de tarefas – Mostra informações sobre processos em execução e uso de recursos; ajuda a identificar programas não responsivos.
+
+
+ACÇÕES COMUNS DO COMPUTADOR
+
+Cortar – Remove os dados selecionados e copia-os para a área de transferência.
+
+Copiar – Copia os dados selecionados para a área de transferência sem remover o original.
+
+Colar – Insere dados da área de transferência na posição atual do cursor.
+
+Desfazer – Inverte a última ação realizada.
+
+Refazer – Inverte um desfazer para restaurar uma mudança.
+
+Encontrar – Procura um dado específico, como uma palavra num documento.
+
+Print Screen – Captura uma imagem da sua tela e copia-a para a área de transferência.
+
+Boot – O processo de ligar no computador e carregar o sistema operacional.
+
+Reiniciar/Reiniciar – Desliga e inicia imediatamente o computador de volta.
+
+Desligar – Ativa o computador corretamente, economizando dados e fechando programas.
+
+Sleep/Standby – Estado de baixa potência que retoma rapidamente de onde parou.
+
+Hibernate – Salva o estado do sistema para o disco e desliga; usa potência zero, mas é mais lento para retomar.
+
+Instale – Processo de configuração de um novo programa ou dispositivo de hardware em seu computador.
+
+Desinstalar – Remove um programa e seus arquivos associados do seu computador.
+
+Atualização – Aplica correções e melhorias em um programa.
+
+Atualização – Instalar uma versão mais recente de um programa ou trocar em hardware melhor.
+
+Dual Boot – Ter dois sistemas operacionais separados instalados com a capacidade de escolher entre eles na inicialização.
+
+
+CONSERVAÇÃO E GESTÃO DO FILO
+
+Extensão de arquivo – A parte após o ponto em um nome de arquivo (como .jpg ou .mp3) que indica o formato do arquivo.
+
+Arquivos ocultos – Arquivos configurados para não aparecer em navegadores de arquivos regulares; geralmente arquivos do sistema.
+
+Atalho – Um pequeno arquivo que aponta para outro arquivo, pasta ou programa para acesso rápido.
+
+Permissões – Configurações que controlam se um usuário pode visualizar, editar ou executar um determinado arquivo.
+
+Compressão – Codificação de dados para ocupar menos espaço (ZIP e RAR são formatos compactados comuns).
+
+Arquivos de sistema – Arquivos de programa seu sistema operacional precisa funcionar; melhor não modificá-los.
+
+Arquivos Temp – Programas de arquivos temporários gerar em segundo plano; geralmente pode ser excluído com segurança.
+
+Partilha de Ficheiros – Tornar os ficheiros acessíveis a outros computadores numa rede ou na Internet.
+
+Read-Only – Um arquivo que pode ser visualizado, mas não editado; ajuda a proteger dados importantes.
+
+Arquivo – Uma coleção de arquivos empacotados em um único arquivo para armazenamento ou compartilhamento, muitas vezes compactado.
+
+Hierarquia da Pasta – A estrutura aninhada tipo árvore de pastas dentro de pastas em uma unidade.
+
+Diretório raiz – A pasta de topo contendo todas as outras pastas em uma unidade (referido como C:\ no Windows).
+
+Caminho – A localização completa de um arquivo ou pasta (por exemplo, C:\Users\YourName\Documents\Report.docx).
+
+Particionamento – Dividindo uma unidade física em unidades lógicas separadas, cada uma com seu próprio sistema de arquivos.
+
+Sistema de arquivos – O método que um sistema operacional usa para organizar dados em uma unidade (NTFS, exFAT, FAT32).
+
+Formatação – Apagar e preparar uma unidade para trabalhar com um determinado sistema de arquivos.
+
+Fragmentação – Quando os arquivos são espalhados em torno de uma unidade, retardando o desempenho (defragmentação corrige isso).
+
+Armazenamento em nuvem – Armazenar arquivos em servidores remotos acessíveis de qualquer lugar através da internet.
+
+Armazenamento redundante – Ter várias cópias de dados para evitar perda se uma unidade falhar.
+
+NAS (Network Attached Storage) – Um servidor de arquivos dedicado que fornece armazenamento através de uma rede.
+
+RAID – Combinando várias unidades para melhorar o desempenho e/ou a tolerância a falhas.
+
+USB Flash Drive – Pequeno dispositivo de armazenamento portátil que se conecta a uma porta USB.
+
+Unidade externa – Disco rígido ou SSD em um caso que se conecta a um computador, geralmente via USB.
+
+
+FORMATOS DE FILE
+
+TXT – Formato de arquivo de texto simples e não formatado.
+
+JPG/JPEG – Formato de imagem comprimido comumente usado para fotos.
+
+PNG – Formato de imagem que suporta transparência.
+
+GIF – Formato de imagem que suporta animação.
+
+MP3 – Formato de áudio comprimido.
+
+WAV – Formato de áudio não comprimido.
+
+MP4 – Formato de vídeo comum.
+
+AVI – Formato de vídeo mais antigo.
+
+MKV (Matroska Video) – Versátil recipiente multimídia contendo vídeo, áudio, legendas e metadados.
+
+XLSX – formato de planilha do Microsoft Excel.
+
+PPTX – Microsoft PowerPoint formato de apresentação.
+
+CSV (Valores Separados por vírgulas) – Formato para dados tabulares como planilhas.
+
+JSON – Formato de intercâmbio de dados leves que é fácil de ler para os humanos.
+
+XML – linguagem de marcação para codificação de documentos legíveis por humanos e computadores.
+
+YAML – Formato de dados semelhante ao JSON, mas mais amigável ao homem; ótimo para arquivos de configuração.
+
+Markdown – Linguagem de marcação leve para formatar texto simples.
+
+SVG (Scalable Vector Graphics) – formato de imagem baseado em XML que escala para qualquer tamanho sem pixelação.
+
+WebP – Moderno formato de imagem oferecendo melhor compressão do que JPG ou PNG.
+
+EPUB – Formato padrão de ebook suportando texto fluidável com imagens e formatação.
+
+ZIP/RAR – Formatos de arquivo compactados.
+
+
+INTERNET & WEB
+
+Web – Short for World Wide Web; a rede coletiva de sites públicos ligados através de hiperlinks.
+
+HTTP – Protocolo de transferência de hipertexto que alimenta a web.
+
+HTTPS – Versão segura do HTTP com criptografia.
+
+SSL (Secure Sockets Layer) – Protocolo de criptografia usado para proteger dados enviados pela internet.
+
+URL (Localizador de Recursos Uniform) – Endereço web especificando a localização de um recurso (por exemplo, www.google.com).
+
+ISP (Internet Service Provider) – Empresa paga para obter acesso à Internet (Comcast, AT&T, etc.).
+
+Largura de banda – Quantidade máxima de dados que você pode enviar sobre uma conexão em um determinado tempo, medido em Mbps.
+
+Nome do domínio – A parte de uma URL identificando um site (google.com, wikipedia.org).
+
+Email – Email eletrônico; a ferramenta de comunicação mais essencial na internet.
+
+Search Engine – Site que encontra outros sites com base em palavras-chave (Google, Bing, etc.).
+
+Download – Recebendo dados de um sistema remoto.
+
+Envio – Envio de dados para um sistema remoto.
+
+Streaming – Assistindo vídeo ou ouvindo áudio em tempo real como é enviado, em vez de baixar primeiro.
+
+Cloud – Serviços fornecidos através da internet em vez de localmente em seu dispositivo.
+
+Hospedagem – Pagando uma empresa para armazenar os arquivos e dados do seu site em um servidor.
+
+Cliente – Seu navegador web; o programa que solicita recursos de um servidor web.
+
+Servidor – Poderoso computador que armazena sites e aplicativos, servindo-os para dispositivos clientes.
+
+
+REDE
+
+Endereço IP – Cadeia única de números que identifica cada dispositivo em uma rede (como um endereço de retorno virtual).
+
+Endereço MAC – Número de identificação permanente atribuído ao cartão de rede de um dispositivo.
+
+LAN (Local Area Network) – Pequena rede confinada a uma área, como uma casa ou escritório.
+
+Ethernet – Tecnologia de rede com fio para conectar dispositivos em uma LAN usando cabos.
+
+Wi-Fi – Rede sem fio baseada em padrões 802.11.
+
+Roteador – Dispositivo que encaminha dados entre redes.
+
+Modem – Converte sinais entre analógico (linhas de cabo/telefone) e digital (Ethernet).
+
+Switch – Conecta vários dispositivos com fio em uma rede para que eles possam se comunicar.
+
+Porto – Endpoint virtual para comunicação de rede; diferentes serviços usam números específicos de portos.
+
+DNS (Domain Name System) – Traduz nomes de domínio amigáveis ao homem para endereços IP.
+
+DHCP (Dynamic Host Configuration Protocol) – Atribui automaticamente endereços IP a dispositivos em uma rede.
+
+Subnet Mask – Define qual parte de um endereço IP identifica a rede vs. o dispositivo.
+
+NAT (Tradução do Endereço da Rede) – Permite que vários dispositivos compartilhem um endereço IP público.
+
+VLAN (Virtual LAN) – Partições de uma rede física em redes virtuais separadas.
+
+QoS (Qualidade de Serviço) – Prioriza certos tipos de tráfego de rede para um desempenho mais suave.
+
+Produção – Quantidade real de dados enviados sobre uma conexão em um determinado tempo.
+
+Latência – Tempo que leva dados para viajar de fonte para destino; menor é melhor.
+
+Jitter – Variação de latência que pode causar áudio agitado e vídeo laggy.
+
+Perda de pacote – Percentagem de pacotes de dados perdidos em trânsito; pode degradar a qualidade de voz e vídeo.
+
+Redundância – Vários caminhos para os dados viajarem; ajuda a manter a conectividade se um caminho falhar.
+
+
+SEGURANÇA
+
+Criptografia – Scrambling dados para que só possa ser lido com uma chave especial.
+
+Autenticação – Provando a identidade de um usuário ou dispositivo, geralmente com nome de usuário e senha.
+
+2FA (Autenticação de Dois Fatores) – O login extra passa além da senha, como um código de um aplicativo.
+
+Password Manager – Cofre criptografado para armazenar e gerar senhas fortes.
+
+Configurações de privacidade – Opções para controlar como seus dados são coletados e usados.
+
+VPN (Rede Virtual Privada) – Criptografa seu tráfego na internet e mascara seu endereço IP.
+
+Backup – Cópia sobressalente de dados importantes caso o original seja perdido ou danificado.
+
+Phishing – Enganar as pessoas para revelar informações sensíveis, posando como uma entidade confiável.
+
+Spam – Mensagens em massa não solicitadas, geralmente e-mail.
+
+Malware – Catch-all termo para software malicioso como vírus, spyware e ransomware.
+
+Trojan – Malware disfarçado de software legítimo.
+
+Vírus – Malware que se espalha por se copiar como um vírus biológico.
+
+Verme – Vírus auto-replicante que se espalha por redes sem precisar de outro programa.
+
+Spyware – Malware que espia a atividade do computador e coleta dados pessoais.
+
+Ransomware – Malware que criptografa seus arquivos e exige pagamento para a chave de decodificação.
+
+Adware – Malware que bombardeia você com anúncios indesejados.
+
+Rootkit – Malware que escava fundo em seu sistema para se esconder.
+
+Bot – malware automatizado deixando hackers controlar remotamente seu computador.
+
+DDoS (Distribuído Negação de Serviço) – Ataque onde botnets inundar um sistema alvo para sobrepujá-lo.
+
+Zero-Day – Vulnerabilidade explorada antes que o fabricante de software possa corrigi-lo.
+
+Engenharia Social – Explorando a psicologia humana em vez de vulnerabilidades técnicas.
+
+Ataque Brute-Force – Tentando adivinhar uma senha tentando todas as combinações possíveis.
+
+Hash – A impressão digital dos dados usados para verificar arquivos não foi adulterada.
+
+Salga – Adicionando dados aleatórios a um haxixe para tornar mais difícil de rachar.
+
+
+MULTIMÉDIA
+
+Codec – Comprime e descomprime dados de mídia (MP3 para áudio, MPEG para vídeo).
+
+Container – Formato de arquivo que armazena mídia compacta com metadados como legendas (MP4, MKV).
+
+Ripping – Copiar dados de áudio ou vídeo de um formato para outro.
+
+Razão de Aspectos – relação largura-altura de um vídeo ou imagem (4:3 para TVs antigas, 16:9 para as modernas).
+
+Resolução – Número de pixels em uma imagem ou quadro de vídeo; maior significa mais detalhes.
+
+Taxa de atualização – Quantas vezes por segundo uma tela se redesenha completamente.
+
+Taxa de quadros – Número de imagens individuais que compõem um segundo de vídeo (filmes usam 24fps).
+
+Taxa de bits – Número de bits (dados) processados por segundo; maior significa melhor qualidade, mas arquivos maiores.
+
+HDR (High Dynamic Range) – Aumenta o alcance dinâmico (contraste) de uma imagem para imagens mais ricas.
+
+Surround Sound – Áudio de vários alto-falantes posicionados ao seu redor (5.1, 7.1, Dolby Atmos).
+
+
+CONTAS E PERMISSÕES DOS UTILIZADORES
+
+Conta de usuário – Perfil para login em um sistema; pode ser administrador ou usuário padrão.
+
+Administrador – Conta Super usuário com controle completo; pode instalar programas e alterar as configurações do sistema.
+
+Usuário Padrão – Conta normal para uso diário com permissões limitadas.
+
+Conta de hóspede – Conta temporária com permissões mínimas para usuários temporários.
+
+UAC (User Account Control) – Recurso de segurança que pede confirmação antes de fazer alterações no sistema.
+
+
+PROGRAMAÇÃO E DESENVOLVIMENTO
+
+Algoritmo – Procedimento passo a passo para resolver um problema ou realizar uma tarefa.
+
+Código/Codificação – Escrever instruções em uma linguagem de programação que diz aos computadores o que fazer.
+
+Linguagem de Programação – Sistema de regras e sintaxe para escrever programas de computador (Java, Python, C++, etc.).
+
+Compile – Convertendo código fonte em código de máquina que os computadores podem executar.
+
+Depurar – Encontrar e corrigir erros (bugs) em código.
+
+Variável – Local de armazenamento nomeado que contém um valor em um programa.
+
+Função – Bloco reutilizável de código que executa uma tarefa específica.
+
+Loop – Código que repete um bloco de instruções várias vezes.
+
+Condicional – Código que executa instruções diferentes com base em se uma condição é verdadeira ou falsa.
+
+Array – Estrutura de dados contendo múltiplos valores do mesmo tipo.
+
+Objeto – instância de uma classe em programação orientada a objetos.
+
+Classe – Blueprint para criar objetos em programação orientada a objetos.
+
+Framework – Código e ferramentas pré-escritos que fornecem uma base para aplicações de construção.
+
+Biblioteca – Coleção de módulos de código pré-escritos que podem ser reutilizados.
+
+API (Aplication Programming Interface) – Conjunto de regras para como componentes de software devem interagir.
+
+Repositório – Local central de armazenamento para arquivos de código, muitas vezes em plataformas como o GitHub.
+
+Controle de Versão – Sistema para rastrear alterações ao código ao longo do tempo (Git é popular).
+
+Plugin – Add-on de software que amplia a funcionalidade de uma aplicação.
+
+
+BASE DE DADOS
+
+Dados – Informações ou fatos brutos.
+
+Base de dados – Coleta estruturada de dados, muitas vezes com múltiplas tabelas.
+
+Consulta – Pedido de dados específicos de uma base de dados.
+
+Tabela – Dados organizados dispostos em linhas e colunas.
+
+Linha – Linha horizontal de dados em uma tabela.
+
+Coluna – Linha vertical de dados em uma tabela.
+
+Campo – Célula individual em uma tabela de banco de dados.
+
+Registro – Conjunto completo de dados para uma entrada (uma linha em uma tabela).
+
+Chave – Campo usado para identificar registros de forma única em uma tabela.
+
+Índice – Estrutura de dados que acelera a busca e ordenação em um banco de dados.
+
+Mineração de dados – Processo de descoberta de padrões em grandes conjuntos de dados.
+
+
+TERMOS IMPORTANTES DIVERSOS
+
+Bug – Erro ou falha em um programa fazendo com que ele se comporte inesperadamente.
+
+Cache – Armazenamento rápido e temporário usado para acelerar o acesso a dados frequentemente usados.
+
+Comando – Instrução dada a um computador para executar uma ação específica.
+
+Configuração – Configurações que determinam como um programa ou sistema funciona.
+
+Cookie – Pequeno arquivo armazenado em seu computador por sites para lembrar suas preferências.
+
+Defrag – Processo de reorganização de arquivos fragmentados em um disco rígido (não necessário para SSDs).
+
+Digital – Representado usando números ou sistemas baseados em computador.
+
+Download – Recebendo dados de um sistema remoto para o seu computador.
+
+FAQ (Perguntas Frequentes) – Perguntas comuns e suas respostas sobre um tópico.
+
+Gigabyte (GB) – Unidade de armazenamento digital igual a 1 bilhão de bytes.
+
+Hacker – Pessoa que ganha acesso não autorizado a sistemas de computador.
+
+Hyperlink – Link clicável que navega para outra página ou arquivo.
+
+Iteração – Repetição de um processo ou ciclo na programação.
+
+Kernel – Componente principal de um sistema operacional.
+
+Megabyte (MB) – Unidade de armazenamento digital igual a 1 milhão de bytes.
+
+Metadados – Dados sobre dados; informações que descrevem outros dados.
+
+Rede – Computadores conectados capazes de compartilhar dados e recursos.
+
+Nó – Dispositivo individual ligado a uma rede.
+
+Desligado – Não conectado à internet ou à rede.
+
+Online – Ligado à Internet ou à rede.
+
+Open Source – Software com código fonte disponível para qualquer pessoa visualizar e modificar.
+
+Otimização – Processo de fazer um sistema ou programa funcionar de forma mais eficiente.
+
+Saída – Dados ou informações produzidos por um computador.
+
+Podcast – Arquivo digital de áudio ou vídeo disponível para download ou streaming.
+
+Portal – Site que serve como ponto de entrada para uma coleção de outros sites.
+
+Protocolo – Conjunto de regras que regem a transmissão de dados através de uma rede.
+
+Tempo de execução – Período durante o qual um programa está executando.
+
+Script – Programa simples ou conjunto de comandos para automatizar tarefas.
+
+Search Engine – Site que encontra outros sites com base em palavras-chave.
+
+Instantâneo – Captura do estado de um sistema em um determinado momento no tempo.
+
+Sintaxe – Regras que regem a estrutura das declarações em uma linguagem de programação.
+
+Terabyte (TB) – Unidade de armazenamento digital igual a 1 trilhão de bytes.
+
+Tópico – Sequência única de instruções que podem ser executadas de forma independente.
+
+Alternar – Alternar entre dois estados (ligado/desligado ou verdadeiro/falso).
+
+Utilitário – Programa projetado para executar uma função de manutenção ou suporte específica.
+
+Virtual – Simulado ou existente apenas na memória do computador (não física).
+
+Widget – Pequena aplicação ou ferramenta que executa uma função específica.
+
+Wiki – Site que permite edição colaborativa por vários usuários.
+
+Zip... Para comprimir arquivos em um arquivo menor para facilitar o armazenamento ou compartilhamento.
+
+
+// A SEGUINTE INFORMAÇÃO É BASEADA EM COMUNIDADES DE CMD (prompt de comando) E SUAS FUNÇÕES //
+
+
+Você pode acessar a janela de prompt comando pressionando as janelas e X chave no computador keyboard, então click-run-. No tipo de janela de corrida, tipo CMD e depois click OK.
+
+COMPREENSIVE WINDOWS COMMAND PROMPT (CMD) COMMANDS LIST-FILE E DIRECTORY COMMANDS
+
+APÊNDICE – Permite que os programas abram arquivos em um diretório diferente como se estivessem no atual. Esse software para PC trabalha bem com as versões 32-bit do MS-DOS.
+
+ASSOC – Exibe ou altera associações de tipo de arquivo para extensões de arquivo específicas.
+
+ATTRIB – Muda os atributos de um único arquivo ou diretório (como somente leitura, oculto, arquivo, sistema).
+
+CD (CHDIR) – Muda o diretório de trabalho atual ou exibe a letra e pasta da unidade em que você está atualmente.
+
+COMPACT – Mostra ou altera o estado de compressão de arquivos e diretórios em partições NTFS.
+
+COPY – Copia um ou mais arquivos de um local para outro.
+
+DEL (ERASE) – Apaga um ou mais arquivos.
+
+DELTREE – Exclui um diretório e todos os arquivos e subdiretórios dentro dele.
+
+DIR – Mostra uma lista de arquivos e pastas contidos dentro da pasta em que você está trabalhando atualmente, incluindo o tamanho do arquivo e outras informações.
+
+DIRQUOTA – Gerencia quotas de disco do File Server Resource Manager.
+
+DISKPART – Cria, gerencia e apaga partições do disco rígido.
+
+EXPAND – Descompacta arquivos CAB.
+
+FC – Compara dois arquivos e exibe as diferenças entre eles.
+
+Find – Procura uma string de texto em um arquivo.
+
+FINDSTR – Procura por strings em arquivos usando expressões regulares.
+
+FORMATO – Formata um disco para uso com Windows.
+
+FTYPE – Mostra ou modifica associações de tipo de arquivo com extensão de arquivo.
+
+RÓTULO – Edita um rótulo de disco ou nome de volume.
+
+MAKECAB – Cria arquivos .CAB (cabinet) para compressão e arquivamento de arquivos.
+
+MD (MKDIR) – Cria um novo diretório ou pasta.
+
+MKLINK – Cria um link simbólico para um arquivo ou diretório.
+
+MOVE – Move arquivos de uma pasta para outra, ou renomeia arquivos e diretórios.
+
+RD (RMDIR) – Exclui um diretório ou pasta.
+
+REN (RENAME) – Renomeia um arquivo ou arquivos.
+
+REPLACE – Substitui ou atualiza um arquivo por outro.
+
+ROBOCOPY – Fornece cópia robusta de arquivos e pastas com opções avançadas para backups e sincronização.
+
+SUBST – Associa um caminho com uma letra drive.
+
+TAR – Armazena, lista ou extrai arquivos em um arquivo.
+
+TREE – Mostra uma representação gráfica da estrutura da pasta de uma unidade ou caminho.
+
+TIPO – Mostra o conteúdo de um arquivo de texto.
+
+XCOPY – Copia arquivos e pastas, oferecendo opções mais poderosas do que o comando básico COPY.
+
+
+COMPROMISSOS DE INFORMAÇÃO DO SISTEMA
+
+AUDITPOL – Mostra ou altera as políticas de auditoria no sistema.
+
+CHKDSK – Identifica e corrige certos erros de disco rígido; muitas vezes referido como "verificar disco".
+
+CHKNTFS – Configura ou exibe a verificação da unidade de disco durante o processo de inicialização do Windows.
+
+DISM – Inicia a ferramenta de Implantação e Gerenciamento de Imagens usada para gerenciar recursos em imagens do Windows.
+
+DISPDIAG – Obtém um registo de informações sobre o sistema de visualização.
+
+DRIVERQUERY – Mostra uma lista de todos os drivers de dispositivo instalados no sistema.
+
+HOSTNAME – Mostra o nome da máquina (nome do computador) do computador.
+
+IPCONFIG – Configura e exibe a configuração do endereço IP para interfaces de rede.
+
+MSINFO32 – Mostra informações abrangentes do sistema sobre seu computador.
+
+NETSTAT – Mostra estatísticas de rede, incluindo conexões ativas e uso de portas.
+
+NSLOOKUP – Executa a pesquisa do servidor de nomes para resolver nomes de domínio em endereços IP.
+
+PATHPING – Rastreia a rota para um host remoto enquanto mede a latência da rede e a perda de pacotes.
+
+PING – Testa a conectividade de rede enviando solicitações de eco para um host especificado.
+
+SYSTEMINFO – Lista informações detalhadas de configuração do sistema, incluindo OS, hardware e configurações de rede.
+
+TASKLIST – Lista todos os aplicativos e serviços em execução com seus IDs de processo.
+
+TASKKILL – Termina um processo em execução ou aplicação pelo nome ou ID do processo.
+
+VER – Mostra informações de versão sobre o sistema operacional.
+
+WINMGMT – Gerencia o serviço e repositório WMI (Windows Management Instrumentation).
+
+
+COMPROMISSOS DE DISPLAY E OUTPUT
+
+CLS – Limpa a tela de todos os comandos e outros textos inseridos anteriormente.
+
+COR – Muda as cores do texto e do fundo dentro da janela Prompt de Comando.
+
+ECHO – Exibe mensagens, normalmente dentro de script ou arquivos em lote; também pode ligar ou desligar eco.
+
+MAIS – Exibe saída de uma tela de cada vez, permitindo que você pause e visualize grandes quantidades de texto.
+
+PROMPT – Muda a aparência do prompt de comando em si.
+
+TÍTULO – Define o título da janela para uma sessão CMD.EXE.
+
+
+LOTE E COMPROMISSOS DE ESCRIPÇÃO
+
+CALL – Executa um programa de script ou lote de dentro de outro programa de script ou lote.
+
+ESCOLHA – Fornece uma lista de escolhas e retorna o valor dessa escolha a um programa em lote.
+
+ENDLOCAL – Termina a localização de alterações de ambiente dentro de um arquivo de lote ou script.
+
+FOR – Loops através de um conjunto de arquivos ou executa comandos várias vezes com base em condições.
+
+GOTO – Dirige um programa em lote para saltar para uma linha marcada dentro do script.
+
+IF – Realiza condicionalmente um comando baseado em se uma condição é verdadeira ou falsa.
+
+PAUSE – Suspende o processamento de um arquivo em lote e exibe uma mensagem para pressionar uma chave para continuar.
+
+REM – Comentários de registros (observações) em um arquivo em lote sem executá-los.
+
+SETLOCAL – Controla a visibilidade das variáveis de ambiente dentro de um arquivo de lote ou script.
+
+SHIFT – Muda a posição dos parâmetros de arquivos em lote, permitindo o acesso a mais de nove parâmetros.
+
+
+COMUNIDADES DE AMBIENTE E DE CONFIGURAÇÃO
+
+CHCP – Mostra ou define o número de página de código ativo para codificação de caracteres.
+
+DATA – Mostra ou altera a data atual.
+
+DOSKEY – Edita linhas de comando, cria macros e recorda comandos previamente inseridos.
+
+SET – Exibições, conjuntos ou remove variáveis de ambiente de sessão.
+
+SETX – Define variáveis de ambiente permanentemente, disponíveis para futuras sessões de comando.
+
+TEMPO – Exibe ou define o tempo do sistema.
+
+
+COMANDOS DE REDE
+
+ARP – Visualiza ou modifica entradas no cache do ARP (Protocolo de Resolução de Endereços).
+
+DNSCMD – Gerencia servidores DNS e suas configurações.
+
+GETMAC – Mostra o endereço de controle de acesso de mídia (MAC) dos adaptadores de rede.
+
+IFMEMBER – Determina se o usuário atual é membro de um grupo especificado.
+
+IPCONFIG – Configura configurações de IP e exibe informações do adaptador de rede.
+
+NBTSTAT – Mostra estatísticas de rede usando NetBIOS sobre TCP/IP.
+
+NET – Gerencia recursos de rede, incluindo ações, contas de usuário e serviços.
+
+NETDOM – Gerencia domínios de rede e contas de domínio.
+
+NETSH – Configura interfaces de rede, configurações de firewall e acesso remoto.
+
+NSLOOKUP – Realiza resolução de nomes DNS para encontrar endereços IP para nomes de domínio.
+
+VIA – Manipula tabelas de roteamento de rede para controlar os caminhos dos pacotes de dados.
+
+TRACERT – Rastreia os pacotes de rota para alcançar um host remoto.
+
+COMISSÕES DE SEGURANÇA E PERMISSÕES
+
+CACLS – Exibe ou altera listas de controle de acesso de arquivos.
+
+CIPHER – Mostra ou altera o status de criptografia de arquivos e pastas em partições NTFS.
+
+ICACLS – Muda as permissões de arquivos e pastas com opções mais avançadas do que o CACLS.
+
+NTRIGHTS – Edita direitos e permissões de conta do usuário.
+
+RUNAS – Executa um programa sob uma conta de usuário diferente com privilégios elevados.
+
+TakeOWN – Toma posse de um arquivo ou pasta.
+
+XCACLS – Muda permissões de arquivos e pastas com recursos estendidos.
+
+COMPROMISSOS DE ARMAZENAMENTO
+
+BCDBOOT – Copia arquivos de inicialização para a partição do sistema e cria uma nova loja BCD sistema.
+
+BCDEDIT – Visualiza ou faz alterações nos dados de configuração de inicialização.
+
+BITSADMIN – Gerencia tarefas de download e upload usando o serviço de transferência inteligente de fundo.
+
+BOOTCFG – Compila, modifica ou visualiza o arquivo boot.ini que identifica a localização do Windows.
+
+BOOTSECT – Configura o código de inicialização mestre para a compatibilidade BOOTMGR ou NTLDR.
+
+DISKPERF – Gerencia contadores de desempenho de disco remotamente para monitoramento.
+
+DISKRAID – Inicia a ferramenta DiskRAID para gerenciar e configurar arrays RAID.
+
+FREEDISK – Verifica a quantidade de espaço livre em disco disponível em uma unidade.
+
+FSUTIL – Fornece funções de arquivo e volume utilitário para gerenciamento avançado de disco.
+
+NTBACKUP – Utilitário de backup do Windows para fazer backup de pastas para fita ou outras mídias.
+
+WBADMIN – Ferramenta de administração de backup do Windows para gerenciar backups da linha de comando.
+
+
+PROCESSO E COMÉRCIO DE SERVIÇO
+
+CHANGE – Muda várias configurações de servidor de terminal, como modos de instalação e logons.
+
+CHGLOGON – Habilita, desabilita ou drena logins de sessão de servidor de terminal.
+
+CHGPORT – Exibe ou altera mapeamentos de portas COM para compatibilidade com DOS.
+
+CHGUSR – Muda o modo de instalação do servidor de terminal.
+
+MSIEXEC – Executa pacotes do Windows Installer para instalar ou configurar software.
+
+MSTSC – Abre Conexão/Protocolo de Desktop Remoto para conexões remotas.
+
+PNPUTIL – Plug and Play Utility para gerenciar drivers de dispositivos.
+
+POWERCFG – Configura configurações de energia e esquemas de energia.
+
+QPROCESS – Mostra informações sobre processos em execução.
+
+QUSER – Exibe sessões de usuário em servidores de terminal ou desktops remotos.
+
+SC – Utilitário de controle de serviço para gerenciar serviços Windows.
+
+SCHTASKS – Programa um comando para ser executado em um determinado momento ou intervalo recorrente.
+
+SHUTDOWN – Desliga ou reinicia o computador localmente ou remotamente.
+
+TASKILL – Termina um processo ou aplicação em execução.
+
+TASKLIST – Lista todos os aplicativos e serviços em execução.
+
+TSKILL – Termina um processo por nome ou ID de processo.
+
+
+COMPROMISSOS PRINTÁRIOS
+
+PRINT – Imprime um arquivo de texto para uma impressora.
+
+PRINTBRM – Faz backup e recupera configurações de fila de impressora.
+
+PRNCNFG – Configura as configurações e propriedades de uma impressora.
+
+PRNDRVR – Adiciona, apaga ou lista drivers de impressão.
+
+PRNJOBS – Pausa, retoma, cancela ou lista trabalhos de impressão em uma fila.
+
+PRNMNGR – Adiciona, apaga ou lista conexões e configurações de impressora.
+
+PRNPORT – Gerencia portas de impressora e altera configurações de porta.
+
+PRNQCTL – Gerencia filas de impressão e permite a impressão de páginas de teste.
+
+COMÉRCIO DE CERTIFICADO E AUTENTICAÇÃO
+
+CERTREQ – Executa várias funções de certificado da autoridade de certificação (CA).
+
+CERTUTIL – Descarta e exibe informações de configuração da autoridade de certificação.
+
+CMDKEY – Mostra, cria e remove nomes de usuário e senhas armazenados.
+
+KLIST – Lista os tickets do Kerberos em cache para o usuário atual.
+
+
+COMPROMISSOS DE TRATAMENTO DE TEXTO
+
+COMP – Compara o conteúdo de dois arquivos ou conjuntos de arquivos.
+
+EDIT – Inicia o Editor MS-DOS para criar e modificar arquivos de texto.
+
+EDLIN – Inicia a ferramenta Edlin para criar e modificar arquivos de texto da linha de comando.
+
+Find – Procura uma string de texto em um arquivo e exibe linhas correspondentes.
+
+FINDSTR – Procura por strings em arquivos usando padrões e expressões regulares.
+
+SORT – Ordena o texto de entrada em ordem alfabética ou numérica.
+
+
+COMANDOS DE UTILIDADE DO SISTEMA
+
+ATMADM – Exibe informações relacionadas às conexões de modo assíncrono de transferência (ATM).
+
+BDEHDCFG – Prepara um disco rígido para criptografia de unidade BitLocker.
+
+BREAK – Define ou limpa a verificação CTRL+C estendida em sistemas DOS.
+
+CHECKNETISOLATION – Testa aplicativos que requerem recursos de rede.
+
+CLIP – Redireciona a saída de qualquer comando para a área de transferência no Windows.
+
+CMD – Inicia uma nova instância do interpretador de comando cmd.exe.
+
+CMSTP – Instala ou desinstala um perfil de serviço Connection Manager.
+
+CSCRIPT – Executa scripts via Microsoft Script Host para tarefas de automação.
+
+CTTY – Muda os dispositivos de entrada e saída padrão para o sistema.
+
+DEBUG – Inicia Debug, uma aplicação de linha de comando usada para testar e editar programas.
+
+DEFRAG – Defragmenta uma unidade que você especifica para otimizar o desempenho.
+
+DJOIN – Cria uma nova conta de computador em um domínio.
+
+DOSSHELL – Inicia DOS Shell, uma ferramenta gráfica de gerenciamento de arquivos para MS-DOS.
+
+DOSX – Inicia Interface de Modo Protegido (DPMI) para programas MS-DOS mais antigos.
+
+ESENTUTL – Gerencia bancos de dados Extensible Storage Engine (ESE).
+
+EVENTO – Cria um evento personalizado em um log de eventos.
+
+EVENTUGGERS – Configura e exibe gatilhos de eventos (apenas Windows XP).
+
+EXE2BIN – Converte um arquivo EXE executável para um arquivo binário.
+
+EXIT – Termina a sessão cmd.exe no Windows ou sessão command.com no MS-DOS.
+
+EXPLORER – Abre o gerenciador de arquivos do Windows Explorer.
+
+FLTMC – Gerencia drivers MiniFilter para filtragem de sistema de arquivos.
+
+FONDUE – Funcionalidades na Ferramenta de Experiência do Usuário Demand para habilitar recursos do Windows.
+
+FORFILES – O lote processa vários arquivos com base em critérios.
+
+GPRESULT – Exibe o conjunto resultante de informações de política para usuários e computadores.
+
+GPUPDATE – Atualiza as configurações da Política de Grupo no computador local.
+
+AJUDA – Fornece ajuda online e informações sobre os comandos disponíveis.
+
+IEXPRESS – Cria um arquivo ZIP autoextraído.
+
+INUSE – Substitui arquivos que estão em uso pelo sistema operacional.
+
+LGPO – Utilitário de objeto de política de grupo local para gerenciar políticas de grupo.
+
+LODCTR – Loads Performance Monitor contadores de desempenho.
+
+LOGMAN – Gerencia registros de monitoramento de desempenho e coleta de dados.
+
+LOGOFF – Registra o usuário atual do sistema.
+
+MAKECAB – Cria arquivos .CAB (cabina) para compressão.
+
+MANAGEM-BDE – BitLocker Drive Ferramenta de gerenciamento de criptografia.
+
+MBR2GPT – Converte uma partição de disco do Master Boot Record para o formato GPT.
+
+MODE – Configura um dispositivo de sistema como portas COM, LPT ou CON.
+
+MOUNTVOL – Gerencia um ponto de montagem de volume para letras de drive.
+
+MSG – Envia uma mensagem para outros usuários na rede.
+
+NLSINFO – Mostra informações locais para diferentes idiomas e regiões.
+
+NLTEST – Utilitário de teste de localização de rede para testes Active Directory.
+
+NMBIND – Gerencia ligações de rede Hyper-V.
+
+OPENFILES – Consultas ou exibe arquivos abertos no sistema.
+
+PATH – Mostra ou define um caminho de busca para arquivos executáveis.
+
+POPD – Retorna a um diretório anterior salvo pelo comando PUSHD.
+
+PORTQRY – Mostra o status dos portos e serviços.
+
+POWERCFG – Configura configurações de energia e esquemas de energia para o gerenciamento de energia.
+
+PUSHD – Salva o diretório atual e então muda para outro diretório.
+
+QAPPSERV – Lista todos os servidores de terminal na rede.
+
+QPROCESS – Mostra informações sobre processos em execução em um servidor de terminal.
+
+QWINSTA – Mostra todas as sessões em um servidor de terminal ou área de trabalho remota.
+
+RASDIAL – Gerencia conexões de serviço de acesso remoto (RAS).
+
+RASPHONE – Gerencia conexões RAS e entradas de agenda.
+
+REAGENTC – Configura Windows Recovery Environment (RE) e System Reset.
+
+RECOVER – Recupera um arquivo danificado de um disco defeituoso.
+
+REG – Lê, define, exporta e apaga chaves e valores de registro.
+
+REGEDIT – Importa ou exporta configurações de registro de e para arquivos.
+
+REGINI – Muda as permissões de registro para configuração avançada.
+
+REGSVR32 - Registra ou não registra um arquivo DLL (Dynamic Link Library).
+
+REPAIR-BDE – Repara uma unidade BitLocker danificada e salva dados recuperáveis.
+
+SESSÃO RESET – Exclui uma sessão de desktop remota.
+
+RMTSHARE – Compartilha uma pasta ou uma impressora em um computador remoto.
+
+RUN – Executa um programa ou comando a partir da janela Iniciar □ Executar.
+
+SECEDIT – Editor de segurança para configurar e analisar a segurança do sistema.
+
+SCHTASKS – Programa um comando ou programa para executar em um determinado tempo ou intervalo.
+
+SCRIPTUNNER – Executa um ou mais scripts em sequência para automação.
+
+SETOBJECTSECURITY – Define segurança para um objeto como um arquivo, diretório ou chave de registro.
+
+SETSPN – Edita os Nomes Principais do Serviço no Active Directory.
+
+SFC – Verificador de arquivos do sistema para digitalização e reparação de arquivos do sistema.
+
+COMPARTILHE – Lista ou edita uma partilha de ficheiros ou impressão na rede.
+
+SHELLRUNAS – Executa um comando sob uma conta de usuário diferente.
+
+SHORTCUT – Cria um atalho do Windows (arquivo.LNK).
+
+SIGCHECK – Mostra informações da versão do arquivo e status VirusTotal.
+
+SLMGR – Ferramenta de gerenciamento de licenciamento de software para ativação do Windows.
+
+SSH – Cliente de login remoto OpenSSH para conexões remotas seguras.
+
+START – Inicia um programa, comando ou arquivo em lote em uma nova janela.
+
+STREAMS – Lista quaisquer Fluxos de Dados Alternativos (ADS) dentro de um arquivo ou diretório.
+
+STRINGS – Procura por strings ANSI e UNICODE em arquivos binários.
+
+SUBINACL – Edita permissões de arquivos e pastas, propriedade e atribuições de domínio.
+
+SXSTRACE – Diagnostica problemas de montagem lado a lado (SxS).
+
+SYSMON – Monitora e registra a atividade do sistema no registro de eventos do Windows.
+
+TAR – Armazena, lista ou extrai arquivos em um formato de arquivo tar.
+
+TELNET – Comunica-se com outro host usando o protocolo TELNET.
+
+TIMEOUT – Atrasa o processamento de um arquivo ou comando em lote por uma duração especificada.
+
+TLIST – Mostra uma lista de tarefas com informações completas do caminho para cada processo.
+
+TOUCH – Muda as datas do arquivo para a data e hora atuais.
+
+TRACERT – Rastreia os pacotes de rota para alcançar um host remoto.
+
+TSDISCON – Desliga uma sessão de desktop remota.
+
+TIPO – Mostra o conteúdo de um arquivo de texto na tela.
+
+TIPOPERF – Escreve dados de Monitor de Desempenho em um arquivo de log para análise.
+
+TZUTIL – Utilitário de fuso horário para gerenciar fusos horários do sistema.
+
+VBC – Visual Basic compilador para compilação de programas VB.
+
+VERIFY – Verifica que os arquivos foram salvos corretamente no disco.
+
+VMCONNECT – Liga-se a uma Máquina Virtual Hyper-V para gestão.
+
+VOL – Exibe uma etiqueta de disco e informações de volume.
+
+VSSADMIN – Exibe backups de cópia de sombra de volume, escritores e provedores.
+
+W32TM – Utilitário do Windows Time Service para sincronização de tempo.
+
+Waitfor – Espera ou envia um sinal entre computadores em uma rede.
+
+WECUTIL – Windows Event Collector Utility para gerenciar assinaturas de eventos.
+
+WEVTUTIL – Limpa registros de eventos, permite/desativa registros e consulta informações de registro de eventos.
+
+ONDE – Localiza e exibe arquivos em uma árvore de diretórios com base em um padrão de pesquisa.
+
+WHOAMI – Saída do nome de usuário atual e informações de domínio.
+
+WHOIS – Procure o registro de registro de um nome de domínio.
+
+WINDIFF – Compara o conteúdo de dois arquivos ou conjuntos de arquivos.
+
+WINGET – Windows Package Manager para instalar e gerenciar pacotes de software.
+
+WINRM – Ferramenta de gerenciamento remoto do Windows para gerenciamento remoto do sistema.
+
+WINRS – Windows Remote Shell para executar comandos em computadores remotos.
+
+WMIC – WMI Interface de linha de comando para gerenciamento e automação de sistemas.
+
+WPEUTIL – Executa os comandos do Ambiente de Pré-instalação (WinPE).
+
+WPR – Gravador de desempenho do Windows para capturar dados de desempenho do sistema.
+
+WT – Terminal Windows para funcionalidade avançada de interface de linha de comando.
+
+WUSA – Windows Update Standalone Installer para aplicar atualizações individuais.
+
+
+COMANDOS DIRECTIVOS ACTIVOS
+
+ADDUSERS – Adiciona ou lista os usuários a/de um arquivo CSV para gerenciamento de usuários em massa.
+
+CSVDE – Importa ou exporta dados do Active Directory usando valores separados por vírgulas.
+
+DSACLSO – Ferramenta de gerenciamento de ACLs (Listas de Controle de Acesso).
+
+DSADD – Adiciona itens (usuários, grupos, computadores) ao Active Directory.
+
+DSGET – Views items no Active Directory, incluindo usuários, grupos e computadores.
+
+DSMOVE – Move um objeto Active Directory para um local diferente no diretório.
+
+DSQUERY – Procura o Active Directory para usuários, grupos, computadores e outros objetos.
+
+DSMOD – Modifica itens no Active Directory, incluindo propriedades do usuário e membros do grupo.
+
+DSREGCMD – Comando de Registro de Serviço de Diretório para gerenciamento de dispositivos.
+
+DSRM – Remove itens do Active Directory permanentemente.
+
+NTSUTIL – Ferramenta de gerenciamento de serviços de domínio de diretório ativo para operações avançadas.
+
+
+DIRECÇÃO E UtilidadeS DE DISCO
+
+DU – Mostra tamanhos de diretório e informações de uso para análise de armazenamento.
+
+DISKCOMP – Compara o conteúdo de duas disquetes.
+
+DISKCOPY – Copia todo o conteúdo de uma disquete para outra.
+
+DISKSHADOW – Ferramenta de gerenciamento de serviço de cópia de volume para operações de backup.
+
+DISPLAYSWITCH – Especifica qual display usar e como usá-lo em configurações multimonitor.
+
+DBLSPACE – Cria ou configura unidades compactas DoubleSpace (sistemas mais antigos).
+
+DRVSPACE – Cria ou configura unidades compactas DriveSpace (versão atualizada do DoubleSpace).
+
+EMM386 – Dá acesso MS-DOS a mais de 640 KB de memória (RAM).
+
+FSUTIL – Utilitários de arquivo e volume para gerenciamento avançado de disco e sistema de arquivos.
+
+
+COMPROMISSOS DE TRANSFERÊNCIA DE FTP E DE DADOS
+
+FTP – Utilitário de protocolo de transferência de arquivos para transferência de arquivos de e para computadores remotos.
+
+CURL – Transfere dados de ou para um servidor usando vários protocolos (HTTP, FTP, etc.).
+
+JOGOS DE SISTEMA AVANÇADO
+
+BDEHDCFG – Prepara um disco rígido com partições para criptografia BitLocker.
+
+COREINFO – Mostra o mapeamento entre processadores lógicos e físicos no sistema.
+
+CSCCMD – Utilitário de gerenciamento de cache do lado do cliente (Arquivos Offline).
+
+PKTMON – Monitora a propagação interna de pacotes e relata quedas de pacotes.
+
+PROCDUMP – Monitora uma aplicação para picos de CPU e cria arquivos de descarga para análise.
+
+
+DICAS PARA UTILIZAR COMANDOS DE CMD
+
+Obter Ajuda - Digite Ajuda ou Ajuda [comando] para ver os comandos disponíveis e seu uso
+
+Usar? Bandeira - A maioria dos comandos suporta /? para exibir informações detalhadas de ajuda
+
+Use Pipes - Combine comandos com o .. para enviar saída de um comando para outro
+
+Usar Redirection - Use > para redirecionar saída para um arquivo ou >> para adicionar
+
+Arquivos em lote - Criar arquivos .bat ou .cmd para automatizar vários comandos
+
+Executar como Administrador - Clique com o botão direito do mouse no Prompt de Comando e selecione "Executar como Administrador" para privilégios elevados
+
+Completação da Página - Pressione a Página para completar automaticamente os nomes dos arquivos e pastas

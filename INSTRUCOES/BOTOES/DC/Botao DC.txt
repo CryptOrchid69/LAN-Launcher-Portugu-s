@@ -1,0 +1,3 @@
+﻿DC
+
+O botão DC abre a pasta DataCache do DayZ. Use este botão quando precisar selecionar cache.ch e clicar em APAGAR para limpar o cache do cliente. Isso pode ajudar quando o jogo mostra problemas visuais ou dados antigos.

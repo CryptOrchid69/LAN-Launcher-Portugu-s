@@ -1,0 +1,446 @@
+﻿1. Configurações do Windows
+
+Abra: Pressione a tecla Windows + I.
+
+Este é o centro de controle principal moderno para Windows 11. A Microsoft descreve-o como o local central para preferências de dispositivos, incluindo Sistema, Bluetooth e dispositivos, Rede e internet, Personalização, Apps, Contas, Acessibilidade, Privacidade e segurança, Jogos e Atualização do Windows.
+
+Use-o para:
+
+Sistema — visualização, som, notificações, armazenamento, energia, recuperação.
+Bluetooth e dispositivos – mouse, teclado, impressoras, câmeras, Bluetooth.
+Rede e internet — Wi-Fi, Ethernet, VPN, hotspot, proxy.
+Personalização — papel de parede, cores, tela de bloqueio, barra de tarefas.
+Apps – aplicativos instalados, aplicativos padrão, aplicativos de inicialização.
+Contas — opções de login, senhas, usuários familiares.
+Hora e idioma — data, fuso horário, digitação, fala.
+Jogos — Barra de jogo, capturas, modo de jogo.
+Acessibilidade — tamanho do texto, narrador, lupa, temas de contraste.
+Privacidade e segurança — permissões, segurança do Windows, localização, câmera, microfone.
+Atualização do Windows — atualizações, histórico de atualização, drivers opcionais.
+
+Utilização básica:
+
+Pressione Windows + I.
+Digite o que você precisa na caixa de pesquisa, como exibição, som, wifi ou atualização.
+Clique no resultado.
+Mude uma configuração de cada vez.
+Reinicie apenas se o Windows perguntar.
+2. Painel de controle clássico
+
+Abra: Pressione Iniciar, digite Painel de controle, pressione Enter.
+
+Este é o antigo centro de controle do Windows. Algumas ferramentas velhas ainda vivem aqui.
+
+Use-o para:
+
+Programas e recursos — desinstalar programas de desktop mais antigos.
+Centro de Rede e Compartilhamento — configurações de rede antigas.
+Opções de potência — planos de potência avançados.
+Dispositivos e Impressoras — impressoras, controladores, algum hardware.
+Contas de usuário — ferramentas de contas antigas.
+Opções do Explorador de Arquivos — mostrar arquivos ocultos, extensões de arquivo.
+Som — painel de comando antigo do alto-falante/microfone.
+Mouse — velocidade do ponteiro, botões, configurações da roda.
+
+Aviso inicial: Não altere aleatoriamente as configurações avançadas de rede, energia ou usuário, a menos que você saiba por quê.
+
+3. Painel de ajustes rápidos
+
+Abra: Clique na área Wi-Fi / alto-falante / bateria na barra de tarefas inferior direita, ou pressione Windows + A.
+
+Use-o para controles rápidos:
+
+Wi-Fi, Bluetooth, modo avião, volume, brilho, poupança de bateria, acessibilidade, luz noturna, elenco, hotspot móvel.
+
+Utilização básica:
+
+Pressione Windows + A.
+Clique em um botão uma vez para ligá-lo ou desligá-lo.
+Usar barras deslizantes para brilho ou volume.
+Clique com o botão direito para mais configurações.
+4. Gerenciador de tarefas
+
+Abra: Pressione Ctrl + Shift + Esc.
+
+Use-o para controlar a execução de aplicativos e desempenho.
+
+Principais áreas:
+
+Processos — mostra aplicativos abertos e programas de fundo.
+Desempenho — CPU, memória, disco, Wi-Fi, uso de GPU.
+Aplicativos de inicialização — controla o que abre quando o Windows começa.
+Usuários — mostra sessões de usuários ativos.
+Detalhes — lista de processos avançada.
+Serviços — background Serviços Windows.
+
+Uso inicial seguro:
+
+Abrir Gestor de Tarefas.
+Clique em Processos.
+Se um aplicativo estiver congelado, clique nele.
+Clique em Finalizar tarefa.
+Não termine os processos do Windows desconhecidos.
+
+Melhor recurso útil: Acesse aplicativos de inicialização e desative aplicativos desnecessários que retardam a inicialização.
+
+5. Gerenciador de dispositivos
+
+Abra: Botão direito do mouse Iniciar → Gerenciador de dispositivos.
+
+Isto controla os drivers de hardware.
+
+Use-o para:
+
+Exibir adaptadores, adaptadores de rede, dispositivos de som, Bluetooth, controladores USB, teclados, ratos, câmeras, monitores, controladores de armazenamento.
+
+Utilização segura:
+
+Abrir Gestor de Dispositivos.
+Expandir uma categoria.
+Clique com o botão direito de um dispositivo.
+Use Propriedades para inspecioná-lo.
+Use o driver Atualizar, se necessário.
+
+Aviso inicial: Evite desinstalar dispositivo ou desativar dispositivo a menos que você tenha certeza. Desativar um adaptador de rede pode desconectar sua internet.
+
+6. Gerenciamento de disco
+
+Abra: Botão direito do mouse Iniciar → Gerenciamento de disco.
+
+Microsoft diz que o Gerenciamento de disco gerencia discos e volumes, incluindo a inicialização de unidades, criação/formatação de volumes, alteração de letras de unidade e extensão ou redução de volumes.
+
+Use-o para:
+
+Discos rígidos, SSDs, unidades USB, partições, letras de unidade, formatação, espaço não alocado.
+
+Aviso inicial: Formato, Excluir Volume e Limpar pode apagar dados.
+
+Utilização segura:
+
+Abrir gerenciamento de disco.
+Olha para a lista de unidades.
+Confirme a letra, tamanho e etiqueta da unidade.
+Botão direito do mouse apenas a unidade correta.
+Evite excluir ou formatar, a menos que faça backup.
+7. Gestão de Computador
+
+Abra: Botão direito do mouse Iniciar → Gerenciamento de computador.
+
+Este é um console de administração maior contendo várias ferramentas.
+
+Inclui:
+
+Agendador de tarefas — tarefas automáticas.
+Visualizador de eventos — registros de erros do sistema.
+Pastas compartilhadas — compartilhamentos de rede.
+Usuários locais e Grupos — gerenciamento de usuários, em edições suportadas.
+Gerenciador de dispositivos — hardware.
+Gerenciamento de disco — unidades.
+Serviços — serviços de base.
+
+Use-o principalmente para inspeção, a menos que você saiba o que está mudando.
+
+8. Painel de Serviços
+
+Abra: Pressione Windows + R, digite services.msc, pressione Enter.
+
+Controla os serviços de base.
+
+Exemplos:
+
+Windows Update, Print Spooler, Bluetooth Support Service, Windows Defender serviços, serviços de rede.
+
+Utilização segura:
+
+Serviços Abertos.
+Clique em um serviço.
+Leia a sua descrição.
+Botão direito do mouse → Reinicie apenas quando a solução de problemas.
+Evite alterar o tipo de inicialização, a menos que seja instruído.
+9. Visualizador de eventos
+
+Abra: Pressione Iniciar, digite Visualizador de Eventos.
+
+Use-o para ler os registos do Windows.
+
+Seções úteis:
+
+Windows Logs → Sistema — hardware, drivers, inicialização, desligamento.
+Registros do Windows → Aplicação — falha na aplicação.
+Segurança — eventos de entrada e segurança.
+
+Uso inicial:
+
+Abrir visualizador de eventos.
+Acesse os registros do Windows → Sistema.
+Procurar Erro ou Crítico.
+Clique no evento.
+Leia os detalhes de baixo.
+
+Aviso: O visualizador de eventos sempre mostra muitos avisos. Nem todos os avisos significam que seu PC está quebrado.
+
+10. Segurança do Windows
+
+Abra: Iniciar → digite Windows Security.
+
+Isto controla a protecção integrada. A Microsoft lista áreas para provedores de segurança, notificações, antivírus, firewall e gerenciamento de proteção da web.
+
+Controlos principais:
+
+Proteção contra vírus e ameaças — varreduras e status de antivírus.
+Firewall & proteção de rede — status de firewall.
+Controle de aplicativos e navegadores — Proteção SmartScreen.
+Segurança do dispositivo — isolamento do núcleo, características relacionadas com o TPM.
+Proteção da conta — segurança de entrada.
+Histórico de proteção — ameaças e avisos bloqueados.
+
+Uso seguro básico:
+
+Abrir Segurança do Windows.
+Clique em Proteção contra vírus e ameaças.
+Clique em Varredura rápida.
+Verifique o histórico de proteção se algo foi bloqueado.
+Mantenha a proteção em tempo real.
+11. Atualização do Windows
+
+Abra: Configurações → Atualização do Windows.
+
+Use-o para:
+
+Instalando atualizações, atualizações de driver opcionais, histórico de atualização, reiniciar agendamento, pausar atualizações.
+
+Utilização segura:
+
+Abrir configurações.
+Clique em Atualização do Windows.
+Clique em Verificar atualizações.
+Instale atualizações importantes.
+Reinicie quando estiver pronto.
+12. Controles de energia e bateria
+
+Abra: Configurações → Sistema → Energia e bateria.
+
+A Microsoft diz que as configurações de energia do Windows 11 incluem o modo de potência, economia de energia, temporizadores de tela/sono e opções relacionadas.
+
+Use-o para:
+
+Tempo de sono, tempo de screen-off, economia de bateria, modo de desempenho, uso de energia.
+
+Utilização básica:
+
+Abrir configurações.
+Acesse Sistema → Energia e bateria.
+Escolha um modo de energia.
+Defina quando o ecrã desligar.
+Defina quando o PC dorme.
+
+Para PCs desktop, concentre-se nas configurações de sono e tela. Para laptops, também use o protetor de bateria.
+
+13. Controles de rede
+
+Principais locais:
+
+Configurações → Rede e internet
+Painel de controle → Centro de rede e compartilhamento
+Gerenciador de dispositivos → Adaptadores de rede
+Configurações rápidas → Wi-Fi
+
+Use-o para:
+
+Wi-Fi, Ethernet, VPN, proxy, DNS, propriedades do adaptador, hotspot.
+
+Regra de iniciante segura: Use Configurações primeiro. Evite desativar adaptadores, a menos que seja necessário.
+
+14. Painéis de controle de som
+
+Moderno:
+
+Configurações → Sistema → Som
+
+Clássica:
+
+Painel de controle → Som
+
+Use-o para:
+
+Alto-falantes, fones de ouvido, microfones, volume, dispositivo de entrada, dispositivo de saída, solução de problemas.
+
+Utilização básica:
+
+Ícone do alto-falante com o botão direito do mouse.
+Escolha as configurações de som.
+Escolha o seu dispositivo de saída.
+Escolhe o microfone de entrada.
+Volume de teste.
+15. Controles de exibição
+
+Abrir:
+
+Configurações → Sistema → Display
+
+Use-o para:
+
+Resolução, escala, brilho, luz noturna, múltiplos monitores, taxa de atualização, HDR.
+
+Utilização segura:
+
+Abrir a configuração do ecrã.
+Mudar a Escala se o texto for demasiado pequeno.
+Alterar a resolução de exibição apenas para o valor recomendado.
+Use o display Avançado para atualizar a taxa.
+16. Configurações da aplicação
+
+Abrir:
+
+Configurações → Apps
+
+Use-o para:
+
+Desinstale aplicativos, aplicativos padrão, aplicativos de inicialização, recursos opcionais, aplicativos instalados.
+
+Utilização básica:
+
+Configurações → Apps → Aplicativos instalados.
+Pesquisa o nome da aplicação.
+Clique nos três pontos.
+Escolha desinstalar, modificar ou opções avançadas.
+17. Controles de aplicação de inicialização
+
+Abrir:
+
+Configurações → Apps → Inicialização
+ou Gerenciador de tarefas → Aplicações de inicialização
+
+Use-o para impedir que os aplicativos abram automaticamente.
+
+Uso inicial seguro:
+
+Desabilitar coisas como lançadores de jogos, assistentes de atualização, aplicativos de chat ou aplicativos que você não precisa imediatamente. Não desative o software de segurança a menos que você saiba o que está fazendo.
+
+18. Controle de Conta do Usuário
+
+Abrir:
+
+Painel de controle → Sistema e segurança → Alterar configurações de controle de conta do usuário
+
+O UAC avisa quando aplicativos tentam fazer alterações de nível de administrador. Microsoft diz que ajuda a prevenir alterações não autorizadas e pede que você aprove ou negue ações administrativas.
+
+Melhor configuração para a maioria dos usuários: Mantenha-o no nível padrão.
+
+19. Opções do Explorador de Arquivos
+
+Abrir:
+
+Painel de controle → Opções do Explorer de arquivos
+
+Use-o para:
+
+Mostrando arquivos ocultos, mostrando extensões de arquivo, mudando o comportamento da pasta.
+
+Configuração muito útil:
+
+Abrir o Explorador de Ficheiros.
+Clique em Ver.
+Clique em Show.
+Activar as extensões do nome do ficheiro.
+
+Isso ajuda você a ver se um arquivo é .txt, .py, .exe, .bat, etc.
+
+20. Editor de Registros
+
+Abrir:
+
+Pressione Windows + R, digite regedit, pressione Enter.
+
+Isto controla a configuração profunda do Windows.
+
+Aviso inicial: Não edite o registro a menos que tenha instruções exatas. Alterações erradas podem quebrar o comportamento do Windows, aplicativos, drivers ou login.
+
+21. Editor de Políticas de Grupos Locais
+
+Abrir:
+
+Pressione Windows + R, digite gpedit.msc.
+
+Geralmente disponível no Windows 11 Pro, Enterprise e Education.
+
+Use-o para controles avançados de políticas:
+
+Comportamento de atualização do Windows, regras de segurança, opções de login, restrições de sistema, políticas de rede.
+
+Aviso inicial: Não mude as políticas aleatoriamente.
+
+22. Agendador de tarefas
+
+Abrir:
+
+Iniciar → digite Agendador de tarefas
+
+Use-o para:
+
+Tarefas de inicialização automática, manutenção programada, tarefas de atualização, tarefas de fundo do aplicativo.
+
+Uso inicial:
+
+Use-o principalmente para inspecionar tarefas. Desativar tarefas aleatórias pode interromper atualizações, aplicativos ou drivers.
+
+23. Controles Firewall
+
+Abrir:
+
+Segurança do Windows → Firewall & proteção de rede
+
+Use-o para:
+
+Firewall de rede privada/pública, aplicativos permitidos, regras de firewall avançadas.
+
+Utilização segura:
+
+Abrir Segurança do Windows.
+Clique em Firewall & proteção de rede.
+Certifiquem-se de que a firewall está ligada.
+Use Permitir um aplicativo através de firewall apenas para aplicativos que você confia.
+24. Painel de controle de linha de comando
+
+Estas são ferramentas de controle baseadas em texto.
+
+Principais:
+
+Prompt de Comando — ferramenta de comando antiga.
+PowerShell — ferramenta de comando Windows mais poderosa.
+Terminal do Windows — aplicação de comando com tabulação moderna.
+
+Comandos seguros comuns:
+
+ipconfig — mostra informações de rede.
+ipconfig /flushdns — limpa cache DNS.
+sfc /scannow — verifica arquivos do sistema Windows.
+chkdsk — verifica unidades, mas use com cuidado.
+winget — instala/atualiza aplicativos.
+
+Aviso inicial: Não cole comandos de sites desconhecidos.
+
+25. BIOS / UEFI Firmware Controls
+
+Abrir:
+
+Configurações → Sistema → Recuperação → Inicialização avançada → Reiniciar agora → Solução de problemas → Opções avançadas → Configurações de Firmware UEFI.
+
+Isto controla o hardware antes do Windows carregar.
+
+Use-o para:
+
+Ordem de inicialização, inicialização segura, TPM, virtualização, configurações de ventilador/performance, opções de nível de hardware.
+
+Aviso inicial: Não altere as definições UEFI a menos que saiba porquê.
+
+Regra simples para iniciantes
+
+Usar controles nesta ordem:
+
+Primeiro as configurações.
+Painel de controle segundo.
+Gerenciador de tarefas para aplicativos/iniciações congelados.
+Gerenciador de dispositivos apenas para problemas de hardware / driver.
+Gerenciamento de disco apenas para unidades/partições.
+Registro, Serviços, Política de Grupo, BIOS apenas com instruções exatas.

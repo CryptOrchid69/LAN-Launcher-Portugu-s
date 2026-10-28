@@ -1,0 +1,3 @@
+﻿DSC
+
+O botão DSC significa Conexão Direta ao Servidor. Clique uma vez para abrir o campo de IP e porta. Digite ou cole o endereço do servidor, por exemplo 162.220.164.30:2302, e clique no triângulo DSC novamente. O app salva o endereço nos registros recentes para uso futuro. O usuário pode editar ou apagar o arquivo de registros.

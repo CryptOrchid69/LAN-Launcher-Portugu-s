@@ -1,0 +1,3 @@
+﻿LIMPAR
+
+O botão LIMPAR apaga a pasta storage_1 do mapa selecionado. Isso limpa a persistência do servidor. Use com cuidado, porque o mundo e dados salvos desse mapa serão reiniciados.

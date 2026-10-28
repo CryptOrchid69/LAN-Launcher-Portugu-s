@@ -1,0 +1,1250 @@
+﻿//Neste arquivo você aprenderá como usar o CMD mais EFICAZMENTE //
+
+COMPROMISSOS DE GESTÃO DO FILO E DO FOLDER
+APÊNDICE
+Descrição: Permite que programas abram arquivos em um diretório diferente como se estivessem no atual.
+
+Sintaxe Básica:
+
+
+
+APÊNDICE [[drive:]path[;[drive:]path]...] [/X[:ON:OFF]] [/PATH:ON:OFF] [E:nnnnn]
+Exemplos comuns de uso:
+
+APÊNDICE C:\DATA – Diz ao sistema para pesquisar o diretório C:\DATA para arquivos
+APÊNDICE C:\DATA;D:\FILES – Adiciona múltiplos caminhos separados por pontos e vírgulas
+APPEND /X:ON – Permite que o comando APPEND procure caminhos para arquivos executáveis
+APÊNDICE /PATH:ON – Permite que a variável de ambiente PATH trabalhe com APÊNDICE
+APÊNDICE (sem parâmetros) – Exibe diretórios atualmente adicionados
+APÊNDICE ; – Limpa todos os caminhos anexados
+Notas Importantes: Esse comando está desactualizado nas versões mais modernas do Windows e funciona principalmente em ambientes MS-DOS e 32-bit Windows.
+
+ASSOCI
+Descrição: Mostra ou altera associações de tipo de arquivo para extensões de arquivo específicas.
+
+Sintaxe Básica:
+
+
+
+ASSOC [.ext[=[fileType]]]
+Exemplos comuns de uso:
+
+ASSOC – Exibe todas as associações de tipo de arquivo em seu sistema
+ASSOC .txt – Mostra qual programa está associado a arquivos .txt
+ASSOC .txt=txtfile – Associados .txt arquivos com o tipo de arquivo txtfile
+ASSOC .mp3=MediaPlayer.Document.11 – Associa arquivos MP3 com Windows Media Player
+ASSOC .pdf=AcroExch.Document.DC – Associa arquivos PDF com o Adobe Reader
+ASSOC .doc= – Remove a associação de arquivos .doc
+Notas Importantes: Alterações feitas com ASSOC requerem privilégios de administrador. Use o FTYPE para alterar o programa que abre um tipo de arquivo.
+
+ATTRIB
+Descrição: Muda os atributos de um único arquivo ou diretório (somente leitura, oculto, arquivo, sistema).
+
+Sintaxe Básica:
+
+
+
+ATTRIB [+R'-R] [+A'-A] [+S'-S] [+H'-H] [+I'-I] [drive:][caminho][nome do ficheiro] [/S] [/D]
+Exemplos comuns de uso:
+
+ATTRIB +R C:\file.txt – Faz somente leitura de file.txt
+ATTRIB -R C:\file.txt – Remove o atributo somente leitura
+ATTRIB +H C:\folder – Esconde uma pasta da vista
+ATTRIB -H C:\folder – Descobre uma pasta
+ATTRIB +S C:\file.txt – Marks file as system file
+ATTRIB C:\file.txt – Mostra os atributos atuais do arquivo
+ATTRIB +R +A C:\*.txt /S – Faz todos os arquivos .txt somente leitura e arquivo na pasta atual e subpastas
+ATTRIB -H -S C:\Users\Username\AppData\ – Desobstrui arquivos ocultos do sistema
+Códigos de atributos:
+
+R = Apenas leitura
+A = Arquivo
+S = Sistema
+H = Escondido
+I = Não indexado
+/S = Aplicar a todos os arquivos em subdiretórios
+/D = Incluir diretórios no processamento
+CD (CHDIR)
+Descrição: Muda o diretório de trabalho atual ou exibe a letra da unidade e pasta em que você está atualmente.
+
+Sintaxe Básica:
+
+
+
+CD [/D] [drive:] [caminho]
+CD [..]
+Exemplos comuns de uso:
+
+CD – Mostra o caminho atual do diretório
+CD C:\Users\Documentos – Alterações na pasta Documentos
+CD .. – Sobe um nível de diretório
+CD \ – Vai para o diretório raiz da unidade atual
+CD /D D:\Backup – Muda unidade e diretório simultaneamente (requer /D flag)
+Usuários de CD\Documents\Projects – Alterações em um subdiretório (caminho relativo)
+CHDIR C:\Program Files – sintaxe alternativa usando CHDIR em vez de CD
+Notas importantes: Use /D ao mudar para um diretório em uma unidade diferente. Sem ele, você só vai mudar diretórios na unidade atual.
+
+COMPACT
+Descrição: Mostra ou altera o estado de compressão de arquivos e diretórios em partições NTFS.
+
+Sintaxe Básica:
+
+
+
+COMPACT [/Caquele/U] [/S[:dir]] [/A] [/I] [/F] [/Q] [nome do ficheiro [...]]
+Exemplos comuns de uso:
+
+COMPACT – Mostra o estado de compressão dos arquivos no diretório atual
+COMPACT /C C:\LargeFiles\ – Comprime arquivos no diretório especificado
+COMPACT /U C:\LargeFiles\ – Descompacta arquivos no diretório
+COMPACT /C /S:C:\Backup – Comprime todos os arquivos em diretórios e subdiretórios
+COMPACT /U /S /A – Descompacta todos os arquivos, incluindo arquivos ocultos e do sistema
+COMPACT /C /F /Q C:\*.mp4 – Comprime arquivos de vídeo com bandeira de força e modo silencioso
+COMPACT C:\file.txt – Mostra o estado de compressão de um único arquivo
+Explicações do parâmetro:
+
+/C = Comprimir
+/U = Descomprimir
+/S = Subdiretórios de Processo
+/A = Incluir arquivos ocultos e do sistema
+/I = Continuar apesar dos erros
+/F = Forçar a compressão mesmo que o arquivo já esteja parcialmente comprimido
+/Q = Modo silencioso (resultado mínimo)
+Notas importantes: Só funciona em unidades NTFS. FAT32 e outros sistemas de arquivos não suportam este comando.
+
+COPTY
+Descrição: Copia um ou mais arquivos de um local para outro.
+
+Sintaxe Básica:
+
+
+
+CÓPIA [/D] [/V] [/N] [/Y'/-Y] [/Z] [/L] [/A ́/B] fonte [/A ́/B] [+ fonte [/A’/B] [+...]] [destinação [/A’/B]]
+Exemplos comuns de uso:
+
+COPY C:\file.txt D:\ – Cópias file.txt de C: unidade para D: unidade
+COpy file.txt file backup.txt – Cria uma cópia com um nome diferente no mesmo diretório
+C:\*.txt D:\ – Copia todos os arquivos .txt de C: para D:
+COPY /Y C:\file.txt D:\ – Copia sem perguntar se o arquivo existe (sobrescrever)
+C:\file.txt D:\ – Perguntas antes de sobrescrever o arquivo existente
+COPY C:\file1.txt + C:\file2.txt C:\combined.txt – Combina vários arquivos em um
+C:\source\*.* D:\destination\ – Copia todos os arquivos e preserva extensões
+COPY /V C:\file.txt D:\ – Copia e verifica a cópia foi bem sucedida
+Explicações do parâmetro:
+
+/D = Permite que o arquivo de destino seja criado como arquivo descriptografado
+/V = Verifica arquivos são escritos corretamente
+/N = Usa nome de arquivo curto se disponível
+/Y = Suprime o pedido (supõe que sim para substituir)
+/-Y = Pedidos antes da substituição
+/Z = Copia arquivos em rede em modo reiniciável
+/L = Se fonte é link simbólico, copie o link em si, não o alvo
+/A = Indica o ficheiro de texto ASCII
+/B = Indica o arquivo binário
+DEL (ERASE)
+Descrição: Exclui um ou mais arquivos.
+
+Sintaxe Básica:
+
+
+
+DEL [/P] [/F] [/S] [/Q] [/A:atributos] [drive:][caminho][nome do ficheiro]
+ERASE [/P] [/F] [/S] [/Q] [/A:atributos] [drive:][caminho][nome do ficheiro]
+Exemplos comuns de uso:
+
+DEL C:\file.txt – Exclui file.txt (prompts para confirmação)
+DEL /Q C:\file.txt – Exclui sem alerta
+DEL C:\*.txt – Exclui todos os arquivos .txt no diretório
+DEL /S C:\*.tmp – Exclui todos os arquivos .tmp em diretórios e subdiretórios
+DEL /P C:\oldfiles\*.* – Exclui todos os arquivos com confirmação individual para cada
+DEL /A:H C:\hidden.txt – Exclui o arquivo oculto
+DEL /F /S C:\folder\*.* – Forçar a exclusão de todos os arquivos em pastas e subpastas (remove somente o atributo de leitura)
+ERASE C:\file.txt – sintaxe alternativa usando ERASE em vez de DEL
+Explicações do parâmetro:
+
+/P = Pedidos de confirmação antes de excluir cada arquivo
+/F = Força a exclusão de arquivos somente leitura
+/S = Exclui arquivos especificados de todos os subdiretórios
+/Q = Modo de silêncio (sem avisos)
+/A = Seleciona arquivos por atributos (H=Hidden, S=System, R=Light-only, A=Archive)
+Notas importantes: Arquivos excluídos não podem ser recuperados da linha de comando. Tenha cuidado com curingas como . que apagam todos os arquivos.
+
+DELTREE
+Descrição: Exclui um diretório e todos os arquivos e subdiretórios dentro dele.
+
+Sintaxe Básica:
+
+
+
+DELTREE [/Y] [drive:] [caminho]
+Exemplos comuns de uso:
+
+DELTREE C:\OldFolder – Exclui OldFolder e todo o seu conteúdo (prompts para confirmação)
+DELTREE /Y C:\Temp – Exclui a pasta Temp sem solicitar
+DELTREE C:\Users\Username\Downloads\OldFiles – Exclui a estrutura de diretório aninhada
+DELTREE /Y D:\Backup\Old 2023 – Forçar a remoção de diretório em unidade diferente
+Explicações do parâmetro:
+
+/Y = Suprime o prompt de confirmação
+Notas Importantes: Este comando está desactualizado nas versões modernas do Windows. Usar RD /S /Q ou RMDIR /S /Q em vez disso. DELTREE é mais perigoso porque é mais difícil de desfazer.
+
+DIR
+Descrição: Mostra uma lista de arquivos e pastas no diretório atual ou especificado, incluindo tamanho do arquivo e outras informações.
+
+Sintaxe Básica:
+
+
+
+DIR [drive:][caminho][nome do ficheiro] [/A:atributos] [/B] [/C] [/D] [/L] [/N] [/O:ordem] [/P] [/Q] [/R] [/S] [/T:timefield] [/X] [/4]
+Exemplos comuns de uso:
+
+DIR – Lista todos os arquivos e pastas no diretório atual
+DIR C:\Users\Documentos – Lista o conteúdo da pasta Documentos
+DIR *.txt – Lista apenas arquivos .txt no diretório atual
+DIR /S – Lista todos os arquivos no diretório atual e todos os subdiretórios
+DIR /S /B – Lista todos os arquivos com caminho completo em formato nu (sem detalhes)
+DIR /O:N – Lista arquivos ordenados pelo nome
+DIR /O:S – Lista arquivos ordenados por tamanho
+DIR /O:-D – Lista os arquivos ordenados por data em ordem decrescente (novo primeiro)
+DIR /A:H – Mostra apenas ficheiros escondidos
+DIR /A:-H – Mostra todos os arquivos, exceto arquivos ocultos
+DIR /A:D – Mostra apenas diretórios
+DIR /P – Exibe saída de uma tela de cada vez
+DIR /L – Mostra nomes de arquivos em minúsculas
+DIR C:\*.exe /S – Encontra todos os arquivos executáveis em C: unidade e subdiretórios
+DIR /T:C – Mostra tempo de criação de arquivos em vez de tempo de modificação
+Explicações do parâmetro:
+
+/A = Mostrar arquivos com atributos específicos (H=Oculto, S=Sistema, D=Directório, A=Arquivo, R=Somente leitura)
+/B = Formato nu (apenas nome do ficheiro, sem informação adicional)
+/C = Mostrar tamanhos de arquivos com separador de milhares
+/D = O mesmo formato largo, ordenado por coluna
+/L = Visualização minúscula
+/N = Novo formato longo (nome do arquivo no lado direito)
+/O = Ordem de ordenação (N=Nome, S=Tamanho, D=Data, G=Diretórios primeiro, E=Extensão, A=Ascendente, D=Descendente)
+/P = Pausa após cada tela
+/Q = Apresentar o proprietário do arquivo
+/R = Mostrar fluxos de dados alternativos
+/S = Incluir subdiretórios
+/T = Campo de tempo (C=Criado, A=Acessado, W=Escrito)
+/X = Exibir nomes de arquivos curtos (8.3)
+/4 = Ano de exibição como 4 dígitos
+DIRQUOTA
+Descrição: Gerencia quotas de disco do File Server Resource Manager.
+
+Sintaxe Básica:
+
+
+
+DIRQUOTA [ação] [parâmetros]
+Exemplos comuns de uso:
+
+Lista de quotas DIRQUOTA – Lista todas as quotas configuradas
+DIRQUOTA quota criar /Caminho:C:\SharedFolder /Limit:1GB – Cria 1GB quota na pasta
+DIRQUOTA quota delete /Path:C:\SharedFolder – Remove quota da pasta
+DIRQUOTA quota modificar /Caminho:C:\SharedFolder /Limit:2GB – Muda o limite de quota
+Lista de quotas DIRQUOTA / Remote:servername – Lista de quotas no servidor remoto
+DIRQUOTA autoquota create /Path:C:\SharedFolder /Template:"100 MB Limite" – Cria auto-quota
+Notas importantes: Requer o papel do Gerenciador de Recursos do Servidor de Arquivos (FSRM) para ser instalado. Usado principalmente em sistemas Windows Server.
+
+DISKPART
+Descrição: Cria, gerencia e apaga partições do disco rígido. Lança utilitário interativo.
+
+Sintaxe Básica:
+
+
+
+DISKPART
+Exemplos comuns de uso (dentro do modo interativo DISKPART):
+
+DISKPART – Lança o utilitário DISKPART
+LISTA DISK – Mostra todos os discos no sistema
+SELECT DISK 0 – Selecciona o disco 0 para operações
+LISTA PARTICION – Mostra todas as partições no disco selecionado
+CRIAR DIMENSÃO PRIMÁRIA DE PARTICIPAÇÃO=10240 – Cria uma partição primária de 10GB
+PARTICIPAÇÃO DELETA – Exclui a partição selecionada
+FORMATO FS=NTFS RÓTULO="MyDrive" – Formata partição com NTFS e etiqueta
+CARTA DE ASSINAL=E – Atribui a letra da unidade E: à partição
+REMOVER CARTA=E – Remove a atribuição da letra da unidade
+DIMENSÃO DE EXTENSÃO=5120 – Extende a partição por 5GB
+CONVERT GPT – Converte o disco de MBR para o formato GPT
+CLEAN – Remove todas as partições do disco
+EXIT – Sai do utilitário DISKPART
+Notas importantes: DISKPART é interativo e requer privilégios de administrador. Seja extremamente cuidadoso, pois as operações são difíceis de desfazer. Sempre verifique se você está trabalhando no disco correto.
+
+EXPAND
+Descrição: Descompacta arquivos CAB (cabinet).
+
+Sintaxe Básica:
+
+
+
+EXPAND source file.cab [destination folder]
+EXPAND source file.cab - F:filename destination folder
+Exemplos comuns de uso:
+
+EXPAND C:\archive.cab D:\ – Extrai todos os arquivos do arquivo do gabinete para D:
+EXPAND C:\install.cab -F:driver.sys D:\Drivers\ – Extrai arquivo específico do gabinete
+EXPAND C:\Windows\*.cab C:\Extracted\ – Extrai vários arquivos de gabinete
+EXPAND C:\backup.cab – Extrai arquivos para o diretório atual
+EXPAND C:\system.cab -F:* D:\System32\ – Extrai todos os arquivos do gabinete com wildcard
+Explicações do parâmetro:
+
+Ficheiro de código = Ficheiro do Gabinete (.cab) a extrair
+Destino = Onde extrair arquivos (opcional, padrão para diretório atual)
+-F: = Especifica arquivos específicos para extrair do gabinete
+Notas Importantes: Este comando só funciona com arquivos .CAB. Para arquivos ZIP, use outros utilitários ou suporte ZIP integrado do Windows.
+
+FC
+Descrição: Compara dois arquivos e exibe as diferenças entre eles.
+
+Sintaxe Básica:
+
+
+
+FC [/A] [/C] [/L] [/LBn] [/N] [/OFF[LINE]] [/T] [/U] [/W] [/nnnn] ficheiro1 ficheiro2
+Exemplos comuns de uso:
+
+Arquivo FC1.txt file2.txt – Compara dois arquivos de texto e mostra diferenças
+FC /L C:\version1.txt C:\version2.txt – Compara arquivos no modo ASCII (linha por linha)
+FC /B C:\image1.bin C:\image2.bin – Compara arquivos binários
+Arquivo FC /C1.txt file2.txt – Ignora a sensibilidade de caso em comparação
+Arquivo FC / W1.txt file2.txt – Ignora diferenças de espaço em branco
+Arquivo FC /N1.txt file2.txt – Exibe números de linha na saída
+Arquivo FC /T1.txt file2.txt – Não expande abas para espaços
+FC /U C:\config1.ini C:\config2.ini – Trata arquivos como arquivos de texto Unicode
+Explicações do parâmetro:
+
+/A = Exibe apenas as primeiras e últimas linhas de diferenças (abreviado)
+/B = Modo de comparação binária
+/C = Comparação insensível a casos
+/L = modo de comparação ASCII (padrão para texto)
+/LBn = define o número máximo de diferenças consecutivas
+/N = Exibe números de linha
+/OFF[LINE] = Não ignora arquivos com atributo offline
+/T = Não expande tabulações
+/U = Comparação de ficheiros Unicode
+/W = Comprime espaço em branco para comparação
+/nnnn = Número de linhas que devem corresponder após a diferença
+ENCONTRAR
+Descrição: Procura uma string de texto em um arquivo e exibe linhas correspondentes.
+
+Sintaxe Básica:
+
+
+
+ENCONTRAR [/V] [/C] [/N] [/I] [/OFF[LINE]] "cadeia" [[drive:] [caminho] nome do ficheiro[...]]
+Exemplos comuns de uso:
+
+FIND "error" C:\logfile.txt – Procuras por "error" no ficheiro de registo
+ENCONTRAR /C "aviso" C:\system.log – Conta as ocorrências de "aviso"
+ENCONTRAR /N "TODO" C:\script.bat – Mostra números de linha com correspondências
+FIND /I "falhou" C:\results.txt – Pesquisa sensível a casos
+FIND /V "sucesso" C:\output.txt – Mostra todas as linhas NÃO contendo "sucesso"
+FIND "error" C:\*.txt – Procura vários arquivos de texto
+TIPO C:\logfile.txt □ ENCONTRAR "crítico" – Procurado usando o operador de tubulação
+ENCONTRAR /N /I "aviso" C:\log1.txt C:\log2.txt – Pesquisa de arquivos múltiplos com números de linha
+Explicações do parâmetro:
+
+/V = Apresenta linhas NÃO contendo a string
+/C = Exibe a contagem de linhas contendo a string
+/N = Exibe números de linha com resultados
+/I = Pesquisa insensível a casos
+/OFF[LINE] = Não ignora arquivos offline
+Notas importantes: O FIND está limitado a pesquisas de texto simples. Para combinar padrões mais complexos, use o FindsTR.
+
+FINDSTR
+Descrição: Procura strings em arquivos usando expressões e padrões regulares.
+
+Sintaxe Básica:
+
+
+
+FINDSTR [/B] [/E] [/L] [/R] [/S] [/I] [/X] [/V] [/N] [/M] [/O] [/P] [/F:file] [/C:string] [/G:file] [/D:dir list] [/OFF[LINE]] strings [[drive:][path]filename[...]]
+Exemplos comuns de uso:
+
+FINDSTR "error" C:\logfile.txt – Pesquisa básica de strings
+FINDSTR /R "^ERROR" C:\log.txt – Encontra linhas começando com ERRO (regex)
+FINDSTR /I /S "Aviso" C:\logs\ – Pesquisa recursiva sensível a casos
+FINDSTR /C:"frase exata" C:\document.txt – Procura por frase exata com espaços
+FINDSTR /R "[0-9]" C:\data.txt – Encontra qualquer linha contendo dígitos
+FINDSTR /V "sucesso" C:\output.txt – Linhas NÃO contendo "sucesso"
+FINDSTR /N /I "fracassou" C:\results.txt – Vários termos de pesquisa (OR)
+FINDSTR /M "padrão" C:\*.txt – Mostra apenas nomes de ficheiros com correspondências
+FINDSTR /R "^[A-Z]" C:\file.txt – Localiza linhas que começam com letras maiúsculas
+FINDSTR /S /I "TODO\'FIXME" C:\project\ - Procura subdiretórios para múltiplos padrões
+Explicações do parâmetro:
+
+/B = Padrão de correspondência no início da linha
+/E = Padrão de correspondência no fim da linha
+/L = Usa string literal (não regex)
+/R = Usa expressões regulares (por omissão)
+/S = Subdiretórios de Procuras
+/I = Insensível a Casos
+/X = Corresponder a linha inteira
+/V = Linhas NÃO contendo padrão
+/N = Exibe números de linha
+/M = Apresenta apenas o nome do ficheiro
+/O = Exibe deslocamento de caracteres antes de cada partida
+/P = Ignora arquivos com caracteres não imprimíveis
+/F:file = Lê padrões de pesquisa do arquivo
+/C:string = Usa string literal (espaços preservados)
+/G:file = Obtém padrões do arquivo
+/D:dir list = Procuras pastas especificadas
+/OFF[LINE] = Não ignora arquivos offline
+Notas importantes: FINDSTR é mais poderoso do que FIND. Ele suporta expressões regulares para correspondência de padrões complexos.
+
+FORMATO
+Descrição: Formata um disco para uso com Windows, apagando todos os dados.
+
+Sintaxe Básica:
+
+
+
+Volume do FORMATO [/FS:sistema de ficheiros] [/V:label] [/Q] [/A:tamanho] [/C] [/X] [/Y]
+Exemplos comuns de uso:
+
+FORMATO D: – Formatos D: unidade com prompts
+FORMATO D: /FS:NTFS /V:MyDrive /Q – Formato rápido para NTFS com etiqueta
+FORMATO D: /FS:FAT32 /Q – Formato rápido para FAT32
+FORMATO E: /Q /Y – Formato rápido sem confirmação
+FORMATO D: /A:4096 – Formatos com tamanho unitário de alocação 4KB
+FORMATO D: /FS:NTFS /C – Formata NTFS e permite compressão de arquivos
+FORMATO X: /FS:exFAT /V:USB Drive – Formata unidade USB para exFAT
+FORMATO D: /FS:NTFS /A:512 – Formatos com 512 unidades de alocação de bytes
+Explicações do parâmetro:
+
+/FS:file-system = Especifica o sistema de arquivos (FAT32, NTFS, exFAT)
+/V:label = Especifica o rótulo de volume
+/Q = Formato rápido (não substitui setores de dados)
+/A:size = Especifica o tamanho da unidade de alocação
+/C = Arquivos criados em novo volume serão compactados por padrão
+/X = Forças de desmontagem do volume antes da formatação
+/Y = Suprime o prompt de confirmação
+Notas importantes: FORMAT apaga todos os dados no disco. Verifique sempre se você está formatando a unidade correta. O formato rápido é mais rápido, mas menos seguro.
+
+FTYPE
+Descrição: Mostra ou modifica as associações de tipo de arquivo com extensão de arquivo.
+
+Sintaxe Básica:
+
+
+
+FTYPE [fileType[=[openCommandString]]]
+Exemplos comuns de uso:
+
+FTYPE – Mostra todos os tipos de ficheiros e os seus comandos associados
+FTYPE txtfile – Mostra que programa abre arquivos .txt
+FTYPE htmlfile – Mostra o tipo de arquivo HTML associado
+FTYPE txtfile="Notepad.exe"% 1 – Associa tipo txtfile com Notepad
+FTYPE pdffile="C:\Program Files\Adobe\Acrobat DC\Acrobat.exe"% 1 – Associates PDF type
+FTYPE = – Exclui associação do tipo de arquivo
+FTYPE jpegfile="C:\Program Files\Windows Photo Viewer\PhotoViewer.dll"% 1 – Tipo de imagem associado
+Explicações do parâmetro:
+
+tipo de arquivo = O tipo de ficheiro a consultar ou modificar
+openCommandString = Comando a executar quando o tipo de ficheiro é aberto
+%% 1 = Representa o nome do ficheiro aberto
+%%* = Representa todos os parâmetros
+Notas importantes: Use ASSOC para alterar extensões de arquivo e FTYPE para alterar o programa que abre o tipo de arquivo. Ambos os comandos requerem privilégios de administrador.
+
+RÓTULO
+Descrição: Edita uma etiqueta de disco ou nome de volume.
+
+Sintaxe Básica:
+
+
+
+RÓTULO [drive:] [label]
+RÓTULO [/MP] [drive:] [label]
+Exemplos comuns de uso:
+
+RÓTULO – Exibe etiqueta de volume atual e alertas para um novo
+RÓTULO D: – Exibe e permite alterar D: etiqueta de condução
+RÓTULO D: MyBackup – Define D: Rótulo de unidade para "MyBackup"
+RÓTULO C: Work Files 2024 – Define C: etiqueta da unidade com sublinhado
+RÓTULO D: – Remove o rótulo de D: unidade (espaço após cólon)
+RÓTULO /MP D: – Muda o rótulo da unidade multipartição
+RÓTULO E: USB Storage – Etiquetas unidade USB
+Explicações do parâmetro:
+
+unidade: = letra de unidade para etiqueta
+Rótulo = Novo nome (máx. 32 caracteres para NTFS, 11 para FAT32)
+/MP = Para mídia removível multipartição
+Notas importantes: As etiquetas de volume são opcionais e usadas para identificação. NTFS suporta etiquetas mais longas do que FAT32.
+
+MAKECAB
+Descrição: Cria arquivos .CAB (cabinet) para compressão e arquivamento de arquivos.
+
+Sintaxe Básica:
+
+
+
+MAKECAB [/V[n]] [/R] [/D var=valor ...] [/L dir] fonte [destino]
+MAKECAB [/V[n]] [/R] [/D var=valor ...] /F file.ddf
+Exemplos comuns de uso:
+
+MAKECAB C:\file.txt C:\archive.cab – Cria arquivo de gabinete a partir de um único arquivo
+MAKECAB / R C:\folder\*.* C:\backup.cab – Recursivamente arquivos conteúdo da pasta
+MAKECAB /V C:\document.docx C:\archive.cab – Cria gabinete com saída verbose
+MAKECAB /L C:\output C:\source.txt C:\archive.cab – Especifica diretório de saída
+MAKECAB / F diretivas.ddf – Cria gabinete usando arquivo diretiva
+MAKECAB /V2 C:\data.bin C:\compressed.cab – Nível de modo verbal 2
+Explicações do parâmetro:
+
+/V[n] = Saída verbal (nível opcional 1-3)
+/R = subdiretórios de recurso
+/D var=value = Define variável para arquivo de diretiva
+/L dir = Localização do arquivo de gabinete
+/F file.ddf = Uses directive file for complex operations
+fonte = Arquivo ou pasta para comprimir
+destino = Arquivo de gabinete de saída
+Notas importantes: MAKECAB cria arquivos .CAB que são úteis para distribuição e arquivamento. Use EXPAND para extrair.
+
+MD (MKDIR)
+Descrição: Cria um novo diretório ou pasta.
+
+Sintaxe Básica:
+
+
+
+MD [drive:] path
+MKDIR [drive:] path
+Exemplos comuns de uso:
+
+MD NewFolder – Cria pasta no diretório atual
+MD C:\Users\Documents\Projects – Cria pasta no caminho especificado
+MD C:\Backup\2024\Janeiro – Cria diretórios aninhados
+MKDIR D:\MyData – sintaxe alternativa usando MKDIR
+MD C:\Arquivos de Programa\MyApp\Data – Cria pasta em arquivos de programa
+MD "C:\Meus Documentos\Novo Projeto" – Cria pasta com espaços no nome
+MD C:\temp & & CD C:\temp – Cria pasta e muda para ela
+Explicações do parâmetro:
+
+unidade: = letra de unidade (opcional, padrão para a unidade atual)
+caminho = Caminho completo ou relativo para o novo diretório
+Notas importantes: Você pode criar diretórios aninhados em um comando. Os diretórios pais devem existir a menos que você esteja criando o caminho completo.
+
+MKLINK
+Descrição: Cria um link simbólico para um arquivo ou diretório.
+
+Sintaxe Básica:
+
+
+
+MKLINK [[/D] [/H] [/J]] Alvo da Ligação
+Exemplos comuns de uso:
+
+MKLINK C:\link.txt C:\original.txt – Cria um link simbólico para o arquivo
+MKLINK /D C:\LinkFolder C:\RealFolder – Cria um link simbólico para o diretório
+MKLINK /H C:\hardlink.txt C:\original.txt – Cria um link difícil para o arquivo
+MKLINK /J C:\JunctionFolder C:\RealFolder – Cria junção de diretórios
+MKLINK C:\Shortcuts\file.txt D:\Documents\file.txt – Links entre unidades
+MKLINK /D "C:\Program Files\AppLink" "D:\Aplications\MyApp" – Links com espaços
+Explicações do parâmetro:
+
+/D = Cria link simbólico de diretório
+/H = Cria link rígido (apenas arquivo)
+/J = Cria junção de diretórios
+Link = Nome do link simbólico para criar
+Alvo = Ficheiro ou directório a que está ligado
+Notas Importantes: Requer privilégios de administrador. Links simbólicos apontam para alvos; links rígidos são cópias diretas de referências de arquivos. As junções só funcionam com pastas.
+
+MOVIMENTO
+Descrição: Move arquivos de uma pasta para outra, ou renomeia arquivos e diretórios.
+
+Sintaxe Básica:
+
+
+
+MOVE [/Y/-Y] [drive:][path]filename1[,...] destination
+Exemplos comuns de uso:
+
+MOVE C:\file.txt D:\ – Move o arquivo para unidade diferente
+MOVE file.txt renomeado.txt – Renomeia o arquivo no mesmo diretório
+MOVE C:\OldFolder C:\NewFolder – Renomeia diretório
+MOVE /Y C:\file.txt D:\ – Move-se sem alertar se o destino existe
+MOVE /-Y C:\file.txt D:\ – Perguntas antes de sobrescrever
+MOVE C:\folder\*.txt D:\archive\ – Move todos os arquivos .txt para outra pasta
+MOVE C:\OldName D:\NewLocation\NewName – Move e renomeia simultaneamente
+Explicações do parâmetro:
+
+/Y = Suprime o pedido de confirmação
+/-Y = Pedidos antes da substituição
+nome do arquivo1 = arquivo ou diretório fonte
+destino = Localização do alvo ou novo nome
+Notas importantes: MOVE é usado para mover e renomear. Não é possível mover através de sistemas de arquivos em versões mais antigas do Windows.
+
+RD (RMDIR)
+Descrição: Exclui um diretório ou pasta.
+
+Sintaxe Básica:
+
+
+
+RD [/S] [/Q] [drive:][caminho]
+RMDIR [/S] [/Q] [drive:][caminho]
+Exemplos comuns de uso:
+
+RD C:\EmptyFolder – Exclui diretório vazio
+RD /S C:\OldFolder – Exclui diretório e todo o conteúdo (com prompt)
+RD /S /Q C:\Temp – Apaga diretório e conteúdo sem solicitar
+RMDIR /S C:\Backup – sintaxe alternativa usando RMDIR
+RD /S /Q C:\Users\Downloads\OldFiles – Remove a estrutura de diretório aninhada
+RD /S C:\folder\* – Exclui todos os subdiretórios
+Explicações do parâmetro:
+
+/S = Remove diretório e todo o conteúdo recursivamente
+/Q = Modo silencioso (sem confirmação)
+unidade: = letra da unidade (opcional)
+caminho = caminho para o diretório a excluir
+Notas Importantes: O diretório deve estar vazio, a menos que o sinal /S seja usado. Use /S /Q com cuidado, pois remove permanentemente todo o conteúdo.
+
+REN (RENAME)
+Descrição: Renomeia um arquivo ou arquivos.
+
+Sintaxe Básica:
+
+
+
+REN [/E] [/N] [/P] [/Q] [/S] [/T] [drive:][path]filename1 filename2
+RENAME [/E] [/N] [/P] [/Q] [/S] [/T] [drive:][caminho]filename1 filename2
+Exemplos comuns de uso:
+
+REN oldname.txt newname.txt – Renomeia o arquivo no diretório atual
+REN C:\file.txt backup.txt – Renomeia o arquivo com caminho
+REN *.txt *.bak – Renomeia todos os arquivos .txt para extensão .bak
+REN document.docx document final.docx – Renomeia com nome descritivo
+REN /S C:\*.tmp *.old – Renomeia todos os arquivos .tmp no diretório e subdiretórios
+RENAME "antigo nome de arquivo.txt" "novo nome de arquivo.txt" – Renomeia arquivos com espaços
+REN C:\data *.txt data backup *.txt – Usa curingas em renomear
+Explicações do parâmetro:
+
+/E = Habilita recursos de renomeação estendidos
+/N = Mostra o que seria renomeado sem fazer alterações
+/P = Pedidos de confirmação antes de cada renomear
+/Q = Modo de silêncio (sem avisos)
+/S = Inclui subdiretórios
+/T = Testa a operação sem execução
+nome do arquivo1 = Nome do arquivo original
+nome2 = Novo nome de arquivo
+Notas importantes: Não é possível mover arquivos entre diretórios com REN. Use o MOVE para isso. Wildcards pode ser usado para renomear lote.
+
+RESPOSTA
+Descrição: Substitui ou atualiza um arquivo por outro.
+
+Sintaxe Básica:
+
+
+
+REPLACE [drive1:][path1]nome do ficheiro [drive2:][path2] [/A] [/P] [/R] [/W] [/U]
+Exemplos comuns de uso:
+
+REPLACE C:\newfile.txt D:\ – Substitui o arquivo no diretório de destino
+RESPOSTA C:\backup\*.* D:\current\ /S – Substitui vários arquivos recursivamente
+REPLACE C:\update.exe C:\Program Files\App\ /P – Substitui com confirmação
+REPLACE C:\version2.dll C:\System32\ /U – Substitui apenas se a fonte for mais recente
+RESPOSTA C:\data.ini C:\config\ /R – Substitui arquivos somente de leitura
+RESPOSTA /A C:\newfiles\*.* D:\ – Adiciona arquivos que não existem no destino
+Explicações do parâmetro:
+
+/A = Adiciona novos arquivos ao destino em vez de substituir
+/P = Pedidos de confirmação antes da substituição
+/R = Substitui arquivos somente de leitura
+/S = Inclui subdiretórios
+/U = Substitui somente se a fonte for mais nova do que o destino
+/W = Espera para o usuário inserir o disco
+Notas importantes: REPLACE é útil para atualizar arquivos. A bandeira /U é útil para controle de versão.
+
+ROBOCOPIA
+Descrição: Fornece arquivo robusto e cópia de pasta com opções avançadas para backups e sincronização.
+
+Sintaxe Básica:
+
+
+
+Destino da fonte ROBOCOPY [arquivo(s)] [opções]
+Exemplos comuns de uso:
+
+ROBOCOPY C:\source D:\destination – Copia todos os arquivos da fonte ao destino
+ROBOCOPY C:\source D:\destination /E – Copia a árvore de diretórios incluindo diretórios vazios
+ROBOCOPY C:\source D:\destination /MIR – Diretório de espelhos (exclui arquivos extras no destino)
+ROBOCOPY C:\source D:\destination *.txt – Copia apenas arquivos .txt
+ROBOCOPY C:\source D:\destination /S /E /COPY:DAT – Cópias com dados, atributos, datas
+ROBOCOPY C:\source D:\destination /MIR /R:3 /W:10 – Espelhos com 3 repetições e esperas de 10 segundos
+ROBOCOPY C:\source D:\destination /S / MAXAGE:30 – Cópias de arquivos modificados nos últimos 30 dias
+ROBOCOPY C:\source D:\destination /LOG:robocopy.log – Operação de logs para arquivo
+ROBOCOPY C:\source D:\destination /MON:5 – Monitores fonte e cópias mudam a cada 5 minutos
+ROBOCOPY C:\source D:\destination /PURGE – Purga arquivos no destino não na fonte
+Opções Frequentes:
+
+/S = Inclui subdiretórios (não vazios)
+/E = Inclui subdiretórios vazios
+/LEV:n = Copia apenas n níveis da árvore de pastas
+/Z = Copia arquivos em modo reiniciável
+/B = Cópias no modo de backup
+/ZB = Usa o modo reiniciável, se negado modo de backup de uso
+/R:n = Número de repetições em cópias falhadas
+/W:n = Tempo de espera entre repetições em segundos
+/REG = Grava as opções no registo
+/MAXAGE: n = Exclui arquivos com mais de n dias
+/MINAGE: n = Exclui arquivos mais novos do que n dias
+/MAXSIZE: n = Exclui arquivos maiores que n bytes
+/MINSIZE: n = Exclui arquivos menores que n bytes
+/L = Lista apenas (não copiar)
+/X = Reporta arquivos extras no destino
+/V = Resultado Verbose
+/LOG:file = Grava a saída para o arquivo de log
+/UNILOG:file = Writes Unicode log file
+/TEE = Grava saída para o arquivo de console e log
+/COPY:[copyflags] = O que copiar (D=Data, A=Atributos, T=Timestamps, S=Security)
+/DCOPY:[copyflags] = O que copiar para diretórios
+/PURGE = Exclui arquivos de destino não no código fonte
+/MIR = Árvore de pastas de espelhos (inclui /PURGE)
+/MON:n = Monitores fonte e cópias a cada n minutos
+/EFSRAW = Copia arquivos EFS em modo bruto
+Notas importantes: ROBOCOPY é poderoso para backups e sincronização. É mais confiável do que o XCOPY para grandes operações e cópias de rede.
+
+SUBST
+Descrição: Associa um caminho com uma letra de unidade.
+
+Sintaxe Básica:
+
+
+
+SUBST [drive1: [drive2:]caminho]
+SUBST drive1: /D
+Exemplos comuns de uso:
+
+SUBST X: C:\LongPath\To\Folder – Maps X: drive to a folder path
+SUBST Y: D:\Backup\Archives – Mapas Y: unidade para pasta de backup
+SUBST Z: "C:\Program Files\MyApplication\Data" – Mapas com espaços no caminho
+SUBST – Exibe todas as substituições atuais
+SUBST X: /D – Remove X: substituição da unidade
+SUBST G: C:\Games – Mapas G: drive to Games pasta para facilitar o acesso
+Explicações do parâmetro:
+
+drive1: = letra de unidade virtual para criar
+drive2:path = Caminho real para o mapa
+/D = Elimina a substituição
+Notas importantes: As unidades substituídas são temporárias e desaparecem após reiniciar. Use SUBST em arquivos em lote para persistir. Útil para encurtar caminhos longos.
+
+TAR
+Descrição: Armazena, lista ou extrai arquivos em um arquivo (formato TAR).
+
+Sintaxe Básica:
+
+
+
+TAR [opções] [arquivo-arquivo] [arquivos-fonte]
+Exemplos comuns de uso:
+
+TAR -cvf archive.tar file.txt – Cria um arquivo TAR com saída verbose
+TAR -cvzf archive.tar.gz pasta\ – Cria arquivo TAR.GZ comprimido
+TAR -xvf archive.tar – Extrai o arquivo TAR com saída verbose
+TAR -xvzf archive.tar.gz – Extrai arquivo TAR.GZ comprimido
+TAR -tvf archive.tar – Lista o conteúdo do arquivo TAR
+TAR - arquivo xvf.tar - C C:\destination\ - Extrai para diretório específico
+TAR - cvf backup.tar C:\MyFiles\ – Arquivos pasta inteira
+Opções Frequentes:
+
+- c = Criar arquivo
+-x = Extrair arquivo
+-t = Listar o conteúdo do arquivo
+- v = Saída Verbose
+-f = Especifica o nome do arquivo
+-z = Compressas com gzip
+-j = Compressas com bzip2
+-C = Diretório de alterações antes de processar
+Notas importantes: TAR é principalmente um utilitário Linux/Unix, mas está disponível em versões modernas do Windows (Windows 10 e posterior).
+
+ÁREA
+Descrição: Mostra uma representação gráfica da estrutura da pasta de uma unidade ou caminho.
+
+Sintaxe Básica:
+
+
+
+TREE [drive:][caminho] [/F] [/A] [/L]
+Exemplos comuns de uso:
+
+TREE – Exibe a estrutura de pastas do diretório atual
+TREE C:\ – Mostra a árvore de pastas completa de C: drive
+TREE C:\Users\Documentos /F – Mostra pastas e arquivos
+TREE D:\ /A – Usa caracteres ASCII em vez de gráficos
+TREE C:\ /F /A > tree output.txt – Salva árvore para arquivo
+TREE C:\Arquivos de Programa /L – Mostra a árvore em minúsculas
+Explicações do parâmetro:
+
+drive:path = Diretório inicial para exibição em árvore
+/F = Apresenta nomes de arquivos, bem como nomes de pastas
+/A = Usa caracteres ASCII em vez de caracteres gráficos
+/L = Não mostra gráficos, usa apenas linhas
+Notas importantes: TREE exibe apenas a estrutura de diretórios por padrão. Use /F para incluir arquivos. A saída pode ser redirecionada para o arquivo.
+
+TIPO
+Descrição: Mostra o conteúdo de um arquivo de texto.
+
+Sintaxe Básica:
+
+
+
+TIPO [drive:][path]filename
+Exemplos comuns de uso:
+
+TIPO C:\file.txt – Mostra todo o conteúdo do arquivo de texto
+TIPO config.ini – Exibe o arquivo no diretório atual
+TIPO C:\logs\system.log □ MAIS – Exibe com paginação
+TIPO C:\readme.txt □ Find "error" – Procura conteúdo de arquivo
+TIPO C:\file.txt > output.txt – Redireciona a saída para o arquivo
+TIPO "C:\Meus Documentos\file.txt" – Exibe arquivo com espaços no caminho
+TIPO C:\batch.bat – Mostra o conteúdo do arquivo em lote
+Notas importantes: TIPO só funciona com arquivos de texto. Para arquivos binários, ele exibe saída distorcida. Use tubos com MAIS ou ENCONTRAR para funcionalidade adicional.
+
+XCOPY
+Descrição: Copia arquivos e pastas, oferecendo opções mais poderosas do que o comando básico COPY.
+
+Sintaxe Básica:
+
+
+
+Fonte do XCOPY [destino] [/A//M] [/D[:data]] [/P] [/S [/E]] [/V] [/W] [/C] [/I] [/Q] [/F] [/L] [/G] [/R] [/H] [/K] [/X] [/Y/-Y]
+Exemplos comuns de uso:
+
+XCOPY C:\source D:\destination /S – Cópias de diretório e subdiretórios
+XCOPY C:\source D:\destination /S /E – Cópias incluindo subdiretórios vazios
+XCOPY C:\source D:\destination /S /H – Cópias com arquivos ocultos e do sistema
+XCOPY C:\source D:\destination /D:01-15-2024 – Copia apenas arquivos modificados após a data
+XCOPY C:\*.txt D:\ /S – Copia todos os arquivos .txt recursivamente
+XCOPY /L C:\source D:\destination – Lista o que seria copiado sem copiar
+XCOPY C:\source D:\destination /M – Copia e marca arquivos como arquivados
+XCOPY C:\source D:\destination /S /Y – Cópias sem indicação
+XCOPY C:\source D:\destination /E /V – Cópias com verificação
+Explicações do parâmetro:
+
+/A = Copia arquivos com conjunto de atributos de arquivo
+/M = Copia e marca arquivos fonte como arquivados
+/D[:date] = Copia os arquivos modificados na data ou após a data
+/P = Pede antes de copiar cada arquivo
+/S = Copia diretórios e subdiretórios (não vazios)
+/E = Copia subdiretórios vazios
+/V = Verifica cada arquivo escrito
+/W = Pede para pressionar a tecla antes de copiar
+/C = Continua se ocorrer um erro
+/I = Assume destino é diretório se não existir
+/Q = Modo de silêncio (sem avisos)
+/F = Apresenta arquivos de origem e destino sendo copiados
+/L = Lista arquivos sem cópia
+/G = Permite copiar arquivos criptografados para o destino não suportando criptografia
+/R = Sobrescrever arquivos somente leitura
+/H = Copia arquivos ocultos e do sistema
+/K = Copia os atributos do ficheiro (não repõe apenas leitura)
+/X = Copia configurações de auditoria de arquivos
+/Y = Suprime o pedido
+/-Y = Pedidos antes da substituição
+Notas importantes: XCOPY é mais poderoso do que COPY, mas mais lento do que ROBOCOPY. ROBOCOPY é preferido para grandes operações. O XCOPY está sendo eliminado em versões mais recentes do Windows.
+
+COMPROMISSOS DE INFORMAÇÃO DO SISTEMA
+[Devido ao comprimento, estou a proceder sistematicamente. Deixe-me continuar com a próxima seção...]
+
+AUDITPOL
+Descrição: Apresenta ou altera as políticas de auditoria no sistema.
+
+Sintaxe Básica:
+
+
+
+AUDITPOL [/get] [/set] [/list] [/remove] [/clear] [/backup] [/restore]
+Exemplos comuns de uso:
+
+AUDITPOL /get /category:* – Mostra todas as categorias de políticas de auditoria
+AUDITPOL /list /category – Lista de todas as categorias de políticas de auditoria disponíveis
+AUDITPOL /get /category:"Logon/Logoff" – Mostra configurações de auditoria logon/logoff
+AUDITPOL /set /category:"Object Access" /sucess:enable /failure:enable – Permite auditoria para acesso a objetos
+AUDITPOL /remover /category:"Gestão de Conta" – Remove a política de auditoria para a categoria
+AUDITPOL/clear – Limpa todas as políticas de auditoria
+AUDITPOL /backup /file:C:\audit backup.csv – Backup políticas de auditoria para arquivo
+AUDITPOL /restore /file:C:\audit backup.csv – Restaura políticas de auditoria do arquivo
+AUDITPOL /get /category:"System" – Mostra configurações de auditoria do sistema
+Explicações do parâmetro:
+
+/get = Mostra a política de auditoria atual
+/set = Política de auditoria de conjuntos
+/list = Listas opções de política de auditoria
+/remover = Remove a política de auditoria
+/clear = Limpa todas as políticas de auditoria
+/backup = Fazer backup da política de auditoria para arquivar
+/restore = Restaura a política de auditoria do arquivo
+/categoria: = Especifica a categoria de auditoria
+/success: habilitar o disable = Habilita/desativa a auditoria de sucesso
+/failure: habilitar:desabilitar = Habilita/desativa a auditoria de falhas
+Notas Importantes: Requer privilégios de administrador. Útil para monitoramento de segurança e conformidade. As alterações produzem efeitos imediatamente.
+
+CHKDSK
+Descrição: Identifica e corrige certos erros de disco rígido; muitas vezes referido como "verificar disco".
+
+Sintaxe Básica:
+
+
+
+CHKDSK [volume[[país]nome do ficheiro]] [/F] [/V] [/R] [/X] [/I] [/C] [/L[:tamanho]] [/B] [/scan] [/spotfix]
+Exemplos comuns de uso:
+
+CHKDSK – Verifica a unidade atual (somente leitura, sem reparos)
+CHKDSK D: – Verifica D: unidade
+CHKDSK C: /F – Verifica e corrige erros em C: unidade
+CHKDSK C: /F /R – Verifica, corrige erros e recupera setores defeituosos
+CHKDSK C: /V – Verifica com texto a listagem de todos os ficheiros
+CHKDSK / scan – Digitaliza unidade de corrupção (Windows 8+)
+CHKDSK /spotfix – Corrige apenas erros detectados (Windows 8+)
+CHKDSK C: /X – Desmonta a unidade antes de verificar
+CHKDSK C: /I /C – Salta ciclos e verifica apenas arquivos
+Explicações do parâmetro:
+
+/F = Corrigir erros encontrados
+/V = Resultado Verbose
+/R = Localiza setores defeituosos e recupera informações legíveis
+/X = Forçar a desmontagem do volume se necessário
+/I = Verificação de saltos de ciclos dentro da estrutura do sistema de arquivos
+/C = Verificação de erros de ciclos dentro do sistema de arquivos
+/L[:size] = Alterações no tamanho do ficheiro de registo
+/B = Limpar lista de setores defeituosos
+/scan = Executa a digitalização online (somente NTFS)
+/spotfix = Corre a fixação de pontos
+volume = letra da unidade ou nome do volume
+Notas importantes: Use /F para corrigir erros. A unidade de sistema (C:) normalmente requer agendamento na próxima inicialização. CHKDSK pode levar um tempo significativo em grandes unidades.
+
+CHKNTFS
+Descrição: Configura ou exibe a verificação da unidade de disco durante o processo de inicialização do Windows.
+
+Sintaxe Básica:
+
+
+
+CHKNTFS [volume...]
+CHKNTFS / C [volume...]
+CHKNTFS / X [volume...]
+CHKNTFS / D
+Exemplos comuns de uso:
+
+CHKNTFS – Exibe status de verificação para todas as unidades
+CHKNTFS C: – Mostra se C: unidade está marcada para verificação
+CHKNTFS /C C: – Marca C: unidade a ser verificada na próxima inicialização
+CHKNTFS /X C: – Exclui C: unidade de verificar no arranque
+CHKNTFS /D – Restaura o comportamento padrão da verificação
+CHKNTFS / T:30 – Define temporizador de contagem regressiva para 30 segundos antes da verificação automática
+CHKNTFS C: D: E: – Verifica o estado de várias unidades
+Explicações do parâmetro:
+
+/C = Marks drive para verificar na próxima inicialização
+/X = Exclui unidade de verificar no arranque
+/D = Restaura o comportamento padrão
+/T:time = Define o temporizador da contagem decrescente em segundos
+volume = letra de unidade ou ponto de montagem
+Notas importantes: Só funciona com unidades NTFS. As alterações produzem efeito na próxima inicialização. Útil para agendar o CHKDSK para executar automaticamente.
+
+DISM
+Descrição: Inicia a ferramenta Deployment Image Servicing and Management usada para gerenciar recursos em imagens do Windows.
+
+Sintaxe Básica:
+
+
+
+DISM {/Image:<path to image> /Online} /command [opções]
+Exemplos comuns de uso:
+DISM /Online /Get-Features – Lista todos os recursos do Windows
+DISM /Online / Enable-Feature /FeatureName:NetFx3 – Activa .NET Framework 3.5
+DISM /Online /Desable-Feature /FeatureName:MediaPlayback – Desabilita o Windows Media Player
+DISM /Online /Get-CapabilityInfo – Listas de recursos instalados
+DISM /Online /Add-Capability /CapabilityName:App.StepsRecorder~~~0.0.1.0 – Adiciona gravador de passos
+DISM /Image:C:\mount\image /Get-Features – Lista características na imagem montada
+DISM /Online /Limpe-Imagem /StartComponentLimpar – Limpa a loja de componentes
+DISM /Online /Reparar-Imagem /RestaurarSaúde /Fonte:C:\reparar – Repara a imagem do Windows
+Características comuns para ativar/desativar:
+
+NetFx3 = .NET Framework 3.5
+NetFx4-AdvSrvs = .NET Framework 4.x
+TFTP = Cliente TFTP
+TelnetClient = Cliente Telnet
+Fundação de Impressão = Serviços de Impressão e Documentos
+HipervisorPlataforma = Hiper- V
+Explicações do parâmetro:
+
+/Online = Modifica a execução do Windows
+/Image: = Caminho para a imagem do Windows offline
+/Enable-Feature = Activa o recurso do Windows
+/Desable-Feature = Desabilita o recurso do Windows
+/FeatureName: = Nome da funcionalidade a modificar
+/Capabilidade Nome: = Nome da capacidade
+/Add-Capability = Adiciona capacidade do Windows
+/Limpar-Imagem = Executa operações de limpeza
+/Reparar-Imagem = Repara a imagem do Windows
+Notas Importantes: Requer privilégios de administrador. Modificações online se aplicam ao sistema de execução. Alguns recursos requerem o sistema reiniciar.
+
+DISPDIAG
+Descrição: Obtém um log de informações sobre o sistema de visualização.
+
+Sintaxe Básica:
+
+
+
+DISPDIAG [- out filename]
+Exemplos comuns de uso:
+
+DISPDIAG – Saídas exibem diagnósticos para console
+DISPDIAG -out C:\display info.txt – Salva informações de exibição para arquivo
+DISPDIAG -out display report.txt – Salva para o diretório atual
+DISPDIAG -out "C:\Reports\display diagnostics.txt" – Salva para pasta com espaços
+Explicações do parâmetro:
+
+-out nome de arquivo = Nome de arquivo de saída para relatório
+Informação fornecida:
+
+Mostrar os detalhes do adaptador
+Resolução e taxa de atualização
+Informações do condutor
+Profundidade de cor
+Modos de visualização
+Notas importantes: Útil para solucionar problemas de exibição. A saída é um formato de texto simples. Pode ser útil para o apoio técnico.
+
+DRIVERQUERIA
+Descrição: Mostra uma lista de todos os drivers de dispositivo instalados no sistema.
+
+Sintaxe Básica:
+
+
+
+DRIVERQUERY [/S computador] [/U [domínio\] utilizador [/P password]] [/FO {TABELECIMENTOLISTACSV}] [/V] [/SI]
+Exemplos comuns de uso:
+
+DRIVERQUERY – Lista todos os drivers no formato de tabela
+DRIVERQUERY /V – Exibe informações detalhadas sobre o driver
+DRIVERQUERY /FO CSV – Saídas em formato CSV para planilha
+DRIVERQUERY /FO LIST – Exibe em formato de lista
+DRIVERQUERY /SI – Mostra informações de assinatura do driver
+DRIVERQUERY /S remoto computador – Controladores de buscas em computador remoto
+DRIVERQUERY /V > drivers.txt – Salva a lista de drivers para arquivo
+DRIVERQUERY /V /FO CSV > drivers.csv – Exporta para o ficheiro CSV
+Explicações do parâmetro:
+
+/S computador = nome do computador remoto
+/U domain\user = credenciais do usuário para acesso remoto
+/P senha = Senha para conta de usuário
+Formato /FO = Formato de saída (QUADRO, LISTA, CSV)
+/V = Resultado Verbose (detalhado)
+/SI = Mostra informações de assinatura do driver
+Notas importantes: Útil para auditoria e solução de problemas. As consultas remotas requerem credenciais adequadas e acesso à rede.
+
+HOSTNAME
+Descrição: Mostra o nome da máquina (nome do computador) do computador.
+
+Sintaxe Básica:
+
+
+
+HOSTNAME
+Exemplos comuns de uso:
+
+HOSTNAME – Mostra o nome do computador
+HOSTNAME > computer name.txt – Salva o nome do computador para o arquivo
+ECHO Nome do computador:% COMPPUTERNAME% – Método alternativo utilizando variável de ambiente
+ENCONTRAR "SERVER" – Verifica se o nome da máquina contém "SERVER"
+Notas importantes: Comando simples sem parâmetros. Útil em scripts para identificar qual computador está executando o script.
+
+IPCONFIG
+Descrição: Configura e exibe a configuração do endereço IP para interfaces de rede.
+
+Sintaxe Básica:
+
+
+
+IPCONFIG [/all] [/release] [/renovar] [/flushdns] [/displaydns] [/registerdns] [/showclassid] [/setclassid]
+Exemplos comuns de uso:
+
+IPCONFIG – Exibe configuração IP para todos os adaptadores
+IPCONFIG /all – Exibe informações IP detalhadas
+IPCONFIG/lançamento – Lançamentos de locação DHCP
+IPCONFIG / Renovar – Renova locação DHCP
+IPCONFIG / flushdns – Limpa cache de resolução de DNS
+IPCONFIG /displaydns – Mostra entradas DNS em cache
+IPCONFIG /registerdns – Registra nomes DNS
+IPCONFIG / release6 – Releases IPv6 endereço
+IPCONFIG / renew6 – Renova endereço IPv6
+IPCONFIG /showclassid Ethernet – Mostra ID de classe DHCP para adaptador
+IPCONFIG /setclassid Ethernet "DHCP Class ID" – Define DHCP class ID
+Explicações do parâmetro:
+
+/all = Exibe configuração completa
+/lançamento = Lançamentos
+/renovar = Solicita nova locação DHCP
+/flushdns = Limpa cache DNS
+/displaydns = Mostra cache DNS
+/registerdns = Atualiza DHCP e DNS
+/release6 = Releases Endereço IPv6
+/renow6 = Renova o endereço IPv6
+/showclassid = Mostra ID da classe DHCP
+/setclassid = Define ID da classe DHCP
+Notas importantes: Comando mais útil para solucionar problemas de rede. /all fornece informações de rede abrangentes. A limpeza de cache DNS é útil para resolver problemas de resolução de nomes.
+
+MSINFO32
+Descrição: Mostra informações abrangentes do sistema sobre seu computador.
+
+Sintaxe Básica:
+
+
+
+MSINFO32 [/categorias [categoria ID]] [/pch] [/nfo [nome do ficheiro]] [/report [nome do ficheiro]]
+Exemplos comuns de uso:
+
+MSINFO32 – Abre janela GUI de Informação do Sistema
+MSINFO32 /nfo C:\sysinfo.txt – Exporta informações do sistema para arquivo de texto
+MSINFO32 /report C:\sysinfo.txt – Gera o relatório do sistema
+MSINFO32 /categories +all – Mostra todas as categorias de informações
+MSINFO32 /pch – Inicia no modo de configuração da página
+MSINFO32 /categories syssum – Mostra apenas o resumo do sistema
+Explicações do parâmetro:
+
+/categorias = Especifica categorias a exibir
+/pch = Janela de configuração da página
+/nfo = Exporta para o arquivo NFO
+/report = Gera o ficheiro de relatório
++todos = Inclui todas as categorias
+Categorias de informações:
+
+Resumo do Sistema
+Recursos de Hardware
+Componentes
+Ambiente de Software
+Notas importantes: Pode abrir GUI ou exportar para o arquivo. Útil para documentação do sistema e solução de problemas. Arquivos de exportação grandes podem levar tempo para gerar.
+
+NETSTAT
+Descrição: Exibe estatísticas de rede, incluindo conexões ativas e uso de portas.
+
+Sintaxe Básica:
+
+
+
+NETSTAT [-a] [-b] [-e] [-n] [-o] [-p protocol] [-r] [-s] [-t] [intervalo]
+Exemplos comuns de uso:
+
+NETSTAT – Exibe conexões ativas
+NETSTAT -a – Mostra todas as conexões e portas de escuta
+NETSTAT -an – Mostra todas as conexões com endereços numéricos
+NETSTAT -b – Exibe nome executável para cada conexão
+NETSTAT -o – Mostra conexão com ID de processo associado (PID)
+NETSTAT -ano – Mostra todas as conexões com PIDs e formato numérico
+NETSTAT -r – Exibe tabela de roteamento
+NETSTAT -e – Mostra estatísticas Ethernet
+NETSTAT -s – Exibe estatísticas de protocolo
+NETSTAT -p TCP – Mostra apenas conexões TCP
+NETSTAT - p UDP – Mostra apenas conexões UDP
+NETSTAT -n 5 – Atualiza a cada 5 segundos
+NETSTAT -ano □ FINDSTR:80 – Encontra conexões na porta 80
+Explicações do parâmetro:
+
+-a = Exibe todas as conexões e portas
+-b = Apresenta o executável envolvido
+-e = Exibe estatísticas Ethernet
+-n = Exibe endereços e números de portas em forma numérica
+-o = Mostra ID do processo associado
+- p protocol = Mostra conexões para protocolo específico
+-r = Exibe tabela de roteamento
+-s = Exibe estatísticas
+-t = Exibe apenas conexões TCP
+intervalo = estatísticas de redisplay no intervalo (segundos)
+Notas importantes: Útil para solução de problemas de rede e monitoramento de segurança. Use -ano para encontrar qual processo está usando uma porta.
+
+NSLOOKUP
+Descrição: Executa a pesquisa do servidor de nomes para resolver nomes de domínio para endereços IP.
+
+Sintaxe Básica:
+
+
+
+NSLOOKUP [[-opções] [nome da máquina] [servidor]]
+Exemplos comuns de uso:
+
+NSLOOKUP google.com – Procura endereço IP para google.com
+NSLOOKUP 8.8.8.8 – Realiza pesquisa de DNS reversa
+NSLOOKUP -type=A google.com – Procura registros A (IPv4)
+NSLOOKUP -type=AAAA google.com – Procura registros AAAA (IPv6)
+NSLOOKUP -type=MX google.com – Procura registros de troca de correio
+NSLOOKUP -type=NS google.com – Procura registros de servidor de nomes
+NSLOOKUP -type=TXT google.com – Procura registros TXT
+NSLOOKUP google.com 8.8.8.8 – Utiliza servidor DNS específico
+NSLOOKUP – Entra em modo interativo
+Comandos de Modo Interativo:
+
+servidor IP endereço = Muda o servidor DNS
+set type=A = Muda o tipo de consulta
+saída = Sai do modo interativo
+Tipos de Consulta:
+
+A = endereço IPv4
+AAAA = endereço IPv6
+MX = Troca de correio
+NS = Servidor de nomes
+CNAME = nome canónico
+TXT = Registro de texto
+SOA = Início da autoridade
+Notas importantes: Útil para solução de problemas do DNS. O modo interativo permite múltiplas consultas. Especifique diferentes servidores DNS para testar a resolução de diferentes fontes.
+
+PATHPING
+Descrição: Rastreia a rota para um host remoto enquanto mede a latência da rede e perda de pacotes.
+
+Sintaxe Básica:
+
+
+
+PATHPING [-n] [-h maximum hops] [-g host-list] [-p period] [-q num queries] [-w timeout] [-4] [-6] target name
+Exemplos comuns de uso:
+
+PATHPING google.com – Rastreia rota para google.com com estatísticas de latência
+PATHPING -n 192.168.1.1 – Usa apenas endereços IP numéricos
+PATHPING -h 10 8.8.8.8 – Limites para 10 lúpulos
+PATHPING -p 1000 google.com – Envia sondas a cada 1000ms
+PATHPING -q 100 google.com – Envia 100 consultas para cada salto
+PATHPING -w 5000 google.com – Define tempo limite de 5 segundos
+PATHPING -4 google.com – Forças IPv4
+PATHPING -6 google.com – Forças IPv6
+Explicações do parâmetro:
+
+-n = Exibe endereços IP numéricos
+-h maximum hops = Máximo de saltos a pesquisar (padrão 30)
+-g host-list = Usa rota de origem solta
+-p período = Tempo de espera entre sondas (milissegundos)
+-q num queries = Número de consultas por hop
+-w timeout = Tempo limite por resposta (milissegundos)
+-4 = Usa IPv4
+-6 = Usos IPv6
+target name = Destino hostname ou IP
+Notas importantes: Combina funcionalidade do TRACERT e PING. Mostra tanto rota e perda de pacote / latência em cada salto. Demora mais do que TRACERT devido à recolha estatística.
+
+PING
+Descrição: Testa a conectividade de rede enviando pedidos de eco para um host especificado.
+
+Sintaxe Básica:
+
+
+
+PING [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS] [-r count] [-s count] [-w timeout] [-R] [-S srcaddr] [-4] [-6] target name
+Exemplos comuns de uso:
+
+PING google.com – Envia 4 pedidos de ping para google.com
+PING -t google.com – Ping contínuo até parar (Ctrl+C)
+PING -n 10 8.8.8.8 – Envia 10 pedidos de ping
+PING -l 1024 google.com – Envia pacotes com carga útil de 1024-byte
+PING -f google.com – Sets Don't Fragment flag
+PING -i 64 google.com – Define TTL em 64
+PING -w 5000 google.com – Define tempo limite de 5 segundos por resposta
+PING -4 google.com – Forças IPv4
+PING -6 google.com – Forças IPv6
+PING -a 192.168.1.1 – Tenta resolver IP para hostname
+Explicações do parâmetro:
+
+-t = Ping continuamente até parar
+-a = Resolve o endereço da máquina
+-n count = Número de pedidos de eco (padrão 4)
+-l size = Tamanho do pacote em bytes (padrão 32)
+-f = Conjuntos Não Fragmentos
+-i TTL = Tempo

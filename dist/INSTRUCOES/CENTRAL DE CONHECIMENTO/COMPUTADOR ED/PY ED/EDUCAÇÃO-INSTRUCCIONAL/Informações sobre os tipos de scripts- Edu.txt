@@ -1,0 +1,30 @@
+﻿QUATRO DOS TIPOS DE ESCRITÓRIOS/PROGRAMADORES MAIS UTILIZADOS E QUAL É O SEU OBJETIVO:
+
+
+1. Script Lote O que é:
+-------------------------------------------------------------------
+Uma lista simples de comandos embutidos do Windows salvos em um arquivo de texto que termina com a extensão .bat. Como funciona: Ele automatiza tarefas básicas fazendo exatamente o que você normalmente digitaria no antigo Prompt de Comando do Windows.
+Melhor usado para: Simples, tarefas diárias do Windows como copiar ou excluir um monte de arquivos, esvaziar pastas, ou abrir vários programas ao mesmo tempo.
+
+2. PowerShell Script O que é:
+-------------------------------------------------------------------
+Uma poderosa ferramenta de automação moderna e linguagem de programação construída pela Microsoft, salvo com a extensão .ps1. Como funciona:
+Ele vai muito além de comandos simples, permitindo que você controle diretamente partes profundas do seu computador Windows. Ele pode olhar para o seu hardware, gerenciar contas de usuário e alterar as configurações do sistema.
+Melhor utilizado para: Administração avançada do sistema Windows. Trabalhadores de TI e administradores de sistemas usam-no para configurar novos computadores, gerenciar redes e automatizar tarefas complexas em muitas máquinas.
+
+3. Script Python O que é:
+-------------------------------------------------------------------
+Uma linguagem de programação muito popular e fácil de ler salva com a extensão .py. Como funciona:
+Ele lê quase como Inglês, tornando-se a linguagem de programação mais fácil para iniciantes. Python pode ser executado no Windows, Mac ou Linux e tem milhões de "aditivos" (bibliotecas) que permitem que você faça quase
+nada sem ter de o construir do zero.
+Melhor usado para: Quase tudo! As pessoas usam scripts Python para construir sites, raspar dados da internet, realizar tarefas de matemática e ciência, criar IA (como chatbots) e automatizar trabalhos de escritório chatos.
+
+4. Script C++ (Código Compilado) O que é:
+--------------------------------------------------------------------------
+Uma linguagem de programação pesada e poderosa.
+Como funciona:
+Ao contrário dos outros três scripts, C++ não é um "script" no sentido tradicional. É um completo
+linguagem de programação que deve ser traduzida em código de máquina puro (um arquivo .exe no Windows) por uma ferramenta especial chamada "compilador" antes que o computador possa lê-lo. Melhor usado para: Coisas que exigem
+uma enorme quantidade de velocidade e potência do computador. C++ é usado para fazer jogos de vídeo de alto desempenho, navegadores de internet, sistemas operacionais (como o próprio Windows) e software de design pesado. Comparação Sumária
+é como um botão de atalho para tarefas simples. PowerShell é o painel de controle avançado do seu computador. Python é uma ferramenta altamente capaz, versátil para quase qualquer tarefa digital. C++ é uma indústria pesada — usada para construir
+programas complexos, jogos e sistemas que outros scripts executam.

@@ -1,0 +1,3 @@
+﻿SALVAR
+
+O botão SALVAR grava alterações feitas no editor interno. Use depois de editar arquivos de texto permitidos, como XML, JSON, CFG e init.c.

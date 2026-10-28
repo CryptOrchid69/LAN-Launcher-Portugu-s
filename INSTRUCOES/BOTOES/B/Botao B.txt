@@ -1,0 +1,3 @@
+﻿B
+
+O botão B abre o navegador padrão do Windows. Use este botão quando quiser pesquisar instruções, páginas da Steam, informações sobre mods ou ajuda sobre servidores. Ele não altera arquivos do servidor.

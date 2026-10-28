@@ -1,0 +1,134 @@
+Nome do arquivo: Quem sou eu e por que criei o LAN Launcher
+
+Talvez você tenha escolhido baixar este aplicativo apenas por curiosidade ou, se for como eu, viu nele uma oportunidade de finalmente poder jogar DayZ de forma privada e solo no seu próprio servidor LAN. Bem, você veio ao lugar certo!
+
+Criei e desenvolvi esta verdadeira joia de aplicativo por vários bons motivos. Neste arquivo .txt, quero falar sobre minha experiência com DayZ e sobre o tipo de coisa que tive de enfrentar nos servidores públicos.
+
+Motivo nº 1: escapar dos trapaceiros e também dar aos novatos de DayZ uma chance de aprender as habilidades de sobrevivência do jogo sem serem incomodados.
+
+Motivo nº 2: evitar administradores incompetentes e/ou mal-intencionados dos servidores da comunidade, que ficam brincando de gato e rato com os jogadores. Não estou dizendo que todos os administradores são assim. Na verdade, a maioria dos administradores é formada por pessoas muito legais, mas ainda assim é verdade que já tive de lidar com administradores que realmente perseguiam seus próprios jogadores.
+
+Motivo nº 3: evitar hackers inteligentes que sabem manipular e explorar o BattlEye para depois fazê-lo banir jogadores inocentes e aleatórios.
+
+Veja aqui as evidências:
+https://x.com/TheBattlEye/status/1847377622692745242
+
+Motivo nº 4: dar aos jogadores uma oportunidade de aprender a usar as VPP Admin Tools.
+
+Motivo nº 5: oferecer aos administradores uma configuração LAN rápida e fácil para fazer experimentos.
+
+====================================================================================================
+
+Se alguém da BOHEMIA estiver lendo isto, quero parar aqui e agradecer por todo o trabalho árduo de vocês. Vocês fizeram um trabalho fantástico ao criar os mapas e o terreno deste jogo. Acho Chernarus e Livonia mapas incríveis.
+
+No entanto, sinceramente acho que DayZ precisa de uma reformulação. Acredito que DayZ deveria ser reconstruído do zero e que certas coisas precisariam ser alteradas para tornar o jogo melhor.
+
+A seguir estão algumas das minhas próprias ideias para mudanças em DayZ, que tenho certeza de que nunca acontecerão, mas aqui estão elas.
+
+IDEIA nº 1: desativar completamente o PVP em DayZ. Em vez disso, criar uma IA realmente bem desenvolvida para substituir o PVP. Vocês poderiam criar bots controlados por IA que invadissem frequentemente as bases dos jogadores imediatamente depois que a bandeira da base fosse erguida e estabelecida.
+
+Fazer isso eliminaria completamente os trapaceiros que atualmente usam trapaças indetectáveis. Isso também reduziria bastante qualquer necessidade de continuar dependendo de um sistema anti-cheat facilmente manipulável, como o BattlEye.
+
+Enquanto houver hackers que entendam tanto de ciência da computação quanto os desenvolvedores de sistemas anti-cheat, sempre haverá esse jogo de gato e rato entre os dois lados. Ao manter o PVP ativo, vocês estão, na verdade, tornando os desenvolvedores de trapaças mais prósperos e ricos, sem mencionar a alta taxa de abandono de jogadores legítimos que deixam o jogo. Não vamos ignorar os fatos.
+
+IDEIA nº 2: se a primeira ideia estiver fora de questão, então, pelo menos, esta mudança deveria ser feita para tornar as coisas menos estressantes para os jogadores legítimos que estão sendo perseguidos por trapaceiros.
+
+Sempre que um jogador legítimo ou um trapaceiro atirar em outro jogador, esse jogador perderá seus equipamentos. Como se isso já não fosse ruim o bastante, ele ainda reaparecerá na costa do mapa.
+
+Se vocês insistem absolutamente em manter o PVP ativo, então deveriam configurar o jogo de modo que, quando o jogador morresse, ele reaparecesse na costa COM TODOS OS SEUS EQUIPAMENTOS. Acho que isso ajudaria a reduzir parte do estresse sofrido pelos jogadores que são alvo de trapaceiros.
+
+IDEIA nº 3: entendo que, em DayZ, esse conceito conhecido como “Fog of War” — “Névoa da Guerra” — tem sua importância. Quando um jogador é baleado e morto, não pode haver um “Kill Feed” — registro de mortes — para preservar a Névoa da Guerra.
+
+Mas, se houvesse um registro de mortes padrão em TODOS os servidores — Oficiais, Experimentais e da Comunidade — isso ajudaria muito o BattlEye a identificar os jogadores que estão usando trapaças indetectáveis. Ao mesmo tempo, isso impediria que os jogadores presumissem falsamente que foram mortos por um trapaceiro, quando, na verdade, foram mortos por um jogador legítimo.
+
+Esse conceito de “Névoa da Guerra” precisa ser abandonado se realmente estivermos falando sério sobre uma jogabilidade justa.
+
+Qualquer pessoa que realmente insista em manter o PVP e eliminar os trapaceiros não discordaria desta ideia.
+
+Se alguém discordar e achar que esta é uma má ideia, então vamos fazer uma pergunta inteligente: o que é mais importante — acabar de uma vez por todas com os trapaceiros ou manter a “Névoa da Guerra”?
+
+IDEIA nº 4: se as ideias acima não forem aceitáveis, então ofereço minha última e definitiva solução, que provavelmente é a pior de todas. A BOHEMIA precisa reduzir drasticamente o preço de DayZ. Este jogo não vale US$ 49,99 quando há jogadores usando trapaças indetectáveis.
+
+=====================================================================================================
+
+Outras ideias que tive para melhorar DayZ.
+
+A construção de bases em DayZ é ilógica e rudimentar. Não consigo contar quantas vezes tentei colocar um Abrigo Improvisado de Graveto, uma barraca ou uma cerca em um terreno plano, mas não consegui posicioná-los.
+
+Isso precisa ser corrigido e melhorado. Sinceramente, seria ótimo se os jogadores pudessem construir em qualquer lugar, sem precisar depender de um mod da oficina.
+
+Que tal aprimorar a construção de bases original do jogo, permitindo que os jogadores combinem corda com gravetos para criar um kit de piso, um kit de telhado ou uma escada decente?
+
+Que tal adicionar um kit de cabana como recurso original do jogo, permitindo que os jogadores construam uma bela cabana de toras na floresta, com uma lareira de pedra?
+
+Talvez também fosse possível adicionar mais opções de criação ao jogo, para que os jogadores pudessem construir uma cadeira para sentar ou uma mesa de madeira.
+
+E que tal adicionar bicicletas ao jogo para tornar as viagens um pouco mais fáceis?
+
+=====================================================================================================
+
+Tenho plena consciência de que as ideias mencionadas acima quase certamente nunca se tornarão realidade. Por isso, esse é o maior motivo pelo qual desenvolvi este belo aplicativo independente para desktop, o LAN Launcher.
+
+Desenvolvi este aplicativo em três idiomas diferentes: inglês, português e russo. Fiz isso porque, ao longo dos anos, percebi que a maioria dos jogadores deste jogo costuma se concentrar principalmente nesses três idiomas.
+
+Há muitos jogadores de DayZ que falam inglês, português e russo.
+
+Trabalhei incansavelmente para criar um aplicativo para os jogadores de DayZ que, assim como eu, querem escapar dos servidores públicos.
+
+=====================================================================================================
+
+Coisas que aprendi sobre trapaceiros e duplicadores:
+
+Uma das principais razões pelas quais os duplicadores duplicam itens é que eles sabem que fazer uma longa e honesta jornada para obter recursos não vale a pena quando outros jogadores podem simplesmente se teletransportar para dentro de suas bases e pegar todos os seus itens.
+
+Eles concluem que passar horas obtendo recursos honestamente nos servidores oficiais é uma perda de tempo e, infelizmente, estão absolutamente certos quanto a isso.
+
+Na minha opinião, os duplicadores e os exploradores de falhas são os trapaceiros mais inteligentes.
+
+Esses são os tipos de trapaceiros que têm uma estranha fascinação pelas falhas de colisão do jogo e tentam explorá-las. Todo jogo online possui, em maior ou menor grau, falhas de colisão.
+
+Depois, existem os piores tipos de trapaceiros: aqueles que usam trapaças indetectáveis.
+
+Esses são os desgraçados que se teletransportam para dentro da sua base e roubam todos os seus itens, usam aimbot para acabar com você, usam “magic bullet” para atirar através das paredes, usam ESP para localizar qualquer esconderijo de itens que você tenha enterrado em algum lugar fora da sua base, e assim por diante.
+
+=====================================================================================================
+
+SOBRE O CENTRO DE CONHECIMENTO
+
+Quando você entrar no Centro de Conhecimento, encontrará algumas informações que talvez considere questionáveis. Há informações sobre como alterar o ID de hardware e o endereço IPv4 público.
+
+Normalmente, quando alguém altera o HWID e o endereço IPv4 público, é porque está tentando escapar de um banimento de jogo. Esse tipo de informação certamente pode fazer você pensar que, ao colocar esse conteúdo no Centro de Conhecimento, estou ajudando trapaceiros.
+
+Quero deixar algo muito claro: não coloquei essas informações no Centro de Conhecimento para ajudar TRAPACEIROS a manipular sistemas anti-cheat. Coloquei essas informações no Centro de Conhecimento para ajudar VÍTIMAS de hackers e de sistemas anti-cheat defeituosos, como o BattlEye.
+
+Deixe-me explicar melhor.
+
+Há quase dois anos, eu estava jogando DayZ, que utiliza o sistema anti-cheat conhecido como BattlEye. Depois de dois anos jogando DayZ, algo muito estranho aconteceu. Sem absolutamente nenhuma razão compreensível, recebi uma notificação do BattlEye informando que eu havia sido banido globalmente de DayZ. Também recebi uma notificação da STEAM dizendo que eu havia recebido um banimento VAC.
+
+Meu coração caiu até o traseiro. Fiquei sentado diante do computador, com os olhos arregalados, sem saber o que pensar.
+
+Quando qualquer sistema anti-cheat aplica um BANIMENTO GLOBAL à sua conta de jogo, você não é banido apenas daquele jogo específico; também será banido de qualquer outro jogo que utilize o mesmo sistema anti-cheat.
+
+Se você for banido globalmente pelo BattlEye em DayZ, também será banido de outros jogos, como GTA 5 Online, Rust etc.
+
+Até hoje, ainda não faço a menor ideia de como pude ser banido. Eu não tinha scripts de trapaça nem programas suspeitos na área de trabalho. Não tinha aplicativos suspeitos de nenhum tipo no computador e tenho certeza absoluta de que não estava trapaceando.
+
+Será que algum hacker descobriu uma maneira de manipular o BattlEye para me banir?
+
+Além desse tipo de informação, o Centro de Conhecimento contém informações totalmente legítimas sobre ciência da computação em geral: desde como utilizar plenamente o teclado do PC, o que todos os botões fazem, comandos do cmd e muito mais.
+
+Eu não queria criar o LAN Launcher apenas para jogos. Também queria que este aplicativo fosse uma boa experiência educacional para os jogadores.
+
+Por isso, achei que adicionar o Centro de Conhecimento seria uma boa ideia.
+
+Então comecei a pesquisar e a aprender mais sobre como alterar com segurança o Hardware ID do meu PC. Também aprendi como obter um novo endereço IPv4 público com meu provedor de internet, ou ISP.
+
+Depois, fui ao site Eldorado e comprei uma conta da STEAM que já tinha DayZ instalado, por um preço muito baixo. Logo, eu estava de volta ao jogo.
+
+Infelizmente, como estou usando uma conta comprada, não posso publicar mods de DayZ na Oficina da STEAM.
+
+Mas isso não é uma grande perda para mim, já que DayZ tem uma alta taxa de abandono e é um jogo que está morrendo. Cada vez mais jogadores estão deixando DayZ, e os servidores da comunidade se tornaram muito vazios.
+
+Sinceramente, quando quero participar de uma ação PVP séria, prefiro jogar Battlefield 2042 e Battlefield 6.
+
+Quando quero pescar, caçar veados ou lutar contra zumbis e monstros modificados, jogo DayZ — sozinho e em particular, no meu servidor LAN.

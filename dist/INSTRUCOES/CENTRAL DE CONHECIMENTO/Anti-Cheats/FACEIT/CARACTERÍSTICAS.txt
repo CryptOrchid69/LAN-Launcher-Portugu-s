@@ -1,0 +1,122 @@
+﻿FACEIT Anti fraude README
+
+Objecto
+
+Este documento é escrito para jogadores legítimos, proprietários de servidores, modders e desenvolvedores que querem entender a proteção de fair play em um nível conceitual seguro. Não inclui etapas de desvio, explorar detalhes, código de fraude, procedimentos de evasão, ou instruções para derrotar a proteção.
+
+FACEIT Anti Cheat protege jogos competitivos na plataforma FACEIT, especialmente alta confiança Counter Strike competição. Ele é projetado para criar um limite de confiança mais forte do que o matchmaking público comum.
+
+Desenho geral
+
+FACEIT Anti Cheat usa três partes largas. Um aplicativo de desktop deve estar rodando para correspondências protegidas. Um driver de modo kernel carrega no PC. Um componente lateral do servidor verifica que o jogador está executando a proteção necessária enquanto conectado a uma partida protegida.
+
+Por que a plataforma requer isso
+
+A trapaça de plataforma competitiva tem apostas altas porque escadas, prêmios e reputação podem ser afetados. FACEIT usa verificações mais fortes do que muitos sistemas de matchmaking normais porque os jogadores entram voluntariamente em um ambiente competitivo mais controlado.
+
+Verificações de clientes
+
+Em um nível seguro, FACEIT Anti Cheat pode verificar se o processo do jogo está sendo manipulado, se software suspeito ou drivers estão presentes, se o driver de proteção está carregado, e se o cliente está se comunicando corretamente com os servidores FACEIT. Também pode detectar padrões proibidos de depuração, injeção e adulteração.
+
+Verificação do servidor
+
+O SDK do lado do servidor ajuda a confirmar que o anti batota está ativo durante uma partida. Se o cliente parar de reportar corretamente, o jogador pode ser removido ou impedido de participar. Isso torna mais difícil para um jogador começar limpo e depois desligar a proteção no meio da partida.
+
+Confiança e execução
+
+FACEIT pode usar sinais técnicos, combinar dados, relatórios, histórico de contas e revisão manual. A execução pode incluir a entrada na fila bloqueada, remoção de jogos, proibições de plataforma, proibições de torneios ou restrições de conta mais amplas.
+
+Compatibilidade
+
+Como o FACEIT usa um driver do kernel e regras de plataforma rigorosas, ele pode entrar em conflito com alguns drivers, ferramentas de virtualização, ferramentas de depuração, sobreposições e configurações de segurança do sistema. Os requisitos podem mudar à medida que a ameaça de fraude muda.
+
+Conselhos do jogador
+
+Inicie FACEIT Anti Cheat antes de se juntar às partidas protegidas, mantenha o Windows atualizado, evite ferramentas suspeitas e leia páginas oficiais de suporte FACEIT para os requisitos atuais. Não execute ferramentas de desenvolvimento de fraude ou editores de memória na mesma máquina usada para a competição FACEIT.
+
+[Plano geral do produto]
+* Desenvolvedor: FACEIT Ltd (EFG - ESL FACEIT Group)
+* Arquitetura: Agressivo Kernel-Level (Ring 0) Driver + Servidor Heurísticas + IA
+* Suporte ao Ambiente: Windows 10 e Windows 11 (apenas 64 bits)
+* Core Mission: Elite competitivo matchmaking defesa com foco em memória estrita
+isolamento, bloqueio de hardware e avaliação comportamental.
+
+------------------------------------------------------------------------------------------------------------------
+1. ARQUITETURA TÉCNICA E MATÉRIAS DE REQUISITOS OSS
+------------------------------------------------------------------------------------------------------------------
+* Root Privilege Isolação: Implanta um rígido Ring 0 driver de sistema de modo kernel
+encarregado de verificar todas as chamadas de memória ativa e processos no sistema operacional.
+* Frameworks do Windows Registrados: Configura elementos persistentes do cliente local:
+- Driver de sistema: `faceit.sys` localizado dentro `C:\Windows\System32\drivers`
+- Serviço de Controle: `FACEITService` (Deve permanecer alternado para o tipo de inicialização Manual)
+* Windows Lifecycle Sunsetting: Em rigoroso alinhamento com o ciclo de produto da Microsoft,
+FACEIT programou o fim absoluto de suporte para o Windows 10 para outubro
+14o, 2026. Avançando, o Windows 11 é mandatado para evitar vulnerabilidades
+predominante em ambientes OS legados.
+* Desativação da bandeja do sistema: Características de um ícone da bandeja do sistema permitindo aos jogadores manualmente
+"desativar driver" declara sem desinstalar. Ativar de novo o driver para a fila
+para partidas requer uma reinicialização de hardware obrigatória.
+
+------------------------------------------------------------------------------------------------------------------
+2. REGRAS DE EXECUÇÃO E REGRAS DE ENSAIO
+------------------------------------------------------------------------------------------------------------------
+Para isolar e bloquear cartões de hardware DMA (Direct Memory Access) e fraudes complexas,
+A FACEIT exige profundas camadas de hardware e segurança da BIOS:
+* TPM 2.0 & Secure Boot: Parâmetros de execução de linha de base obrigatórios. Aplica o absoluto
+Aplicação de Assinatura do Driver (DSE) para bloquear "BYOVD" (Traga o seu próprio Vulnerável
+Driver) injecção do kernel explora.
+* IOMMU RAM Firewalling: Formalmente necessário em vários níveis de jogadores para completamente
+isolar conjuntos de memória, estabelecendo uma barreira física contra os farejadores de hardware DMA.
+* Virtualization-Based Security (VBS): Necessário em conjunto com IOMMU para embrulhar núcleo
+kernels do sistema operacional em sandboxes virtualizados, bloqueando fraudes de hipervisor sub-kernel.
+* Verificação de identidade e verificação de novo: Pares correspondência biométrica de hardware com automatizado
+selfie re-checks, vinculando graves infrações de fraude diretamente para o jogador
+identidade legal para parar permanentemente smurfing e venda de conta.
+
+------------------------------------------------------------------------------------------------------------------
+3. MONTANTES DE COMPATIBILIDADE E MOTORES DE COMPORTAÇÃO
+------------------------------------------------------------------------------------------------------------------
+* Integração do Google Deep Learning: Emprega uma IA comportamental expansiva do lado do servidor
+sistema treinado em parceria com engenheiros do Google. Enquanto o kernel do lado do cliente
+bloqueia a injeção de código local, o modelo de IA perfis telemetria para impossível
+Mecânica de entrada, visando robôs de aprendizado de máquina furtivos e spinbots.
+* Exclusão da Plataforma: Restrição absoluta no Linux, Valve Proton, Wine e macOS
+sistemas. Porque estas plataformas alternativas comprometem inerentemente o
+ganchos de verificação de hardware de baixo nível, eles estão totalmente bloqueados.
+* BYOVD Driver Blacklisting: Proactively bloqueia hardware de terceiros não patched
+drivers (como controladores NVMe legados, drivers de tablets ou software de dispositivo obsoleto)
+susceptível de escalada de privilégios.
+
+------------------------------------------------------------------------------------------------------------------
+4. DEPLOAMENTO PRIMÁRIO DO ECOSSISTEMA
+------------------------------------------------------------------------------------------------------------------
+FACEIT anti-barato serve como camada de segurança primária para cenas competitivas premium:
+* Counter-Strike 2 (CS2 - Primeiros hubs competitivos, Majors e ligas Challenger)
+*Team Fortress 2 (TF2 - Implementações competitivas personalizadas)
+* PUBG: Battlegrounds (Tournament e camadas de execução da liga)
+
+------------------------------------------------------------------------------------------------------------------
+5. MANUTENÇÃO E SERVIÇO MANUAL
+------------------------------------------------------------------------------------------------------------------
+Estados BIOS corrompidos, drivers antigos, ou bloqueios de registro pode resultar em "O serviço
+não pode ser iniciado" ou "Incompatível driver detectado" exceções. Siga estes
+Passos de limpeza manual:
+
+PASSO A: Controladores do sistema paralisados
+1. Abra o Windows Device Manager (`devmgmt.msc`).
+2. Expanda os `Controladores de armazenamento' ou árvores de dispositivos periféricos para isolar desatualizados
+drivers vulneráveis (por exemplo, Samsung NVMe padrão ou antigos controladores SATA).
+3. Botão direito do mouse o item afetado, escolha "Atualizar Driver", e manualmente forçar o
+sistema para usar as alternativas de controle padrão da Microsoft para levantar o bloco.
+
+PASSO B: Desregistro do Terminal
+1. Pressione a tecla do Windows, digite "cmd", e selecione "Execute como Administrador".
+2. Execute as seguintes strings de terminal para limpar as entradas de serviço operacional:
+sc stop FACEITService
+sc excluir FACEITService
+
+PASSO C: Extração do sistema de arquivos
+1. Reinicie o computador para liberar as alças do processo ativo da memória.
+2. Navegue para `C:\Program Files' e apague permanentemente a pasta `FACEIT AC'.
+3. Abra `C:\Windows\System32\drivers` e shift-delete `faceit.sys` para limpar
+A carga útil restante do condutor.

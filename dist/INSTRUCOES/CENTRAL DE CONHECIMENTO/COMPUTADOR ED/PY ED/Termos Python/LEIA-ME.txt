@@ -1,0 +1,35 @@
+﻿O INFO SEGUINTE FOI PROVIDO POR ii.chat (Pat AI russo)
+
+PYTHON CHAVES & FUNÇÕES CONSTRUÍDAS REFERÊNCIA
+Salve isso como: Python Keywords and Functions.txt em sua pasta Aprender Python
+PARTE 1: CHAVE DE PITONO (35 Palavras Reservadas)
+Estas são palavras especiais que Python usa para controlar o programa. Você não pode usar estes como nomes de variáveis.
+
+REFERÊNCIA RÁPIDA: MAIS UTILIZADO
+Ao aprender Python, concentre-se nestes primeiros:
+Saída: print ()
+Entrada: input ()
+Números: int(), float(), str(), len()
+Listas: len(), range(), ordered()
+Lógica: se, caso contrário, elif e, ou não
+Loops: para, enquanto, quebrar, continuar
+Funções: def, return
+Math: abs(), round(), pow(), min(), max(), sum()
+Palavras-chave vs FUNÇÕES
+MULHERES-CHAVE (35 total):
+
+Palavras reservadas que não pode usar como nomes de variáveis
+Controle o fluxo do programa (se, por, enquanto, etc.)
+Definir estruturas (def, classe, etc.)
+FUNÇÕES (100+ total):
+
+Ferramentas/comandos prontos para usar
+Executar tarefas específicas
+Você pode criar o seu próprio também
+COMO UTILIZAR ESTA REFERÊNCIA
+Imprimir este documento e mantê- lo à mão
+Estude a seção "Mais Usado" primeiro - não memorize tudo de uma vez
+Teste cada função no PyCharm à medida que as aprendemos
+Realçar as funções que usa frequentemente
+Referência sempre que encontrar uma palavra-chave ou função desconhecida
+Este é o seu guia de vocabulário Python completo! Marque-o, estude-o e volte sempre que precisar de procurar uma palavra ou função.

@@ -1,0 +1,12 @@
+﻿SUPORTE FUTURO PARA A DLC BADLANDS
+
+Badlands é uma expansão oficial planejada para DayZ. Quando a DLC estiver disponível e o usuário a comprar na Steam, o LAN Launcher poderá preparar o acesso ao mapa da mesma forma que faz com mapas oficiais que dependem de DLC.
+
+Pontos importantes:
+
+- O usuário precisa comprar e instalar a DLC pela Steam.
+- O app não pode liberar conteúdo pago sem a compra oficial.
+- Depois que a DLC estiver instalada, o app poderá usar a estrutura de mapa preparada para iniciar o servidor correspondente.
+- Badlands não deve ser tratado como mod de Workshop comum. Ele é conteúdo oficial pago.
+
+Este suporte existe para deixar o app pronto para o futuro, sem quebrar os mapas atuais.
